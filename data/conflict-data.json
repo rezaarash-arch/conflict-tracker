@@ -4,7 +4,8 @@
     "update_time": "11:00 EST",
     "day_number": 16,
     "conflict_start": "2026-02-28",
-    "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces"
+    "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
+    "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
   },
   "overview": {
     "total_killed": "~7,100+",
@@ -19,224 +20,282 @@
     "cost_breakdown": "US direct: $16\u201320B | Israel: $5\u201310B\nIran damage: $30\u201360B | Energy: $25\u201380B+",
     "us_military_deaths": "14",
     "us_deaths_breakdown": "8 combat | 6 KC-135 crash (named)\n3 F-15s lost (friendly fire, safe)",
-    "analytical_note": "All figures are best estimates from Tier 1\u20133 sources. Iranian casualties carry significant source disagreement: Hengaw (4,600+ in 16d), HRANA (1,600+), Iran Health Ministry (1,444 killed / 18,551 injured), IDF (1,900+ regime members). Cost ranges reflect source divergence. Conflict ongoing. Data as of 15 March 2026, 11:00 EST. NPR (14 Mar): US spending ~$16.5B through 12 days."
+    "analytical_note": "All figures are best estimates from Tier 1\u20133 sources. Iranian casualties carry significant source disagreement: Hengaw (4,600+ in 16d), HRANA (1,600+), Iran Health Ministry (1,444 killed / 18,551 injured), IDF (1,900+ regime members). Cost ranges reflect source divergence. Conflict ongoing. Data as of 15 March 2026, 11:00 EST. NPR (14 Mar): US spending ~$16.5B through 12 days.",
+    "analytical_note_fa": "تمامی ارقام بهترین برآوردها از منابع رده ۱ تا ۳ هستند. تلفات ایران اختلاف منابع قابل‌توجهی دارد: هنگاو (۴٬۶۰۰+ در ۱۶ روز)، هرانا (۱٬۶۰۰+)، وزارت بهداشت ایران (۱٬۴۴۴ کشته / ۱۸٬۵۵۱ مجروح)، ارتش اسرائیل (۱٬۹۰۰+ نیروی نظام). دامنه هزینه‌ها بازتاب‌دهنده اختلاف منابع است. درگیری ادامه دارد. داده‌ها تا ۱۵ مارس ۲۰۲۶، ساعت ۱۱:۰۰ به وقت شرقی آمریکا. NPR (۱۴ مارس): هزینه آمریکا حدود ۱۶.۵ میلیارد دلار طی ۱۲ روز."
   },
   "phases_table": [
     {
       "phase": "I",
       "dates": "Apr\u2013Oct 2024",
+      "dates_fa": "آوریل–اکتبر ۲۰۲۴",
       "duration": "~7 mo",
+      "duration_fa": "~۷ ماه",
       "trigger": "Damascus consulate strike",
+      "trigger_fa": "حمله به کنسولگری دمشق",
       "iran_munitions": "~520",
       "us_isr_strikes": "~120+",
       "intercept_rate": "~95%",
       "iran_killed": "5",
       "israel_killed": "1 (inj)",
+      "israel_killed_fa": "۱ (مجروح)",
       "us_killed": "0",
-      "cost": "$3\u20135B"
+      "cost": "$3\u20135B",
+      "cost_fa": "۳–۵ میلیارد دلار"
     },
     {
       "phase": "II",
       "dates": "13\u201324 Jun 2025",
+      "dates_fa": "۱۳–۲۴ ژوئن ۲۰۲۵",
       "duration": "12 days",
+      "duration_fa": "۱۲ روز",
       "trigger": "IAEA non-compliance; nuclear strikes",
+      "trigger_fa": "عدم پایبندی به آژانس بین‌المللی انرژی اتمی؛ حملات هسته‌ای",
       "iran_munitions": "~1,550",
       "us_isr_strikes": "~500+",
       "intercept_rate": "~86\u201390%",
       "iran_killed": "1,190",
       "israel_killed": "28",
       "us_killed": "0",
-      "cost": "$12\u201325B"
+      "cost": "$12\u201325B",
+      "cost_fa": "۱۲–۲۵ میلیارد دلار"
     },
     {
       "phase": "III",
       "dates": "28 Feb \u2013 ongoing",
+      "dates_fa": "۲۸ فوریه – ادامه‌دار",
       "duration": "16+ days",
+      "duration_fa": "۱۶+ روز",
       "trigger": "Failed Geneva talks; Ayatollah Khamenei killed",
+      "trigger_fa": "شکست مذاکرات ژنو؛ کشته شدن آیت‌الله خامنه‌ای",
       "iran_munitions": "~3,400+",
       "us_isr_strikes": "~8,700+",
       "intercept_rate": "~85\u201390%",
       "iran_killed": "4,600+",
       "israel_killed": "15+",
       "us_killed": "14",
-      "cost": "$50\u2013110B"
+      "cost": "$50\u2013110B",
+      "cost_fa": "۵۰–۱۱۰ میلیارد دلار"
     }
   ],
   "phase1": {
     "scope": "April\u2013October 2024. First direct state-on-state strikes. Sources: IISS, FDD, IDF, CENTCOM, AP, Reuters.",
+    "scope_fa": "آوریل–اکتبر ۲۰۲۴. نخستین حملات مستقیم دولت به دولت. منابع: IISS، FDD، ارتش اسرائیل، سنتکام، آسوشیتدپرس، رویترز.",
     "events": [
-      {"date": "1 Apr", "event": "Damascus consulate strike", "attacker": "Israel", "weapons": "PGMs", "munitions": "~6", "intercepted": "0", "killed": "7", "effect": "Triggered retaliation"},
-      {"date": "13 Apr", "event": "True Promise I", "attacker": "Iran", "weapons": "170 drones, 30+ cruise, 120+ BMs", "munitions": "~320", "intercepted": "~317 (99%)", "killed": "0", "effect": "Near-total intercept; deterrence failure"},
-      {"date": "19 Apr", "event": "Israeli retaliatory strike", "attacker": "Israel", "weapons": "F-35 missiles", "munitions": "3", "intercepted": "0", "killed": "0", "effect": "Capability signal; de-escalation"},
-      {"date": "1 Oct", "event": "True Promise II", "attacker": "Iran", "weapons": "~200 BMs (incl. Fattah)", "munitions": "~200", "intercepted": "~180 (90%)", "killed": "0", "effect": "Better penetration; limited damage"},
-      {"date": "26 Oct", "event": "Days of Repentance", "attacker": "Israel", "weapons": "100+ aircraft", "munitions": "\u2014", "intercepted": "\u2014", "killed": "5", "effect": "S-300 network destroyed"}
+      {"date": "1 Apr", "date_fa": "۱ آوریل", "event": "Damascus consulate strike", "event_fa": "حمله به کنسولگری دمشق", "attacker": "Israel", "attacker_fa": "اسرائیل", "weapons": "PGMs", "weapons_fa": "بمب‌های هدایت‌شده دقیق", "munitions": "~6", "intercepted": "0", "killed": "7", "effect": "Triggered retaliation", "effect_fa": "آغاز تلافی‌جویی"},
+      {"date": "13 Apr", "date_fa": "۱۳ آوریل", "event": "True Promise I", "event_fa": "وعده صادق ۱", "attacker": "Iran", "attacker_fa": "ایران", "weapons": "170 drones, 30+ cruise, 120+ BMs", "weapons_fa": "۱۷۰ پهپاد، ۳۰+ کروز، ۱۲۰+ بالستیک", "munitions": "~320", "intercepted": "~317 (99%)", "killed": "0", "effect": "Near-total intercept; deterrence failure", "effect_fa": "رهگیری تقریباً کامل؛ شکست بازدارندگی"},
+      {"date": "19 Apr", "date_fa": "۱۹ آوریل", "event": "Israeli retaliatory strike", "event_fa": "حمله تلافی‌جویانه اسرائیل", "attacker": "Israel", "attacker_fa": "اسرائیل", "weapons": "F-35 missiles", "weapons_fa": "موشک‌های F-35", "munitions": "3", "intercepted": "0", "killed": "0", "effect": "Capability signal; de-escalation", "effect_fa": "نمایش توانایی؛ کاهش تنش"},
+      {"date": "1 Oct", "date_fa": "۱ اکتبر", "event": "True Promise II", "event_fa": "وعده صادق ۲", "attacker": "Iran", "attacker_fa": "ایران", "weapons": "~200 BMs (incl. Fattah)", "weapons_fa": "~۲۰۰ بالستیک (شامل فتاح)", "munitions": "~200", "intercepted": "~180 (90%)", "killed": "0", "effect": "Better penetration; limited damage", "effect_fa": "نفوذ بهتر؛ خسارت محدود"},
+      {"date": "26 Oct", "date_fa": "۲۶ اکتبر", "event": "Days of Repentance", "event_fa": "روزهای توبه", "attacker": "Israel", "attacker_fa": "اسرائیل", "weapons": "100+ aircraft", "weapons_fa": "۱۰۰+ هواپیما", "munitions": "\u2014", "intercepted": "\u2014", "killed": "5", "effect": "S-300 network destroyed", "effect_fa": "شبکه S-300 نابود شد"}
     ]
   },
   "phase2": {
     "scope": "12 days. Iran: 1,190 killed, 4,475 wounded. Israel: 28 killed, 3,491 wounded. Iran fired ~591 BMs + ~1,000 drones. US struck nuclear sites Day 10. Sources: HRANA, Statista, IDF, FDD, ACLED, FPRI.",
+    "scope_fa": "۱۲ روز. ایران: ۱٬۱۹۰ کشته، ۴٬۴۷۵ مجروح. اسرائیل: ۲۸ کشته، ۳٬۴۹۱ مجروح. ایران حدود ۵۹۱ بالستیک + ۱٬۰۰۰ پهپاد پرتاب کرد. آمریکا روز ۱۰ تأسیسات هسته‌ای را هدف قرار داد. منابع: هرانا، استتیستا، ارتش اسرائیل، FDD، ACLED، FPRI.",
     "kpis": {
       "iran_killed": "1,190",
       "iran_killed_detail": "436 civilian | 435 military | 319 unk.",
+      "iran_killed_detail_fa": "۴۳۶ غیرنظامی | ۴۳۵ نظامی | ۳۱۹ نامشخص",
       "israel_killed_wounded": "28 / 3,491",
       "israel_detail": "Peak Day 3: 9 killed, 649 wounded",
+      "israel_detail_fa": "اوج روز ۳: ۹ کشته، ۶۴۹ مجروح",
       "iran_missiles": "~591 + ~1,000 drones",
+      "iran_missiles_fa": "~۵۹۱ + ~۱٬۰۰۰ پهپاد",
       "missiles_detail": "86\u201390% interception rate",
+      "missiles_detail_fa": "نرخ رهگیری ۸۶–۹۰٪",
       "interceptor_cost": "$2.7\u20134.7B",
-      "interceptor_detail": "~25% stockpile consumed"
+      "interceptor_cost_fa": "۲.۷–۴.۷ میلیارد دلار",
+      "interceptor_detail": "~25% stockpile consumed",
+      "interceptor_detail_fa": "حدود ۲۵٪ ذخایر مصرف شد"
     },
     "days": [
-      {"day": 1, "date": "13 Jun", "events": "5 IAF waves, 200+ jets, 330+ munitions, 100 targets", "iran_cas": "~770", "israel_cas": "~75 inj", "iran_to_israel": "40\u201360 BMs", "israel_to_iran": "330+"},
-      {"day": 2, "date": "14 Jun", "events": "Strikes expand; ambulance hit", "iran_cas": "~213", "israel_cas": "~150 inj", "iran_to_israel": "50\u201380", "israel_to_iran": "Sorties"},
-      {"day": 3, "date": "15 Jun", "events": "Tehran strikes. Houthi BMs. Tel Aviv area impacts", "iran_cas": "~100+", "israel_cas": "9 killed, 649 wnd", "iran_to_israel": "Major", "israel_to_iran": "Waves"},
-      {"day": 4, "date": "16 Jun", "events": "Military base exchanges", "iran_cas": "~250", "israel_cas": "~250 inj", "iran_to_israel": "40\u201360", "israel_to_iran": "Ongoing"},
-      {"day": 5, "date": "17 Jun", "events": "Attrition phase", "iran_cas": "~200", "israel_cas": "~150 inj", "iran_to_israel": "30\u201350", "israel_to_iran": "Ongoing"},
-      {"day": 6, "date": "18 Jun", "events": "Tempo reduced; diplomacy begins", "iran_cas": "~150", "israel_cas": "~100 inj", "iran_to_israel": "25\u201340", "israel_to_iran": "Reduced"},
-      {"day": 7, "date": "19 Jun", "events": "Attritional exchanges", "iran_cas": "~115", "israel_cas": "~80 inj", "iran_to_israel": "20\u201335", "israel_to_iran": "Targeted"},
-      {"day": 8, "date": "20 Jun", "events": "Reduced intensity", "iran_cas": "~90", "israel_cas": "~60 inj", "iran_to_israel": "20\u201330", "israel_to_iran": "Precision"},
-      {"day": 9, "date": "21 Jun", "events": "Pre-US lull; B-2s en route", "iran_cas": "~75", "israel_cas": "~50 inj", "iran_to_israel": "15\u201325", "israel_to_iran": "Prep"},
-      {"day": 10, "date": "22 Jun", "events": "US enters: B-2s hit Natanz, Fordow, Isfahan", "iran_cas": "significant", "israel_cas": "86 wnd", "iran_to_israel": "35 BMs + drones", "israel_to_iran": "Bunker-busters", "highlight": true},
-      {"day": 11, "date": "23 Jun", "events": "Final exchanges; Iran escalates", "iran_cas": "~60", "israel_cas": "~80 inj", "iran_to_israel": "40\u201360", "israel_to_iran": "Continued"},
-      {"day": 12, "date": "24 Jun", "events": "Ceasefire 07:00. 7 missiles + 1 drone pre-deadline", "iran_cas": "16", "israel_cas": "4 killed", "iran_to_israel": "8 attacks", "israel_to_iran": "\u2014", "highlight": true}
+      {"day": 1, "date": "13 Jun", "date_fa": "۱۳ ژوئن", "events": "5 IAF waves, 200+ jets, 330+ munitions, 100 targets", "events_fa": "۵ موج نیروی هوایی اسرائیل، ۲۰۰+ جنگنده، ۳۳۰+ مهمات، ۱۰۰ هدف", "iran_cas": "~770", "israel_cas": "~75 inj", "israel_cas_fa": "~۷۵ مجروح", "iran_to_israel": "40\u201360 BMs", "iran_to_israel_fa": "۴۰–۶۰ بالستیک", "israel_to_iran": "330+", "israel_to_iran_fa": "۳۳۰+"},
+      {"day": 2, "date": "14 Jun", "date_fa": "۱۴ ژوئن", "events": "Strikes expand; ambulance hit", "events_fa": "گسترش حملات؛ اصابت به آمبولانس", "iran_cas": "~213", "israel_cas": "~150 inj", "israel_cas_fa": "~۱۵۰ مجروح", "iran_to_israel": "50\u201380", "israel_to_iran": "Sorties", "israel_to_iran_fa": "سورتی‌ها"},
+      {"day": 3, "date": "15 Jun", "date_fa": "۱۵ ژوئن", "events": "Tehran strikes. Houthi BMs. Tel Aviv area impacts", "events_fa": "حملات به تهران. بالستیک‌های حوثی. اصابت به منطقه تل‌آویو", "iran_cas": "~100+", "israel_cas": "9 killed, 649 wnd", "israel_cas_fa": "۹ کشته، ۶۴۹ مجروح", "iran_to_israel": "Major", "iran_to_israel_fa": "عمده", "israel_to_iran": "Waves", "israel_to_iran_fa": "موج‌ها"},
+      {"day": 4, "date": "16 Jun", "date_fa": "۱۶ ژوئن", "events": "Military base exchanges", "events_fa": "تبادل آتش پایگاه‌های نظامی", "iran_cas": "~250", "israel_cas": "~250 inj", "israel_cas_fa": "~۲۵۰ مجروح", "iran_to_israel": "40\u201360", "israel_to_iran": "Ongoing", "israel_to_iran_fa": "ادامه‌دار"},
+      {"day": 5, "date": "17 Jun", "date_fa": "۱۷ ژوئن", "events": "Attrition phase", "events_fa": "مرحله فرسایشی", "iran_cas": "~200", "israel_cas": "~150 inj", "israel_cas_fa": "~۱۵۰ مجروح", "iran_to_israel": "30\u201350", "israel_to_iran": "Ongoing", "israel_to_iran_fa": "ادامه‌دار"},
+      {"day": 6, "date": "18 Jun", "date_fa": "۱۸ ژوئن", "events": "Tempo reduced; diplomacy begins", "events_fa": "کاهش شدت؛ آغاز دیپلماسی", "iran_cas": "~150", "israel_cas": "~100 inj", "israel_cas_fa": "~۱۰۰ مجروح", "iran_to_israel": "25\u201340", "israel_to_iran": "Reduced", "israel_to_iran_fa": "کاهش‌یافته"},
+      {"day": 7, "date": "19 Jun", "date_fa": "۱۹ ژوئن", "events": "Attritional exchanges", "events_fa": "تبادلات فرسایشی", "iran_cas": "~115", "israel_cas": "~80 inj", "israel_cas_fa": "~۸۰ مجروح", "iran_to_israel": "20\u201335", "israel_to_iran": "Targeted", "israel_to_iran_fa": "هدفمند"},
+      {"day": 8, "date": "20 Jun", "date_fa": "۲۰ ژوئن", "events": "Reduced intensity", "events_fa": "کاهش شدت درگیری", "iran_cas": "~90", "israel_cas": "~60 inj", "israel_cas_fa": "~۶۰ مجروح", "iran_to_israel": "20\u201330", "israel_to_iran": "Precision", "israel_to_iran_fa": "دقیق"},
+      {"day": 9, "date": "21 Jun", "date_fa": "۲۱ ژوئن", "events": "Pre-US lull; B-2s en route", "events_fa": "آرامش قبل از ورود آمریکا؛ B-2 در مسیر", "iran_cas": "~75", "israel_cas": "~50 inj", "israel_cas_fa": "~۵۰ مجروح", "iran_to_israel": "15\u201325", "israel_to_iran": "Prep", "israel_to_iran_fa": "آماده‌سازی"},
+      {"day": 10, "date": "22 Jun", "date_fa": "۲۲ ژوئن", "events": "US enters: B-2s hit Natanz, Fordow, Isfahan", "events_fa": "ورود آمریکا: بمب‌افکن‌های B-2 نطنز، فردو و اصفهان را هدف قرار دادند", "iran_cas": "significant", "iran_cas_fa": "قابل‌توجه", "israel_cas": "86 wnd", "israel_cas_fa": "۸۶ مجروح", "iran_to_israel": "35 BMs + drones", "iran_to_israel_fa": "۳۵ بالستیک + پهپاد", "israel_to_iran": "Bunker-busters", "israel_to_iran_fa": "بمب‌های سنگرشکن", "highlight": true},
+      {"day": 11, "date": "23 Jun", "date_fa": "۲۳ ژوئن", "events": "Final exchanges; Iran escalates", "events_fa": "تبادلات نهایی؛ تشدید از سوی ایران", "iran_cas": "~60", "israel_cas": "~80 inj", "israel_cas_fa": "~۸۰ مجروح", "iran_to_israel": "40\u201360", "israel_to_iran": "Continued", "israel_to_iran_fa": "ادامه‌دار"},
+      {"day": 12, "date": "24 Jun", "date_fa": "۲۴ ژوئن", "events": "Ceasefire 07:00. 7 missiles + 1 drone pre-deadline", "events_fa": "آتش‌بس ساعت ۰۷:۰۰. ۷ موشک + ۱ پهپاد قبل از مهلت", "iran_cas": "16", "israel_cas": "4 killed", "israel_cas_fa": "۴ کشته", "iran_to_israel": "8 attacks", "iran_to_israel_fa": "۸ حمله", "israel_to_iran": "\u2014", "highlight": true}
     ]
   },
   "phase3": {
     "source_note": "Hengaw (field documentation, 24 provinces): 4,400+ military killed as of Day 15 (up from 4,300+ in 10d). Iran Health Ministry (Mar 14): 1,444 killed, 18,551 injured (civilian). HRANA (verified civilian focus): 1,600+ killed (1,276+ verified civilian, 200+ children). IDF: 1,900+ regime members eliminated. NPR (14 Mar): 1,200+ civilians killed, 10,000+ injured. Divergence reflects different methodologies and access. Hengaw includes unconfirmed military in struck facilities. HRANA verifies individual civilian names. Iran underreports military losses. IDF counts combatant targets only.",
+    "source_note_fa": "هنگاو (مستندسازی میدانی، ۲۴ استان): ۴٬۴۰۰+ نظامی کشته تا روز ۱۵ (افزایش از ۴٬۳۰۰+ در ۱۰ روز). وزارت بهداشت ایران (۱۴ مارس): ۱٬۴۴۴ کشته، ۱۸٬۵۵۱ مجروح (غیرنظامی). هرانا (تمرکز بر تأیید غیرنظامیان): ۱٬۶۰۰+ کشته (۱٬۲۷۶+ غیرنظامی تأیید‌شده، ۲۰۰+ کودک). ارتش اسرائیل: ۱٬۹۰۰+ نیروی نظام. NPR (۱۴ مارس): ۱٬۲۰۰+ غیرنظامی کشته، ۱۰٬۰۰۰+ مجروح. اختلاف ناشی از روش‌شناسی و دسترسی متفاوت است. هنگاو شامل نظامیان تأیید‌نشده در تأسیسات هدف‌قرارگرفته می‌شود. هرانا اسامی غیرنظامیان را به‌صورت فردی تأیید می‌کند. ایران تلفات نظامی را کمتر گزارش می‌دهد. ارتش اسرائیل فقط اهداف رزمی را می‌شمارد.",
     "kpis": {
       "iran_killed_hengaw": "4,600+",
       "iran_killed_detail": "4,400+ military (Day 15) + ~400 civilian\nIran Health Min: 1,444 / 18,551 inj",
+      "iran_killed_detail_fa": "۴٬۴۰۰+ نظامی (روز ۱۵) + ~۴۰۰ غیرنظامی\nوزارت بهداشت ایران: ۱٬۴۴۴ / ۱۸٬۵۵۱ مجروح",
       "israel_killed_wounded": "15+ / 3,138+",
       "israel_detail": "Day 15: 6 BM salvos, 2 injured\nDay 16: 7 BM salvos, 3 wounded Eilat",
+      "israel_detail_fa": "روز ۱۵: ۶ سالوو بالستیک، ۲ مجروح\nروز ۱۶: ۷ سالوو بالستیک، ۳ مجروح ایلات",
       "us_killed": "14",
       "us_detail": "6 Kuwait | 1 Saudi | 1 Kuwait med\n6 KC-135 Iraq crash (names released)",
+      "us_detail_fa": "۶ کویت | ۱ عربستان | ۱ پزشکی کویت\n۶ سقوط KC-135 عراق (اسامی اعلام شد)",
       "lebanon_gulf_other": "847+",
       "other_detail": "Lebanon: 826+ (773 killed, 1,933 inj)\nGulf: 19+ | France: 1 | 3.2M displaced",
+      "other_detail_fa": "لبنان: ۸۲۶+ (۷۷۳ کشته، ۱٬۹۳۳ مجروح)\nخلیج: ۱۹+ | فرانسه: ۱ | ۳.۲ میلیون آواره",
       "iran_munitions": "3,400+",
       "munitions_detail": "770+ BMs | ~2,600+ drones\nHezbollah: 1,000+ waves. D15: Gulf surge",
+      "munitions_detail_fa": "۷۷۰+ بالستیک | ~۲٬۶۰۰+ پهپاد\nحزب‌الله: ۱٬۰۰۰+ موج. روز ۱۵: افزایش خلیج",
       "us_israel_strikes": "7,600+",
-      "strikes_detail": "IDF (14 Mar): 7,600 Iran + 1,100 Leb\nD15: 90+ targets Kharg Island"
+      "strikes_detail": "IDF (14 Mar): 7,600 Iran + 1,100 Leb\nD15: 90+ targets Kharg Island",
+      "strikes_detail_fa": "ارتش اسرائیل (۱۴ مارس): ۷٬۶۰۰ ایران + ۱٬۱۰۰ لبنان\nروز ۱۵: ۹۰+ هدف جزیره خارک"
     },
     "basij_note": "Starting ~Mar 11, Israel deployed AI-guided drone swarms against Basij militia checkpoints in Tehran and other cities, targeting internal security forces responsible for protest suppression. The IDF confirmed targeting Basij members using a \u201cmother launcher\u201d platform deploying multiple AI-equipped drones. WSJ reported Iranian civilians transmitted Basij checkpoint locations to Israel via social media. This represents a strategic shift from military infrastructure to internal security apparatus \u2014 directly undermining regime coercive capacity and significantly strengthening Scenario C (Regime Fracture) probability. Interception rate Phase III: ~85\u201390% overall (Israel + Gulf combined); however, Iran\u2019s sheer volume produced significant leakage \u2014 at least 19 commercial ships, multiple residential buildings, and military facilities hit.",
+    "basij_note_fa": "از حدود ۱۱ مارس، اسرائیل دسته‌های پهپاد هدایت‌شده با هوش مصنوعی را علیه ایست‌بازرسی‌های بسیج در تهران و سایر شهرها به‌کار گرفت و نیروهای امنیت داخلی مسئول سرکوب اعتراضات را هدف قرار داد. ارتش اسرائیل تأیید کرد که اعضای بسیج را با استفاده از سکوی «مادر پرتاب‌کن» مجهز به چندین پهپاد هوش مصنوعی هدف قرار داده است. وال‌استریت ژورنال گزارش داد غیرنظامیان ایرانی مکان ایست‌بازرسی‌های بسیج را از طریق شبکه‌های اجتماعی به اسرائیل ارسال کرده‌اند. این تغییر راهبردی از زیرساخت نظامی به دستگاه امنیت داخلی است — که مستقیماً توانایی سرکوب نظام را تضعیف کرده و احتمال سناریوی ج (شکست نظام) را به‌طور قابل‌توجهی افزایش می‌دهد. نرخ رهگیری مرحله سوم: حدود ۸۵–۹۰٪ کلی (اسرائیل + خلیج)؛ با این حال، حجم بالای ایران نشتی قابل‌توجهی ایجاد کرد — حداقل ۱۹ کشتی تجاری، چندین ساختمان مسکونی و تأسیسات نظامی اصابت خوردند.",
     "day15_note": "CENTCOM struck 90+ military targets on Kharg Island (Iran\u2019s main oil export hub, ~90% of export crude), destroying naval mine storage, missile bunkers, and military facilities. Oil infrastructure was deliberately preserved. Trump: \u201cdestroyed 100% of Iran\u2019s Military capability\u201d at Kharg, warned oil would be next. Iran retaliated with unprecedented Gulf-wide barrage: UAE (9 BMs + 33 drones \u2014 Fujairah port fire), Saudi Arabia (6 BMs intercepted al-Kharj; 26 drones downed), Qatar (4 BMs + drones intercepted), Kuwait (airport damaged, Al-Jaber AB radar hit). This represents Iran\u2019s strategic pivot from declining Israel-directed BMs to Gulf-state targeting \u2014 a significant escalation. Trump called for warship coalition (US, UK, France, Japan, S. Korea, China) to reopen Hormuz.",
+    "day15_note_fa": "سنتکام ۹۰+ هدف نظامی را در جزیره خارک (مرکز اصلی صادرات نفت ایران، حدود ۹۰٪ نفت خام صادراتی) هدف قرار داد و انبارهای مین دریایی، پناهگاه‌های موشکی و تأسیسات نظامی را نابود کرد. زیرساخت نفتی عمداً حفظ شد. ترامپ: «۱۰۰٪ توانایی نظامی ایران» در خارک نابود شد و هشدار داد نفت هدف بعدی است. ایران با حمله بی‌سابقه سراسری خلیج پاسخ داد: امارات (۹ بالستیک + ۳۳ پهپاد — آتش‌سوزی بندر فجیره)، عربستان (۶ بالستیک رهگیری‌شده الخرج؛ ۲۶ پهپاد سرنگون)، قطر (۴ بالستیک + پهپاد رهگیری‌شده)، کویت (فرودگاه آسیب‌دید، رادار پایگاه الجابر اصابت خورد). این نشان‌دهنده چرخش راهبردی ایران از بالستیک‌های رو به کاهش علیه اسرائیل به هدف‌قراردادن کشورهای خلیج است — تشدید قابل‌توجه. ترامپ خواستار ائتلاف ناوگان (آمریکا، بریتانیا، فرانسه، ژاپن، کره جنوبی، چین) برای بازگشایی هرمز شد.",
     "days": [
-      {"day": 1, "date": "28 Feb", "waves": "55", "iran_dead": "~1,000+", "isr_dead": "2", "us_dead": "0", "other": "\u2014", "iran_bms": "~200", "iran_drones": "~500", "targets": "900", "events": "Ayatollah Khamenei killed. 1,200+ bombs/24h. IAF 200+ jets. Minab school: 168 killed"},
-      {"day": 2, "date": "1 Mar", "waves": "16", "iran_dead": "~500", "isr_dead": "9", "us_dead": "1", "other": "\u2014", "iran_bms": "~80", "iran_drones": "~300", "targets": "300+", "events": "Beit Shemesh: 9 killed. Sgt. Pennington injured Saudi. Tehran oil depots"},
-      {"day": 3, "date": "2 Mar", "waves": "10", "iran_dead": "~400", "isr_dead": "1", "us_dead": "6", "other": "52 (Leb)", "iran_bms": "~60", "iran_drones": "~250", "targets": "250+", "events": "Hezbollah: 223 waves. 6 US killed Kuwait (103rd Sust Cmd). 3 F-15s friendly fire (safe). All GCC hit"},
-      {"day": 4, "date": "3 Mar", "waves": "10", "iran_dead": "~350", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~40", "iran_drones": "~200", "targets": "200+", "events": "IRIB HQ struck. Assembly of Experts destroyed. BMs \u219370%"},
-      {"day": 5, "date": "4 Mar", "waves": "10", "iran_dead": "~250", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~30", "iran_drones": "~150", "targets": "200+", "events": "BMs \u219386% (CJCS). 1,600 US+Isr strikes in 4d. Drone carrier destroyed"},
-      {"day": 6, "date": "5 Mar", "waves": "11", "iran_dead": "~200", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~20", "iran_drones": "~120", "targets": "200+", "events": "500+ BMs + 2,000 drones total. WHO: 13 health facilities. CENTCOM: 3,000+"},
-      {"day": 7, "date": "6 Mar", "waves": "7", "iran_dead": "~180", "isr_dead": "0", "us_dead": "1", "other": "31 (Beirut)", "iran_bms": "~15", "iran_drones": "~100", "targets": "150+", "events": "Trump: \u201csurrender.\u201d UK RAF Cyprus hit. Maj. Davius dies (medical). Beirut strike: 31 killed"},
-      {"day": 8, "date": "7 Mar", "waves": "12", "iran_dead": "~150", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~12", "iran_drones": "~100", "targets": "150+", "events": "Russia intel support confirmed. Hormuz: zero traffic. Pezeshkian: conditional Gulf halt"},
-      {"day": 9, "date": "8 Mar", "waves": "9", "iran_dead": "~120", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~10", "iran_drones": "~80", "targets": "150+", "events": "Oil $110+. Pennington dies (7th). Pentagon: $5.6B munitions"},
-      {"day": 10, "date": "9 Mar", "waves": "~10", "iran_dead": "~100", "isr_dead": "1", "us_dead": "0", "other": "1 (BH)", "iran_bms": "~10", "iran_drones": "~80", "targets": "150+", "events": "Mojtaba Khamenei: Supreme Leader. Qatar: 17 BMs + 6 drones (intercepted). CENTCOM: 5,000+"},
-      {"day": 11, "date": "10 Mar", "waves": "~10", "iran_dead": "~100", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~8", "iran_drones": "~70", "targets": "150+", "events": "CENTCOM: 5,500+. All Soleimani ships sunk. Dubai Creek drone. Kuwait airport. Oil: $87.80"},
-      {"day": 12, "date": "11 Mar", "waves": "~10", "iran_dead": "~100", "isr_dead": "1", "us_dead": "0", "other": "10+ (Leb)", "iran_bms": "~10", "iran_drones": "~60", "targets": "150+", "events": "Iran+Hez mega-barrage: 200 rockets + 20 drones + BMs. HRANA: 1,276 civ. 19 ships damaged. Hormuz: closed (IRGC)"},
-      {"day": 13, "date": "12 Mar", "waves": "~8", "iran_dead": "~80", "isr_dead": "0", "us_dead": "6", "other": "1 (FR)", "iran_bms": "~8", "iran_drones": "~50", "targets": "150+", "events": "KC-135 crash Iraq: 6 crew killed. French soldier killed Erbil. CENTCOM: 6,000+. Oil: $100.46. Isfahan heritage damage"},
-      {"day": 14, "date": "13 Mar", "waves": "~8+", "iran_dead": "~60\u201380", "isr_dead": "1+", "us_dead": "0", "other": "2+", "iran_bms": "~6", "iran_drones": "~40", "targets": "100+", "events": "IAF wave on Tehran (evacuate warning). Saudi: 24+ drones intercepted. Pezeshkian: reparations. NATO intercepts BM in Turkey. IRGC+Hez joint op. 3.2M displaced"},
-      {"day": 15, "date": "14 Mar", "waves": "~10+", "iran_dead": "~90", "isr_dead": "0", "us_dead": "0", "other": "4+ (Gulf)", "iran_bms": "~35", "iran_drones": "~70", "targets": "200+", "events": "Kharg Island: 90+ military targets (CENTCOM). Trump: warship coalition for Hormuz. UAE: 9 BMs + 33 drones (Fujairah fire). Saudi: 6 BMs intercepted. Qatar: 4 BMs. Kuwait airport + Al-Jaber AB radar. Iran BM pivot to Gulf. Oil: $103.14. Hengaw: 4,400+ mil. killed", "highlight": true},
-      {"day": 16, "date": "15 Mar", "waves": "~8+", "iran_dead": "~70", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~20", "iran_drones": "~30", "targets": "150+", "events": "Heavy airstrikes: Isfahan, Shiraz (20 blasts), S. Tehran, Dezful AB, Khomein, Hamedan. Jask port damage. 7 BM salvos at Israel. 3 wounded Eilat (child). KC-135 crew named. Gharibabadi condemns cultural sites. As of 11:00 EST", "highlight": true}
+      {"day": 1, "date": "28 Feb", "date_fa": "۲۸ فوریه", "waves": "55", "iran_dead": "~1,000+", "isr_dead": "2", "us_dead": "0", "other": "\u2014", "iran_bms": "~200", "iran_drones": "~500", "targets": "900", "events": "Ayatollah Khamenei killed. 1,200+ bombs/24h. IAF 200+ jets. Minab school: 168 killed", "events_fa": "کشته شدن آیت‌الله خامنه‌ای. ۱٬۲۰۰+ بمب در ۲۴ ساعت. ۲۰۰+ جنگنده نیروی هوایی اسرائیل. مدرسه میناب: ۱۶۸ کشته"},
+      {"day": 2, "date": "1 Mar", "date_fa": "۱ مارس", "waves": "16", "iran_dead": "~500", "isr_dead": "9", "us_dead": "1", "other": "\u2014", "iran_bms": "~80", "iran_drones": "~300", "targets": "300+", "events": "Beit Shemesh: 9 killed. Sgt. Pennington injured Saudi. Tehran oil depots", "events_fa": "بیت‌شمش: ۹ کشته. گروهبان پنینگتون در عربستان مجروح شد. انبارهای نفت تهران"},
+      {"day": 3, "date": "2 Mar", "date_fa": "۲ مارس", "waves": "10", "iran_dead": "~400", "isr_dead": "1", "us_dead": "6", "other": "52 (Leb)", "other_fa": "۵۲ (لبنان)", "iran_bms": "~60", "iran_drones": "~250", "targets": "250+", "events": "Hezbollah: 223 waves. 6 US killed Kuwait (103rd Sust Cmd). 3 F-15s friendly fire (safe). All GCC hit", "events_fa": "حزب‌الله: ۲۲۳ موج. ۶ نظامی آمریکایی در کویت کشته شدند (فرماندهی پشتیبانی ۱۰۳). ۳ فروند F-15 آتش خودی (سالم). تمام کشورهای شورای همکاری هدف قرار گرفتند"},
+      {"day": 4, "date": "3 Mar", "date_fa": "۳ مارس", "waves": "10", "iran_dead": "~350", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~40", "iran_drones": "~200", "targets": "200+", "events": "IRIB HQ struck. Assembly of Experts destroyed. BMs \u219370%", "events_fa": "اصابت به مقر صداوسیما. شورای خبرگان ویران شد. بالستیک‌ها ↓۷۰٪"},
+      {"day": 5, "date": "4 Mar", "date_fa": "۴ مارس", "waves": "10", "iran_dead": "~250", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~30", "iran_drones": "~150", "targets": "200+", "events": "BMs \u219386% (CJCS). 1,600 US+Isr strikes in 4d. Drone carrier destroyed", "events_fa": "بالستیک‌ها ↓۸۶٪ (رئیس ستاد مشترک). ۱٬۶۰۰ حمله آمریکا+اسرائیل در ۴ روز. ناو پهپادبر منهدم شد"},
+      {"day": 6, "date": "5 Mar", "date_fa": "۵ مارس", "waves": "11", "iran_dead": "~200", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~20", "iran_drones": "~120", "targets": "200+", "events": "500+ BMs + 2,000 drones total. WHO: 13 health facilities. CENTCOM: 3,000+", "events_fa": "مجموع ۵۰۰+ بالستیک + ۲٬۰۰۰ پهپاد. سازمان جهانی بهداشت: ۱۳ مرکز درمانی. سنتکام: ۳٬۰۰۰+"},
+      {"day": 7, "date": "6 Mar", "date_fa": "۶ مارس", "waves": "7", "iran_dead": "~180", "isr_dead": "0", "us_dead": "1", "other": "31 (Beirut)", "other_fa": "۳۱ (بیروت)", "iran_bms": "~15", "iran_drones": "~100", "targets": "150+", "events": "Trump: \u201csurrender.\u201d UK RAF Cyprus hit. Maj. Davius dies (medical). Beirut strike: 31 killed", "events_fa": "ترامپ: «تسلیم شوید.» حمله به پایگاه نیروی هوایی بریتانیا در قبرس. سرگرد داویوس فوت کرد (پزشکی). حمله بیروت: ۳۱ کشته"},
+      {"day": 8, "date": "7 Mar", "date_fa": "۷ مارس", "waves": "12", "iran_dead": "~150", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~12", "iran_drones": "~100", "targets": "150+", "events": "Russia intel support confirmed. Hormuz: zero traffic. Pezeshkian: conditional Gulf halt", "events_fa": "تأیید حمایت اطلاعاتی روسیه. هرمز: ترافیک صفر. پزشکیان: توقف مشروط حملات خلیج"},
+      {"day": 9, "date": "8 Mar", "date_fa": "۸ مارس", "waves": "9", "iran_dead": "~120", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~10", "iran_drones": "~80", "targets": "150+", "events": "Oil $110+. Pennington dies (7th). Pentagon: $5.6B munitions", "events_fa": "نفت ۱۱۰+ دلار. پنینگتون درگذشت (هفتمین). پنتاگون: ۵.۶ میلیارد دلار مهمات"},
+      {"day": 10, "date": "9 Mar", "date_fa": "۹ مارس", "waves": "~10", "iran_dead": "~100", "isr_dead": "1", "us_dead": "0", "other": "1 (BH)", "other_fa": "۱ (بحرین)", "iran_bms": "~10", "iran_drones": "~80", "targets": "150+", "events": "Mojtaba Khamenei: Supreme Leader. Qatar: 17 BMs + 6 drones (intercepted). CENTCOM: 5,000+", "events_fa": "مجتبی خامنه‌ای: رهبر جدید. قطر: ۱۷ بالستیک + ۶ پهپاد (رهگیری شد). سنتکام: ۵٬۰۰۰+"},
+      {"day": 11, "date": "10 Mar", "date_fa": "۱۰ مارس", "waves": "~10", "iran_dead": "~100", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~8", "iran_drones": "~70", "targets": "150+", "events": "CENTCOM: 5,500+. All Soleimani ships sunk. Dubai Creek drone. Kuwait airport. Oil: $87.80", "events_fa": "سنتکام: ۵٬۵۰۰+. تمام ناوهای سلیمانی غرق شدند. پهپاد در خور دبی. فرودگاه کویت. نفت: ۸۷.۸۰ دلار"},
+      {"day": 12, "date": "11 Mar", "date_fa": "۱۱ مارس", "waves": "~10", "iran_dead": "~100", "isr_dead": "1", "us_dead": "0", "other": "10+ (Leb)", "other_fa": "۱۰+ (لبنان)", "iran_bms": "~10", "iran_drones": "~60", "targets": "150+", "events": "Iran+Hez mega-barrage: 200 rockets + 20 drones + BMs. HRANA: 1,276 civ. 19 ships damaged. Hormuz: closed (IRGC)", "events_fa": "حمله گسترده ایران+حزب‌الله: ۲۰۰ راکت + ۲۰ پهپاد + بالستیک. هرانا: ۱٬۲۷۶ غیرنظامی. ۱۹ کشتی آسیب‌دیده. هرمز: بسته (سپاه)"},
+      {"day": 13, "date": "12 Mar", "date_fa": "۱۲ مارس", "waves": "~8", "iran_dead": "~80", "isr_dead": "0", "us_dead": "6", "other": "1 (FR)", "other_fa": "۱ (فرانسه)", "iran_bms": "~8", "iran_drones": "~50", "targets": "150+", "events": "KC-135 crash Iraq: 6 crew killed. French soldier killed Erbil. CENTCOM: 6,000+. Oil: $100.46. Isfahan heritage damage", "events_fa": "سقوط KC-135 در عراق: ۶ خدمه کشته. سرباز فرانسوی در اربیل کشته شد. سنتکام: ۶٬۰۰۰+. نفت: ۱۰۰.۴۶ دلار. خسارت میراث فرهنگی اصفهان"},
+      {"day": 14, "date": "13 Mar", "date_fa": "۱۳ مارس", "waves": "~8+", "iran_dead": "~60\u201380", "isr_dead": "1+", "us_dead": "0", "other": "2+", "iran_bms": "~6", "iran_drones": "~40", "targets": "100+", "events": "IAF wave on Tehran (evacuate warning). Saudi: 24+ drones intercepted. Pezeshkian: reparations. NATO intercepts BM in Turkey. IRGC+Hez joint op. 3.2M displaced", "events_fa": "موج حملات نیروی هوایی اسرائیل به تهران (هشدار تخلیه). عربستان: ۲۴+ پهپاد رهگیری شد. پزشکیان: غرامت. ناتو بالستیک را در ترکیه رهگیری کرد. عملیات مشترک سپاه+حزب‌الله. ۳.۲ میلیون آواره"},
+      {"day": 15, "date": "14 Mar", "date_fa": "۱۴ مارس", "waves": "~10+", "iran_dead": "~90", "isr_dead": "0", "us_dead": "0", "other": "4+ (Gulf)", "other_fa": "۴+ (خلیج)", "iran_bms": "~35", "iran_drones": "~70", "targets": "200+", "events": "Kharg Island: 90+ military targets (CENTCOM). Trump: warship coalition for Hormuz. UAE: 9 BMs + 33 drones (Fujairah fire). Saudi: 6 BMs intercepted. Qatar: 4 BMs. Kuwait airport + Al-Jaber AB radar. Iran BM pivot to Gulf. Oil: $103.14. Hengaw: 4,400+ mil. killed", "events_fa": "جزیره خارک: ۹۰+ هدف نظامی (سنتکام). ترامپ: ائتلاف ناوگان برای هرمز. امارات: ۹ بالستیک + ۳۳ پهپاد (آتش‌سوزی فجیره). عربستان: ۶ بالستیک رهگیری شد. قطر: ۴ بالستیک. فرودگاه کویت + رادار پایگاه الجابر. چرخش بالستیک ایران به خلیج. نفت: ۱۰۳.۱۴ دلار. هنگاو: ۴٬۴۰۰+ نظامی کشته", "highlight": true},
+      {"day": 16, "date": "15 Mar", "date_fa": "۱۵ مارس", "waves": "~8+", "iran_dead": "~70", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~20", "iran_drones": "~30", "targets": "150+", "events": "Heavy airstrikes: Isfahan, Shiraz (20 blasts), S. Tehran, Dezful AB, Khomein, Hamedan. Jask port damage. 7 BM salvos at Israel. 3 wounded Eilat (child). KC-135 crew named. Gharibabadi condemns cultural sites. As of 11:00 EST", "events_fa": "حملات هوایی سنگین: اصفهان، شیراز (۲۰ انفجار)، جنوب تهران، پایگاه دزفول، خمین، همدان. آسیب بندر جاسک. ۷ سالوو بالستیک به اسرائیل. ۳ مجروح ایلات (کودک). اسامی خدمه KC-135 اعلام شد. غریب‌آبادی خسارت اماکن فرهنگی را محکوم کرد. تا ساعت ۱۱:۰۰ به وقت شرقی", "highlight": true}
     ]
   },
   "us_casualties": {
     "sources": "Pentagon, CENTCOM, NPR, CBS, Military Times, Air & Space Forces, Time, Washington Post. As of 15 March 2026. NPR reports 13 (excludes medical emergency). Pentagon: ~140 wounded, 108 returned to duty.",
+    "sources_fa": "پنتاگون، سنتکام، NPR، CBS، میلیتری‌تایمز، نیروی هوایی و فضایی، تایم، واشنگتن‌پست. تا ۱۵ مارس ۲۰۲۶. NPR: ۱۳ نفر (بدون فوریت پزشکی). پنتاگون: حدود ۱۴۰ مجروح، ۱۰۸ نفر به خدمت بازگشتند.",
     "kpis": {
       "total_deaths": "14",
       "deaths_detail": "8 combat-related | 6 KC-135 crash\nNPR count: 13 (excl. medical)",
+      "deaths_detail_fa": "۸ مرتبط با جنگ | ۶ سقوط KC-135\nشمارش NPR: ۱۳ (بدون فوریت پزشکی)",
       "wounded": "~140",
       "wounded_detail": "108 returned to duty\nMajority: Kuwait + Saudi attacks",
+      "wounded_detail_fa": "۱۰۸ نفر به خدمت بازگشتند\nاکثراً: حملات کویت + عربستان",
       "aircraft_lost": "4",
       "aircraft_detail": "3 F-15E (friendly fire \u2014 safe)\n1 KC-135 (crash \u2014 6 killed)",
+      "aircraft_detail_fa": "۳ فروند F-15E (آتش خودی — سالم)\n۱ فروند KC-135 (سقوط — ۶ کشته)",
       "us_cost": "$16\u201328B+",
-      "cost_detail": "$16.5B through 12d (NPR)\nPentagon supplemental: $50B"
+      "us_cost_fa": "۱۶–۲۸+ میلیارد دلار",
+      "cost_detail": "$16.5B through 12d (NPR)\nPentagon supplemental: $50B",
+      "cost_detail_fa": "۱۶.۵ میلیارد دلار طی ۱۲ روز (NPR)\nبودجه تکمیلی پنتاگون: ۵۰ میلیارد دلار"
     },
     "service_members": [
-      {"num": 1, "name": "Cody A. Khork", "rank": "Captain", "age": 35, "hometown": "Winter Haven, FL", "unit": "103rd Sustainment Cmd (Reserve)", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
-      {"num": 2, "name": "Noah L. Tietjens", "rank": "SFC", "age": 42, "hometown": "Bellevue, NE", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
-      {"num": 3, "name": "Nicole M. Amor", "rank": "SFC", "age": 39, "hometown": "White Bear Lake, MN", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
-      {"num": 4, "name": "Declan J. Coady", "rank": "Sergeant", "age": 20, "hometown": "West Des Moines, IA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
-      {"num": 5, "name": "Jeffrey R. O'Brien", "rank": "Major", "age": 45, "hometown": "Indianola, IA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
-      {"num": 6, "name": "Robert Marzan", "rank": "CW3", "age": 54, "hometown": "Sacramento, CA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
-      {"num": 7, "name": "Benjamin Pennington", "rank": "Sergeant", "age": 26, "hometown": "Glendale, KY", "unit": "US Army", "date": "8 Mar", "location": "Prince Sultan AB, Saudi", "cause": "Injured 1 Mar; died of wounds"},
-      {"num": 8, "name": "Sorffly Davius", "rank": "Major", "age": 46, "hometown": "Queens, NY", "unit": "US Army", "date": "6 Mar", "location": "Camp Buehring, Kuwait", "cause": "Medical emergency in theater"},
-      {"num": 9, "name": "John A. Klinner", "rank": "Major", "age": 33, "hometown": "Auburn, AL", "unit": "MacDill AFB, USAF", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
-      {"num": 10, "name": "Ariana G. Savino", "rank": "Captain", "age": 31, "hometown": "Covington, WA", "unit": "MacDill AFB, USAF", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
-      {"num": 11, "name": "Ashley B. Pruitt", "rank": "Tech. Sgt.", "age": 34, "hometown": "Bardstown, KY", "unit": "MacDill AFB, USAF", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
-      {"num": 12, "name": "Seth R. Koval", "rank": "Captain", "age": 38, "hometown": "Mooresville, IN", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
-      {"num": 13, "name": "Curtis J. Angst", "rank": "Captain", "age": 30, "hometown": "Wilmington, OH", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
-      {"num": 14, "name": "Tyler H. Simmons", "rank": "Tech. Sgt.", "age": 28, "hometown": "Columbus, OH", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"}
+      {"num": 1, "name": "Cody A. Khork", "rank": "Captain", "rank_fa": "کاپیتان", "age": 35, "hometown": "Winter Haven, FL", "unit": "103rd Sustainment Cmd (Reserve)", "date": "1 Mar", "date_fa": "۱ مارس", "location": "Shuaiba Port, Kuwait", "location_fa": "بندر شعیبه، کویت", "cause": "Iranian drone strike", "cause_fa": "حمله پهپادی ایران"},
+      {"num": 2, "name": "Noah L. Tietjens", "rank": "SFC", "rank_fa": "گروهبان یکم", "age": 42, "hometown": "Bellevue, NE", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "date_fa": "۱ مارس", "location": "Shuaiba Port, Kuwait", "location_fa": "بندر شعیبه، کویت", "cause": "Iranian drone strike", "cause_fa": "حمله پهپادی ایران"},
+      {"num": 3, "name": "Nicole M. Amor", "rank": "SFC", "rank_fa": "گروهبان یکم", "age": 39, "hometown": "White Bear Lake, MN", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "date_fa": "۱ مارس", "location": "Shuaiba Port, Kuwait", "location_fa": "بندر شعیبه، کویت", "cause": "Iranian drone strike", "cause_fa": "حمله پهپادی ایران"},
+      {"num": 4, "name": "Declan J. Coady", "rank": "Sergeant", "rank_fa": "گروهبان", "age": 20, "hometown": "West Des Moines, IA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "date_fa": "۱ مارس", "location": "Shuaiba Port, Kuwait", "location_fa": "بندر شعیبه، کویت", "cause": "Iranian drone strike", "cause_fa": "حمله پهپادی ایران"},
+      {"num": 5, "name": "Jeffrey R. O'Brien", "rank": "Major", "rank_fa": "سرگرد", "age": 45, "hometown": "Indianola, IA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "date_fa": "۱ مارس", "location": "Shuaiba Port, Kuwait", "location_fa": "بندر شعیبه، کویت", "cause": "Iranian drone strike", "cause_fa": "حمله پهپادی ایران"},
+      {"num": 6, "name": "Robert Marzan", "rank": "CW3", "rank_fa": "افسر تخصصی ۳", "age": 54, "hometown": "Sacramento, CA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "date_fa": "۱ مارس", "location": "Shuaiba Port, Kuwait", "location_fa": "بندر شعیبه، کویت", "cause": "Iranian drone strike", "cause_fa": "حمله پهپادی ایران"},
+      {"num": 7, "name": "Benjamin Pennington", "rank": "Sergeant", "rank_fa": "گروهبان", "age": 26, "hometown": "Glendale, KY", "unit": "US Army", "date": "8 Mar", "date_fa": "۸ مارس", "location": "Prince Sultan AB, Saudi", "location_fa": "پایگاه شاهزاده سلطان، عربستان", "cause": "Injured 1 Mar; died of wounds", "cause_fa": "مجروح ۱ مارس؛ فوت بر اثر جراحات"},
+      {"num": 8, "name": "Sorffly Davius", "rank": "Major", "rank_fa": "سرگرد", "age": 46, "hometown": "Queens, NY", "unit": "US Army", "date": "6 Mar", "date_fa": "۶ مارس", "location": "Camp Buehring, Kuwait", "location_fa": "پادگان بیورینگ، کویت", "cause": "Medical emergency in theater", "cause_fa": "فوریت پزشکی در منطقه عملیات"},
+      {"num": 9, "name": "John A. Klinner", "rank": "Major", "rank_fa": "سرگرد", "age": 33, "hometown": "Auburn, AL", "unit": "MacDill AFB, USAF", "date": "12 Mar", "date_fa": "۱۲ مارس", "location": "Western Iraq", "location_fa": "غرب عراق", "cause": "KC-135 crash; not hostile", "cause_fa": "سقوط KC-135؛ غیرخصمانه"},
+      {"num": 10, "name": "Ariana G. Savino", "rank": "Captain", "rank_fa": "کاپیتان", "age": 31, "hometown": "Covington, WA", "unit": "MacDill AFB, USAF", "date": "12 Mar", "date_fa": "۱۲ مارس", "location": "Western Iraq", "location_fa": "غرب عراق", "cause": "KC-135 crash; not hostile", "cause_fa": "سقوط KC-135؛ غیرخصمانه"},
+      {"num": 11, "name": "Ashley B. Pruitt", "rank": "Tech. Sgt.", "rank_fa": "گروهبان فنی", "age": 34, "hometown": "Bardstown, KY", "unit": "MacDill AFB, USAF", "date": "12 Mar", "date_fa": "۱۲ مارس", "location": "Western Iraq", "location_fa": "غرب عراق", "cause": "KC-135 crash; not hostile", "cause_fa": "سقوط KC-135؛ غیرخصمانه"},
+      {"num": 12, "name": "Seth R. Koval", "rank": "Captain", "rank_fa": "کاپیتان", "age": 38, "hometown": "Mooresville, IN", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "date_fa": "۱۲ مارس", "location": "Western Iraq", "location_fa": "غرب عراق", "cause": "KC-135 crash; not hostile", "cause_fa": "سقوط KC-135؛ غیرخصمانه"},
+      {"num": 13, "name": "Curtis J. Angst", "rank": "Captain", "rank_fa": "کاپیتان", "age": 30, "hometown": "Wilmington, OH", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "date_fa": "۱۲ مارس", "location": "Western Iraq", "location_fa": "غرب عراق", "cause": "KC-135 crash; not hostile", "cause_fa": "سقوط KC-135؛ غیرخصمانه"},
+      {"num": 14, "name": "Tyler H. Simmons", "rank": "Tech. Sgt.", "rank_fa": "گروهبان فنی", "age": 28, "hometown": "Columbus, OH", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "date_fa": "۱۲ مارس", "location": "Western Iraq", "location_fa": "غرب عراق", "cause": "KC-135 crash; not hostile", "cause_fa": "سقوط KC-135؛ غیرخصمانه"}
     ],
     "aircraft_losses": [
-      {"date": "2 Mar", "aircraft": "3\u00d7 F-15E Strike Eagle", "location": "Kuwait", "cause": "Friendly fire \u2014 Kuwaiti F/A-18", "crew": "All 6 ejected safely", "crew_status": "safe", "notes": "Investigation ongoing"},
-      {"date": "12 Mar", "aircraft": "1\u00d7 KC-135 Stratotanker", "location": "Western Iraq", "cause": "Crash \u2014 not hostile (under investigation)", "crew": "6 killed", "crew_status": "killed", "notes": "Names released 15 Mar"}
+      {"date": "2 Mar", "date_fa": "۲ مارس", "aircraft": "3\u00d7 F-15E Strike Eagle", "location": "Kuwait", "location_fa": "کویت", "cause": "Friendly fire \u2014 Kuwaiti F/A-18", "cause_fa": "آتش خودی — F/A-18 کویتی", "crew": "All 6 ejected safely", "crew_fa": "هر ۶ نفر با خروج ایمن", "crew_status": "safe", "notes": "Investigation ongoing", "notes_fa": "تحقیقات در جریان"},
+      {"date": "12 Mar", "date_fa": "۱۲ مارس", "aircraft": "1\u00d7 KC-135 Stratotanker", "location": "Western Iraq", "location_fa": "غرب عراق", "cause": "Crash \u2014 not hostile (under investigation)", "cause_fa": "سقوط — غیرخصمانه (در حال بررسی)", "crew": "6 killed", "crew_fa": "۶ کشته", "crew_status": "killed", "notes": "Names released 15 Mar", "notes_fa": "اسامی ۱۵ مارس اعلام شد"}
     ]
   },
   "costs": {
     "sources": "CSIS ($3.7B/100h), NPR ($16.5B/12d), WaPo ($5.6B munitions), Fortune ($1B/day), Penn Wharton ($40-95B), Pentagon ($50B supplemental), Bloomberg, IEA (400M bbl reserve release), CNBC, Kpler. Updated 15 Mar 2026.",
+    "sources_fa": "CSIS (۳.۷ میلیارد/۱۰۰ ساعت)، NPR (۱۶.۵ میلیارد/۱۲ روز)، واشنگتن‌پست (۵.۶ میلیارد مهمات)، فورچون (۱ میلیارد/روز)، پن وارتون (۴۰–۹۵ میلیارد)، پنتاگون (۵۰ میلیارد تکمیلی)، بلومبرگ، آژانس بین‌المللی انرژی (آزادسازی ۴۰۰ میلیون بشکه)، CNBC، کپلر. به‌روزرسانی ۱۵ مارس ۲۰۲۶.",
     "kpis": {
       "us_cost_16d": "$16\u201328B",
+      "us_cost_16d_fa": "۱۶–۲۸ میلیارد دلار",
       "us_cost_detail": "$16.5B thru 12d (NPR)\nPentagon supplemental: $50B",
+      "us_cost_detail_fa": "۱۶.۵ میلیارد طی ۱۲ روز (NPR)\nبودجه تکمیلی پنتاگون: ۵۰ میلیارد دلار",
       "israel_defense": "$5\u201310B",
+      "israel_defense_fa": "۵–۱۰ میلیارد دلار",
       "israel_detail": "Interceptors + IAF + mobilization",
+      "israel_detail_fa": "رهگیرها + نیروی هوایی + بسیج نیرو",
       "iran_damage": "$35\u201390B+",
+      "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
+      "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
       "oil_brent": "$71\u2192$103+",
+      "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
+      "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
       "iran_gdp": "-8% to -20%",
-      "iran_gdp_detail": "Rial collapse | 77+ health fac. hit\n18,551+ injured (Health Min.)"
+      "iran_gdp_fa": "−۸٪ تا −۲۰٪",
+      "iran_gdp_detail": "Rial collapse | 77+ health fac. hit\n18,551+ injured (Health Min.)",
+      "iran_gdp_detail_fa": "سقوط ریال | ۷۷+ مرکز درمانی آسیب‌دیده\n۱۸٬۵۵۱+ مجروح (وزارت بهداشت)"
     },
     "breakdown": [
-      {"category": "Military Ops", "actor": "United States", "low": "$16B", "high": "$28B", "confidence": "Med", "drivers": "$16.5B/12d (NPR); Tomahawks, B-2s, carriers, 6,500+ targets"},
-      {"category": "Military Ops", "actor": "Israel", "low": "$5B", "high": "$10B", "confidence": "Med", "drivers": "IAF 200+ jets, interceptors, Lebanon front, 1,100+ strikes Leb"},
-      {"category": "Military Ops", "actor": "Iran", "low": "$3B", "high": "$7B", "confidence": "Low", "drivers": "770+ BMs, 2,600+ drones, naval, Gulf attacks"},
-      {"category": "Infrastructure", "actor": "Iran", "low": "$20B", "high": "$60B", "confidence": "Low", "drivers": "Nuclear, oil, military, IRIB, airports, heritage, Kharg mil."},
-      {"category": "Infrastructure", "actor": "Israel", "low": "$1B", "high": "$3B", "confidence": "Med", "drivers": "Residential, commercial"},
-      {"category": "Infrastructure", "actor": "Gulf / Lebanon", "low": "$4B", "high": "$10B", "confidence": "Low", "drivers": "Kuwait airport, Fujairah port, Dubai, Bahrain, 19 ships, Beirut, 830K displaced"},
-      {"category": "Energy Impact", "actor": "Global", "low": "$50B", "high": "$200B+", "confidence": "Low", "drivers": "Hormuz closed, ~20% supply, $103+ Brent, Fujairah fire"},
-      {"category": "Interceptors", "actor": "Israel (all)", "low": "$4B", "high": "$8B", "confidence": "Med", "drivers": "Arrow ($2-3M), THAAD ($13M), Iron Dome, SM-3"},
-      {"category": "Supplemental", "actor": "US (requested)", "low": "$50B", "high": "$50B", "confidence": "High", "drivers": "Replenishment: Tomahawk, Patriot, THAAD", "colspan": true},
-      {"category": "Reconstruction", "actor": "Iran (projected)", "low": "$25B", "high": "$100B", "confidence": "V. Low", "drivers": "Depends on duration/scope"}
+      {"category": "Military Ops", "category_fa": "عملیات نظامی", "actor": "United States", "actor_fa": "ایالات متحده", "low": "$16B", "high": "$28B", "confidence": "Med", "confidence_fa": "متوسط", "drivers": "$16.5B/12d (NPR); Tomahawks, B-2s, carriers, 6,500+ targets", "drivers_fa": "۱۶.۵ میلیارد/۱۲ روز (NPR)؛ تاماهاک، B-2، ناوهواپیمابر، ۶٬۵۰۰+ هدف"},
+      {"category": "Military Ops", "category_fa": "عملیات نظامی", "actor": "Israel", "actor_fa": "اسرائیل", "low": "$5B", "high": "$10B", "confidence": "Med", "confidence_fa": "متوسط", "drivers": "IAF 200+ jets, interceptors, Lebanon front, 1,100+ strikes Leb", "drivers_fa": "نیروی هوایی ۲۰۰+ جنگنده، رهگیرها، جبهه لبنان، ۱٬۱۰۰+ حمله لبنان"},
+      {"category": "Military Ops", "category_fa": "عملیات نظامی", "actor": "Iran", "actor_fa": "ایران", "low": "$3B", "high": "$7B", "confidence": "Low", "confidence_fa": "پایین", "drivers": "770+ BMs, 2,600+ drones, naval, Gulf attacks", "drivers_fa": "۷۷۰+ بالستیک، ۲٬۶۰۰+ پهپاد، دریایی، حملات خلیج"},
+      {"category": "Infrastructure", "category_fa": "زیرساخت", "actor": "Iran", "actor_fa": "ایران", "low": "$20B", "high": "$60B", "confidence": "Low", "confidence_fa": "پایین", "drivers": "Nuclear, oil, military, IRIB, airports, heritage, Kharg mil.", "drivers_fa": "هسته‌ای، نفت، نظامی، صداوسیما، فرودگاه‌ها، میراث فرهنگی، نظامی خارک"},
+      {"category": "Infrastructure", "category_fa": "زیرساخت", "actor": "Israel", "actor_fa": "اسرائیل", "low": "$1B", "high": "$3B", "confidence": "Med", "confidence_fa": "متوسط", "drivers": "Residential, commercial", "drivers_fa": "مسکونی، تجاری"},
+      {"category": "Infrastructure", "category_fa": "زیرساخت", "actor": "Gulf / Lebanon", "actor_fa": "خلیج / لبنان", "low": "$4B", "high": "$10B", "confidence": "Low", "confidence_fa": "پایین", "drivers": "Kuwait airport, Fujairah port, Dubai, Bahrain, 19 ships, Beirut, 830K displaced", "drivers_fa": "فرودگاه کویت، بندر فجیره، دبی، بحرین، ۱۹ کشتی، بیروت، ۸۳۰ هزار آواره"},
+      {"category": "Energy Impact", "category_fa": "تأثیر انرژی", "actor": "Global", "actor_fa": "جهانی", "low": "$50B", "high": "$200B+", "confidence": "Low", "confidence_fa": "پایین", "drivers": "Hormuz closed, ~20% supply, $103+ Brent, Fujairah fire", "drivers_fa": "هرمز بسته، حدود ۲۰٪ عرضه، ۱۰۳+ دلار برنت، آتش‌سوزی فجیره"},
+      {"category": "Interceptors", "category_fa": "رهگیرها", "actor": "Israel (all)", "actor_fa": "اسرائیل (کل)", "low": "$4B", "high": "$8B", "confidence": "Med", "confidence_fa": "متوسط", "drivers": "Arrow ($2-3M), THAAD ($13M), Iron Dome, SM-3", "drivers_fa": "ارو (۲–۳ میلیون)، تاد (۱۳ میلیون)، گنبد آهنین، SM-3"},
+      {"category": "Supplemental", "category_fa": "تکمیلی", "actor": "US (requested)", "actor_fa": "آمریکا (درخواست‌شده)", "low": "$50B", "high": "$50B", "confidence": "High", "confidence_fa": "بالا", "drivers": "Replenishment: Tomahawk, Patriot, THAAD", "drivers_fa": "تکمیل: تاماهاک، پاتریوت، تاد", "colspan": true},
+      {"category": "Reconstruction", "category_fa": "بازسازی", "actor": "Iran (projected)", "actor_fa": "ایران (پیش‌بینی)", "low": "$25B", "high": "$100B", "confidence": "V. Low", "confidence_fa": "بسیار پایین", "drivers": "Depends on duration/scope", "drivers_fa": "بسته به مدت و دامنه"}
     ]
   },
   "scenarios": {
     "method": "Key assumptions check, driver mapping, comparative analysis (Iran-Iraq War, 2003 Iraq, 2011 Libya), game theory. Updated with 16 days of data. Probabilities are qualitative judgments. Day 15 Kharg strike + Gulf-wide Iranian attacks represent critical inflection point.",
+    "method_fa": "بررسی فرضیات کلیدی، نقشه‌برداری عوامل محرک، تحلیل مقایسه‌ای (جنگ ایران-عراق، عراق ۲۰۰۳، لیبی ۲۰۱۱)، نظریه بازی‌ها. به‌روزرسانی با ۱۶ روز داده. احتمالات قضاوت کیفی هستند. حمله روز ۱۵ خارک + حملات سراسری ایران به خلیج نقطه عطف بحرانی.",
     "options": [
       {
         "id": "A",
         "title": "Attritional Stalemate \u2192 Negotiated Ceasefire",
+        "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 38,
         "color": "amber",
         "description": "US/Israel achieve primary objectives within 3\u20136 weeks. Iran BM capacity already down 90% toward Israel; however, Iran pivoting remaining munitions to Gulf states (Day 15 barrage). Mojtaba Khamenei consolidates as Supreme Leader but faces pressure. Trump\u2019s warship coalition call signals desire for Hormuz resolution. Kharg Island strike approaches oil infrastructure boundary \u2014 warning before final escalation. Pezeshkian\u2019s conditions (recognition, reparations, guarantees) provide diplomatic framework. US faces $1B+/day cost + Hormuz disruption + 14 dead. Ceasefire possible within 4\u20138 weeks. Nuclear program set back 5\u201310 years. Oil normalizes to $85\u201395.",
-        "drivers": ["BM depletion (90%\u2193 vs Israel)", "Kharg warning shot", "US fiscal pressure ($16.5B/12d)", "Trump warship coalition", "Pezeshkian conditions"]
+        "description_fa": "آمریکا/اسرائیل به اهداف اولیه در ۳ تا ۶ هفته دست می‌یابند. ظرفیت بالستیک ایران در برابر اسرائیل ۹۰٪ کاهش یافته؛ اما ایران مهمات باقی‌مانده را به سمت کشورهای خلیج هدایت می‌کند (حمله روز ۱۵). مجتبی خامنه‌ای به‌عنوان رهبر تثبیت می‌شود اما تحت فشار است. فراخوان ترامپ برای ائتلاف ناوگان نشان‌دهنده تمایل به حل مسئله هرمز. حمله به خارک به مرز زیرساخت نفتی نزدیک می‌شود — هشدار قبل از تشدید نهایی. شرایط پزشکیان (به‌رسمیت‌شناسی، غرامت، تضمین‌ها) چارچوب دیپلماتیک فراهم می‌کند. آمریکا با هزینه ۱+ میلیارد/روز + اختلال هرمز + ۱۴ کشته مواجه. آتش‌بس در ۴ تا ۸ هفته ممکن. برنامه هسته‌ای ۵ تا ۱۰ سال عقب‌افتاده. نفت به ۸۵–۹۵ دلار عادی می‌شود.",
+        "drivers": ["BM depletion (90%\u2193 vs Israel)", "Kharg warning shot", "US fiscal pressure ($16.5B/12d)", "Trump warship coalition", "Pezeshkian conditions"],
+        "drivers_fa": ["کاهش ۹۰٪ بالستیک در برابر اسرائیل", "هشدار خارک", "فشار مالی آمریکا (۱۶.۵ میلیارد/۱۲ روز)", "ائتلاف ناوگان ترامپ", "شرایط پزشکیان"]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
+        "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 37,
         "color": "red",
         "description": "Iran refuses to negotiate. Gulf-wide barrage (Day 15) signals Iran willing to expand war to all neighbors. Fujairah port fire, Kuwait airport damage, Saudi interceptions all indicate Iran\u2019s asymmetric escalation beyond Israel. Mojtaba Khamenei\u2019s Hormuz closure vow holds. Iran redirects remaining BMs from Israel to Gulf economic targets \u2014 oil infrastructure next. Hezbollah 1,000+ waves + joint ops continue. Russia expands intel support. 7 BM salvos at Israel Day 16 shows continued capability. Trump\u2019s coalition call risks drawing more nations in. Oil sustains $120+. Conflict 3\u20136+ months. US cost: $100\u2013250B. Global recession risk significant.",
-        "drivers": ["Gulf-wide Iranian barrage (D15)", "Fujairah port fire", "Iran BM pivot to Gulf", "Hormuz closed + Kharg warning", "Russian intel support"]
+        "description_fa": "ایران از مذاکره امتناع می‌کند. حمله سراسری خلیج (روز ۱۵) نشان‌دهنده آمادگی ایران برای گسترش جنگ به تمام همسایگان. آتش‌سوزی بندر فجیره، آسیب فرودگاه کویت، رهگیری‌های عربستان همگی تشدید نامتقارن ایران فراتر از اسرائیل را نشان می‌دهند. سوگند مجتبی خامنه‌ای برای بستن هرمز پابرجاست. ایران بالستیک‌های باقی‌مانده را از اسرائیل به اهداف اقتصادی خلیج هدایت می‌کند — زیرساخت نفتی هدف بعدی. حزب‌الله ۱٬۰۰۰+ موج + عملیات مشترک ادامه دارد. روسیه حمایت اطلاعاتی را گسترش می‌دهد. ۷ سالوو بالستیک به اسرائیل روز ۱۶ نشان‌دهنده ادامه توانایی. فراخوان ائتلاف ترامپ خطر جذب ملت‌های بیشتر دارد. نفت بالای ۱۲۰ دلار. درگیری ۳ تا ۶+ ماه. هزینه آمریکا: ۱۰۰–۲۵۰ میلیارد. خطر رکود جهانی قابل‌توجه.",
+        "drivers": ["Gulf-wide Iranian barrage (D15)", "Fujairah port fire", "Iran BM pivot to Gulf", "Hormuz closed + Kharg warning", "Russian intel support"],
+        "drivers_fa": ["حمله سراسری ایران به خلیج (روز ۱۵)", "آتش‌سوزی بندر فجیره", "چرخش بالستیک ایران به خلیج", "بسته‌شدن هرمز + هشدار خارک", "حمایت اطلاعاتی روسیه"]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
+        "title_fa": "شکست و فروپاشی نظام",
         "probability": 25,
         "color": "green",
         "description": "Combined military strikes (7,600+ targets), Ayatollah Khamenei\u2019s death, Kharg military infrastructure destroyed, economic collapse, Dec 2025 protests, wartime disruption (3.2M displaced, 77+ health facilities) destabilize regime. Mojtaba Khamenei \u2014 untested \u2014 fails to consolidate. IRGC splits between hardliners and pragmatists. Israeli Basij drone strikes erode internal security. Provincial unrest resurges (Baluchistan, Kurdistan, Khuzestan). Elite defections. Iran Health Ministry figures (18,551 injured) indicate healthcare system collapse. Cascading institutional crisis within 2\u20134 months.",
-        "drivers": ["Basij strikes (regime coercion\u2193)", "Mojtaba authority failure", "18,551 injured (healthcare)", "Kharg mil. destroyed", "3.2M displaced"]
+        "description_fa": "حملات نظامی ترکیبی (۷٬۶۰۰+ هدف)، مرگ آیت‌الله خامنه‌ای، نابودی زیرساخت نظامی خارک، فروپاشی اقتصادی، اعتراضات دی ۱۴۰۴، اختلال جنگی (۳.۲ میلیون آواره، ۷۷+ مرکز درمانی) نظام را بی‌ثبات می‌کنند. مجتبی خامنه‌ای — آزمایش‌نشده — در تثبیت ناکام می‌ماند. سپاه بین تندروها و عمل‌گرایان شکاف می‌خورد. حملات پهپادی اسرائیل به بسیج امنیت داخلی را تضعیف می‌کند. ناآرامی استانی بازمی‌گردد (بلوچستان، کردستان، خوزستان). فرار نخبگان. ارقام وزارت بهداشت (۱۸٬۵۵۱ مجروح) نشان‌دهنده فروپاشی نظام بهداشتی. بحران نهادی آبشاری در ۲ تا ۴ ماه.",
+        "drivers": ["Basij strikes (regime coercion\u2193)", "Mojtaba authority failure", "18,551 injured (healthcare)", "Kharg mil. destroyed", "3.2M displaced"],
+        "drivers_fa": ["حملات به بسیج (کاهش توان سرکوب)", "شکست اقتدار مجتبی", "۱۸٬۵۵۱ مجروح (بهداشت)", "نابودی نظامی خارک", "۳.۲ میلیون آواره"]
       }
     ],
     "indicators": [
-      {"indicator": "Iran BM rate", "status": "\u219390% vs Israel; pivot to Gulf (D15: 35 BMs)", "a": "Continues \u2193 both", "b": "Sustained Gulf targeting", "c": "Chaotic command"},
-      {"indicator": "Hezbollah", "status": "1,000+ waves; 7 salvos D16", "a": "\u2192 Symbolic", "b": "Full 2006-style war", "c": "Splits"},
-      {"indicator": "Hormuz", "status": "Closed; Trump warship coalition", "a": "Coalition reopens 3\u20134 wk", "b": "Closed 3+ mo; mines", "c": "Partial"},
-      {"indicator": "Kharg Island", "status": "90+ mil. targets destroyed; oil spared", "a": "Oil threat = leverage", "b": "Oil targeted next", "c": "Revenue collapse"},
-      {"indicator": "Mojtaba Khamenei", "status": "Named Mar 9; vows war", "a": "Backchannel talks", "b": "Hardline consolidation", "c": "Authority failure"},
-      {"indicator": "IRGC cohesion", "status": "Uncertain; Basij targeted", "a": "Unified new leader", "b": "Unified war footing", "c": "Splits + defections"},
-      {"indicator": "Oil", "status": "$103.14 (Mar 14)", "a": "<$95", "b": ">$120", "c": "Volatile"},
-      {"indicator": "US politics", "status": "14 dead; $16.5B/12d; $50B supp.", "a": "Cost backlash", "b": "Rally-flag", "c": "Mixed"},
-      {"indicator": "Gulf states", "status": "UAE, Saudi, Qatar, Kuwait all hit D15", "a": "Pressure Iran to stop", "b": "Draw GCC into conflict", "c": "Neutral"},
-      {"indicator": "Russia/China", "status": "Russia: intel. China: quiet", "a": "Push negotiate", "b": "\u2191 Support", "c": "Managed transition"},
-      {"indicator": "Protests", "status": "Suppressed (war mode)", "a": "Short-term suppressed", "b": "Suppressed", "c": "Provincial resurge"},
-      {"indicator": "NATO", "status": "BM in Turkish airspace", "a": "No Art. 5", "b": "Art. 5 invoked", "c": "Diplomatic"}
+      {"indicator": "Iran BM rate", "indicator_fa": "نرخ بالستیک ایران", "status": "\u219390% vs Israel; pivot to Gulf (D15: 35 BMs)", "status_fa": "↓۹۰٪ در برابر اسرائیل؛ چرخش به خلیج (روز ۱۵: ۳۵ بالستیک)", "a": "Continues \u2193 both", "a_fa": "ادامه کاهش هر دو", "b": "Sustained Gulf targeting", "b_fa": "هدف‌گیری مداوم خلیج", "c": "Chaotic command", "c_fa": "فرماندهی آشفته"},
+      {"indicator": "Hezbollah", "indicator_fa": "حزب‌الله", "status": "1,000+ waves; 7 salvos D16", "status_fa": "۱٬۰۰۰+ موج؛ ۷ سالوو روز ۱۶", "a": "\u2192 Symbolic", "a_fa": "← نمادین", "b": "Full 2006-style war", "b_fa": "جنگ تمام‌عیار نوع ۲۰۰۶", "c": "Splits", "c_fa": "انشعاب"},
+      {"indicator": "Hormuz", "indicator_fa": "هرمز", "status": "Closed; Trump warship coalition", "status_fa": "بسته؛ ائتلاف ناوگان ترامپ", "a": "Coalition reopens 3\u20134 wk", "a_fa": "ائتلاف بازگشایی ۳–۴ هفته", "b": "Closed 3+ mo; mines", "b_fa": "بسته ۳+ ماه؛ مین‌گذاری", "c": "Partial", "c_fa": "جزئی"},
+      {"indicator": "Kharg Island", "indicator_fa": "جزیره خارک", "status": "90+ mil. targets destroyed; oil spared", "status_fa": "۹۰+ هدف نظامی نابود؛ نفت حفظ شد", "a": "Oil threat = leverage", "a_fa": "تهدید نفتی = اهرم", "b": "Oil targeted next", "b_fa": "نفت هدف بعدی", "c": "Revenue collapse", "c_fa": "فروپاشی درآمد"},
+      {"indicator": "Mojtaba Khamenei", "indicator_fa": "مجتبی خامنه‌ای", "status": "Named Mar 9; vows war", "status_fa": "۹ مارس منصوب؛ سوگند جنگ", "a": "Backchannel talks", "a_fa": "مذاکرات پنهانی", "b": "Hardline consolidation", "b_fa": "تثبیت تندروانه", "c": "Authority failure", "c_fa": "شکست اقتدار"},
+      {"indicator": "IRGC cohesion", "indicator_fa": "انسجام سپاه", "status": "Uncertain; Basij targeted", "status_fa": "نامشخص؛ بسیج هدف قرار گرفته", "a": "Unified new leader", "a_fa": "متحد زیر رهبر جدید", "b": "Unified war footing", "b_fa": "متحد در حالت جنگ", "c": "Splits + defections", "c_fa": "انشعاب + فرار"},
+      {"indicator": "Oil", "indicator_fa": "نفت", "status": "$103.14 (Mar 14)", "status_fa": "۱۰۳.۱۴ دلار (۱۴ مارس)", "a": "<$95", "a_fa": "زیر ۹۵ دلار", "b": ">$120", "b_fa": "بالای ۱۲۰ دلار", "c": "Volatile", "c_fa": "نوسانی"},
+      {"indicator": "US politics", "indicator_fa": "سیاست آمریکا", "status": "14 dead; $16.5B/12d; $50B supp.", "status_fa": "۱۴ کشته؛ ۱۶.۵ میلیارد/۱۲ روز؛ ۵۰ میلیارد تکمیلی", "a": "Cost backlash", "a_fa": "واکنش به هزینه", "b": "Rally-flag", "b_fa": "اتحاد پرچم", "c": "Mixed", "c_fa": "مختلط"},
+      {"indicator": "Gulf states", "indicator_fa": "کشورهای خلیج", "status": "UAE, Saudi, Qatar, Kuwait all hit D15", "status_fa": "امارات، عربستان، قطر، کویت همه روز ۱۵ هدف قرار گرفتند", "a": "Pressure Iran to stop", "a_fa": "فشار بر ایران برای توقف", "b": "Draw GCC into conflict", "b_fa": "جذب شورای همکاری به جنگ", "c": "Neutral", "c_fa": "بی‌طرف"},
+      {"indicator": "Russia/China", "indicator_fa": "روسیه/چین", "status": "Russia: intel. China: quiet", "status_fa": "روسیه: اطلاعات. چین: ساکت", "a": "Push negotiate", "a_fa": "فشار مذاکره", "b": "\u2191 Support", "b_fa": "↑ حمایت", "c": "Managed transition", "c_fa": "انتقال مدیریت‌شده"},
+      {"indicator": "Protests", "indicator_fa": "اعتراضات", "status": "Suppressed (war mode)", "status_fa": "سرکوب‌شده (حالت جنگی)", "a": "Short-term suppressed", "a_fa": "سرکوب کوتاه‌مدت", "b": "Suppressed", "b_fa": "سرکوب‌شده", "c": "Provincial resurge", "c_fa": "بازگشت استانی"},
+      {"indicator": "NATO", "indicator_fa": "ناتو", "status": "BM in Turkish airspace", "status_fa": "بالستیک در حریم هوایی ترکیه", "a": "No Art. 5", "a_fa": "بدون ماده ۵", "b": "Art. 5 invoked", "b_fa": "استناد به ماده ۵", "c": "Diplomatic", "c_fa": "دیپلماتیک"}
     ]
   },
   "charts": {
@@ -279,7 +338,8 @@
       "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15"],
       "daily_bm": [200, 80, 60, 40, 30, 20, 15, 12, 10, 10, 8, 10, 8, 6, 35, 20],
       "trendline": [200, 100, 50, 30, 22, 18, 15, 13, 12, 11, 10, 10, 9, 9, 8, 8],
-      "title": "BM capacity vs Israel \u219390% \u2014 Day 15 spike = Iran pivoting BMs to Gulf states (UAE: 9, Saudi: 6, Qatar: 4)"
+      "title": "BM capacity vs Israel \u219390% \u2014 Day 15 spike = Iran pivoting BMs to Gulf states (UAE: 9, Saudi: 6, Qatar: 4)",
+      "title_fa": "ظرفیت بالستیک در برابر اسرائیل ↓۹۰٪ — جهش روز ۱۵ = چرخش بالستیک ایران به کشورهای خلیج (امارات: ۹، عربستان: ۶، قطر: ۴)"
     },
     "us_cost_cumulative": {
       "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15"],
@@ -287,6 +347,7 @@
     },
     "cost_distribution": {
       "labels": ["US Ops ($16\u201328B)", "Israel ($5\u201310B)", "Iran Ops ($3\u20137B)", "Iran Infra ($20\u201360B)", "Energy ($50\u2013200B+)", "Leb/Gulf ($4\u201310B)"],
+      "labels_fa": ["عملیات آمریکا (۱۶–۲۸ میلیارد)", "اسرائیل (۵–۱۰ میلیارد)", "عملیات ایران (۳–۷ میلیارد)", "زیرساخت ایران (۲۰–۶۰ میلیارد)", "انرژی (۵۰–۲۰۰+ میلیارد)", "لبنان/خلیج (۴–۱۰ میلیارد)"],
       "data": [22, 7.5, 5, 40, 125, 7]
     },
     "brent_oil": {
@@ -299,6 +360,7 @@
     },
     "scenario_probabilities": {
       "labels": ["A: Ceasefire", "B: Prolonged War", "C: Regime Collapse"],
+      "labels_fa": ["الف: آتش‌بس", "ب: جنگ طولانی", "ج: فروپاشی نظام"],
       "data": [38, 37, 25],
       "colors": ["rgba(245,158,11,.7)", "rgba(239,68,68,.7)", "rgba(16,185,129,.7)"],
       "borders": ["#f59e0b", "#ef4444", "#10b981"]

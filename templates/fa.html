@@ -75,7 +75,7 @@ tbody tr:hover{background:var(--card2)}
 <div class="hdr-top">
 <div>
 <h1>ردیاب درگیری ایران–اسرائیل–آمریکا</h1>
-<div class="sub">داشبورد اطلاعات استراتژیک — تحلیل جامع روز به روز | آپریل ۲۰۲۴ – {{ meta.last_updated }}, {{ meta.update_time }}</div>
+<div class="sub">داشبورد اطلاعات استراتژیک — تحلیل جامع روز به روز | آوریل ۲۰۲۴ – {{ meta.last_updated | fa }}, {{ meta.update_time | fa }}</div>
 </div>
 <div class="cls">اطلاعات منبع‌باز</div>
 </div>
@@ -94,18 +94,18 @@ tbody tr:hover{background:var(--card2)}
 <!-- ===== OVERVIEW ===== -->
 <div class="tab on" id="t-ov">
 <div class="kpi kpi6">
-<div class="k kr"><div class="kl">مجموع کشته‌شدگان (تمام مراحل)</div><div class="kv r">{{ d.overview.total_killed }}</div><div class="ks">ایران: ~۶٬۱۰۰+ | اسرائیل: ۱۵+ | آمریکا: ۱۴<br>لبنان: ۸۲۶+ | خلیج: ۱۹+ | فرانسه: ۱</div></div>
-<div class="k kr"><div class="kl">مجموع مجروحان</div><div class="kv am">{{ d.overview.total_wounded }}</div><div class="ks">ایران: ~۱۸٬۵۵۰+ | اسرائیل: ~۳٬۱۴۰+<br>لبنان: ۱٬۹۳۳+ | آمریکا: ۱۴۰+</div></div>
-<div class="k kb"><div class="kl">موشک/پهپاد ایران (کل)</div><div class="kv bl">{{ d.overview.iran_missiles_drones }}</div><div class="ks">بالستیک: ~۲٬۵۰۰+ | پهپاد: ~۳٬۷۰۰+<br>کروز: ۲۰۰+ | تمام مراحل</div></div>
-<div class="k kb"><div class="kl">حملات آمریکا/اسرائیل بر ایران</div><div class="kv pu">{{ d.overview.us_israel_strikes }}</div><div class="ks">ارتش اسرائیل: ۷٬۶۰۰+ ایران | ۱٬۱۰۰+ لبنان<br>سنتکام: ~۶٬۵۰۰+ هدف آمریکایی</div></div>
-<div class="k ka"><div class="kl">هزینه تخمینی کل جنگ</div><div class="kv am">{{ d.overview.total_war_cost }}</div><div class="ks">آمریکا: $۱۶–۲۰ میلیارد | اسرائیل: $۵–۱۰ میلیارد<br>خسارت ایران: $۳۰–۶۰ میلیارد | انرژی: $۲۵–۸۰ میلیارد+</div></div>
-<div class="k kp"><div class="kl">کشته‌شدگان نظامی آمریکا</div><div class="kv pu">{{ d.overview.us_military_deaths }}</div><div class="ks">۸ جنگی | ۶ سقوط KC-135 (اسامی منتشرشده)<br>۳ F-15 از دست‌رفته (آتش دوستانه، محفوظ)</div></div>
+<div class="k kr"><div class="kl">مجموع کشته‌شدگان (تمام مراحل)</div><div class="kv r">{{ d.overview.total_killed | fa }}</div><div class="ks">ایران: ~۶٬۱۰۰+ | اسرائیل: ۱۵+ | آمریکا: ۱۴<br>لبنان: ۸۲۶+ | خلیج: ۱۹+ | فرانسه: ۱</div></div>
+<div class="k kr"><div class="kl">مجموع مجروحان</div><div class="kv am">{{ d.overview.total_wounded | fa }}</div><div class="ks">ایران: ~۱۸٬۵۵۰+ | اسرائیل: ~۳٬۱۴۰+<br>لبنان: ۱٬۹۳۳+ | آمریکا: ۱۴۰+</div></div>
+<div class="k kb"><div class="kl">موشک/پهپاد ایران (کل)</div><div class="kv bl">{{ d.overview.iran_missiles_drones | fa }}</div><div class="ks">بالستیک: ~۲٬۵۰۰+ | پهپاد: ~۳٬۷۰۰+<br>کروز: ۲۰۰+ | تمام مراحل</div></div>
+<div class="k kb"><div class="kl">حملات آمریکا/اسرائیل بر ایران</div><div class="kv pu">{{ d.overview.us_israel_strikes | fa }}</div><div class="ks">ارتش اسرائیل: ۷٬۶۰۰+ ایران | ۱٬۱۰۰+ لبنان<br>سنتکام: ~۶٬۵۰۰+ هدف آمریکایی</div></div>
+<div class="k ka"><div class="kl">هزینه تخمینی کل جنگ</div><div class="kv am">{{ d.overview.total_war_cost | fa }}</div><div class="ks">آمریکا: ۱۶–۲۰ میلیارد دلار | اسرائیل: ۵–۱۰ میلیارد<br>خسارت ایران: ۳۰–۶۰ میلیارد | انرژی: ۲۵–۸۰+ میلیارد</div></div>
+<div class="k kp"><div class="kl">کشته‌شدگان نظامی آمریکا</div><div class="kv pu">{{ d.overview.us_military_deaths | fa }}</div><div class="ks">۸ جنگی | ۶ سقوط KC-135 (اسامی منتشرشده)<br>۳ F-15 از دست‌رفته (آتش خودی، محفوظ)</div></div>
 </div>
-<div class="nb"><strong>یادداشت تحلیلی:</strong> {{ d.overview.analytical_note }}</div>
+<div class="nb"><strong>یادداشت تحلیلی:</strong> {{ d.overview.analytical_note_fa }}</div>
 <div class="st">مراحل درگیری</div>
 <div class="tw"><table><thead><tr><th>مرحله</th><th>تاریخ‌ها</th><th>مدت‌زمان</th><th>عامل آغاز</th><th class="n">مهمات ایران</th><th class="n">حملات آمریکا/اسرائیل</th><th class="n">نرخ رهگیری</th><th class="n">کشته‌شدگان ایران</th><th class="n">کشته‌شدگان اسرائیل</th><th class="n">کشته‌شدگان آمریکا</th><th class="n">هزینه تخمینی</th></tr></thead><tbody>
 {% for p in d.phases_table %}
-<tr><td><span class="ph p{{ loop.index }}">{{ p.phase }}</span></td><td class="b">{{ p.dates }}</td><td>{{ p.duration }}</td><td>{{ p.trigger }}</td><td class="n b">{{ p.iran_munitions }}</td><td class="n b">{{ p.us_isr_strikes }}</td><td class="n gr">{{ p.intercept_rate }}</td><td class="n r">{{ p.iran_killed }}</td><td class="n{% if p.israel_killed != '0' and p.israel_killed != '1 (inj)' %} r{% endif %}">{{ p.israel_killed }}</td><td class="n{% if p.us_killed != '0' %} r{% endif %}">{{ p.us_killed }}</td><td class="n am">{{ p.cost }}</td></tr>
+<tr><td><span class="ph p{{ loop.index }}">{{ p.phase }}</span></td><td class="b">{{ p.dates_fa }}</td><td>{{ p.duration_fa }}</td><td>{{ p.trigger_fa }}</td><td class="n b">{{ p.iran_munitions | fa }}</td><td class="n b">{{ p.us_isr_strikes | fa }}</td><td class="n gr">{{ p.intercept_rate | fa }}</td><td class="n r">{{ p.iran_killed | fa }}</td><td class="n{% if p.israel_killed != '0' and p.israel_killed != '1 (inj)' %} r{% endif %}">{{ p.israel_killed_fa | default(p.israel_killed | fa) }}</td><td class="n{% if p.us_killed != '0' %} r{% endif %}">{{ p.us_killed | fa }}</td><td class="n am">{{ p.cost_fa }}</td></tr>
 {% endfor %}
 </tbody></table></div>
 <div class="cf"><h3>افزایش تشدید در تمام مراحل</h3><div class="cht"><canvas id="c_ov"></canvas></div></div>
@@ -114,10 +114,10 @@ tbody tr:hover{background:var(--card2)}
 <!-- ===== PHASE I ===== -->
 <div class="tab" id="t-p1">
 <div class="st">مرحله اول: مبادلات مستقیم ۲۰۲۴ <span class="bdg bdg-b">تکمیل‌شده</span></div>
-<div class="nb"><strong>دامنه:</strong> {{ d.phase1.scope }}</div>
+<div class="nb"><strong>دامنه:</strong> {{ d.phase1.scope_fa }}</div>
 <div class="tw"><table><thead><tr><th>تاریخ</th><th>رویداد</th><th>طرف اقدام‌کننده</th><th>سلاح‌ها</th><th class="n">مهمات</th><th class="n">رهگیری‌شده</th><th class="n">کشته</th><th>اثر</th></tr></thead><tbody>
 {% for e in d.phase1.events %}
-<tr><td class="b">{{ e.date }}</td><td>{{ e.event }}</td><td class="{% if e.attacker == 'Iran' %}r{% else %}bl{% endif %}">{{ e.attacker }}</td><td>{{ e.weapons }}</td><td class="n b">{{ e.munitions }}</td><td class="n gr">{{ e.intercepted }}</td><td class="n{% if e.killed != '0' %} r{% endif %}">{{ e.killed }}</td><td>{{ e.effect }}</td></tr>
+<tr><td class="b">{{ e.date_fa }}</td><td>{{ e.event_fa }}</td><td class="{% if e.attacker == 'Iran' %}r{% else %}bl{% endif %}">{{ e.attacker_fa }}</td><td>{{ e.weapons_fa }}</td><td class="n b">{{ e.munitions | fa }}</td><td class="n gr">{{ e.intercepted | fa }}</td><td class="n{% if e.killed != '0' %} r{% endif %}">{{ e.killed | fa }}</td><td>{{ e.effect_fa }}</td></tr>
 {% endfor %}
 </tbody></table></div>
 <div class="cg">
@@ -129,16 +129,16 @@ tbody tr:hover{background:var(--card2)}
 <!-- ===== PHASE II ===== -->
 <div class="tab" id="t-p2">
 <div class="st">مرحله دوم: جنگ دوازده‌روزه — ژوئن ۲۰۲۵ <span class="bdg bdg-r">شدت بالا</span></div>
-<div class="nb"><strong>دامنه:</strong> {{ d.phase2.scope }}</div>
+<div class="nb"><strong>دامنه:</strong> {{ d.phase2.scope_fa }}</div>
 <div class="kpi kpi4">
-<div class="k kr"><div class="kl">کشته‌شدگان ایران</div><div class="kv r">{{ d.phase2.kpis.iran_killed }}</div><div class="ks">{{ d.phase2.kpis.iran_killed_detail }}</div></div>
-<div class="k kr"><div class="kl">کشته/مجروح اسرائیل</div><div class="kv am">{{ d.phase2.kpis.israel_killed_wounded }}</div><div class="ks">{{ d.phase2.kpis.israel_detail }}</div></div>
-<div class="k kb"><div class="kl">موشک‌های ایران به اسرائیل</div><div class="kv bl">{{ d.phase2.kpis.iran_missiles }}</div><div class="ks">{{ d.phase2.kpis.missiles_detail }}</div></div>
-<div class="k ka"><div class="kl">هزینه رهگیری</div><div class="kv am">{{ d.phase2.kpis.interceptor_cost }}</div><div class="ks">{{ d.phase2.kpis.interceptor_detail }}</div></div>
+<div class="k kr"><div class="kl">کشته‌شدگان ایران</div><div class="kv r">{{ d.phase2.kpis.iran_killed | fa }}</div><div class="ks">{{ d.phase2.kpis.iran_killed_detail_fa }}</div></div>
+<div class="k kr"><div class="kl">کشته/مجروح اسرائیل</div><div class="kv am">{{ d.phase2.kpis.israel_killed_wounded | fa }}</div><div class="ks">{{ d.phase2.kpis.israel_detail_fa }}</div></div>
+<div class="k kb"><div class="kl">موشک‌های ایران به اسرائیل</div><div class="kv bl">{{ d.phase2.kpis.iran_missiles_fa }}</div><div class="ks">{{ d.phase2.kpis.missiles_detail_fa }}</div></div>
+<div class="k ka"><div class="kl">هزینه رهگیری</div><div class="kv am">{{ d.phase2.kpis.interceptor_cost_fa }}</div><div class="ks">{{ d.phase2.kpis.interceptor_detail_fa }}</div></div>
 </div>
 <div class="tw"><div class="stbl"><table><thead><tr><th>روز</th><th>تاریخ</th><th>رویدادهای کلیدی</th><th class="n">تلفات ایران</th><th class="n">تلفات اسرائیل</th><th class="n">ایران→اسرائیل</th><th class="n">اسرائیل→ایران</th></tr></thead><tbody>
 {% for day in d.phase2.days %}
-<tr><td class="b">{{ day.day }}</td><td>{{ day.date }}</td><td{% if day.highlight is defined and day.highlight %} class="b"{% endif %}>{{ day.events }}</td><td class="n r">{{ day.iran_cas }}</td><td class="n r{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.israel_cas }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_to_israel }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.israel_to_iran }}</td></tr>
+<tr><td class="b">{{ day.day | fa }}</td><td>{{ day.date_fa }}</td><td{% if day.highlight is defined and day.highlight %} class="b"{% endif %}>{{ day.events_fa }}</td><td class="n r">{{ day.iran_cas | fa }}</td><td class="n r{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.israel_cas_fa | default(day.israel_cas | fa) }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_to_israel_fa | default(day.iran_to_israel | fa) }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.israel_to_iran_fa | default(day.israel_to_iran | fa) }}</td></tr>
 {% endfor %}
 </tbody></table></div></div>
 <div class="cg">
@@ -149,56 +149,56 @@ tbody tr:hover{background:var(--card2)}
 
 <!-- ===== PHASE III ===== -->
 <div class="tab" id="t-p3">
-<div class="st">مرحله سوم: جنگ فوریه–مارس ۲۰۲۶ <span class="bdg bdg-r">فعال — روز {{ meta.day_number }}</span></div>
-<div class="nb2"><strong>اختلاف منابع در مورد تلفات ایران:</strong> {{ d.phase3.source_note }}</div>
+<div class="st">مرحله سوم: جنگ فوریه–مارس ۲۰۲۶ <span class="bdg bdg-r">فعال — روز {{ meta.day_number | fa }}</span></div>
+<div class="nb2"><strong>اختلاف منابع در مورد تلفات ایران:</strong> {{ d.phase3.source_note_fa }}</div>
 <div class="kpi kpi6">
-<div class="k kr"><div class="kl">کشته‌شدگان ایران (برآورد هنگاو)</div><div class="kv r">{{ d.phase3.kpis.iran_killed_hengaw }}</div><div class="ks">{{ d.phase3.kpis.iran_killed_detail | replace('\n','<br>') }}</div></div>
-<div class="k kr"><div class="kl">کشته/مجروح اسرائیل</div><div class="kv am">{{ d.phase3.kpis.israel_killed_wounded }}</div><div class="ks">{{ d.phase3.kpis.israel_detail | replace('\n','<br>') }}</div></div>
-<div class="k kp"><div class="kl">کشته‌شدگان نظامی آمریکا</div><div class="kv pu">{{ d.phase3.kpis.us_killed }}</div><div class="ks">{{ d.phase3.kpis.us_detail | replace('\n','<br>') }}</div></div>
-<div class="k kr"><div class="kl">لبنان / خلیج / سایر</div><div class="kv r">{{ d.phase3.kpis.lebanon_gulf_other }}</div><div class="ks">{{ d.phase3.kpis.other_detail | replace('\n','<br>') }}</div></div>
-<div class="k kb"><div class="kl">مهمات ایران</div><div class="kv bl">{{ d.phase3.kpis.iran_munitions }}</div><div class="ks">{{ d.phase3.kpis.munitions_detail | replace('\n','<br>') }}</div></div>
-<div class="k ka"><div class="kl">حملات آمریکا+اسرائیل بر ایران</div><div class="kv am">{{ d.phase3.kpis.us_israel_strikes }}</div><div class="ks">{{ d.phase3.kpis.strikes_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">کشته‌شدگان ایران (برآورد هنگاو)</div><div class="kv r">{{ d.phase3.kpis.iran_killed_hengaw | fa }}</div><div class="ks">{{ d.phase3.kpis.iran_killed_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">کشته/مجروح اسرائیل</div><div class="kv am">{{ d.phase3.kpis.israel_killed_wounded | fa }}</div><div class="ks">{{ d.phase3.kpis.israel_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k kp"><div class="kl">کشته‌شدگان نظامی آمریکا</div><div class="kv pu">{{ d.phase3.kpis.us_killed | fa }}</div><div class="ks">{{ d.phase3.kpis.us_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">لبنان / خلیج / سایر</div><div class="kv r">{{ d.phase3.kpis.lebanon_gulf_other | fa }}</div><div class="ks">{{ d.phase3.kpis.other_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k kb"><div class="kl">مهمات ایران</div><div class="kv bl">{{ d.phase3.kpis.iran_munitions | fa }}</div><div class="ks">{{ d.phase3.kpis.munitions_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">حملات آمریکا+اسرائیل بر ایران</div><div class="kv am">{{ d.phase3.kpis.us_israel_strikes | fa }}</div><div class="ks">{{ d.phase3.kpis.strikes_detail_fa | replace('\n','<br>') }}</div></div>
 </div>
-<div class="nb" style="background:rgba(139,92,246,.07);border-color:rgba(139,92,246,.18)"><strong style="color:var(--p)">حملات پهپادی اسرائیل به بسیج و نیروهای امنیت داخلی:</strong> {{ d.phase3.basij_note }}</div>
-<div class="nb" style="background:rgba(245,158,11,.07);border-color:rgba(245,158,11,.18)"><strong style="color:var(--a)">تحولات روز {{ meta.day_number - 1 }} — جزیره خارک و تشدید خلیج:</strong> {{ d.phase3.day15_note }}</div>
+<div class="nb" style="background:rgba(139,92,246,.07);border-color:rgba(139,92,246,.18)"><strong style="color:var(--p)">حملات پهپادی اسرائیل به بسیج و نیروهای امنیت داخلی:</strong> {{ d.phase3.basij_note_fa }}</div>
+<div class="nb" style="background:rgba(245,158,11,.07);border-color:rgba(245,158,11,.18)"><strong style="color:var(--a)">تحولات روز {{ (meta.day_number - 1) | fa }} — جزیره خارک و تشدید خلیج:</strong> {{ d.phase3.day15_note_fa }}</div>
 
-<div class="st">روز به روز — ۲۸ فوریه تا {{ d.phase3.days[-1].date }} {{ meta.last_updated[:4] }}</div>
+<div class="st">روز به روز — ۲۸ فوریه تا {{ d.phase3.days[-1].date_fa }} {{ meta.last_updated[:4] | fa }}</div>
 <div class="tw"><div class="stbl"><table>
 <thead><tr><th>روز</th><th>تاریخ</th><th>موج‌ها</th><th class="n">کشته ایران</th><th class="n">کشته اسرائیل</th><th class="n">کشته آمریکا</th><th class="n">سایر</th><th class="n">موشک ایران</th><th class="n">پهپاد ایران</th><th class="n">اهداف</th><th>رویدادهای کلیدی</th></tr></thead>
 <tbody>
 {% for day in d.phase3.days %}
-<tr{% if day.highlight is defined and day.highlight %} style="background:rgba(245,158,11,.06)"{% endif %}><td class="b">{{ day.day }}</td><td class="b">{{ day.date }}</td><td{% if day.day == 1 %} class="b"{% endif %}>{{ day.waves }}</td><td class="n r{% if day.day == 1 %} b{% endif %}">{{ day.iran_dead }}</td><td class="n r{% if day.isr_dead not in ['0', '—'] %} b{% endif %}">{{ day.isr_dead }}</td><td class="n{% if day.us_dead not in ['0', '—'] %} r b{% endif %}">{{ day.us_dead }}</td><td class="n{% if day.other not in ['—', '0'] %} r{% endif %}">{{ day.other }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_bms }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_drones }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.targets }}</td><td{% if day.highlight is defined and day.highlight %} class="b"{% endif %}>{{ day.events }}</td></tr>
+<tr{% if day.highlight is defined and day.highlight %} style="background:rgba(245,158,11,.06)"{% endif %}><td class="b">{{ day.day | fa }}</td><td class="b">{{ day.date_fa }}</td><td{% if day.day == 1 %} class="b"{% endif %}>{{ day.waves | fa }}</td><td class="n r{% if day.day == 1 %} b{% endif %}">{{ day.iran_dead | fa }}</td><td class="n r{% if day.isr_dead not in ['0', '—'] %} b{% endif %}">{{ day.isr_dead | fa }}</td><td class="n{% if day.us_dead not in ['0', '—'] %} r b{% endif %}">{{ day.us_dead | fa }}</td><td class="n{% if day.other not in ['—', '0'] %} r{% endif %}">{{ day.other_fa | default(day.other | fa) }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_bms | fa }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_drones | fa }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.targets | fa }}</td><td{% if day.highlight is defined and day.highlight %} class="b"{% endif %}>{{ day.events_fa }}</td></tr>
 {% endfor %}
 </tbody></table></div></div>
 <div class="cg">
 <div class="cc"><h3>موج‌های روزانه در مقابل مهمات ایران</h3><div class="ch"><canvas id="c_p3a"></canvas></div></div>
 <div class="cc"><h3>تلفات تجمعی ایران</h3><div class="ch"><canvas id="c_p3b"></canvas></div></div>
 </div>
-<div class="cf"><h3>الگوی پرتاب موشک بالستیک ایران — چرخش خلیج قابل‌مشاهده روز {{ meta.day_number - 1 }}</h3><div class="ch"><canvas id="c_deg"></canvas></div></div>
+<div class="cf"><h3>الگوی پرتاب موشک بالستیک ایران — چرخش خلیج قابل‌مشاهده روز {{ (meta.day_number - 1) | fa }}</h3><div class="ch"><canvas id="c_deg"></canvas></div></div>
 </div>
 
 <!-- ===== US CASUALTIES ===== -->
 <div class="tab" id="t-us">
-<div class="st">تلفات نظامی ایالات متحده <span class="bdg bdg-r">{{ d.us_casualties.kpis.total_deaths }} کشته</span></div>
-<div class="nb"><strong>منابع:</strong> {{ d.us_casualties.sources }}</div>
+<div class="st">تلفات نظامی ایالات متحده <span class="bdg bdg-r">{{ d.us_casualties.kpis.total_deaths | fa }} کشته</span></div>
+<div class="nb"><strong>منابع:</strong> {{ d.us_casualties.sources_fa }}</div>
 <div class="kpi kpi4">
-<div class="k kr"><div class="kl">مجموع کشته‌شدگان آمریکا</div><div class="kv r">{{ d.us_casualties.kpis.total_deaths }}</div><div class="ks">{{ d.us_casualties.kpis.deaths_detail | replace('\n','<br>') }}</div></div>
-<div class="k kr"><div class="kl">مجروحان</div><div class="kv am">{{ d.us_casualties.kpis.wounded }}</div><div class="ks">{{ d.us_casualties.kpis.wounded_detail | replace('\n','<br>') }}</div></div>
-<div class="k kb"><div class="kl">هواپیماهای ازدست‌رفته</div><div class="kv bl">{{ d.us_casualties.kpis.aircraft_lost }}</div><div class="ks">{{ d.us_casualties.kpis.aircraft_detail | replace('\n','<br>') }}</div></div>
-<div class="k ka"><div class="kl">هزینه آمریکا ({{ meta.day_number }} روز)</div><div class="kv am">{{ d.us_casualties.kpis.us_cost }}</div><div class="ks">{{ d.us_casualties.kpis.cost_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">مجموع کشته‌شدگان آمریکا</div><div class="kv r">{{ d.us_casualties.kpis.total_deaths | fa }}</div><div class="ks">{{ d.us_casualties.kpis.deaths_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">مجروحان</div><div class="kv am">{{ d.us_casualties.kpis.wounded | fa }}</div><div class="ks">{{ d.us_casualties.kpis.wounded_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k kb"><div class="kl">هواپیماهای ازدست‌رفته</div><div class="kv bl">{{ d.us_casualties.kpis.aircraft_lost | fa }}</div><div class="ks">{{ d.us_casualties.kpis.aircraft_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">هزینه آمریکا ({{ meta.day_number | fa }} روز)</div><div class="kv am">{{ d.us_casualties.kpis.us_cost_fa }}</div><div class="ks">{{ d.us_casualties.kpis.cost_detail_fa | replace('\n','<br>') }}</div></div>
 </div>
 <div class="st">نظامیان کشته‌شده</div>
 <div class="tw"><table>
 <thead><tr><th>#</th><th>نام</th><th>درجه</th><th>سن</th><th>محل سکونت</th><th>یگان</th><th>تاریخ</th><th>مکان</th><th>علت</th></tr></thead>
 <tbody>
 {% for sm in d.us_casualties.service_members %}
-<tr><td class="b">{{ sm.num }}</td><td class="b">{{ sm.name }}</td><td>{{ sm.rank }}</td><td>{{ sm.age }}</td><td>{{ sm.hometown }}</td><td>{{ sm.unit }}</td><td class="r">{{ sm.date }}</td><td>{{ sm.location }}</td><td>{{ sm.cause }}</td></tr>
+<tr><td class="b">{{ sm.num | fa }}</td><td class="b">{{ sm.name }}</td><td>{{ sm.rank_fa }}</td><td>{{ sm.age | fa }}</td><td>{{ sm.hometown }}</td><td>{{ sm.unit }}</td><td class="r">{{ sm.date_fa }}</td><td>{{ sm.location_fa }}</td><td>{{ sm.cause_fa }}</td></tr>
 {% endfor %}
 </tbody></table></div>
 <div class="st" style="margin-top:16px">هواپیماهای ازدست‌رفته</div>
 <div class="tw"><table><thead><tr><th>تاریخ</th><th>هواپیما</th><th>مکان</th><th>علت</th><th>خدمه</th><th>یادداشت‌ها</th></tr></thead><tbody>
 {% for al in d.us_casualties.aircraft_losses %}
-<tr><td class="b">{{ al.date }}</td><td>{{ al.aircraft }}</td><td>{{ al.location }}</td><td>{{ al.cause }}</td><td class="{% if al.crew_status == 'safe' %}gr{% else %}r{% endif %}">{{ al.crew }}</td><td>{{ al.notes }}</td></tr>
+<tr><td class="b">{{ al.date_fa }}</td><td>{{ al.aircraft }}</td><td>{{ al.location_fa }}</td><td>{{ al.cause_fa }}</td><td class="{% if al.crew_status == 'safe' %}gr{% else %}r{% endif %}">{{ al.crew_fa }}</td><td>{{ al.notes_fa }}</td></tr>
 {% endfor %}
 </tbody></table></div>
 <div class="cf" style="margin-top:16px"><h3>هزینه تجمعی آمریکا ($B)</h3><div class="ch"><canvas id="c_us"></canvas></div></div>
@@ -207,13 +207,13 @@ tbody tr:hover{background:var(--card2)}
 <!-- ===== COSTS ===== -->
 <div class="tab" id="t-co">
 <div class="st">تحلیل اقتصادی و هزینه‌ها <span class="bdg bdg-r">بحرانی</span></div>
-<div class="nb"><strong>منابع:</strong> {{ d.costs.sources }}</div>
+<div class="nb"><strong>منابع:</strong> {{ d.costs.sources_fa }}</div>
 <div class="kpi kpi5">
-<div class="k ka"><div class="kl">هزینه آمریکا ({{ meta.day_number }} روز)</div><div class="kv am">{{ d.costs.kpis.us_cost_16d }}</div><div class="ks">{{ d.costs.kpis.us_cost_detail | replace('\n','<br>') }}</div></div>
-<div class="k ka"><div class="kl">دفاع اسرائیل</div><div class="kv am">{{ d.costs.kpis.israel_defense }}</div><div class="ks">{{ d.costs.kpis.israel_detail }}</div></div>
-<div class="k kr"><div class="kl">خسارت ایران</div><div class="kv r">{{ d.costs.kpis.iran_damage }}</div><div class="ks">{{ d.costs.kpis.iran_detail | replace('\n','<br>') }}</div></div>
-<div class="k ka"><div class="kl">نفت (برنت)</div><div class="kv am">{{ d.costs.kpis.oil_brent }}</div><div class="ks">{{ d.costs.kpis.oil_detail | replace('\n','<br>') }}</div></div>
-<div class="k kr"><div class="kl">تولید ناخالص داخلی ایران (سالانه)</div><div class="kv r">{{ d.costs.kpis.iran_gdp }}</div><div class="ks">{{ d.costs.kpis.iran_gdp_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">هزینه آمریکا ({{ meta.day_number | fa }} روز)</div><div class="kv am">{{ d.costs.kpis.us_cost_16d_fa }}</div><div class="ks">{{ d.costs.kpis.us_cost_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">دفاع اسرائیل</div><div class="kv am">{{ d.costs.kpis.israel_defense_fa }}</div><div class="ks">{{ d.costs.kpis.israel_detail_fa }}</div></div>
+<div class="k kr"><div class="kl">خسارت ایران</div><div class="kv r">{{ d.costs.kpis.iran_damage_fa }}</div><div class="ks">{{ d.costs.kpis.iran_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">نفت (برنت)</div><div class="kv am">{{ d.costs.kpis.oil_brent_fa }}</div><div class="ks">{{ d.costs.kpis.oil_detail_fa | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">تولید ناخالص داخلی ایران (سالانه)</div><div class="kv r">{{ d.costs.kpis.iran_gdp_fa }}</div><div class="ks">{{ d.costs.kpis.iran_gdp_detail_fa | replace('\n','<br>') }}</div></div>
 </div>
 <div class="cg">
 <div class="cc"><h3>توزیع هزینه ($B، میانگین)</h3><div class="ch"><canvas id="c_cpie"></canvas></div></div>
@@ -222,7 +222,7 @@ tbody tr:hover{background:var(--card2)}
 <div class="st">جزئیات هزینه‌ها</div>
 <div class="tw"><table><thead><tr><th>دسته</th><th>بازیگر</th><th class="n">حداقل</th><th class="n">حداکثر</th><th>اطمینان</th><th>محرک‌ها</th></tr></thead><tbody>
 {% for c in d.costs.breakdown %}
-<tr><td class="b">{{ c.category }}</td><td>{{ c.actor }}</td>{% if c.colspan is defined and c.colspan %}<td class="n am" colspan="2">{{ c.low }}</td>{% else %}<td class="n am">{{ c.low }}</td><td class="n am">{{ c.high }}</td>{% endif %}<td>{{ c.confidence }}</td><td>{{ c.drivers }}</td></tr>
+<tr><td class="b">{{ c.category_fa }}</td><td>{{ c.actor_fa }}</td>{% if c.colspan is defined and c.colspan %}<td class="n am" colspan="2">{{ c.low | fa }}</td>{% else %}<td class="n am">{{ c.low | fa }}</td><td class="n am">{{ c.high | fa }}</td>{% endif %}<td>{{ c.confidence_fa }}</td><td>{{ c.drivers_fa }}</td></tr>
 {% endfor %}
 </tbody></table></div>
 <div class="cf" style="margin-top:16px"><h3>ترانزیت نفتکش هرمز (٪ نرمال)</h3><div class="ch"><canvas id="c_hor"></canvas></div></div>
@@ -231,32 +231,32 @@ tbody tr:hover{background:var(--card2)}
 <!-- ===== SCENARIOS ===== -->
 <div class="tab" id="t-sc">
 <div class="st">پیش‌بینی سناریوها <span class="bdg bdg-r">آینده‌نگرانه</span></div>
-<div class="nb"><strong>روش:</strong> {{ d.scenarios.method }}</div>
+<div class="nb"><strong>روش:</strong> {{ d.scenarios.method_fa }}</div>
 <div class="sc">
 {% for s in d.scenarios.options %}
 {% set color_var = {'amber': 'var(--a)', 'red': 'var(--r)', 'green': 'var(--g)'}[s.color] %}
 {% set color_class = {'amber': 'am', 'red': 'r', 'green': 'gr'}[s.color] %}
 {% set bg_var = {'amber': 'var(--ad)', 'red': 'var(--rd)', 'green': 'var(--gd)'}[s.color] %}
-<div class="scc" style="border-top:3px solid {{ color_var }}"><div class="scp {{ color_class }}">{{ s.probability }}%</div>
-<h3 style="color:{{ color_var }}">{{ s.id }}: {{ s.title }}</h3>
-<div class="d">{{ s.description }}</div>
+<div class="scc" style="border-top:3px solid {{ color_var }}"><div class="scp {{ color_class }}">{{ s.probability | fa }}٪</div>
+<h3 style="color:{{ color_var }}">{{ s.id }}: {{ s.title_fa }}</h3>
+<div class="d">{{ s.description_fa }}</div>
 <div class="dr"><h4>محرک‌های کلیدی</h4>
-{% for driver in s.drivers %}<span class="dt" style="background:{{ bg_var }};color:{{ color_var }}">{{ driver }}</span>{% endfor %}</div></div>
+{% for driver in s.drivers_fa %}<span class="dt" style="background:{{ bg_var }};color:{{ color_var }}">{{ driver }}</span>{% endfor %}</div></div>
 {% endfor %}
 </div>
 <div class="cf"><h3>ارزیابی احتمال</h3><div class="ch"><canvas id="c_sc"></canvas></div></div>
 <div class="st">شاخص‌های قابل پیگیری</div>
-<div class="tw"><table><thead><tr><th>شاخص</th><th>وضعیت (روز {{ meta.day_number }})</th><th>→ الف (آتش‌بس)</th><th>→ ب (طولانی‌مدت)</th><th>→ ج (فروپاشی)</th></tr></thead><tbody>
+<div class="tw"><table><thead><tr><th>شاخص</th><th>وضعیت (روز {{ meta.day_number | fa }})</th><th>→ الف (آتش‌بس)</th><th>→ ب (طولانی‌مدت)</th><th>→ ج (فروپاشی)</th></tr></thead><tbody>
 {% for ind in d.scenarios.indicators %}
-<tr><td class="b">{{ ind.indicator }}</td><td>{{ ind.status }}</td><td class="gr">{{ ind.a }}</td><td class="r">{{ ind.b }}</td><td class="am">{{ ind.c }}</td></tr>
+<tr><td class="b">{{ ind.indicator_fa }}</td><td>{{ ind.status_fa }}</td><td class="gr">{{ ind.a_fa }}</td><td class="r">{{ ind.b_fa }}</td><td class="am">{{ ind.c_fa }}</td></tr>
 {% endfor %}
 </tbody></table></div>
 </div>
 
 </div>
 <div class="ftr">
-<strong>ردیاب درگیری ایران–اسرائیل–آمریکا</strong> | اطلاعات منبع‌باز | {{ meta.last_updated }}, {{ meta.update_time }} | روز {{ meta.day_number }}<br>
-منابع: {{ meta.sources }}<br>
+<strong>ردیاب درگیری ایران–اسرائیل–آمریکا</strong> | اطلاعات منبع‌باز | {{ meta.last_updated | fa }}, {{ meta.update_time | fa }} | روز {{ meta.day_number | fa }}<br>
+منابع: {{ meta.sources_fa }}<br>
 تمام برآوردها دامنه‌ای بوده و بازتاب‌دهنده تفاوت میان منابع مختلف هستند. این گزارش بی‌طرفانه تهیه شده و موضع هیچ دولت یا طرفی را نمایندگی نمی‌کند.
 </div>
 <script>

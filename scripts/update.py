@@ -92,6 +92,7 @@ IMPORTANT GUIDELINES:
 - Maintain strict NEUTRALITY — do not take sides. Report facts from all parties equally. Use balanced language: describe military actions uniformly regardless of which side performs them. Avoid valorizing or demonizing any party.
 - If the conflict has ended or there's a ceasefire, note that.
 - If no significant changes since last update, say "NO_CHANGES".
+- FARSI TRANSLATIONS: For every field with a "_fa" suffix, provide a professional Farsi/Persian translation. Use Persian digits (۰-۹) instead of Western digits (0-9) in all _fa fields. Translate month names, military terminology, and place names into standard Farsi.
 
 Respond with a JSON object (and nothing else) with this exact structure:
 {{
@@ -104,15 +105,18 @@ Respond with a JSON object (and nothing else) with this exact structure:
     "needed": true/false,
     "day": <number>,
     "date": "e.g. 16 Mar",
+    "date_fa": "e.g. ۱۶ مارس",
     "waves": "...",
     "iran_dead": "...",
     "isr_dead": "...",
     "us_dead": "...",
     "other": "...",
+    "other_fa": "Farsi translation of 'other' if not a plain number",
     "iran_bms": "...",
     "iran_drones": "...",
     "targets": "...",
     "events": "...",
+    "events_fa": "Farsi translation of events using Persian digits (۰-۹)",
     "highlight": false
   }},
   "meta_updates": {{
@@ -124,9 +128,9 @@ Respond with a JSON object (and nothing else) with this exact structure:
   "phase3_kpi_updates": {{<any fields to update in phase3.kpis, or empty>}},
   "cost_updates": {{<any fields to update in costs.kpis, or empty>}},
   "scenario_updates": [
-    {{"id": "A", "probability": <new %>, "description": "updated description if needed"}},
-    {{"id": "B", "probability": <new %>, "description": "updated description if needed"}},
-    {{"id": "C", "probability": <new %>, "description": "updated description if needed"}}
+    {{"id": "A", "probability": <new %>, "description": "updated EN description if needed", "description_fa": "Farsi translation with Persian digits", "drivers_fa": ["Farsi driver 1", "..."]}},
+    {{"id": "B", "probability": <new %>, "description": "updated EN description if needed", "description_fa": "Farsi translation with Persian digits", "drivers_fa": ["Farsi driver 1", "..."]}},
+    {{"id": "C", "probability": <new %>, "description": "updated EN description if needed", "description_fa": "Farsi translation with Persian digits", "drivers_fa": ["Farsi driver 1", "..."]}}
   ],
   "chart_data_updates": {{
     "brent_oil_append": [<new oil prices to append>],
@@ -139,11 +143,11 @@ Respond with a JSON object (and nothing else) with this exact structure:
     "us_cost_append": [<new cumulative US cost points>]
   }},
   "new_us_casualties": [
-    {{"name": "...", "rank": "...", "age": 0, "hometown": "...", "unit": "...", "date": "...", "location": "...", "cause": "..."}}
+    {{"name": "...", "rank": "...", "rank_fa": "Farsi rank", "age": 0, "hometown": "...", "unit": "...", "date": "...", "date_fa": "Farsi date", "location": "...", "location_fa": "Farsi location", "cause": "...", "cause_fa": "Farsi cause"}}
   ],
   "new_aircraft_losses": [],
   "indicator_updates": [
-    {{"indicator": "...", "status": "...", "a": "...", "b": "...", "c": "..."}}
+    {{"indicator": "...", "indicator_fa": "Farsi indicator", "status": "...", "status_fa": "Farsi status", "a": "...", "a_fa": "Farsi a", "b": "...", "b_fa": "Farsi b", "c": "...", "c_fa": "Farsi c"}}
   ]
 }}"""
 
@@ -212,15 +216,18 @@ def apply_updates(data, updates):
         day_entry = {
             "day": new_day["day"],
             "date": new_day["date"],
+            "date_fa": new_day.get("date_fa", new_day["date"]),
             "waves": new_day.get("waves", "~8+"),
             "iran_dead": new_day.get("iran_dead", "TBD"),
             "isr_dead": new_day.get("isr_dead", "0"),
             "us_dead": new_day.get("us_dead", "0"),
             "other": new_day.get("other", "\u2014"),
+            "other_fa": new_day.get("other_fa", new_day.get("other", "\u2014")),
             "iran_bms": new_day.get("iran_bms", "TBD"),
             "iran_drones": new_day.get("iran_drones", "TBD"),
             "targets": new_day.get("targets", "TBD"),
             "events": new_day.get("events", ""),
+            "events_fa": new_day.get("events_fa", new_day.get("events", "")),
             "highlight": new_day.get("highlight", False),
         }
         data["phase3"]["days"].append(day_entry)
@@ -271,6 +278,10 @@ def apply_updates(data, updates):
                             data["charts"]["scenario_probabilities"]["data"][idx] = su["probability"]
                 if "description" in su and su["description"]:
                     opt["description"] = su["description"]
+                if "description_fa" in su and su["description_fa"]:
+                    opt["description_fa"] = su["description_fa"]
+                if "drivers_fa" in su and su["drivers_fa"]:
+                    opt["drivers_fa"] = su["drivers_fa"]
 
     # Append chart data
     chart_updates = updates.get("chart_data_updates", {})
@@ -297,12 +308,26 @@ def apply_updates(data, updates):
     if bm_append:
         data["charts"]["phase3_daily_timeline"]["iran_bms"].extend(bm_append)
 
-    # Add new US casualties
+    # Add new US casualties (preserve _fa fields)
     for cas in updates.get("new_us_casualties", []):
         if cas.get("name"):
             num = len(data["us_casualties"]["service_members"]) + 1
-            cas["num"] = num
-            data["us_casualties"]["service_members"].append(cas)
+            entry = {
+                "num": num,
+                "name": cas["name"],
+                "rank": cas.get("rank", ""),
+                "rank_fa": cas.get("rank_fa", cas.get("rank", "")),
+                "age": cas.get("age", 0),
+                "hometown": cas.get("hometown", ""),
+                "unit": cas.get("unit", ""),
+                "date": cas.get("date", ""),
+                "date_fa": cas.get("date_fa", cas.get("date", "")),
+                "location": cas.get("location", ""),
+                "location_fa": cas.get("location_fa", cas.get("location", "")),
+                "cause": cas.get("cause", ""),
+                "cause_fa": cas.get("cause_fa", cas.get("cause", "")),
+            }
+            data["us_casualties"]["service_members"].append(entry)
             changes.append(f"NEW US CASUALTY: {cas['name']}")
 
     # Add new aircraft losses
@@ -318,6 +343,9 @@ def apply_updates(data, updates):
                 for key in ["status", "a", "b", "c"]:
                     if key in iu and iu[key]:
                         ind[key] = iu[key]
+                for key_fa in ["indicator_fa", "status_fa", "a_fa", "b_fa", "c_fa"]:
+                    if key_fa in iu and iu[key_fa]:
+                        ind[key_fa] = iu[key_fa]
                 changes.append(f"indicator '{iu['indicator']}' updated")
 
     return changes
