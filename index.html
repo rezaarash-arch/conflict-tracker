@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iran–Israel–US Conflict Tracker | Strategic Intelligence Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+:root{--bg:#0a0e1a;--bg2:#111827;--card:#1a2236;--card2:#1e2a42;--bdr:#2a3654;--t1:#e8edf5;--t2:#8b97b0;--t3:#5a6882;--r:#ef4444;--rd:rgba(239,68,68,.15);--b:#3b82f6;--bd:rgba(59,130,246,.15);--a:#f59e0b;--ad:rgba(245,158,11,.15);--g:#10b981;--gd:rgba(16,185,129,.15);--p:#8b5cf6;--c:#06b6d4;--o:#f97316}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--t1);line-height:1.6}
+.hdr{background:linear-gradient(180deg,#0f1629,var(--bg));border-bottom:1px solid var(--bdr);padding:24px 36px 16px}
+.hdr-top{display:flex;justify-content:space-between;align-items:flex-start}
+.hdr h1{font-size:24px;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,#e8edf5,#8b97b0);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hdr .sub{font-size:12px;color:var(--t3);margin-top:2px}
+.cls{background:var(--rd);color:var(--r);font-size:10px;font-weight:700;letter-spacing:1.5px;padding:4px 12px;border-radius:4px;border:1px solid rgba(239,68,68,.3);text-transform:uppercase}
+.nav{display:flex;gap:5px;margin-top:14px;flex-wrap:wrap}
+.nav button{padding:5px 14px;border-radius:6px;border:1px solid var(--bdr);background:0 0;color:var(--t2);cursor:pointer;font-size:11px;font-weight:500;font-family:inherit;transition:.2s}
+.nav button:hover{background:var(--card);color:var(--t1)}
+.nav button.on{background:var(--bd);color:var(--b);border-color:rgba(59,130,246,.4)}
+.wrap{max-width:1480px;margin:0 auto;padding:20px 36px}
+.kpi{display:grid;gap:12px;margin-bottom:24px}
+.kpi5{grid-template-columns:repeat(5,1fr)}.kpi4{grid-template-columns:repeat(4,1fr)}.kpi6{grid-template-columns:repeat(6,1fr)}
+.k{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:16px 18px;position:relative;overflow:hidden}
+.k::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.k.kr::before{background:linear-gradient(135deg,#ef4444,#dc2626)}
+.k.kb::before{background:linear-gradient(135deg,#3b82f6,#2563eb)}
+.k.ka::before{background:linear-gradient(135deg,#f59e0b,#d97706)}
+.k.kp::before{background:linear-gradient(135deg,#8b5cf6,#7c3aed)}
+.k.kg::before{background:linear-gradient(135deg,#10b981,#059669)}
+.kl{font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.8px;margin-bottom:4px}
+.kv{font-size:26px;font-weight:800;letter-spacing:-1px;line-height:1.1}
+.ks{font-size:10px;color:var(--t2);margin-top:3px;line-height:1.4}
+.st{font-size:15px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.bdg{font-size:9px;font-weight:600;padding:2px 8px;border-radius:4px;text-transform:uppercase;letter-spacing:.5px}
+.bdg-r{background:var(--rd);color:var(--r)}.bdg-b{background:var(--bd);color:var(--b)}.bdg-g{background:var(--gd);color:var(--g)}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:24px}
+.cc{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:18px}
+.cc h3{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
+.ch{position:relative;height:270px}.cht{position:relative;height:340px}
+.cf{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:18px;margin-bottom:24px}
+.cf h3{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
+.tw{background:var(--card);border:1px solid var(--bdr);border-radius:10px;overflow:hidden;margin-bottom:24px}
+table{width:100%;border-collapse:collapse;font-size:11px}
+thead th{background:#141c30;padding:8px 12px;text-align:left;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;font-size:9px;border-bottom:1px solid var(--bdr);position:sticky;top:0;z-index:2}
+tbody td{padding:7px 12px;border-bottom:1px solid rgba(42,54,84,.35);color:var(--t2)}
+tbody tr:hover{background:var(--card2)}
+.n{text-align:right;font-variant-numeric:tabular-nums}.b{font-weight:600;color:var(--t1)}
+.r{color:var(--r)}.bl{color:var(--b)}.am{color:var(--a)}.gr{color:var(--g)}.pu{color:var(--p)}
+.nb{background:rgba(59,130,246,.07);border:1px solid rgba(59,130,246,.18);border-radius:8px;padding:12px 16px;margin-bottom:18px;font-size:11px;color:var(--t2);line-height:1.65}
+.nb strong{color:var(--b)}
+.nb2{background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.18);border-radius:8px;padding:12px 16px;margin-bottom:18px;font-size:11px;color:var(--t2);line-height:1.65}
+.nb2 strong{color:var(--r)}
+.sc{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px}
+.scc{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:22px;position:relative;transition:.2s}
+.scc:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,0,0,.3)}
+.scp{position:absolute;top:18px;right:18px;font-size:30px;font-weight:900;letter-spacing:-1px}
+.scc h3{font-size:15px;font-weight:700;margin-bottom:8px;padding-right:76px}
+.scc .d{font-size:11px;color:var(--t2);line-height:1.7;margin-bottom:12px}
+.scc .dr{border-top:1px solid var(--bdr);padding-top:10px}
+.scc .dr h4{font-size:9px;text-transform:uppercase;letter-spacing:.8px;color:var(--t3);margin-bottom:6px;font-weight:600}
+.dt{display:inline-block;font-size:9px;padding:3px 7px;border-radius:4px;margin:2px 3px 2px 0;font-weight:500}
+.stbl{max-height:500px;overflow-y:auto}
+.stbl::-webkit-scrollbar{width:5px}.stbl::-webkit-scrollbar-track{background:var(--card)}.stbl::-webkit-scrollbar-thumb{background:var(--bdr);border-radius:3px}
+.tab{display:none}.tab.on{display:block}
+.ph{display:inline-block;padding:2px 7px;border-radius:4px;font-size:9px;font-weight:600}
+.p1{background:rgba(59,130,246,.12);color:var(--b)}.p2{background:rgba(245,158,11,.12);color:var(--a)}.p3{background:rgba(239,68,68,.12);color:var(--r)}
+.ftr{text-align:center;padding:18px;font-size:10px;color:var(--t3);border-top:1px solid var(--bdr);margin-top:36px;line-height:1.7}
+@media(max-width:1200px){.kpi5,.kpi6{grid-template-columns:repeat(3,1fr)}.sc{grid-template-columns:1fr}.cg{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="hdr">
+<div class="hdr-top">
+<div>
+<h1>Iran–Israel–United States Conflict Tracker</h1>
+<div class="sub">Strategic Intelligence Dashboard — Comprehensive Day-by-Day Analysis | April 2024 – 2026-03-15, 11:00 EST</div>
+</div>
+<div class="cls">Open Source Intelligence</div>
+</div>
+<div class="nav">
+<button class="on" onclick="sw('ov',this)">Executive Overview</button>
+<button onclick="sw('p1',this)">Phase I: 2024</button>
+<button onclick="sw('p2',this)">Phase II: Jun 2025</button>
+<button onclick="sw('p3',this)">Phase III: Feb–Mar 2026</button>
+<button onclick="sw('us',this)">US Casualties</button>
+<button onclick="sw('co',this)">Economic & Costs</button>
+<button onclick="sw('sc',this)">Scenarios</button>
+</div>
+</div>
+<div class="wrap">
+
+<!-- ===== OVERVIEW ===== -->
+<div class="tab on" id="t-ov">
+<div class="kpi kpi6">
+<div class="k kr"><div class="kl">Total Killed (All Phases)</div><div class="kv r">~7,100+</div><div class="ks">Iran: ~6,100+ | Israel: 15+ | US: 14<br>Lebanon: 826+ | Gulf: 19+ | France: 1</div></div>
+<div class="k kr"><div class="kl">Total Wounded</div><div class="kv am">~23,000+</div><div class="ks">Iran: ~18,550+ | Israel: ~3,140+<br>Lebanon: 1,933+ | US: 140+</div></div>
+<div class="k kb"><div class="kl">Iran Missiles/Drones (Total)</div><div class="kv bl">~7,200+</div><div class="ks">Ballistic: ~2,500+ | Drones: ~3,700+<br>Cruise: ~200+ | All phases</div></div>
+<div class="k kb"><div class="kl">US/Israel Strikes on Iran</div><div class="kv pu">~8,700+</div><div class="ks">IDF: 7,600+ on Iran | 1,100+ on Lebanon<br>CENTCOM: ~6,500+ US targets</div></div>
+<div class="k ka"><div class="kl">Est. Total War Cost</div><div class="kv am">$75–170B+</div><div class="ks">US direct: $16–20B | Israel: $5–10B<br>Iran damage: $30–60B | Energy: $25–80B+</div></div>
+<div class="k kp"><div class="kl">US Military Deaths</div><div class="kv pu">14</div><div class="ks">8 combat | 6 KC-135 crash (named)<br>3 F-15s lost (friendly fire, safe)</div></div>
+</div>
+<div class="nb"><strong>Analytical Note:</strong> All figures are best estimates from Tier 1–3 sources. Iranian casualties carry significant source disagreement: Hengaw (4,600+ in 16d), HRANA (1,600+), Iran Health Ministry (1,444 killed / 18,551 injured), IDF (1,900+ regime members). Cost ranges reflect source divergence. Conflict ongoing. Data as of 15 March 2026, 11:00 EST. NPR (14 Mar): US spending ~$16.5B through 12 days.</div>
+<div class="st">Conflict Phases</div>
+<div class="tw"><table><thead><tr><th>Phase</th><th>Dates</th><th>Duration</th><th>Trigger</th><th class="n">Iran Munitions</th><th class="n">US/Isr Strikes</th><th class="n">Intercept Rate</th><th class="n">Iran Killed</th><th class="n">Israel Killed</th><th class="n">US Killed</th><th class="n">Est. Cost</th></tr></thead><tbody>
+
+<tr><td><span class="ph p1">I</span></td><td class="b">Apr–Oct 2024</td><td>~7 mo</td><td>Damascus consulate strike</td><td class="n b">~520</td><td class="n b">~120+</td><td class="n gr">~95%</td><td class="n r">5</td><td class="n">1 (inj)</td><td class="n">0</td><td class="n am">$3–5B</td></tr>
+
+<tr><td><span class="ph p2">II</span></td><td class="b">13–24 Jun 2025</td><td>12 days</td><td>IAEA non-compliance; nuclear strikes</td><td class="n b">~1,550</td><td class="n b">~500+</td><td class="n gr">~86–90%</td><td class="n r">1,190</td><td class="n r">28</td><td class="n">0</td><td class="n am">$12–25B</td></tr>
+
+<tr><td><span class="ph p3">III</span></td><td class="b">28 Feb – ongoing</td><td>16+ days</td><td>Failed Geneva talks; Ayatollah Khamenei killed</td><td class="n b">~3,400+</td><td class="n b">~8,700+</td><td class="n gr">~85–90%</td><td class="n r">4,600+</td><td class="n r">15+</td><td class="n r">14</td><td class="n am">$50–110B</td></tr>
+
+</tbody></table></div>
+<div class="cf"><h3>Escalation Across All Phases</h3><div class="cht"><canvas id="c_ov"></canvas></div></div>
+</div>
+
+<!-- ===== PHASE I ===== -->
+<div class="tab" id="t-p1">
+<div class="st">Phase I: 2024 Direct Exchanges <span class="bdg bdg-b">COMPLETED</span></div>
+<div class="nb"><strong>Scope:</strong> April–October 2024. First direct state-on-state strikes. Sources: IISS, FDD, IDF, CENTCOM, AP, Reuters.</div>
+<div class="tw"><table><thead><tr><th>Date</th><th>Event</th><th>Attacker</th><th>Weapons</th><th class="n">Munitions</th><th class="n">Intercepted</th><th class="n">Killed</th><th>Effect</th></tr></thead><tbody>
+
+<tr><td class="b">1 Apr</td><td>Damascus consulate strike</td><td class="bl">Israel</td><td>PGMs</td><td class="n b">~6</td><td class="n gr">0</td><td class="n r">7</td><td>Triggered retaliation</td></tr>
+
+<tr><td class="b">13 Apr</td><td>True Promise I</td><td class="r">Iran</td><td>170 drones, 30+ cruise, 120+ BMs</td><td class="n b">~320</td><td class="n gr">~317 (99%)</td><td class="n">0</td><td>Near-total intercept; deterrence failure</td></tr>
+
+<tr><td class="b">19 Apr</td><td>Israeli retaliatory strike</td><td class="bl">Israel</td><td>F-35 missiles</td><td class="n b">3</td><td class="n gr">0</td><td class="n">0</td><td>Capability signal; de-escalation</td></tr>
+
+<tr><td class="b">1 Oct</td><td>True Promise II</td><td class="r">Iran</td><td>~200 BMs (incl. Fattah)</td><td class="n b">~200</td><td class="n gr">~180 (90%)</td><td class="n">0</td><td>Better penetration; limited damage</td></tr>
+
+<tr><td class="b">26 Oct</td><td>Days of Repentance</td><td class="bl">Israel</td><td>100+ aircraft</td><td class="n b">—</td><td class="n gr">—</td><td class="n r">5</td><td>S-300 network destroyed</td></tr>
+
+</tbody></table></div>
+<div class="cg">
+<div class="cc"><h3>Munitions Launched vs. Intercepted</h3><div class="ch"><canvas id="c_p1a"></canvas></div></div>
+<div class="cc"><h3>Interception Rate</h3><div class="ch"><canvas id="c_p1b"></canvas></div></div>
+</div>
+</div>
+
+<!-- ===== PHASE II ===== -->
+<div class="tab" id="t-p2">
+<div class="st">Phase II: Twelve-Day War — Jun 2025 <span class="bdg bdg-r">HIGH INTENSITY</span></div>
+<div class="nb"><strong>Scope:</strong> 12 days. Iran: 1,190 killed, 4,475 wounded. Israel: 28 killed, 3,491 wounded. Iran fired ~591 BMs + ~1,000 drones. US struck nuclear sites Day 10. Sources: HRANA, Statista, IDF, FDD, ACLED, FPRI.</div>
+<div class="kpi kpi4">
+<div class="k kr"><div class="kl">Iran Killed</div><div class="kv r">1,190</div><div class="ks">436 civilian | 435 military | 319 unk.</div></div>
+<div class="k kr"><div class="kl">Israel Killed / Wounded</div><div class="kv am">28 / 3,491</div><div class="ks">Peak Day 3: 9 killed, 649 wounded</div></div>
+<div class="k kb"><div class="kl">Iran Missiles at Israel</div><div class="kv bl">~591 + ~1,000 drones</div><div class="ks">86–90% interception rate</div></div>
+<div class="k ka"><div class="kl">Interceptor Cost</div><div class="kv am">$2.7–4.7B</div><div class="ks">~25% stockpile consumed</div></div>
+</div>
+<div class="tw"><div class="stbl"><table><thead><tr><th>Day</th><th>Date</th><th>Key Events</th><th class="n">Iran Cas.</th><th class="n">Israel Cas.</th><th class="n">Iran→Israel</th><th class="n">Israel→Iran</th></tr></thead><tbody>
+
+<tr><td class="b">1</td><td>13 Jun</td><td>5 IAF waves, 200+ jets, 330+ munitions, 100 targets</td><td class="n r">~770</td><td class="n r">~75 inj</td><td class="n">40–60 BMs</td><td class="n">330+</td></tr>
+
+<tr><td class="b">2</td><td>14 Jun</td><td>Strikes expand; ambulance hit</td><td class="n r">~213</td><td class="n r">~150 inj</td><td class="n">50–80</td><td class="n">Sorties</td></tr>
+
+<tr><td class="b">3</td><td>15 Jun</td><td>Tehran strikes. Houthi BMs. Tel Aviv area impacts</td><td class="n r">~100+</td><td class="n r">9 killed, 649 wnd</td><td class="n">Major</td><td class="n">Waves</td></tr>
+
+<tr><td class="b">4</td><td>16 Jun</td><td>Military base exchanges</td><td class="n r">~250</td><td class="n r">~250 inj</td><td class="n">40–60</td><td class="n">Ongoing</td></tr>
+
+<tr><td class="b">5</td><td>17 Jun</td><td>Attrition phase</td><td class="n r">~200</td><td class="n r">~150 inj</td><td class="n">30–50</td><td class="n">Ongoing</td></tr>
+
+<tr><td class="b">6</td><td>18 Jun</td><td>Tempo reduced; diplomacy begins</td><td class="n r">~150</td><td class="n r">~100 inj</td><td class="n">25–40</td><td class="n">Reduced</td></tr>
+
+<tr><td class="b">7</td><td>19 Jun</td><td>Attritional exchanges</td><td class="n r">~115</td><td class="n r">~80 inj</td><td class="n">20–35</td><td class="n">Targeted</td></tr>
+
+<tr><td class="b">8</td><td>20 Jun</td><td>Reduced intensity</td><td class="n r">~90</td><td class="n r">~60 inj</td><td class="n">20–30</td><td class="n">Precision</td></tr>
+
+<tr><td class="b">9</td><td>21 Jun</td><td>Pre-US lull; B-2s en route</td><td class="n r">~75</td><td class="n r">~50 inj</td><td class="n">15–25</td><td class="n">Prep</td></tr>
+
+<tr><td class="b">10</td><td>22 Jun</td><td class="b">US enters: B-2s hit Natanz, Fordow, Isfahan</td><td class="n r">significant</td><td class="n r b">86 wnd</td><td class="n b">35 BMs + drones</td><td class="n b">Bunker-busters</td></tr>
+
+<tr><td class="b">11</td><td>23 Jun</td><td>Final exchanges; Iran escalates</td><td class="n r">~60</td><td class="n r">~80 inj</td><td class="n">40–60</td><td class="n">Continued</td></tr>
+
+<tr><td class="b">12</td><td>24 Jun</td><td class="b">Ceasefire 07:00. 7 missiles + 1 drone pre-deadline</td><td class="n r">16</td><td class="n r b">4 killed</td><td class="n b">8 attacks</td><td class="n b">—</td></tr>
+
+</tbody></table></div></div>
+<div class="cg">
+<div class="cc"><h3>Iranian Casualties by Day</h3><div class="ch"><canvas id="c_p2a"></canvas></div></div>
+<div class="cc"><h3>Israeli Casualties by Day</h3><div class="ch"><canvas id="c_p2b"></canvas></div></div>
+</div>
+</div>
+
+<!-- ===== PHASE III ===== -->
+<div class="tab" id="t-p3">
+<div class="st">Phase III: Feb–Mar 2026 War <span class="bdg bdg-r">ACTIVE — DAY 16</span></div>
+<div class="nb2"><strong>Source Disagreement on Iran Casualties:</strong> Hengaw (field documentation, 24 provinces): 4,400+ military killed as of Day 15 (up from 4,300+ in 10d). Iran Health Ministry (Mar 14): 1,444 killed, 18,551 injured (civilian). HRANA (verified civilian focus): 1,600+ killed (1,276+ verified civilian, 200+ children). IDF: 1,900+ regime members eliminated. NPR (14 Mar): 1,200+ civilians killed, 10,000+ injured. Divergence reflects different methodologies and access. Hengaw includes unconfirmed military in struck facilities. HRANA verifies individual civilian names. Iran underreports military losses. IDF counts combatant targets only.</div>
+<div class="kpi kpi6">
+<div class="k kr"><div class="kl">Iran Killed (Hengaw est.)</div><div class="kv r">4,600+</div><div class="ks">4,400+ military (Day 15) + ~400 civilian<br>Iran Health Min: 1,444 / 18,551 inj</div></div>
+<div class="k kr"><div class="kl">Israel Killed / Wounded</div><div class="kv am">15+ / 3,138+</div><div class="ks">Day 15: 6 BM salvos, 2 injured<br>Day 16: 7 BM salvos, 3 wounded Eilat</div></div>
+<div class="k kp"><div class="kl">US Military Killed</div><div class="kv pu">14</div><div class="ks">6 Kuwait | 1 Saudi | 1 Kuwait med<br>6 KC-135 Iraq crash (names released)</div></div>
+<div class="k kr"><div class="kl">Lebanon / Gulf / Other</div><div class="kv r">847+</div><div class="ks">Lebanon: 826+ (773 killed, 1,933 inj)<br>Gulf: 19+ | France: 1 | 3.2M displaced</div></div>
+<div class="k kb"><div class="kl">Iran Munitions</div><div class="kv bl">3,400+</div><div class="ks">770+ BMs | ~2,600+ drones<br>Hezbollah: 1,000+ waves. D15: Gulf surge</div></div>
+<div class="k ka"><div class="kl">US+Israel Strikes on Iran</div><div class="kv am">7,600+</div><div class="ks">IDF (14 Mar): 7,600 Iran + 1,100 Leb<br>D15: 90+ targets Kharg Island</div></div>
+</div>
+<div class="nb" style="background:rgba(139,92,246,.07);border-color:rgba(139,92,246,.18)"><strong style="color:var(--p)">Israeli Drone Strikes on Basij & Internal Security Forces:</strong> Starting ~Mar 11, Israel deployed AI-guided drone swarms against Basij militia checkpoints in Tehran and other cities, targeting internal security forces responsible for protest suppression. The IDF confirmed targeting Basij members using a “mother launcher” platform deploying multiple AI-equipped drones. WSJ reported Iranian civilians transmitted Basij checkpoint locations to Israel via social media. This represents a strategic shift from military infrastructure to internal security apparatus — directly undermining regime coercive capacity and significantly strengthening Scenario C (Regime Fracture) probability. Interception rate Phase III: ~85–90% overall (Israel + Gulf combined); however, Iran’s sheer volume produced significant leakage — at least 19 commercial ships, multiple residential buildings, and military facilities hit.</div>
+<div class="nb" style="background:rgba(245,158,11,.07);border-color:rgba(245,158,11,.18)"><strong style="color:var(--a)">Day 15 Developments — Kharg Island &amp; Gulf Escalation:</strong> CENTCOM struck 90+ military targets on Kharg Island (Iran’s main oil export hub, ~90% of export crude), destroying naval mine storage, missile bunkers, and military facilities. Oil infrastructure was deliberately preserved. Trump: “destroyed 100% of Iran’s Military capability” at Kharg, warned oil would be next. Iran retaliated with unprecedented Gulf-wide barrage: UAE (9 BMs + 33 drones — Fujairah port fire), Saudi Arabia (6 BMs intercepted al-Kharj; 26 drones downed), Qatar (4 BMs + drones intercepted), Kuwait (airport damaged, Al-Jaber AB radar hit). This represents Iran’s strategic pivot from declining Israel-directed BMs to Gulf-state targeting — a significant escalation. Trump called for warship coalition (US, UK, France, Japan, S. Korea, China) to reopen Hormuz.</div>
+
+<div class="st">Day-by-Day — 28 Feb to 15 Mar 2026</div>
+<div class="tw"><div class="stbl"><table>
+<thead><tr><th>Day</th><th>Date</th><th>Waves</th><th class="n">Iran Dead</th><th class="n">Isr Dead</th><th class="n">US Dead</th><th class="n">Other</th><th class="n">Iran BMs</th><th class="n">Iran Drones</th><th class="n">Targets</th><th>Key Events</th></tr></thead>
+<tbody>
+
+<tr><td class="b">1</td><td class="b">28 Feb</td><td class="b">55</td><td class="n r b">~1,000+</td><td class="n r b">2</td><td class="n">0</td><td class="n">—</td><td class="n">~200</td><td class="n">~500</td><td class="n">900</td><td>Ayatollah Khamenei killed. 1,200+ bombs/24h. IAF 200+ jets. Minab school: 168 killed</td></tr>
+
+<tr><td class="b">2</td><td class="b">1 Mar</td><td>16</td><td class="n r">~500</td><td class="n r b">9</td><td class="n r b">1</td><td class="n">—</td><td class="n">~80</td><td class="n">~300</td><td class="n">300+</td><td>Beit Shemesh: 9 killed. Sgt. Pennington injured Saudi. Tehran oil depots</td></tr>
+
+<tr><td class="b">3</td><td class="b">2 Mar</td><td>10</td><td class="n r">~400</td><td class="n r b">1</td><td class="n r b">6</td><td class="n r">52 (Leb)</td><td class="n">~60</td><td class="n">~250</td><td class="n">250+</td><td>Hezbollah: 223 waves. 6 US killed Kuwait (103rd Sust Cmd). 3 F-15s friendly fire (safe). All GCC hit</td></tr>
+
+<tr><td class="b">4</td><td class="b">3 Mar</td><td>10</td><td class="n r">~350</td><td class="n r">0</td><td class="n">0</td><td class="n r">1+</td><td class="n">~40</td><td class="n">~200</td><td class="n">200+</td><td>IRIB HQ struck. Assembly of Experts destroyed. BMs ↓70%</td></tr>
+
+<tr><td class="b">5</td><td class="b">4 Mar</td><td>10</td><td class="n r">~250</td><td class="n r">0</td><td class="n">0</td><td class="n r">1+</td><td class="n">~30</td><td class="n">~150</td><td class="n">200+</td><td>BMs ↓86% (CJCS). 1,600 US+Isr strikes in 4d. Drone carrier destroyed</td></tr>
+
+<tr><td class="b">6</td><td class="b">5 Mar</td><td>11</td><td class="n r">~200</td><td class="n r">0</td><td class="n">0</td><td class="n r">2+</td><td class="n">~20</td><td class="n">~120</td><td class="n">200+</td><td>500+ BMs + 2,000 drones total. WHO: 13 health facilities. CENTCOM: 3,000+</td></tr>
+
+<tr><td class="b">7</td><td class="b">6 Mar</td><td>7</td><td class="n r">~180</td><td class="n r">0</td><td class="n r b">1</td><td class="n r">31 (Beirut)</td><td class="n">~15</td><td class="n">~100</td><td class="n">150+</td><td>Trump: “surrender.” UK RAF Cyprus hit. Maj. Davius dies (medical). Beirut strike: 31 killed</td></tr>
+
+<tr><td class="b">8</td><td class="b">7 Mar</td><td>12</td><td class="n r">~150</td><td class="n r">0</td><td class="n">0</td><td class="n r">2+</td><td class="n">~12</td><td class="n">~100</td><td class="n">150+</td><td>Russia intel support confirmed. Hormuz: zero traffic. Pezeshkian: conditional Gulf halt</td></tr>
+
+<tr><td class="b">9</td><td class="b">8 Mar</td><td>9</td><td class="n r">~120</td><td class="n r">0</td><td class="n">0</td><td class="n r">1+</td><td class="n">~10</td><td class="n">~80</td><td class="n">150+</td><td>Oil $110+. Pennington dies (7th). Pentagon: $5.6B munitions</td></tr>
+
+<tr><td class="b">10</td><td class="b">9 Mar</td><td>~10</td><td class="n r">~100</td><td class="n r b">1</td><td class="n">0</td><td class="n r">1 (BH)</td><td class="n">~10</td><td class="n">~80</td><td class="n">150+</td><td>Mojtaba Khamenei: Supreme Leader. Qatar: 17 BMs + 6 drones (intercepted). CENTCOM: 5,000+</td></tr>
+
+<tr><td class="b">11</td><td class="b">10 Mar</td><td>~10</td><td class="n r">~100</td><td class="n r">0</td><td class="n">0</td><td class="n r">2+</td><td class="n">~8</td><td class="n">~70</td><td class="n">150+</td><td>CENTCOM: 5,500+. All Soleimani ships sunk. Dubai Creek drone. Kuwait airport. Oil: $87.80</td></tr>
+
+<tr><td class="b">12</td><td class="b">11 Mar</td><td>~10</td><td class="n r">~100</td><td class="n r b">1</td><td class="n">0</td><td class="n r">10+ (Leb)</td><td class="n">~10</td><td class="n">~60</td><td class="n">150+</td><td>Iran+Hez mega-barrage: 200 rockets + 20 drones + BMs. HRANA: 1,276 civ. 19 ships damaged. Hormuz: closed (IRGC)</td></tr>
+
+<tr><td class="b">13</td><td class="b">12 Mar</td><td>~8</td><td class="n r">~80</td><td class="n r">0</td><td class="n r b">6</td><td class="n r">1 (FR)</td><td class="n">~8</td><td class="n">~50</td><td class="n">150+</td><td>KC-135 crash Iraq: 6 crew killed. French soldier killed Erbil. CENTCOM: 6,000+. Oil: $100.46. Isfahan heritage damage</td></tr>
+
+<tr><td class="b">14</td><td class="b">13 Mar</td><td>~8+</td><td class="n r">~60–80</td><td class="n r b">1+</td><td class="n">0</td><td class="n r">2+</td><td class="n">~6</td><td class="n">~40</td><td class="n">100+</td><td>IAF wave on Tehran (evacuate warning). Saudi: 24+ drones intercepted. Pezeshkian: reparations. NATO intercepts BM in Turkey. IRGC+Hez joint op. 3.2M displaced</td></tr>
+
+<tr style="background:rgba(245,158,11,.06)"><td class="b">15</td><td class="b">14 Mar</td><td>~10+</td><td class="n r">~90</td><td class="n r">0</td><td class="n">0</td><td class="n r">4+ (Gulf)</td><td class="n b">~35</td><td class="n b">~70</td><td class="n b">200+</td><td class="b">Kharg Island: 90+ military targets (CENTCOM). Trump: warship coalition for Hormuz. UAE: 9 BMs + 33 drones (Fujairah fire). Saudi: 6 BMs intercepted. Qatar: 4 BMs. Kuwait airport + Al-Jaber AB radar. Iran BM pivot to Gulf. Oil: $103.14. Hengaw: 4,400+ mil. killed</td></tr>
+
+<tr style="background:rgba(245,158,11,.06)"><td class="b">16</td><td class="b">15 Mar</td><td>~8+</td><td class="n r">~70</td><td class="n r">0</td><td class="n">0</td><td class="n r">1+</td><td class="n b">~20</td><td class="n b">~30</td><td class="n b">150+</td><td class="b">Heavy airstrikes: Isfahan, Shiraz (20 blasts), S. Tehran, Dezful AB, Khomein, Hamedan. Jask port damage. 7 BM salvos at Israel. 3 wounded Eilat (child). KC-135 crew named. Gharibabadi condemns cultural sites. As of 11:00 EST</td></tr>
+
+</tbody></table></div></div>
+<div class="cg">
+<div class="cc"><h3>Daily Waves vs. Iran Munitions</h3><div class="ch"><canvas id="c_p3a"></canvas></div></div>
+<div class="cc"><h3>Cumulative Iran Casualties</h3><div class="ch"><canvas id="c_p3b"></canvas></div></div>
+</div>
+<div class="cf"><h3>Iranian BM Launch Pattern — Gulf Pivot Visible Day 15</h3><div class="ch"><canvas id="c_deg"></canvas></div></div>
+</div>
+
+<!-- ===== US CASUALTIES ===== -->
+<div class="tab" id="t-us">
+<div class="st">United States Military Casualties <span class="bdg bdg-r">14 DEATHS</span></div>
+<div class="nb"><strong>Sources:</strong> Pentagon, CENTCOM, NPR, CBS, Military Times, Air & Space Forces, Time, Washington Post. As of 15 March 2026. NPR reports 13 (excludes medical emergency). Pentagon: ~140 wounded, 108 returned to duty.</div>
+<div class="kpi kpi4">
+<div class="k kr"><div class="kl">Total US Deaths</div><div class="kv r">14</div><div class="ks">8 combat-related | 6 KC-135 crash<br>NPR count: 13 (excl. medical)</div></div>
+<div class="k kr"><div class="kl">Wounded</div><div class="kv am">~140</div><div class="ks">108 returned to duty<br>Majority: Kuwait + Saudi attacks</div></div>
+<div class="k kb"><div class="kl">Aircraft Lost</div><div class="kv bl">4</div><div class="ks">3 F-15E (friendly fire — safe)<br>1 KC-135 (crash — 6 killed)</div></div>
+<div class="k ka"><div class="kl">US Cost (16 days)</div><div class="kv am">$16–28B+</div><div class="ks">$16.5B through 12d (NPR)<br>Pentagon supplemental: $50B</div></div>
+</div>
+<div class="st">Service Members Killed</div>
+<div class="tw"><table>
+<thead><tr><th>#</th><th>Name</th><th>Rank</th><th>Age</th><th>Hometown</th><th>Unit</th><th>Date</th><th>Location</th><th>Cause</th></tr></thead>
+<tbody>
+
+<tr><td class="b">1</td><td class="b">Cody A. Khork</td><td>Captain</td><td>35</td><td>Winter Haven, FL</td><td>103rd Sustainment Cmd (Reserve)</td><td class="r">1 Mar</td><td>Shuaiba Port, Kuwait</td><td>Iranian drone strike</td></tr>
+
+<tr><td class="b">2</td><td class="b">Noah L. Tietjens</td><td>SFC</td><td>42</td><td>Bellevue, NE</td><td>103rd Sustainment Cmd</td><td class="r">1 Mar</td><td>Shuaiba Port, Kuwait</td><td>Iranian drone strike</td></tr>
+
+<tr><td class="b">3</td><td class="b">Nicole M. Amor</td><td>SFC</td><td>39</td><td>White Bear Lake, MN</td><td>103rd Sustainment Cmd</td><td class="r">1 Mar</td><td>Shuaiba Port, Kuwait</td><td>Iranian drone strike</td></tr>
+
+<tr><td class="b">4</td><td class="b">Declan J. Coady</td><td>Sergeant</td><td>20</td><td>West Des Moines, IA</td><td>103rd Sustainment Cmd</td><td class="r">1 Mar</td><td>Shuaiba Port, Kuwait</td><td>Iranian drone strike</td></tr>
+
+<tr><td class="b">5</td><td class="b">Jeffrey R. O'Brien</td><td>Major</td><td>45</td><td>Indianola, IA</td><td>103rd Sustainment Cmd</td><td class="r">1 Mar</td><td>Shuaiba Port, Kuwait</td><td>Iranian drone strike</td></tr>
+
+<tr><td class="b">6</td><td class="b">Robert Marzan</td><td>CW3</td><td>54</td><td>Sacramento, CA</td><td>103rd Sustainment Cmd</td><td class="r">1 Mar</td><td>Shuaiba Port, Kuwait</td><td>Iranian drone strike</td></tr>
+
+<tr><td class="b">7</td><td class="b">Benjamin Pennington</td><td>Sergeant</td><td>26</td><td>Glendale, KY</td><td>US Army</td><td class="r">8 Mar</td><td>Prince Sultan AB, Saudi</td><td>Injured 1 Mar; died of wounds</td></tr>
+
+<tr><td class="b">8</td><td class="b">Sorffly Davius</td><td>Major</td><td>46</td><td>Queens, NY</td><td>US Army</td><td class="r">6 Mar</td><td>Camp Buehring, Kuwait</td><td>Medical emergency in theater</td></tr>
+
+<tr><td class="b">9</td><td class="b">John A. Klinner</td><td>Major</td><td>33</td><td>Auburn, AL</td><td>MacDill AFB, USAF</td><td class="r">12 Mar</td><td>Western Iraq</td><td>KC-135 crash; not hostile</td></tr>
+
+<tr><td class="b">10</td><td class="b">Ariana G. Savino</td><td>Captain</td><td>31</td><td>Covington, WA</td><td>MacDill AFB, USAF</td><td class="r">12 Mar</td><td>Western Iraq</td><td>KC-135 crash; not hostile</td></tr>
+
+<tr><td class="b">11</td><td class="b">Ashley B. Pruitt</td><td>Tech. Sgt.</td><td>34</td><td>Bardstown, KY</td><td>MacDill AFB, USAF</td><td class="r">12 Mar</td><td>Western Iraq</td><td>KC-135 crash; not hostile</td></tr>
+
+<tr><td class="b">12</td><td class="b">Seth R. Koval</td><td>Captain</td><td>38</td><td>Mooresville, IN</td><td>Rickenbacker ANGB, OH</td><td class="r">12 Mar</td><td>Western Iraq</td><td>KC-135 crash; not hostile</td></tr>
+
+<tr><td class="b">13</td><td class="b">Curtis J. Angst</td><td>Captain</td><td>30</td><td>Wilmington, OH</td><td>Rickenbacker ANGB, OH</td><td class="r">12 Mar</td><td>Western Iraq</td><td>KC-135 crash; not hostile</td></tr>
+
+<tr><td class="b">14</td><td class="b">Tyler H. Simmons</td><td>Tech. Sgt.</td><td>28</td><td>Columbus, OH</td><td>Rickenbacker ANGB, OH</td><td class="r">12 Mar</td><td>Western Iraq</td><td>KC-135 crash; not hostile</td></tr>
+
+</tbody></table></div>
+<div class="st" style="margin-top:16px">Aircraft Losses</div>
+<div class="tw"><table><thead><tr><th>Date</th><th>Aircraft</th><th>Location</th><th>Cause</th><th>Crew</th><th>Notes</th></tr></thead><tbody>
+
+<tr><td class="b">2 Mar</td><td>3× F-15E Strike Eagle</td><td>Kuwait</td><td>Friendly fire — Kuwaiti F/A-18</td><td class="gr">All 6 ejected safely</td><td>Investigation ongoing</td></tr>
+
+<tr><td class="b">12 Mar</td><td>1× KC-135 Stratotanker</td><td>Western Iraq</td><td>Crash — not hostile (under investigation)</td><td class="r">6 killed</td><td>Names released 15 Mar</td></tr>
+
+</tbody></table></div>
+<div class="cf" style="margin-top:16px"><h3>Cumulative US Cost ($B)</h3><div class="ch"><canvas id="c_us"></canvas></div></div>
+</div>
+
+<!-- ===== COSTS ===== -->
+<div class="tab" id="t-co">
+<div class="st">Economic & Cost Analysis <span class="bdg bdg-r">CRITICAL</span></div>
+<div class="nb"><strong>Sources:</strong> CSIS ($3.7B/100h), NPR ($16.5B/12d), WaPo ($5.6B munitions), Fortune ($1B/day), Penn Wharton ($40-95B), Pentagon ($50B supplemental), Bloomberg, IEA (400M bbl reserve release), CNBC, Kpler. Updated 15 Mar 2026.</div>
+<div class="kpi kpi5">
+<div class="k ka"><div class="kl">US Cost (16d)</div><div class="kv am">$16–28B</div><div class="ks">$16.5B thru 12d (NPR)<br>Pentagon supplemental: $50B</div></div>
+<div class="k ka"><div class="kl">Israel Defense</div><div class="kv am">$5–10B</div><div class="ks">Interceptors + IAF + mobilization</div></div>
+<div class="k kr"><div class="kl">Iran Damage</div><div class="kv r">$35–90B+</div><div class="ks">7,600+ targets | Nuclear + energy<br>Kharg mil. facilities destroyed</div></div>
+<div class="k ka"><div class="kl">Oil (Brent)</div><div class="kv am">$71→$103+</div><div class="ks">Peak $112 (Mar 8) | Hormuz closed<br>Fujairah fire | Kharg strike</div></div>
+<div class="k kr"><div class="kl">Iran GDP (ann.)</div><div class="kv r">-8% to -20%</div><div class="ks">Rial collapse | 77+ health fac. hit<br>18,551+ injured (Health Min.)</div></div>
+</div>
+<div class="cg">
+<div class="cc"><h3>Cost Distribution ($B, midpoint)</h3><div class="ch"><canvas id="c_cpie"></canvas></div></div>
+<div class="cc"><h3>Brent Crude — Feb 26 to Mar 15</h3><div class="ch"><canvas id="c_oil"></canvas></div></div>
+</div>
+<div class="st">Cost Breakdown</div>
+<div class="tw"><table><thead><tr><th>Category</th><th>Actor</th><th class="n">Low</th><th class="n">High</th><th>Conf.</th><th>Drivers</th></tr></thead><tbody>
+
+<tr><td class="b">Military Ops</td><td>United States</td><td class="n am">$16B</td><td class="n am">$28B</td><td>Med</td><td>$16.5B/12d (NPR); Tomahawks, B-2s, carriers, 6,500+ targets</td></tr>
+
+<tr><td class="b">Military Ops</td><td>Israel</td><td class="n am">$5B</td><td class="n am">$10B</td><td>Med</td><td>IAF 200+ jets, interceptors, Lebanon front, 1,100+ strikes Leb</td></tr>
+
+<tr><td class="b">Military Ops</td><td>Iran</td><td class="n am">$3B</td><td class="n am">$7B</td><td>Low</td><td>770+ BMs, 2,600+ drones, naval, Gulf attacks</td></tr>
+
+<tr><td class="b">Infrastructure</td><td>Iran</td><td class="n am">$20B</td><td class="n am">$60B</td><td>Low</td><td>Nuclear, oil, military, IRIB, airports, heritage, Kharg mil.</td></tr>
+
+<tr><td class="b">Infrastructure</td><td>Israel</td><td class="n am">$1B</td><td class="n am">$3B</td><td>Med</td><td>Residential, commercial</td></tr>
+
+<tr><td class="b">Infrastructure</td><td>Gulf / Lebanon</td><td class="n am">$4B</td><td class="n am">$10B</td><td>Low</td><td>Kuwait airport, Fujairah port, Dubai, Bahrain, 19 ships, Beirut, 830K displaced</td></tr>
+
+<tr><td class="b">Energy Impact</td><td>Global</td><td class="n am">$50B</td><td class="n am">$200B+</td><td>Low</td><td>Hormuz closed, ~20% supply, $103+ Brent, Fujairah fire</td></tr>
+
+<tr><td class="b">Interceptors</td><td>Israel (all)</td><td class="n am">$4B</td><td class="n am">$8B</td><td>Med</td><td>Arrow ($2-3M), THAAD ($13M), Iron Dome, SM-3</td></tr>
+
+<tr><td class="b">Supplemental</td><td>US (requested)</td><td class="n am" colspan="2">$50B</td><td>High</td><td>Replenishment: Tomahawk, Patriot, THAAD</td></tr>
+
+<tr><td class="b">Reconstruction</td><td>Iran (projected)</td><td class="n am">$25B</td><td class="n am">$100B</td><td>V. Low</td><td>Depends on duration/scope</td></tr>
+
+</tbody></table></div>
+<div class="cf" style="margin-top:16px"><h3>Hormuz Tanker Transit (% Normal)</h3><div class="ch"><canvas id="c_hor"></canvas></div></div>
+</div>
+
+<!-- ===== SCENARIOS ===== -->
+<div class="tab" id="t-sc">
+<div class="st">Scenario Forecasts <span class="bdg bdg-r">FORWARD-LOOKING</span></div>
+<div class="nb"><strong>Method:</strong> Key assumptions check, driver mapping, comparative analysis (Iran-Iraq War, 2003 Iraq, 2011 Libya), game theory. Updated with 16 days of data. Probabilities are qualitative judgments. Day 15 Kharg strike + Gulf-wide Iranian attacks represent critical inflection point.</div>
+<div class="sc">
+
+
+
+
+<div class="scc" style="border-top:3px solid var(--a)"><div class="scp am">38%</div>
+<h3 style="color:var(--a)">A: Attritional Stalemate → Negotiated Ceasefire</h3>
+<div class="d">US/Israel achieve primary objectives within 3–6 weeks. Iran BM capacity already down 90% toward Israel; however, Iran pivoting remaining munitions to Gulf states (Day 15 barrage). Mojtaba Khamenei consolidates as Supreme Leader but faces pressure. Trump’s warship coalition call signals desire for Hormuz resolution. Kharg Island strike approaches oil infrastructure boundary — warning before final escalation. Pezeshkian’s conditions (recognition, reparations, guarantees) provide diplomatic framework. US faces $1B+/day cost + Hormuz disruption + 14 dead. Ceasefire possible within 4–8 weeks. Nuclear program set back 5–10 years. Oil normalizes to $85–95.</div>
+<div class="dr"><h4>Key Drivers</h4>
+<span class="dt" style="background:var(--ad);color:var(--a)">BM depletion (90%↓ vs Israel)</span><span class="dt" style="background:var(--ad);color:var(--a)">Kharg warning shot</span><span class="dt" style="background:var(--ad);color:var(--a)">US fiscal pressure ($16.5B/12d)</span><span class="dt" style="background:var(--ad);color:var(--a)">Trump warship coalition</span><span class="dt" style="background:var(--ad);color:var(--a)">Pezeshkian conditions</span></div></div>
+
+
+
+
+<div class="scc" style="border-top:3px solid var(--r)"><div class="scp r">37%</div>
+<h3 style="color:var(--r)">B: Prolonged Multi-Front Regional War</h3>
+<div class="d">Iran refuses to negotiate. Gulf-wide barrage (Day 15) signals Iran willing to expand war to all neighbors. Fujairah port fire, Kuwait airport damage, Saudi interceptions all indicate Iran’s asymmetric escalation beyond Israel. Mojtaba Khamenei’s Hormuz closure vow holds. Iran redirects remaining BMs from Israel to Gulf economic targets — oil infrastructure next. Hezbollah 1,000+ waves + joint ops continue. Russia expands intel support. 7 BM salvos at Israel Day 16 shows continued capability. Trump’s coalition call risks drawing more nations in. Oil sustains $120+. Conflict 3–6+ months. US cost: $100–250B. Global recession risk significant.</div>
+<div class="dr"><h4>Key Drivers</h4>
+<span class="dt" style="background:var(--rd);color:var(--r)">Gulf-wide Iranian barrage (D15)</span><span class="dt" style="background:var(--rd);color:var(--r)">Fujairah port fire</span><span class="dt" style="background:var(--rd);color:var(--r)">Iran BM pivot to Gulf</span><span class="dt" style="background:var(--rd);color:var(--r)">Hormuz closed + Kharg warning</span><span class="dt" style="background:var(--rd);color:var(--r)">Russian intel support</span></div></div>
+
+
+
+
+<div class="scc" style="border-top:3px solid var(--g)"><div class="scp gr">25%</div>
+<h3 style="color:var(--g)">C: Regime Fracture & Internal Collapse</h3>
+<div class="d">Combined military strikes (7,600+ targets), Ayatollah Khamenei’s death, Kharg military infrastructure destroyed, economic collapse, Dec 2025 protests, wartime disruption (3.2M displaced, 77+ health facilities) destabilize regime. Mojtaba Khamenei — untested — fails to consolidate. IRGC splits between hardliners and pragmatists. Israeli Basij drone strikes erode internal security. Provincial unrest resurges (Baluchistan, Kurdistan, Khuzestan). Elite defections. Iran Health Ministry figures (18,551 injured) indicate healthcare system collapse. Cascading institutional crisis within 2–4 months.</div>
+<div class="dr"><h4>Key Drivers</h4>
+<span class="dt" style="background:var(--gd);color:var(--g)">Basij strikes (regime coercion↓)</span><span class="dt" style="background:var(--gd);color:var(--g)">Mojtaba authority failure</span><span class="dt" style="background:var(--gd);color:var(--g)">18,551 injured (healthcare)</span><span class="dt" style="background:var(--gd);color:var(--g)">Kharg mil. destroyed</span><span class="dt" style="background:var(--gd);color:var(--g)">3.2M displaced</span></div></div>
+
+</div>
+<div class="cf"><h3>Probability Assessment</h3><div class="ch"><canvas id="c_sc"></canvas></div></div>
+<div class="st">Indicators to Watch</div>
+<div class="tw"><table><thead><tr><th>Indicator</th><th>Status (Day 16)</th><th>→ A (Ceasefire)</th><th>→ B (Prolonged)</th><th>→ C (Collapse)</th></tr></thead><tbody>
+
+<tr><td class="b">Iran BM rate</td><td>↓90% vs Israel; pivot to Gulf (D15: 35 BMs)</td><td class="gr">Continues ↓ both</td><td class="r">Sustained Gulf targeting</td><td class="am">Chaotic command</td></tr>
+
+<tr><td class="b">Hezbollah</td><td>1,000+ waves; 7 salvos D16</td><td class="gr">→ Symbolic</td><td class="r">Full 2006-style war</td><td class="am">Splits</td></tr>
+
+<tr><td class="b">Hormuz</td><td>Closed; Trump warship coalition</td><td class="gr">Coalition reopens 3–4 wk</td><td class="r">Closed 3+ mo; mines</td><td class="am">Partial</td></tr>
+
+<tr><td class="b">Kharg Island</td><td>90+ mil. targets destroyed; oil spared</td><td class="gr">Oil threat = leverage</td><td class="r">Oil targeted next</td><td class="am">Revenue collapse</td></tr>
+
+<tr><td class="b">Mojtaba Khamenei</td><td>Named Mar 9; vows war</td><td class="gr">Backchannel talks</td><td class="r">Hardline consolidation</td><td class="am">Authority failure</td></tr>
+
+<tr><td class="b">IRGC cohesion</td><td>Uncertain; Basij targeted</td><td class="gr">Unified new leader</td><td class="r">Unified war footing</td><td class="am">Splits + defections</td></tr>
+
+<tr><td class="b">Oil</td><td>$103.14 (Mar 14)</td><td class="gr"><$95</td><td class="r">>$120</td><td class="am">Volatile</td></tr>
+
+<tr><td class="b">US politics</td><td>14 dead; $16.5B/12d; $50B supp.</td><td class="gr">Cost backlash</td><td class="r">Rally-flag</td><td class="am">Mixed</td></tr>
+
+<tr><td class="b">Gulf states</td><td>UAE, Saudi, Qatar, Kuwait all hit D15</td><td class="gr">Pressure Iran to stop</td><td class="r">Draw GCC into conflict</td><td class="am">Neutral</td></tr>
+
+<tr><td class="b">Russia/China</td><td>Russia: intel. China: quiet</td><td class="gr">Push negotiate</td><td class="r">↑ Support</td><td class="am">Managed transition</td></tr>
+
+<tr><td class="b">Protests</td><td>Suppressed (war mode)</td><td class="gr">Short-term suppressed</td><td class="r">Suppressed</td><td class="am">Provincial resurge</td></tr>
+
+<tr><td class="b">NATO</td><td>BM in Turkish airspace</td><td class="gr">No Art. 5</td><td class="r">Art. 5 invoked</td><td class="am">Diplomatic</td></tr>
+
+</tbody></table></div>
+</div>
+
+</div>
+<div class="ftr">
+<strong>IRAN–ISRAEL–US CONFLICT TRACKER</strong> | Open Source Intelligence | 2026-03-15, 11:00 EST | Day 16<br>
+Sources: CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces<br>
+All estimates are bounded ranges reflecting source disagreement. This report is prepared impartially and does not represent the position of any government or party.
+</div>
+<script>
+function sw(id,el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('on'));document.getElementById('t-'+id).classList.add('on');el.classList.add('on')}
+Chart.defaults.color='#8b97b0';Chart.defaults.borderColor='rgba(42,54,84,.5)';Chart.defaults.font.family="'Inter',sans-serif";Chart.defaults.font.size=11;
+const d16=["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15"];
+new Chart(document.getElementById('c_ov'),{type:'bar',data:{labels:["Apr 2024\\nTrue Promise I", "Oct 2024\\nTrue Promise II", "Oct 2024\\nDays of Repentance", "Jun 2025\\nTwelve-Day War", "Feb-Mar 2026\\nPhase III (16d)"],datasets:[{label:'Iran Munitions',data:[320, 200, 0, 1550, 3400],backgroundColor:'rgba(239,68,68,.7)'},{label:'US/Israel Strikes',data:[0, 0, 120, 500, 8700],backgroundColor:'rgba(59,130,246,.7)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p1a'),{type:'bar',data:{labels:["True Promise I", "True Promise II"],datasets:[{label:'Launched',data:[320, 200],backgroundColor:'rgba(239,68,68,.6)'},{label:'Intercepted',data:[317, 180],backgroundColor:'rgba(16,185,129,.6)'},{label:'Impact',data:[3, 20],backgroundColor:'rgba(245,158,11,.6)'}]},options:{responsive:true,maintainAspectRatio:false}});
+new Chart(document.getElementById('c_p1b'),{type:'doughnut',data:{labels:['Intercepted (~95.4%)','Impact (~4.6%)'],datasets:[{data:[95.4,4.6],backgroundColor:['rgba(16,185,129,.7)','rgba(239,68,68,.7)'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom'}}}});
+new Chart(document.getElementById('c_p2a'),{type:'bar',data:{labels:["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12"],datasets:[{label:'Iran Casualties',data:[770, 213, 300, 250, 200, 150, 115, 90, 75, 200, 60, 16],backgroundColor:'rgba(239,68,68,.6)'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p2b'),{type:'bar',data:{labels:["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12"],datasets:[{label:'Killed',data:[0, 0, 9, 2, 1, 1, 0, 1, 0, 0, 3, 4],backgroundColor:'rgba(239,68,68,.8)'},{label:'Wounded',data:[75, 150, 649, 250, 150, 100, 80, 60, 50, 86, 80, 60],backgroundColor:'rgba(245,158,11,.6)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{stacked:true},y:{stacked:true,beginAtZero:true}}}});
+new Chart(document.getElementById('c_p3a'),{type:'line',data:{labels:d16,datasets:[{label:'US/Israel Waves',data:[55, 16, 10, 10, 10, 11, 7, 12, 9, 10, 10, 10, 8, 8, 10, 8],borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.1)',fill:true,tension:.3,pointRadius:4},{label:'Iran BMs',data:[200, 80, 60, 40, 30, 20, 15, 12, 10, 10, 8, 10, 8, 6, 35, 20],borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.1)',fill:true,tension:.3,pointRadius:4},{label:'Iran Drones',data:[500, 300, 250, 200, 150, 120, 100, 100, 80, 80, 70, 60, 50, 40, 70, 30],borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.1)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p3b'),{type:'line',data:{labels:d16,datasets:[{label:'Hengaw-derived (total killed)',data:[1000, 1500, 1900, 2250, 2500, 2700, 2880, 3030, 3150, 3250, 3350, 3450, 3530, 3600, 3690, 3760],borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.12)',fill:true,tension:.3,pointRadius:4},{label:'HRANA civilian killed',data:[133, 250, 380, 500, 600, 700, 800, 900, 1000, 1100, 1150, 1276, 1400, 1500, 1550, 1600],borderColor:'#f97316',backgroundColor:'rgba(249,115,22,.08)',fill:false,tension:.3,pointRadius:3,borderDash:[5,3]}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_deg'),{type:'line',data:{labels:d16,datasets:[{label:'Daily BM Launches',data:[200, 80, 60, 40, 30, 20, 15, 12, 10, 10, 8, 10, 8, 6, 35, 20],borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.2)',fill:true,tension:.4,pointRadius:5},{label:'90% Trendline (vs Israel)',data:[200, 100, 50, 30, 22, 18, 15, 13, 12, 11, 10, 10, 9, 9, 8, 8],borderColor:'rgba(139,92,246,.5)',borderDash:[8,4],fill:false,tension:.4,pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'BM capacity vs Israel ↓90% — Day 15 spike = Iran pivoting BMs to Gulf states (UAE: 9, Saudi: 6, Qatar: 4)',font:{size:10,weight:'normal'},color:'#8b97b0'}},scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_us'),{type:'line',data:{labels:d16,datasets:[{label:'Cumulative US Cost ($B)',data:[1.5, 2.5, 3.5, 4.2, 5, 5.8, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 13, 14.5, 16, 17.5],borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_cpie'),{type:'doughnut',data:{labels:["US Ops ($16\u201328B)", "Israel ($5\u201310B)", "Iran Ops ($3\u20137B)", "Iran Infra ($20\u201360B)", "Energy ($50\u2013200B+)", "Leb/Gulf ($4\u201310B)"],datasets:[{data:[22, 7.5, 5, 40, 125, 7],backgroundColor:['rgba(59,130,246,.7)','rgba(6,182,212,.7)','rgba(239,68,68,.7)','rgba(249,115,22,.7)','rgba(245,158,11,.7)','rgba(139,92,246,.7)'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{font:{size:10}}}}}});
+new Chart(document.getElementById('c_oil'),{type:'line',data:{labels:["Feb 26", "27", "28", "Mar 1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],datasets:[{label:'Brent ($/bbl)',data:[71, 72, 89, 95, 98, 102, 105, 108, 106, 109, 112, 110, 88, 94, 100, 101, 103, 105],borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:60}}}});
+new Chart(document.getElementById('c_hor'),{type:'line',data:{labels:["Feb 26", "27", "28", "Mar 1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],datasets:[{label:'% Normal',data:[100, 95, 50, 30, 15, 5, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],borderColor:'#06b6d4',backgroundColor:'rgba(6,182,212,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:0,max:110,ticks:{callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('c_sc'),{type:'bar',data:{labels:["A: Ceasefire", "B: Prolonged War", "C: Regime Collapse"],datasets:[{data:[38, 37, 25],backgroundColor:["rgba(245,158,11,.7)", "rgba(239,68,68,.7)", "rgba(16,185,129,.7)"],borderColor:["#f59e0b", "#ef4444", "#10b981"],borderWidth:2}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{min:0,max:50,ticks:{callback:v=>v+'%'}}}}});
+</script>
+</body>
+</html>

@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "last_updated": "2026-03-15",
+    "update_time": "11:00 EST",
+    "day_number": 16,
+    "conflict_start": "2026-02-28",
+    "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces"
+  },
+  "overview": {
+    "total_killed": "~7,100+",
+    "killed_breakdown": "Iran: ~6,100+ | Israel: 15+ | US: 14\nLebanon: 826+ | Gulf: 19+ | France: 1",
+    "total_wounded": "~23,000+",
+    "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
+    "iran_missiles_drones": "~7,200+",
+    "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
+    "us_israel_strikes": "~8,700+",
+    "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
+    "total_war_cost": "$75\u2013170B+",
+    "cost_breakdown": "US direct: $16\u201320B | Israel: $5\u201310B\nIran damage: $30\u201360B | Energy: $25\u201380B+",
+    "us_military_deaths": "14",
+    "us_deaths_breakdown": "8 combat | 6 KC-135 crash (named)\n3 F-15s lost (friendly fire, safe)",
+    "analytical_note": "All figures are best estimates from Tier 1\u20133 sources. Iranian casualties carry significant source disagreement: Hengaw (4,600+ in 16d), HRANA (1,600+), Iran Health Ministry (1,444 killed / 18,551 injured), IDF (1,900+ regime members). Cost ranges reflect source divergence. Conflict ongoing. Data as of 15 March 2026, 11:00 EST. NPR (14 Mar): US spending ~$16.5B through 12 days."
+  },
+  "phases_table": [
+    {
+      "phase": "I",
+      "dates": "Apr\u2013Oct 2024",
+      "duration": "~7 mo",
+      "trigger": "Damascus consulate strike",
+      "iran_munitions": "~520",
+      "us_isr_strikes": "~120+",
+      "intercept_rate": "~95%",
+      "iran_killed": "5",
+      "israel_killed": "1 (inj)",
+      "us_killed": "0",
+      "cost": "$3\u20135B"
+    },
+    {
+      "phase": "II",
+      "dates": "13\u201324 Jun 2025",
+      "duration": "12 days",
+      "trigger": "IAEA non-compliance; nuclear strikes",
+      "iran_munitions": "~1,550",
+      "us_isr_strikes": "~500+",
+      "intercept_rate": "~86\u201390%",
+      "iran_killed": "1,190",
+      "israel_killed": "28",
+      "us_killed": "0",
+      "cost": "$12\u201325B"
+    },
+    {
+      "phase": "III",
+      "dates": "28 Feb \u2013 ongoing",
+      "duration": "16+ days",
+      "trigger": "Failed Geneva talks; Ayatollah Khamenei killed",
+      "iran_munitions": "~3,400+",
+      "us_isr_strikes": "~8,700+",
+      "intercept_rate": "~85\u201390%",
+      "iran_killed": "4,600+",
+      "israel_killed": "15+",
+      "us_killed": "14",
+      "cost": "$50\u2013110B"
+    }
+  ],
+  "phase1": {
+    "scope": "April\u2013October 2024. First direct state-on-state strikes. Sources: IISS, FDD, IDF, CENTCOM, AP, Reuters.",
+    "events": [
+      {"date": "1 Apr", "event": "Damascus consulate strike", "attacker": "Israel", "weapons": "PGMs", "munitions": "~6", "intercepted": "0", "killed": "7", "effect": "Triggered retaliation"},
+      {"date": "13 Apr", "event": "True Promise I", "attacker": "Iran", "weapons": "170 drones, 30+ cruise, 120+ BMs", "munitions": "~320", "intercepted": "~317 (99%)", "killed": "0", "effect": "Near-total intercept; deterrence failure"},
+      {"date": "19 Apr", "event": "Israeli retaliatory strike", "attacker": "Israel", "weapons": "F-35 missiles", "munitions": "3", "intercepted": "0", "killed": "0", "effect": "Capability signal; de-escalation"},
+      {"date": "1 Oct", "event": "True Promise II", "attacker": "Iran", "weapons": "~200 BMs (incl. Fattah)", "munitions": "~200", "intercepted": "~180 (90%)", "killed": "0", "effect": "Better penetration; limited damage"},
+      {"date": "26 Oct", "event": "Days of Repentance", "attacker": "Israel", "weapons": "100+ aircraft", "munitions": "\u2014", "intercepted": "\u2014", "killed": "5", "effect": "S-300 network destroyed"}
+    ]
+  },
+  "phase2": {
+    "scope": "12 days. Iran: 1,190 killed, 4,475 wounded. Israel: 28 killed, 3,491 wounded. Iran fired ~591 BMs + ~1,000 drones. US struck nuclear sites Day 10. Sources: HRANA, Statista, IDF, FDD, ACLED, FPRI.",
+    "kpis": {
+      "iran_killed": "1,190",
+      "iran_killed_detail": "436 civilian | 435 military | 319 unk.",
+      "israel_killed_wounded": "28 / 3,491",
+      "israel_detail": "Peak Day 3: 9 killed, 649 wounded",
+      "iran_missiles": "~591 + ~1,000 drones",
+      "missiles_detail": "86\u201390% interception rate",
+      "interceptor_cost": "$2.7\u20134.7B",
+      "interceptor_detail": "~25% stockpile consumed"
+    },
+    "days": [
+      {"day": 1, "date": "13 Jun", "events": "5 IAF waves, 200+ jets, 330+ munitions, 100 targets", "iran_cas": "~770", "israel_cas": "~75 inj", "iran_to_israel": "40\u201360 BMs", "israel_to_iran": "330+"},
+      {"day": 2, "date": "14 Jun", "events": "Strikes expand; ambulance hit", "iran_cas": "~213", "israel_cas": "~150 inj", "iran_to_israel": "50\u201380", "israel_to_iran": "Sorties"},
+      {"day": 3, "date": "15 Jun", "events": "Tehran strikes. Houthi BMs. Tel Aviv area impacts", "iran_cas": "~100+", "israel_cas": "9 killed, 649 wnd", "iran_to_israel": "Major", "israel_to_iran": "Waves"},
+      {"day": 4, "date": "16 Jun", "events": "Military base exchanges", "iran_cas": "~250", "israel_cas": "~250 inj", "iran_to_israel": "40\u201360", "israel_to_iran": "Ongoing"},
+      {"day": 5, "date": "17 Jun", "events": "Attrition phase", "iran_cas": "~200", "israel_cas": "~150 inj", "iran_to_israel": "30\u201350", "israel_to_iran": "Ongoing"},
+      {"day": 6, "date": "18 Jun", "events": "Tempo reduced; diplomacy begins", "iran_cas": "~150", "israel_cas": "~100 inj", "iran_to_israel": "25\u201340", "israel_to_iran": "Reduced"},
+      {"day": 7, "date": "19 Jun", "events": "Attritional exchanges", "iran_cas": "~115", "israel_cas": "~80 inj", "iran_to_israel": "20\u201335", "israel_to_iran": "Targeted"},
+      {"day": 8, "date": "20 Jun", "events": "Reduced intensity", "iran_cas": "~90", "israel_cas": "~60 inj", "iran_to_israel": "20\u201330", "israel_to_iran": "Precision"},
+      {"day": 9, "date": "21 Jun", "events": "Pre-US lull; B-2s en route", "iran_cas": "~75", "israel_cas": "~50 inj", "iran_to_israel": "15\u201325", "israel_to_iran": "Prep"},
+      {"day": 10, "date": "22 Jun", "events": "US enters: B-2s hit Natanz, Fordow, Isfahan", "iran_cas": "significant", "israel_cas": "86 wnd", "iran_to_israel": "35 BMs + drones", "israel_to_iran": "Bunker-busters", "highlight": true},
+      {"day": 11, "date": "23 Jun", "events": "Final exchanges; Iran escalates", "iran_cas": "~60", "israel_cas": "~80 inj", "iran_to_israel": "40\u201360", "israel_to_iran": "Continued"},
+      {"day": 12, "date": "24 Jun", "events": "Ceasefire 07:00. 7 missiles + 1 drone pre-deadline", "iran_cas": "16", "israel_cas": "4 killed", "iran_to_israel": "8 attacks", "israel_to_iran": "\u2014", "highlight": true}
+    ]
+  },
+  "phase3": {
+    "source_note": "Hengaw (field documentation, 24 provinces): 4,400+ military killed as of Day 15 (up from 4,300+ in 10d). Iran Health Ministry (Mar 14): 1,444 killed, 18,551 injured (civilian). HRANA (verified civilian focus): 1,600+ killed (1,276+ verified civilian, 200+ children). IDF: 1,900+ regime members eliminated. NPR (14 Mar): 1,200+ civilians killed, 10,000+ injured. Divergence reflects different methodologies and access. Hengaw includes unconfirmed military in struck facilities. HRANA verifies individual civilian names. Iran underreports military losses. IDF counts combatant targets only.",
+    "kpis": {
+      "iran_killed_hengaw": "4,600+",
+      "iran_killed_detail": "4,400+ military (Day 15) + ~400 civilian\nIran Health Min: 1,444 / 18,551 inj",
+      "israel_killed_wounded": "15+ / 3,138+",
+      "israel_detail": "Day 15: 6 BM salvos, 2 injured\nDay 16: 7 BM salvos, 3 wounded Eilat",
+      "us_killed": "14",
+      "us_detail": "6 Kuwait | 1 Saudi | 1 Kuwait med\n6 KC-135 Iraq crash (names released)",
+      "lebanon_gulf_other": "847+",
+      "other_detail": "Lebanon: 826+ (773 killed, 1,933 inj)\nGulf: 19+ | France: 1 | 3.2M displaced",
+      "iran_munitions": "3,400+",
+      "munitions_detail": "770+ BMs | ~2,600+ drones\nHezbollah: 1,000+ waves. D15: Gulf surge",
+      "us_israel_strikes": "7,600+",
+      "strikes_detail": "IDF (14 Mar): 7,600 Iran + 1,100 Leb\nD15: 90+ targets Kharg Island"
+    },
+    "basij_note": "Starting ~Mar 11, Israel deployed AI-guided drone swarms against Basij militia checkpoints in Tehran and other cities, targeting internal security forces responsible for protest suppression. The IDF confirmed targeting Basij members using a \u201cmother launcher\u201d platform deploying multiple AI-equipped drones. WSJ reported Iranian civilians transmitted Basij checkpoint locations to Israel via social media. This represents a strategic shift from military infrastructure to internal security apparatus \u2014 directly undermining regime coercive capacity and significantly strengthening Scenario C (Regime Fracture) probability. Interception rate Phase III: ~85\u201390% overall (Israel + Gulf combined); however, Iran\u2019s sheer volume produced significant leakage \u2014 at least 19 commercial ships, multiple residential buildings, and military facilities hit.",
+    "day15_note": "CENTCOM struck 90+ military targets on Kharg Island (Iran\u2019s main oil export hub, ~90% of export crude), destroying naval mine storage, missile bunkers, and military facilities. Oil infrastructure was deliberately preserved. Trump: \u201cdestroyed 100% of Iran\u2019s Military capability\u201d at Kharg, warned oil would be next. Iran retaliated with unprecedented Gulf-wide barrage: UAE (9 BMs + 33 drones \u2014 Fujairah port fire), Saudi Arabia (6 BMs intercepted al-Kharj; 26 drones downed), Qatar (4 BMs + drones intercepted), Kuwait (airport damaged, Al-Jaber AB radar hit). This represents Iran\u2019s strategic pivot from declining Israel-directed BMs to Gulf-state targeting \u2014 a significant escalation. Trump called for warship coalition (US, UK, France, Japan, S. Korea, China) to reopen Hormuz.",
+    "days": [
+      {"day": 1, "date": "28 Feb", "waves": "55", "iran_dead": "~1,000+", "isr_dead": "2", "us_dead": "0", "other": "\u2014", "iran_bms": "~200", "iran_drones": "~500", "targets": "900", "events": "Ayatollah Khamenei killed. 1,200+ bombs/24h. IAF 200+ jets. Minab school: 168 killed"},
+      {"day": 2, "date": "1 Mar", "waves": "16", "iran_dead": "~500", "isr_dead": "9", "us_dead": "1", "other": "\u2014", "iran_bms": "~80", "iran_drones": "~300", "targets": "300+", "events": "Beit Shemesh: 9 killed. Sgt. Pennington injured Saudi. Tehran oil depots"},
+      {"day": 3, "date": "2 Mar", "waves": "10", "iran_dead": "~400", "isr_dead": "1", "us_dead": "6", "other": "52 (Leb)", "iran_bms": "~60", "iran_drones": "~250", "targets": "250+", "events": "Hezbollah: 223 waves. 6 US killed Kuwait (103rd Sust Cmd). 3 F-15s friendly fire (safe). All GCC hit"},
+      {"day": 4, "date": "3 Mar", "waves": "10", "iran_dead": "~350", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~40", "iran_drones": "~200", "targets": "200+", "events": "IRIB HQ struck. Assembly of Experts destroyed. BMs \u219370%"},
+      {"day": 5, "date": "4 Mar", "waves": "10", "iran_dead": "~250", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~30", "iran_drones": "~150", "targets": "200+", "events": "BMs \u219386% (CJCS). 1,600 US+Isr strikes in 4d. Drone carrier destroyed"},
+      {"day": 6, "date": "5 Mar", "waves": "11", "iran_dead": "~200", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~20", "iran_drones": "~120", "targets": "200+", "events": "500+ BMs + 2,000 drones total. WHO: 13 health facilities. CENTCOM: 3,000+"},
+      {"day": 7, "date": "6 Mar", "waves": "7", "iran_dead": "~180", "isr_dead": "0", "us_dead": "1", "other": "31 (Beirut)", "iran_bms": "~15", "iran_drones": "~100", "targets": "150+", "events": "Trump: \u201csurrender.\u201d UK RAF Cyprus hit. Maj. Davius dies (medical). Beirut strike: 31 killed"},
+      {"day": 8, "date": "7 Mar", "waves": "12", "iran_dead": "~150", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~12", "iran_drones": "~100", "targets": "150+", "events": "Russia intel support confirmed. Hormuz: zero traffic. Pezeshkian: conditional Gulf halt"},
+      {"day": 9, "date": "8 Mar", "waves": "9", "iran_dead": "~120", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~10", "iran_drones": "~80", "targets": "150+", "events": "Oil $110+. Pennington dies (7th). Pentagon: $5.6B munitions"},
+      {"day": 10, "date": "9 Mar", "waves": "~10", "iran_dead": "~100", "isr_dead": "1", "us_dead": "0", "other": "1 (BH)", "iran_bms": "~10", "iran_drones": "~80", "targets": "150+", "events": "Mojtaba Khamenei: Supreme Leader. Qatar: 17 BMs + 6 drones (intercepted). CENTCOM: 5,000+"},
+      {"day": 11, "date": "10 Mar", "waves": "~10", "iran_dead": "~100", "isr_dead": "0", "us_dead": "0", "other": "2+", "iran_bms": "~8", "iran_drones": "~70", "targets": "150+", "events": "CENTCOM: 5,500+. All Soleimani ships sunk. Dubai Creek drone. Kuwait airport. Oil: $87.80"},
+      {"day": 12, "date": "11 Mar", "waves": "~10", "iran_dead": "~100", "isr_dead": "1", "us_dead": "0", "other": "10+ (Leb)", "iran_bms": "~10", "iran_drones": "~60", "targets": "150+", "events": "Iran+Hez mega-barrage: 200 rockets + 20 drones + BMs. HRANA: 1,276 civ. 19 ships damaged. Hormuz: closed (IRGC)"},
+      {"day": 13, "date": "12 Mar", "waves": "~8", "iran_dead": "~80", "isr_dead": "0", "us_dead": "6", "other": "1 (FR)", "iran_bms": "~8", "iran_drones": "~50", "targets": "150+", "events": "KC-135 crash Iraq: 6 crew killed. French soldier killed Erbil. CENTCOM: 6,000+. Oil: $100.46. Isfahan heritage damage"},
+      {"day": 14, "date": "13 Mar", "waves": "~8+", "iran_dead": "~60\u201380", "isr_dead": "1+", "us_dead": "0", "other": "2+", "iran_bms": "~6", "iran_drones": "~40", "targets": "100+", "events": "IAF wave on Tehran (evacuate warning). Saudi: 24+ drones intercepted. Pezeshkian: reparations. NATO intercepts BM in Turkey. IRGC+Hez joint op. 3.2M displaced"},
+      {"day": 15, "date": "14 Mar", "waves": "~10+", "iran_dead": "~90", "isr_dead": "0", "us_dead": "0", "other": "4+ (Gulf)", "iran_bms": "~35", "iran_drones": "~70", "targets": "200+", "events": "Kharg Island: 90+ military targets (CENTCOM). Trump: warship coalition for Hormuz. UAE: 9 BMs + 33 drones (Fujairah fire). Saudi: 6 BMs intercepted. Qatar: 4 BMs. Kuwait airport + Al-Jaber AB radar. Iran BM pivot to Gulf. Oil: $103.14. Hengaw: 4,400+ mil. killed", "highlight": true},
+      {"day": 16, "date": "15 Mar", "waves": "~8+", "iran_dead": "~70", "isr_dead": "0", "us_dead": "0", "other": "1+", "iran_bms": "~20", "iran_drones": "~30", "targets": "150+", "events": "Heavy airstrikes: Isfahan, Shiraz (20 blasts), S. Tehran, Dezful AB, Khomein, Hamedan. Jask port damage. 7 BM salvos at Israel. 3 wounded Eilat (child). KC-135 crew named. Gharibabadi condemns cultural sites. As of 11:00 EST", "highlight": true}
+    ]
+  },
+  "us_casualties": {
+    "sources": "Pentagon, CENTCOM, NPR, CBS, Military Times, Air & Space Forces, Time, Washington Post. As of 15 March 2026. NPR reports 13 (excludes medical emergency). Pentagon: ~140 wounded, 108 returned to duty.",
+    "kpis": {
+      "total_deaths": "14",
+      "deaths_detail": "8 combat-related | 6 KC-135 crash\nNPR count: 13 (excl. medical)",
+      "wounded": "~140",
+      "wounded_detail": "108 returned to duty\nMajority: Kuwait + Saudi attacks",
+      "aircraft_lost": "4",
+      "aircraft_detail": "3 F-15E (friendly fire \u2014 safe)\n1 KC-135 (crash \u2014 6 killed)",
+      "us_cost": "$16\u201328B+",
+      "cost_detail": "$16.5B through 12d (NPR)\nPentagon supplemental: $50B"
+    },
+    "service_members": [
+      {"num": 1, "name": "Cody A. Khork", "rank": "Captain", "age": 35, "hometown": "Winter Haven, FL", "unit": "103rd Sustainment Cmd (Reserve)", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
+      {"num": 2, "name": "Noah L. Tietjens", "rank": "SFC", "age": 42, "hometown": "Bellevue, NE", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
+      {"num": 3, "name": "Nicole M. Amor", "rank": "SFC", "age": 39, "hometown": "White Bear Lake, MN", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
+      {"num": 4, "name": "Declan J. Coady", "rank": "Sergeant", "age": 20, "hometown": "West Des Moines, IA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
+      {"num": 5, "name": "Jeffrey R. O'Brien", "rank": "Major", "age": 45, "hometown": "Indianola, IA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
+      {"num": 6, "name": "Robert Marzan", "rank": "CW3", "age": 54, "hometown": "Sacramento, CA", "unit": "103rd Sustainment Cmd", "date": "1 Mar", "location": "Shuaiba Port, Kuwait", "cause": "Iranian drone strike"},
+      {"num": 7, "name": "Benjamin Pennington", "rank": "Sergeant", "age": 26, "hometown": "Glendale, KY", "unit": "US Army", "date": "8 Mar", "location": "Prince Sultan AB, Saudi", "cause": "Injured 1 Mar; died of wounds"},
+      {"num": 8, "name": "Sorffly Davius", "rank": "Major", "age": 46, "hometown": "Queens, NY", "unit": "US Army", "date": "6 Mar", "location": "Camp Buehring, Kuwait", "cause": "Medical emergency in theater"},
+      {"num": 9, "name": "John A. Klinner", "rank": "Major", "age": 33, "hometown": "Auburn, AL", "unit": "MacDill AFB, USAF", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
+      {"num": 10, "name": "Ariana G. Savino", "rank": "Captain", "age": 31, "hometown": "Covington, WA", "unit": "MacDill AFB, USAF", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
+      {"num": 11, "name": "Ashley B. Pruitt", "rank": "Tech. Sgt.", "age": 34, "hometown": "Bardstown, KY", "unit": "MacDill AFB, USAF", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
+      {"num": 12, "name": "Seth R. Koval", "rank": "Captain", "age": 38, "hometown": "Mooresville, IN", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
+      {"num": 13, "name": "Curtis J. Angst", "rank": "Captain", "age": 30, "hometown": "Wilmington, OH", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"},
+      {"num": 14, "name": "Tyler H. Simmons", "rank": "Tech. Sgt.", "age": 28, "hometown": "Columbus, OH", "unit": "Rickenbacker ANGB, OH", "date": "12 Mar", "location": "Western Iraq", "cause": "KC-135 crash; not hostile"}
+    ],
+    "aircraft_losses": [
+      {"date": "2 Mar", "aircraft": "3\u00d7 F-15E Strike Eagle", "location": "Kuwait", "cause": "Friendly fire \u2014 Kuwaiti F/A-18", "crew": "All 6 ejected safely", "crew_status": "safe", "notes": "Investigation ongoing"},
+      {"date": "12 Mar", "aircraft": "1\u00d7 KC-135 Stratotanker", "location": "Western Iraq", "cause": "Crash \u2014 not hostile (under investigation)", "crew": "6 killed", "crew_status": "killed", "notes": "Names released 15 Mar"}
+    ]
+  },
+  "costs": {
+    "sources": "CSIS ($3.7B/100h), NPR ($16.5B/12d), WaPo ($5.6B munitions), Fortune ($1B/day), Penn Wharton ($40-95B), Pentagon ($50B supplemental), Bloomberg, IEA (400M bbl reserve release), CNBC, Kpler. Updated 15 Mar 2026.",
+    "kpis": {
+      "us_cost_16d": "$16\u201328B",
+      "us_cost_detail": "$16.5B thru 12d (NPR)\nPentagon supplemental: $50B",
+      "israel_defense": "$5\u201310B",
+      "israel_detail": "Interceptors + IAF + mobilization",
+      "iran_damage": "$35\u201390B+",
+      "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
+      "oil_brent": "$71\u2192$103+",
+      "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
+      "iran_gdp": "-8% to -20%",
+      "iran_gdp_detail": "Rial collapse | 77+ health fac. hit\n18,551+ injured (Health Min.)"
+    },
+    "breakdown": [
+      {"category": "Military Ops", "actor": "United States", "low": "$16B", "high": "$28B", "confidence": "Med", "drivers": "$16.5B/12d (NPR); Tomahawks, B-2s, carriers, 6,500+ targets"},
+      {"category": "Military Ops", "actor": "Israel", "low": "$5B", "high": "$10B", "confidence": "Med", "drivers": "IAF 200+ jets, interceptors, Lebanon front, 1,100+ strikes Leb"},
+      {"category": "Military Ops", "actor": "Iran", "low": "$3B", "high": "$7B", "confidence": "Low", "drivers": "770+ BMs, 2,600+ drones, naval, Gulf attacks"},
+      {"category": "Infrastructure", "actor": "Iran", "low": "$20B", "high": "$60B", "confidence": "Low", "drivers": "Nuclear, oil, military, IRIB, airports, heritage, Kharg mil."},
+      {"category": "Infrastructure", "actor": "Israel", "low": "$1B", "high": "$3B", "confidence": "Med", "drivers": "Residential, commercial"},
+      {"category": "Infrastructure", "actor": "Gulf / Lebanon", "low": "$4B", "high": "$10B", "confidence": "Low", "drivers": "Kuwait airport, Fujairah port, Dubai, Bahrain, 19 ships, Beirut, 830K displaced"},
+      {"category": "Energy Impact", "actor": "Global", "low": "$50B", "high": "$200B+", "confidence": "Low", "drivers": "Hormuz closed, ~20% supply, $103+ Brent, Fujairah fire"},
+      {"category": "Interceptors", "actor": "Israel (all)", "low": "$4B", "high": "$8B", "confidence": "Med", "drivers": "Arrow ($2-3M), THAAD ($13M), Iron Dome, SM-3"},
+      {"category": "Supplemental", "actor": "US (requested)", "low": "$50B", "high": "$50B", "confidence": "High", "drivers": "Replenishment: Tomahawk, Patriot, THAAD", "colspan": true},
+      {"category": "Reconstruction", "actor": "Iran (projected)", "low": "$25B", "high": "$100B", "confidence": "V. Low", "drivers": "Depends on duration/scope"}
+    ]
+  },
+  "scenarios": {
+    "method": "Key assumptions check, driver mapping, comparative analysis (Iran-Iraq War, 2003 Iraq, 2011 Libya), game theory. Updated with 16 days of data. Probabilities are qualitative judgments. Day 15 Kharg strike + Gulf-wide Iranian attacks represent critical inflection point.",
+    "options": [
+      {
+        "id": "A",
+        "title": "Attritional Stalemate \u2192 Negotiated Ceasefire",
+        "probability": 38,
+        "color": "amber",
+        "description": "US/Israel achieve primary objectives within 3\u20136 weeks. Iran BM capacity already down 90% toward Israel; however, Iran pivoting remaining munitions to Gulf states (Day 15 barrage). Mojtaba Khamenei consolidates as Supreme Leader but faces pressure. Trump\u2019s warship coalition call signals desire for Hormuz resolution. Kharg Island strike approaches oil infrastructure boundary \u2014 warning before final escalation. Pezeshkian\u2019s conditions (recognition, reparations, guarantees) provide diplomatic framework. US faces $1B+/day cost + Hormuz disruption + 14 dead. Ceasefire possible within 4\u20138 weeks. Nuclear program set back 5\u201310 years. Oil normalizes to $85\u201395.",
+        "drivers": ["BM depletion (90%\u2193 vs Israel)", "Kharg warning shot", "US fiscal pressure ($16.5B/12d)", "Trump warship coalition", "Pezeshkian conditions"]
+      },
+      {
+        "id": "B",
+        "title": "Prolonged Multi-Front Regional War",
+        "probability": 37,
+        "color": "red",
+        "description": "Iran refuses to negotiate. Gulf-wide barrage (Day 15) signals Iran willing to expand war to all neighbors. Fujairah port fire, Kuwait airport damage, Saudi interceptions all indicate Iran\u2019s asymmetric escalation beyond Israel. Mojtaba Khamenei\u2019s Hormuz closure vow holds. Iran redirects remaining BMs from Israel to Gulf economic targets \u2014 oil infrastructure next. Hezbollah 1,000+ waves + joint ops continue. Russia expands intel support. 7 BM salvos at Israel Day 16 shows continued capability. Trump\u2019s coalition call risks drawing more nations in. Oil sustains $120+. Conflict 3\u20136+ months. US cost: $100\u2013250B. Global recession risk significant.",
+        "drivers": ["Gulf-wide Iranian barrage (D15)", "Fujairah port fire", "Iran BM pivot to Gulf", "Hormuz closed + Kharg warning", "Russian intel support"]
+      },
+      {
+        "id": "C",
+        "title": "Regime Fracture & Internal Collapse",
+        "probability": 25,
+        "color": "green",
+        "description": "Combined military strikes (7,600+ targets), Ayatollah Khamenei\u2019s death, Kharg military infrastructure destroyed, economic collapse, Dec 2025 protests, wartime disruption (3.2M displaced, 77+ health facilities) destabilize regime. Mojtaba Khamenei \u2014 untested \u2014 fails to consolidate. IRGC splits between hardliners and pragmatists. Israeli Basij drone strikes erode internal security. Provincial unrest resurges (Baluchistan, Kurdistan, Khuzestan). Elite defections. Iran Health Ministry figures (18,551 injured) indicate healthcare system collapse. Cascading institutional crisis within 2\u20134 months.",
+        "drivers": ["Basij strikes (regime coercion\u2193)", "Mojtaba authority failure", "18,551 injured (healthcare)", "Kharg mil. destroyed", "3.2M displaced"]
+      }
+    ],
+    "indicators": [
+      {"indicator": "Iran BM rate", "status": "\u219390% vs Israel; pivot to Gulf (D15: 35 BMs)", "a": "Continues \u2193 both", "b": "Sustained Gulf targeting", "c": "Chaotic command"},
+      {"indicator": "Hezbollah", "status": "1,000+ waves; 7 salvos D16", "a": "\u2192 Symbolic", "b": "Full 2006-style war", "c": "Splits"},
+      {"indicator": "Hormuz", "status": "Closed; Trump warship coalition", "a": "Coalition reopens 3\u20134 wk", "b": "Closed 3+ mo; mines", "c": "Partial"},
+      {"indicator": "Kharg Island", "status": "90+ mil. targets destroyed; oil spared", "a": "Oil threat = leverage", "b": "Oil targeted next", "c": "Revenue collapse"},
+      {"indicator": "Mojtaba Khamenei", "status": "Named Mar 9; vows war", "a": "Backchannel talks", "b": "Hardline consolidation", "c": "Authority failure"},
+      {"indicator": "IRGC cohesion", "status": "Uncertain; Basij targeted", "a": "Unified new leader", "b": "Unified war footing", "c": "Splits + defections"},
+      {"indicator": "Oil", "status": "$103.14 (Mar 14)", "a": "<$95", "b": ">$120", "c": "Volatile"},
+      {"indicator": "US politics", "status": "14 dead; $16.5B/12d; $50B supp.", "a": "Cost backlash", "b": "Rally-flag", "c": "Mixed"},
+      {"indicator": "Gulf states", "status": "UAE, Saudi, Qatar, Kuwait all hit D15", "a": "Pressure Iran to stop", "b": "Draw GCC into conflict", "c": "Neutral"},
+      {"indicator": "Russia/China", "status": "Russia: intel. China: quiet", "a": "Push negotiate", "b": "\u2191 Support", "c": "Managed transition"},
+      {"indicator": "Protests", "status": "Suppressed (war mode)", "a": "Short-term suppressed", "b": "Suppressed", "c": "Provincial resurge"},
+      {"indicator": "NATO", "status": "BM in Turkish airspace", "a": "No Art. 5", "b": "Art. 5 invoked", "c": "Diplomatic"}
+    ]
+  },
+  "charts": {
+    "overview_escalation": {
+      "labels": ["Apr 2024\\nTrue Promise I", "Oct 2024\\nTrue Promise II", "Oct 2024\\nDays of Repentance", "Jun 2025\\nTwelve-Day War", "Feb-Mar 2026\\nPhase III (16d)"],
+      "iran_munitions": [320, 200, 0, 1550, 3400],
+      "us_israel_strikes": [0, 0, 120, 500, 8700]
+    },
+    "phase1_launched_intercepted": {
+      "labels": ["True Promise I", "True Promise II"],
+      "launched": [320, 200],
+      "intercepted": [317, 180],
+      "impact": [3, 20]
+    },
+    "phase1_interception_rate": {
+      "intercepted_pct": 95.4,
+      "impact_pct": 4.6
+    },
+    "phase2_iran_casualties": {
+      "labels": ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12"],
+      "data": [770, 213, 300, 250, 200, 150, 115, 90, 75, 200, 60, 16]
+    },
+    "phase2_israel_casualties": {
+      "labels": ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12"],
+      "killed": [0, 0, 9, 2, 1, 1, 0, 1, 0, 0, 3, 4],
+      "wounded": [75, 150, 649, 250, 150, 100, 80, 60, 50, 86, 80, 60]
+    },
+    "phase3_daily_timeline": {
+      "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15"],
+      "us_israel_waves": [55, 16, 10, 10, 10, 11, 7, 12, 9, 10, 10, 10, 8, 8, 10, 8],
+      "iran_bms": [200, 80, 60, 40, 30, 20, 15, 12, 10, 10, 8, 10, 8, 6, 35, 20],
+      "iran_drones": [500, 300, 250, 200, 150, 120, 100, 100, 80, 80, 70, 60, 50, 40, 70, 30]
+    },
+    "phase3_cumulative_casualties": {
+      "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15"],
+      "hengaw_total": [1000, 1500, 1900, 2250, 2500, 2700, 2880, 3030, 3150, 3250, 3350, 3450, 3530, 3600, 3690, 3760],
+      "hrana_civilian": [133, 250, 380, 500, 600, 700, 800, 900, 1000, 1100, 1150, 1276, 1400, 1500, 1550, 1600]
+    },
+    "bm_degradation": {
+      "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15"],
+      "daily_bm": [200, 80, 60, 40, 30, 20, 15, 12, 10, 10, 8, 10, 8, 6, 35, 20],
+      "trendline": [200, 100, 50, 30, 22, 18, 15, 13, 12, 11, 10, 10, 9, 9, 8, 8],
+      "title": "BM capacity vs Israel \u219390% \u2014 Day 15 spike = Iran pivoting BMs to Gulf states (UAE: 9, Saudi: 6, Qatar: 4)"
+    },
+    "us_cost_cumulative": {
+      "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15"],
+      "data": [1.5, 2.5, 3.5, 4.2, 5, 5.8, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 13, 14.5, 16, 17.5]
+    },
+    "cost_distribution": {
+      "labels": ["US Ops ($16\u201328B)", "Israel ($5\u201310B)", "Iran Ops ($3\u20137B)", "Iran Infra ($20\u201360B)", "Energy ($50\u2013200B+)", "Leb/Gulf ($4\u201310B)"],
+      "data": [22, 7.5, 5, 40, 125, 7]
+    },
+    "brent_oil": {
+      "labels": ["Feb 26", "27", "28", "Mar 1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
+      "data": [71, 72, 89, 95, 98, 102, 105, 108, 106, 109, 112, 110, 88, 94, 100, 101, 103, 105]
+    },
+    "hormuz_transit": {
+      "labels": ["Feb 26", "27", "28", "Mar 1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
+      "data": [100, 95, 50, 30, 15, 5, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    "scenario_probabilities": {
+      "labels": ["A: Ceasefire", "B: Prolonged War", "C: Regime Collapse"],
+      "data": [38, 37, 25],
+      "colors": ["rgba(245,158,11,.7)", "rgba(239,68,68,.7)", "rgba(16,185,129,.7)"],
+      "borders": ["#f59e0b", "#ef4444", "#10b981"]
+    }
+  }
+}

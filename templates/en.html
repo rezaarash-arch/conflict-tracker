@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iran–Israel–US Conflict Tracker | Strategic Intelligence Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+:root{--bg:#0a0e1a;--bg2:#111827;--card:#1a2236;--card2:#1e2a42;--bdr:#2a3654;--t1:#e8edf5;--t2:#8b97b0;--t3:#5a6882;--r:#ef4444;--rd:rgba(239,68,68,.15);--b:#3b82f6;--bd:rgba(59,130,246,.15);--a:#f59e0b;--ad:rgba(245,158,11,.15);--g:#10b981;--gd:rgba(16,185,129,.15);--p:#8b5cf6;--c:#06b6d4;--o:#f97316}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--t1);line-height:1.6}
+.hdr{background:linear-gradient(180deg,#0f1629,var(--bg));border-bottom:1px solid var(--bdr);padding:24px 36px 16px}
+.hdr-top{display:flex;justify-content:space-between;align-items:flex-start}
+.hdr h1{font-size:24px;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,#e8edf5,#8b97b0);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hdr .sub{font-size:12px;color:var(--t3);margin-top:2px}
+.cls{background:var(--rd);color:var(--r);font-size:10px;font-weight:700;letter-spacing:1.5px;padding:4px 12px;border-radius:4px;border:1px solid rgba(239,68,68,.3);text-transform:uppercase}
+.nav{display:flex;gap:5px;margin-top:14px;flex-wrap:wrap}
+.nav button{padding:5px 14px;border-radius:6px;border:1px solid var(--bdr);background:0 0;color:var(--t2);cursor:pointer;font-size:11px;font-weight:500;font-family:inherit;transition:.2s}
+.nav button:hover{background:var(--card);color:var(--t1)}
+.nav button.on{background:var(--bd);color:var(--b);border-color:rgba(59,130,246,.4)}
+.wrap{max-width:1480px;margin:0 auto;padding:20px 36px}
+.kpi{display:grid;gap:12px;margin-bottom:24px}
+.kpi5{grid-template-columns:repeat(5,1fr)}.kpi4{grid-template-columns:repeat(4,1fr)}.kpi6{grid-template-columns:repeat(6,1fr)}
+.k{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:16px 18px;position:relative;overflow:hidden}
+.k::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.k.kr::before{background:linear-gradient(135deg,#ef4444,#dc2626)}
+.k.kb::before{background:linear-gradient(135deg,#3b82f6,#2563eb)}
+.k.ka::before{background:linear-gradient(135deg,#f59e0b,#d97706)}
+.k.kp::before{background:linear-gradient(135deg,#8b5cf6,#7c3aed)}
+.k.kg::before{background:linear-gradient(135deg,#10b981,#059669)}
+.kl{font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.8px;margin-bottom:4px}
+.kv{font-size:26px;font-weight:800;letter-spacing:-1px;line-height:1.1}
+.ks{font-size:10px;color:var(--t2);margin-top:3px;line-height:1.4}
+.st{font-size:15px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.bdg{font-size:9px;font-weight:600;padding:2px 8px;border-radius:4px;text-transform:uppercase;letter-spacing:.5px}
+.bdg-r{background:var(--rd);color:var(--r)}.bdg-b{background:var(--bd);color:var(--b)}.bdg-g{background:var(--gd);color:var(--g)}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:24px}
+.cc{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:18px}
+.cc h3{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
+.ch{position:relative;height:270px}.cht{position:relative;height:340px}
+.cf{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:18px;margin-bottom:24px}
+.cf h3{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
+.tw{background:var(--card);border:1px solid var(--bdr);border-radius:10px;overflow:hidden;margin-bottom:24px}
+table{width:100%;border-collapse:collapse;font-size:11px}
+thead th{background:#141c30;padding:8px 12px;text-align:left;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;font-size:9px;border-bottom:1px solid var(--bdr);position:sticky;top:0;z-index:2}
+tbody td{padding:7px 12px;border-bottom:1px solid rgba(42,54,84,.35);color:var(--t2)}
+tbody tr:hover{background:var(--card2)}
+.n{text-align:right;font-variant-numeric:tabular-nums}.b{font-weight:600;color:var(--t1)}
+.r{color:var(--r)}.bl{color:var(--b)}.am{color:var(--a)}.gr{color:var(--g)}.pu{color:var(--p)}
+.nb{background:rgba(59,130,246,.07);border:1px solid rgba(59,130,246,.18);border-radius:8px;padding:12px 16px;margin-bottom:18px;font-size:11px;color:var(--t2);line-height:1.65}
+.nb strong{color:var(--b)}
+.nb2{background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.18);border-radius:8px;padding:12px 16px;margin-bottom:18px;font-size:11px;color:var(--t2);line-height:1.65}
+.nb2 strong{color:var(--r)}
+.sc{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px}
+.scc{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:22px;position:relative;transition:.2s}
+.scc:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,0,0,.3)}
+.scp{position:absolute;top:18px;right:18px;font-size:30px;font-weight:900;letter-spacing:-1px}
+.scc h3{font-size:15px;font-weight:700;margin-bottom:8px;padding-right:76px}
+.scc .d{font-size:11px;color:var(--t2);line-height:1.7;margin-bottom:12px}
+.scc .dr{border-top:1px solid var(--bdr);padding-top:10px}
+.scc .dr h4{font-size:9px;text-transform:uppercase;letter-spacing:.8px;color:var(--t3);margin-bottom:6px;font-weight:600}
+.dt{display:inline-block;font-size:9px;padding:3px 7px;border-radius:4px;margin:2px 3px 2px 0;font-weight:500}
+.stbl{max-height:500px;overflow-y:auto}
+.stbl::-webkit-scrollbar{width:5px}.stbl::-webkit-scrollbar-track{background:var(--card)}.stbl::-webkit-scrollbar-thumb{background:var(--bdr);border-radius:3px}
+.tab{display:none}.tab.on{display:block}
+.ph{display:inline-block;padding:2px 7px;border-radius:4px;font-size:9px;font-weight:600}
+.p1{background:rgba(59,130,246,.12);color:var(--b)}.p2{background:rgba(245,158,11,.12);color:var(--a)}.p3{background:rgba(239,68,68,.12);color:var(--r)}
+.ftr{text-align:center;padding:18px;font-size:10px;color:var(--t3);border-top:1px solid var(--bdr);margin-top:36px;line-height:1.7}
+@media(max-width:1200px){.kpi5,.kpi6{grid-template-columns:repeat(3,1fr)}.sc{grid-template-columns:1fr}.cg{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="hdr">
+<div class="hdr-top">
+<div>
+<h1>Iran–Israel–United States Conflict Tracker</h1>
+<div class="sub">Strategic Intelligence Dashboard — Comprehensive Day-by-Day Analysis | April 2024 – {{ meta.last_updated }}, {{ meta.update_time }}</div>
+</div>
+<div class="cls">Open Source Intelligence</div>
+</div>
+<div class="nav">
+<button class="on" onclick="sw('ov',this)">Executive Overview</button>
+<button onclick="sw('p1',this)">Phase I: 2024</button>
+<button onclick="sw('p2',this)">Phase II: Jun 2025</button>
+<button onclick="sw('p3',this)">Phase III: Feb–Mar 2026</button>
+<button onclick="sw('us',this)">US Casualties</button>
+<button onclick="sw('co',this)">Economic & Costs</button>
+<button onclick="sw('sc',this)">Scenarios</button>
+</div>
+</div>
+<div class="wrap">
+
+<!-- ===== OVERVIEW ===== -->
+<div class="tab on" id="t-ov">
+<div class="kpi kpi6">
+<div class="k kr"><div class="kl">Total Killed (All Phases)</div><div class="kv r">{{ d.overview.total_killed }}</div><div class="ks">{{ d.overview.killed_breakdown | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">Total Wounded</div><div class="kv am">{{ d.overview.total_wounded }}</div><div class="ks">{{ d.overview.wounded_breakdown | replace('\n','<br>') }}</div></div>
+<div class="k kb"><div class="kl">Iran Missiles/Drones (Total)</div><div class="kv bl">{{ d.overview.iran_missiles_drones }}</div><div class="ks">{{ d.overview.iran_munitions_breakdown | replace('\n','<br>') }}</div></div>
+<div class="k kb"><div class="kl">US/Israel Strikes on Iran</div><div class="kv pu">{{ d.overview.us_israel_strikes }}</div><div class="ks">{{ d.overview.strikes_breakdown | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">Est. Total War Cost</div><div class="kv am">{{ d.overview.total_war_cost }}</div><div class="ks">{{ d.overview.cost_breakdown | replace('\n','<br>') }}</div></div>
+<div class="k kp"><div class="kl">US Military Deaths</div><div class="kv pu">{{ d.overview.us_military_deaths }}</div><div class="ks">{{ d.overview.us_deaths_breakdown | replace('\n','<br>') }}</div></div>
+</div>
+<div class="nb"><strong>Analytical Note:</strong> {{ d.overview.analytical_note }}</div>
+<div class="st">Conflict Phases</div>
+<div class="tw"><table><thead><tr><th>Phase</th><th>Dates</th><th>Duration</th><th>Trigger</th><th class="n">Iran Munitions</th><th class="n">US/Isr Strikes</th><th class="n">Intercept Rate</th><th class="n">Iran Killed</th><th class="n">Israel Killed</th><th class="n">US Killed</th><th class="n">Est. Cost</th></tr></thead><tbody>
+{% for p in d.phases_table %}
+<tr><td><span class="ph p{{ loop.index }}">{{ p.phase }}</span></td><td class="b">{{ p.dates }}</td><td>{{ p.duration }}</td><td>{{ p.trigger }}</td><td class="n b">{{ p.iran_munitions }}</td><td class="n b">{{ p.us_isr_strikes }}</td><td class="n gr">{{ p.intercept_rate }}</td><td class="n r">{{ p.iran_killed }}</td><td class="n{% if p.israel_killed != '0' and p.israel_killed != '1 (inj)' %} r{% endif %}">{{ p.israel_killed }}</td><td class="n{% if p.us_killed != '0' %} r{% endif %}">{{ p.us_killed }}</td><td class="n am">{{ p.cost }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="cf"><h3>Escalation Across All Phases</h3><div class="cht"><canvas id="c_ov"></canvas></div></div>
+</div>
+
+<!-- ===== PHASE I ===== -->
+<div class="tab" id="t-p1">
+<div class="st">Phase I: 2024 Direct Exchanges <span class="bdg bdg-b">COMPLETED</span></div>
+<div class="nb"><strong>Scope:</strong> {{ d.phase1.scope }}</div>
+<div class="tw"><table><thead><tr><th>Date</th><th>Event</th><th>Attacker</th><th>Weapons</th><th class="n">Munitions</th><th class="n">Intercepted</th><th class="n">Killed</th><th>Effect</th></tr></thead><tbody>
+{% for e in d.phase1.events %}
+<tr><td class="b">{{ e.date }}</td><td>{{ e.event }}</td><td class="{% if e.attacker == 'Iran' %}r{% else %}bl{% endif %}">{{ e.attacker }}</td><td>{{ e.weapons }}</td><td class="n b">{{ e.munitions }}</td><td class="n gr">{{ e.intercepted }}</td><td class="n{% if e.killed != '0' %} r{% endif %}">{{ e.killed }}</td><td>{{ e.effect }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="cg">
+<div class="cc"><h3>Munitions Launched vs. Intercepted</h3><div class="ch"><canvas id="c_p1a"></canvas></div></div>
+<div class="cc"><h3>Interception Rate</h3><div class="ch"><canvas id="c_p1b"></canvas></div></div>
+</div>
+</div>
+
+<!-- ===== PHASE II ===== -->
+<div class="tab" id="t-p2">
+<div class="st">Phase II: Twelve-Day War — Jun 2025 <span class="bdg bdg-r">HIGH INTENSITY</span></div>
+<div class="nb"><strong>Scope:</strong> {{ d.phase2.scope }}</div>
+<div class="kpi kpi4">
+<div class="k kr"><div class="kl">Iran Killed</div><div class="kv r">{{ d.phase2.kpis.iran_killed }}</div><div class="ks">{{ d.phase2.kpis.iran_killed_detail }}</div></div>
+<div class="k kr"><div class="kl">Israel Killed / Wounded</div><div class="kv am">{{ d.phase2.kpis.israel_killed_wounded }}</div><div class="ks">{{ d.phase2.kpis.israel_detail }}</div></div>
+<div class="k kb"><div class="kl">Iran Missiles at Israel</div><div class="kv bl">{{ d.phase2.kpis.iran_missiles }}</div><div class="ks">{{ d.phase2.kpis.missiles_detail }}</div></div>
+<div class="k ka"><div class="kl">Interceptor Cost</div><div class="kv am">{{ d.phase2.kpis.interceptor_cost }}</div><div class="ks">{{ d.phase2.kpis.interceptor_detail }}</div></div>
+</div>
+<div class="tw"><div class="stbl"><table><thead><tr><th>Day</th><th>Date</th><th>Key Events</th><th class="n">Iran Cas.</th><th class="n">Israel Cas.</th><th class="n">Iran→Israel</th><th class="n">Israel→Iran</th></tr></thead><tbody>
+{% for day in d.phase2.days %}
+<tr><td class="b">{{ day.day }}</td><td>{{ day.date }}</td><td{% if day.highlight is defined and day.highlight %} class="b"{% endif %}>{{ day.events }}</td><td class="n r">{{ day.iran_cas }}</td><td class="n r{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.israel_cas }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_to_israel }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.israel_to_iran }}</td></tr>
+{% endfor %}
+</tbody></table></div></div>
+<div class="cg">
+<div class="cc"><h3>Iranian Casualties by Day</h3><div class="ch"><canvas id="c_p2a"></canvas></div></div>
+<div class="cc"><h3>Israeli Casualties by Day</h3><div class="ch"><canvas id="c_p2b"></canvas></div></div>
+</div>
+</div>
+
+<!-- ===== PHASE III ===== -->
+<div class="tab" id="t-p3">
+<div class="st">Phase III: Feb–Mar 2026 War <span class="bdg bdg-r">ACTIVE — DAY {{ meta.day_number }}</span></div>
+<div class="nb2"><strong>Source Disagreement on Iran Casualties:</strong> {{ d.phase3.source_note }}</div>
+<div class="kpi kpi6">
+<div class="k kr"><div class="kl">Iran Killed (Hengaw est.)</div><div class="kv r">{{ d.phase3.kpis.iran_killed_hengaw }}</div><div class="ks">{{ d.phase3.kpis.iran_killed_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">Israel Killed / Wounded</div><div class="kv am">{{ d.phase3.kpis.israel_killed_wounded }}</div><div class="ks">{{ d.phase3.kpis.israel_detail | replace('\n','<br>') }}</div></div>
+<div class="k kp"><div class="kl">US Military Killed</div><div class="kv pu">{{ d.phase3.kpis.us_killed }}</div><div class="ks">{{ d.phase3.kpis.us_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">Lebanon / Gulf / Other</div><div class="kv r">{{ d.phase3.kpis.lebanon_gulf_other }}</div><div class="ks">{{ d.phase3.kpis.other_detail | replace('\n','<br>') }}</div></div>
+<div class="k kb"><div class="kl">Iran Munitions</div><div class="kv bl">{{ d.phase3.kpis.iran_munitions }}</div><div class="ks">{{ d.phase3.kpis.munitions_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">US+Israel Strikes on Iran</div><div class="kv am">{{ d.phase3.kpis.us_israel_strikes }}</div><div class="ks">{{ d.phase3.kpis.strikes_detail | replace('\n','<br>') }}</div></div>
+</div>
+<div class="nb" style="background:rgba(139,92,246,.07);border-color:rgba(139,92,246,.18)"><strong style="color:var(--p)">Israeli Drone Strikes on Basij & Internal Security Forces:</strong> {{ d.phase3.basij_note }}</div>
+<div class="nb" style="background:rgba(245,158,11,.07);border-color:rgba(245,158,11,.18)"><strong style="color:var(--a)">Day {{ meta.day_number - 1 }} Developments — Kharg Island &amp; Gulf Escalation:</strong> {{ d.phase3.day15_note }}</div>
+
+<div class="st">Day-by-Day — 28 Feb to {{ d.phase3.days[-1].date }} {{ meta.last_updated[:4] }}</div>
+<div class="tw"><div class="stbl"><table>
+<thead><tr><th>Day</th><th>Date</th><th>Waves</th><th class="n">Iran Dead</th><th class="n">Isr Dead</th><th class="n">US Dead</th><th class="n">Other</th><th class="n">Iran BMs</th><th class="n">Iran Drones</th><th class="n">Targets</th><th>Key Events</th></tr></thead>
+<tbody>
+{% for day in d.phase3.days %}
+<tr{% if day.highlight is defined and day.highlight %} style="background:rgba(245,158,11,.06)"{% endif %}><td class="b">{{ day.day }}</td><td class="b">{{ day.date }}</td><td{% if day.day == 1 %} class="b"{% endif %}>{{ day.waves }}</td><td class="n r{% if day.day == 1 %} b{% endif %}">{{ day.iran_dead }}</td><td class="n r{% if day.isr_dead not in ['0', '—'] %} b{% endif %}">{{ day.isr_dead }}</td><td class="n{% if day.us_dead not in ['0', '—'] %} r b{% endif %}">{{ day.us_dead }}</td><td class="n{% if day.other not in ['—', '0'] %} r{% endif %}">{{ day.other }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_bms }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_drones }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.targets }}</td><td{% if day.highlight is defined and day.highlight %} class="b"{% endif %}>{{ day.events }}</td></tr>
+{% endfor %}
+</tbody></table></div></div>
+<div class="cg">
+<div class="cc"><h3>Daily Waves vs. Iran Munitions</h3><div class="ch"><canvas id="c_p3a"></canvas></div></div>
+<div class="cc"><h3>Cumulative Iran Casualties</h3><div class="ch"><canvas id="c_p3b"></canvas></div></div>
+</div>
+<div class="cf"><h3>Iranian BM Launch Pattern — Gulf Pivot Visible Day {{ meta.day_number - 1 }}</h3><div class="ch"><canvas id="c_deg"></canvas></div></div>
+</div>
+
+<!-- ===== US CASUALTIES ===== -->
+<div class="tab" id="t-us">
+<div class="st">United States Military Casualties <span class="bdg bdg-r">{{ d.us_casualties.kpis.total_deaths }} DEATHS</span></div>
+<div class="nb"><strong>Sources:</strong> {{ d.us_casualties.sources }}</div>
+<div class="kpi kpi4">
+<div class="k kr"><div class="kl">Total US Deaths</div><div class="kv r">{{ d.us_casualties.kpis.total_deaths }}</div><div class="ks">{{ d.us_casualties.kpis.deaths_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">Wounded</div><div class="kv am">{{ d.us_casualties.kpis.wounded }}</div><div class="ks">{{ d.us_casualties.kpis.wounded_detail | replace('\n','<br>') }}</div></div>
+<div class="k kb"><div class="kl">Aircraft Lost</div><div class="kv bl">{{ d.us_casualties.kpis.aircraft_lost }}</div><div class="ks">{{ d.us_casualties.kpis.aircraft_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">US Cost ({{ meta.day_number }} days)</div><div class="kv am">{{ d.us_casualties.kpis.us_cost }}</div><div class="ks">{{ d.us_casualties.kpis.cost_detail | replace('\n','<br>') }}</div></div>
+</div>
+<div class="st">Service Members Killed</div>
+<div class="tw"><table>
+<thead><tr><th>#</th><th>Name</th><th>Rank</th><th>Age</th><th>Hometown</th><th>Unit</th><th>Date</th><th>Location</th><th>Cause</th></tr></thead>
+<tbody>
+{% for sm in d.us_casualties.service_members %}
+<tr><td class="b">{{ sm.num }}</td><td class="b">{{ sm.name }}</td><td>{{ sm.rank }}</td><td>{{ sm.age }}</td><td>{{ sm.hometown }}</td><td>{{ sm.unit }}</td><td class="r">{{ sm.date }}</td><td>{{ sm.location }}</td><td>{{ sm.cause }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="st" style="margin-top:16px">Aircraft Losses</div>
+<div class="tw"><table><thead><tr><th>Date</th><th>Aircraft</th><th>Location</th><th>Cause</th><th>Crew</th><th>Notes</th></tr></thead><tbody>
+{% for al in d.us_casualties.aircraft_losses %}
+<tr><td class="b">{{ al.date }}</td><td>{{ al.aircraft }}</td><td>{{ al.location }}</td><td>{{ al.cause }}</td><td class="{% if al.crew_status == 'safe' %}gr{% else %}r{% endif %}">{{ al.crew }}</td><td>{{ al.notes }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="cf" style="margin-top:16px"><h3>Cumulative US Cost ($B)</h3><div class="ch"><canvas id="c_us"></canvas></div></div>
+</div>
+
+<!-- ===== COSTS ===== -->
+<div class="tab" id="t-co">
+<div class="st">Economic & Cost Analysis <span class="bdg bdg-r">CRITICAL</span></div>
+<div class="nb"><strong>Sources:</strong> {{ d.costs.sources }}</div>
+<div class="kpi kpi5">
+<div class="k ka"><div class="kl">US Cost ({{ meta.day_number }}d)</div><div class="kv am">{{ d.costs.kpis.us_cost_16d }}</div><div class="ks">{{ d.costs.kpis.us_cost_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">Israel Defense</div><div class="kv am">{{ d.costs.kpis.israel_defense }}</div><div class="ks">{{ d.costs.kpis.israel_detail }}</div></div>
+<div class="k kr"><div class="kl">Iran Damage</div><div class="kv r">{{ d.costs.kpis.iran_damage }}</div><div class="ks">{{ d.costs.kpis.iran_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">Oil (Brent)</div><div class="kv am">{{ d.costs.kpis.oil_brent }}</div><div class="ks">{{ d.costs.kpis.oil_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">Iran GDP (ann.)</div><div class="kv r">{{ d.costs.kpis.iran_gdp }}</div><div class="ks">{{ d.costs.kpis.iran_gdp_detail | replace('\n','<br>') }}</div></div>
+</div>
+<div class="cg">
+<div class="cc"><h3>Cost Distribution ($B, midpoint)</h3><div class="ch"><canvas id="c_cpie"></canvas></div></div>
+<div class="cc"><h3>Brent Crude — Feb 26 to Mar {{ meta.last_updated[-2:] }}</h3><div class="ch"><canvas id="c_oil"></canvas></div></div>
+</div>
+<div class="st">Cost Breakdown</div>
+<div class="tw"><table><thead><tr><th>Category</th><th>Actor</th><th class="n">Low</th><th class="n">High</th><th>Conf.</th><th>Drivers</th></tr></thead><tbody>
+{% for c in d.costs.breakdown %}
+<tr><td class="b">{{ c.category }}</td><td>{{ c.actor }}</td>{% if c.colspan is defined and c.colspan %}<td class="n am" colspan="2">{{ c.low }}</td>{% else %}<td class="n am">{{ c.low }}</td><td class="n am">{{ c.high }}</td>{% endif %}<td>{{ c.confidence }}</td><td>{{ c.drivers }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="cf" style="margin-top:16px"><h3>Hormuz Tanker Transit (% Normal)</h3><div class="ch"><canvas id="c_hor"></canvas></div></div>
+</div>
+
+<!-- ===== SCENARIOS ===== -->
+<div class="tab" id="t-sc">
+<div class="st">Scenario Forecasts <span class="bdg bdg-r">FORWARD-LOOKING</span></div>
+<div class="nb"><strong>Method:</strong> {{ d.scenarios.method }}</div>
+<div class="sc">
+{% for s in d.scenarios.options %}
+{% set color_var = {'amber': 'var(--a)', 'red': 'var(--r)', 'green': 'var(--g)'}[s.color] %}
+{% set color_class = {'amber': 'am', 'red': 'r', 'green': 'gr'}[s.color] %}
+{% set bg_var = {'amber': 'var(--ad)', 'red': 'var(--rd)', 'green': 'var(--gd)'}[s.color] %}
+<div class="scc" style="border-top:3px solid {{ color_var }}"><div class="scp {{ color_class }}">{{ s.probability }}%</div>
+<h3 style="color:{{ color_var }}">{{ s.id }}: {{ s.title }}</h3>
+<div class="d">{{ s.description }}</div>
+<div class="dr"><h4>Key Drivers</h4>
+{% for driver in s.drivers %}<span class="dt" style="background:{{ bg_var }};color:{{ color_var }}">{{ driver }}</span>{% endfor %}</div></div>
+{% endfor %}
+</div>
+<div class="cf"><h3>Probability Assessment</h3><div class="ch"><canvas id="c_sc"></canvas></div></div>
+<div class="st">Indicators to Watch</div>
+<div class="tw"><table><thead><tr><th>Indicator</th><th>Status (Day {{ meta.day_number }})</th><th>→ A (Ceasefire)</th><th>→ B (Prolonged)</th><th>→ C (Collapse)</th></tr></thead><tbody>
+{% for ind in d.scenarios.indicators %}
+<tr><td class="b">{{ ind.indicator }}</td><td>{{ ind.status }}</td><td class="gr">{{ ind.a }}</td><td class="r">{{ ind.b }}</td><td class="am">{{ ind.c }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+</div>
+
+</div>
+<div class="ftr">
+<strong>IRAN–ISRAEL–US CONFLICT TRACKER</strong> | Open Source Intelligence | {{ meta.last_updated }}, {{ meta.update_time }} | Day {{ meta.day_number }}<br>
+Sources: {{ meta.sources }}<br>
+All estimates are bounded ranges reflecting source disagreement. This report is prepared impartially and does not represent the position of any government or party.
+</div>
+<script>
+function sw(id,el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('on'));document.getElementById('t-'+id).classList.add('on');el.classList.add('on')}
+Chart.defaults.color='#8b97b0';Chart.defaults.borderColor='rgba(42,54,84,.5)';Chart.defaults.font.family="'Inter',sans-serif";Chart.defaults.font.size=11;
+const d16={{ d.charts.phase3_daily_timeline.labels | tojson }};
+new Chart(document.getElementById('c_ov'),{type:'bar',data:{labels:{{ d.charts.overview_escalation.labels | tojson }},datasets:[{label:'Iran Munitions',data:{{ d.charts.overview_escalation.iran_munitions | tojson }},backgroundColor:'rgba(239,68,68,.7)'},{label:'US/Israel Strikes',data:{{ d.charts.overview_escalation.us_israel_strikes | tojson }},backgroundColor:'rgba(59,130,246,.7)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p1a'),{type:'bar',data:{labels:{{ d.charts.phase1_launched_intercepted.labels | tojson }},datasets:[{label:'Launched',data:{{ d.charts.phase1_launched_intercepted.launched | tojson }},backgroundColor:'rgba(239,68,68,.6)'},{label:'Intercepted',data:{{ d.charts.phase1_launched_intercepted.intercepted | tojson }},backgroundColor:'rgba(16,185,129,.6)'},{label:'Impact',data:{{ d.charts.phase1_launched_intercepted.impact | tojson }},backgroundColor:'rgba(245,158,11,.6)'}]},options:{responsive:true,maintainAspectRatio:false}});
+new Chart(document.getElementById('c_p1b'),{type:'doughnut',data:{labels:['Intercepted (~{{ d.charts.phase1_interception_rate.intercepted_pct }}%)','Impact (~{{ d.charts.phase1_interception_rate.impact_pct }}%)'],datasets:[{data:[{{ d.charts.phase1_interception_rate.intercepted_pct }},{{ d.charts.phase1_interception_rate.impact_pct }}],backgroundColor:['rgba(16,185,129,.7)','rgba(239,68,68,.7)'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom'}}}});
+new Chart(document.getElementById('c_p2a'),{type:'bar',data:{labels:{{ d.charts.phase2_iran_casualties.labels | tojson }},datasets:[{label:'Iran Casualties',data:{{ d.charts.phase2_iran_casualties.data | tojson }},backgroundColor:'rgba(239,68,68,.6)'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p2b'),{type:'bar',data:{labels:{{ d.charts.phase2_israel_casualties.labels | tojson }},datasets:[{label:'Killed',data:{{ d.charts.phase2_israel_casualties.killed | tojson }},backgroundColor:'rgba(239,68,68,.8)'},{label:'Wounded',data:{{ d.charts.phase2_israel_casualties.wounded | tojson }},backgroundColor:'rgba(245,158,11,.6)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{stacked:true},y:{stacked:true,beginAtZero:true}}}});
+new Chart(document.getElementById('c_p3a'),{type:'line',data:{labels:d16,datasets:[{label:'US/Israel Waves',data:{{ d.charts.phase3_daily_timeline.us_israel_waves | tojson }},borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.1)',fill:true,tension:.3,pointRadius:4},{label:'Iran BMs',data:{{ d.charts.phase3_daily_timeline.iran_bms | tojson }},borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.1)',fill:true,tension:.3,pointRadius:4},{label:'Iran Drones',data:{{ d.charts.phase3_daily_timeline.iran_drones | tojson }},borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.1)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p3b'),{type:'line',data:{labels:d16,datasets:[{label:'Hengaw-derived (total killed)',data:{{ d.charts.phase3_cumulative_casualties.hengaw_total | tojson }},borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.12)',fill:true,tension:.3,pointRadius:4},{label:'HRANA civilian killed',data:{{ d.charts.phase3_cumulative_casualties.hrana_civilian | tojson }},borderColor:'#f97316',backgroundColor:'rgba(249,115,22,.08)',fill:false,tension:.3,pointRadius:3,borderDash:[5,3]}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_deg'),{type:'line',data:{labels:d16,datasets:[{label:'Daily BM Launches',data:{{ d.charts.bm_degradation.daily_bm | tojson }},borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.2)',fill:true,tension:.4,pointRadius:5},{label:'90% Trendline (vs Israel)',data:{{ d.charts.bm_degradation.trendline | tojson }},borderColor:'rgba(139,92,246,.5)',borderDash:[8,4],fill:false,tension:.4,pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'{{ d.charts.bm_degradation.title }}',font:{size:10,weight:'normal'},color:'#8b97b0'}},scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_us'),{type:'line',data:{labels:d16,datasets:[{label:'Cumulative US Cost ($B)',data:{{ d.charts.us_cost_cumulative.data | tojson }},borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_cpie'),{type:'doughnut',data:{labels:{{ d.charts.cost_distribution.labels | tojson }},datasets:[{data:{{ d.charts.cost_distribution.data | tojson }},backgroundColor:['rgba(59,130,246,.7)','rgba(6,182,212,.7)','rgba(239,68,68,.7)','rgba(249,115,22,.7)','rgba(245,158,11,.7)','rgba(139,92,246,.7)'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{font:{size:10}}}}}});
+new Chart(document.getElementById('c_oil'),{type:'line',data:{labels:{{ d.charts.brent_oil.labels | tojson }},datasets:[{label:'Brent ($/bbl)',data:{{ d.charts.brent_oil.data | tojson }},borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:60}}}});
+new Chart(document.getElementById('c_hor'),{type:'line',data:{labels:{{ d.charts.hormuz_transit.labels | tojson }},datasets:[{label:'% Normal',data:{{ d.charts.hormuz_transit.data | tojson }},borderColor:'#06b6d4',backgroundColor:'rgba(6,182,212,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:0,max:110,ticks:{callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('c_sc'),{type:'bar',data:{labels:{{ d.charts.scenario_probabilities.labels | tojson }},datasets:[{data:{{ d.charts.scenario_probabilities.data | tojson }},backgroundColor:{{ d.charts.scenario_probabilities.colors | tojson }},borderColor:{{ d.charts.scenario_probabilities.borders | tojson }},borderWidth:2}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{min:0,max:50,ticks:{callback:v=>v+'%'}}}}});
+</script>
+</body>
+</html>

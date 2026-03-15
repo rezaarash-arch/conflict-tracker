@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ردیاب درگیری ایران–اسرائیل–آمریکا | داشبورد اطلاعات استراتژیک</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+:root{--bg:#0a0e1a;--bg2:#111827;--card:#1a2236;--card2:#1e2a42;--bdr:#2a3654;--t1:#e8edf5;--t2:#8b97b0;--t3:#5a6882;--r:#ef4444;--rd:rgba(239,68,68,.15);--b:#3b82f6;--bd:rgba(59,130,246,.15);--a:#f59e0b;--ad:rgba(245,158,11,.15);--g:#10b981;--gd:rgba(16,185,129,.15);--p:#8b5cf6;--c:#06b6d4;--o:#f97316}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Vazirmatn',-apple-system,sans-serif;background:var(--bg);color:var(--t1);line-height:1.6}
+.hdr{background:linear-gradient(180deg,#0f1629,var(--bg));border-bottom:1px solid var(--bdr);padding:24px 36px 16px}
+.hdr-top{display:flex;justify-content:space-between;align-items:flex-start}
+.hdr h1{font-size:24px;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,#e8edf5,#8b97b0);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hdr .sub{font-size:12px;color:var(--t3);margin-top:2px}
+.cls{background:var(--rd);color:var(--r);font-size:10px;font-weight:700;letter-spacing:1.5px;padding:4px 12px;border-radius:4px;border:1px solid rgba(239,68,68,.3);text-transform:uppercase}
+.nav{display:flex;gap:5px;margin-top:14px;flex-wrap:wrap}
+.nav button{padding:5px 14px;border-radius:6px;border:1px solid var(--bdr);background:0 0;color:var(--t2);cursor:pointer;font-size:11px;font-weight:500;font-family:inherit;transition:.2s}
+.nav button:hover{background:var(--card);color:var(--t1)}
+.nav button.on{background:var(--bd);color:var(--b);border-color:rgba(59,130,246,.4)}
+.wrap{max-width:1480px;margin:0 auto;padding:20px 36px}
+.kpi{display:grid;gap:12px;margin-bottom:24px}
+.kpi5{grid-template-columns:repeat(5,1fr)}.kpi4{grid-template-columns:repeat(4,1fr)}.kpi6{grid-template-columns:repeat(6,1fr)}
+.k{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:16px 18px;position:relative;overflow:hidden}
+.k::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.k.kr::before{background:linear-gradient(135deg,#ef4444,#dc2626)}
+.k.kb::before{background:linear-gradient(135deg,#3b82f6,#2563eb)}
+.k.ka::before{background:linear-gradient(135deg,#f59e0b,#d97706)}
+.k.kp::before{background:linear-gradient(135deg,#8b5cf6,#7c3aed)}
+.k.kg::before{background:linear-gradient(135deg,#10b981,#059669)}
+.kl{font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.8px;margin-bottom:4px}
+.kv{font-size:26px;font-weight:800;letter-spacing:-1px;line-height:1.1}
+.ks{font-size:10px;color:var(--t2);margin-top:3px;line-height:1.4}
+.st{font-size:15px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.bdg{font-size:9px;font-weight:600;padding:2px 8px;border-radius:4px;text-transform:uppercase;letter-spacing:.5px}
+.bdg-r{background:var(--rd);color:var(--r)}.bdg-b{background:var(--bd);color:var(--b)}.bdg-g{background:var(--gd);color:var(--g)}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:24px}
+.cc{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:18px}
+.cc h3{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
+.ch{position:relative;height:270px}.cht{position:relative;height:340px}
+.cf{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:18px;margin-bottom:24px}
+.cf h3{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
+.tw{background:var(--card);border:1px solid var(--bdr);border-radius:10px;overflow:hidden;margin-bottom:24px}
+table{width:100%;border-collapse:collapse;font-size:11px}
+thead th{background:#141c30;padding:8px 12px;text-align:right;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;font-size:9px;border-bottom:1px solid var(--bdr);position:sticky;top:0;z-index:2}
+tbody td{padding:7px 12px;border-bottom:1px solid rgba(42,54,84,.35);color:var(--t2)}
+tbody tr:hover{background:var(--card2)}
+.n{text-align:left;font-variant-numeric:tabular-nums}.b{font-weight:600;color:var(--t1)}
+.r{color:var(--r)}.bl{color:var(--b)}.am{color:var(--a)}.gr{color:var(--g)}.pu{color:var(--p)}
+.nb{background:rgba(59,130,246,.07);border:1px solid rgba(59,130,246,.18);border-radius:8px;padding:12px 16px;margin-bottom:18px;font-size:11px;color:var(--t2);line-height:1.65}
+.nb strong{color:var(--b)}
+.nb2{background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.18);border-radius:8px;padding:12px 16px;margin-bottom:18px;font-size:11px;color:var(--t2);line-height:1.65}
+.nb2 strong{color:var(--r)}
+.sc{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px}
+.scc{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:22px;position:relative;transition:.2s}
+.scc:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,0,0,.3)}
+.scp{position:absolute;top:18px;left:18px;font-size:30px;font-weight:900;letter-spacing:-1px}
+.scc h3{font-size:15px;font-weight:700;margin-bottom:8px;padding-left:76px}
+.scc .d{font-size:11px;color:var(--t2);line-height:1.7;margin-bottom:12px}
+.scc .dr{border-top:1px solid var(--bdr);padding-top:10px}
+.scc .dr h4{font-size:9px;text-transform:uppercase;letter-spacing:.8px;color:var(--t3);margin-bottom:6px;font-weight:600}
+.dt{display:inline-block;font-size:9px;padding:3px 7px;border-radius:4px;margin:2px 3px 2px 0;font-weight:500}
+.stbl{max-height:500px;overflow-y:auto}
+.stbl::-webkit-scrollbar{width:5px}.stbl::-webkit-scrollbar-track{background:var(--card)}.stbl::-webkit-scrollbar-thumb{background:var(--bdr);border-radius:3px}
+.tab{display:none}.tab.on{display:block}
+.ph{display:inline-block;padding:2px 7px;border-radius:4px;font-size:9px;font-weight:600}
+.p1{background:rgba(59,130,246,.12);color:var(--b)}.p2{background:rgba(245,158,11,.12);color:var(--a)}.p3{background:rgba(239,68,68,.12);color:var(--r)}
+.ftr{text-align:center;padding:18px;font-size:10px;color:var(--t3);border-top:1px solid var(--bdr);margin-top:36px;line-height:1.7}
+@media(max-width:1200px){.kpi5,.kpi6{grid-template-columns:repeat(3,1fr)}.sc{grid-template-columns:1fr}.cg{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="hdr">
+<div class="hdr-top">
+<div>
+<h1>ردیاب درگیری ایران–اسرائیل–آمریکا</h1>
+<div class="sub">داشبورد اطلاعات استراتژیک — تحلیل جامع روز به روز | آپریل ۲۰۲۴ – {{ meta.last_updated }}, {{ meta.update_time }}</div>
+</div>
+<div class="cls">اطلاعات منبع‌باز</div>
+</div>
+<div class="nav">
+<button class="on" onclick="sw('ov',this)">خلاصه اجرایی</button>
+<button onclick="sw('p1',this)">مرحله اول: ۲۰۲۴</button>
+<button onclick="sw('p2',this)">مرحله دوم: ژوئن ۲۰۲۵</button>
+<button onclick="sw('p3',this)">مرحله سوم: فوریه–مارس ۲۰۲۶</button>
+<button onclick="sw('us',this)">تلفات نیروهای آمریکایی</button>
+<button onclick="sw('co',this)">تحلیل اقتصادی و هزینه‌ها</button>
+<button onclick="sw('sc',this)">سناریوهای آینده</button>
+</div>
+</div>
+<div class="wrap">
+
+<!-- ===== OVERVIEW ===== -->
+<div class="tab on" id="t-ov">
+<div class="kpi kpi6">
+<div class="k kr"><div class="kl">مجموع کشته‌شدگان (تمام مراحل)</div><div class="kv r">{{ d.overview.total_killed }}</div><div class="ks">ایران: ~۶٬۱۰۰+ | اسرائیل: ۱۵+ | آمریکا: ۱۴<br>لبنان: ۸۲۶+ | خلیج: ۱۹+ | فرانسه: ۱</div></div>
+<div class="k kr"><div class="kl">مجموع مجروحان</div><div class="kv am">{{ d.overview.total_wounded }}</div><div class="ks">ایران: ~۱۸٬۵۵۰+ | اسرائیل: ~۳٬۱۴۰+<br>لبنان: ۱٬۹۳۳+ | آمریکا: ۱۴۰+</div></div>
+<div class="k kb"><div class="kl">موشک/پهپاد ایران (کل)</div><div class="kv bl">{{ d.overview.iran_missiles_drones }}</div><div class="ks">بالستیک: ~۲٬۵۰۰+ | پهپاد: ~۳٬۷۰۰+<br>کروز: ۲۰۰+ | تمام مراحل</div></div>
+<div class="k kb"><div class="kl">حملات آمریکا/اسرائیل بر ایران</div><div class="kv pu">{{ d.overview.us_israel_strikes }}</div><div class="ks">ارتش اسرائیل: ۷٬۶۰۰+ ایران | ۱٬۱۰۰+ لبنان<br>سنتکام: ~۶٬۵۰۰+ هدف آمریکایی</div></div>
+<div class="k ka"><div class="kl">هزینه تخمینی کل جنگ</div><div class="kv am">{{ d.overview.total_war_cost }}</div><div class="ks">آمریکا: $۱۶–۲۰ میلیارد | اسرائیل: $۵–۱۰ میلیارد<br>خسارت ایران: $۳۰–۶۰ میلیارد | انرژی: $۲۵–۸۰ میلیارد+</div></div>
+<div class="k kp"><div class="kl">کشته‌شدگان نظامی آمریکا</div><div class="kv pu">{{ d.overview.us_military_deaths }}</div><div class="ks">۸ جنگی | ۶ سقوط KC-135 (اسامی منتشرشده)<br>۳ F-15 از دست‌رفته (آتش دوستانه، محفوظ)</div></div>
+</div>
+<div class="nb"><strong>یادداشت تحلیلی:</strong> {{ d.overview.analytical_note }}</div>
+<div class="st">مراحل درگیری</div>
+<div class="tw"><table><thead><tr><th>مرحله</th><th>تاریخ‌ها</th><th>مدت‌زمان</th><th>عامل آغاز</th><th class="n">مهمات ایران</th><th class="n">حملات آمریکا/اسرائیل</th><th class="n">نرخ رهگیری</th><th class="n">کشته‌شدگان ایران</th><th class="n">کشته‌شدگان اسرائیل</th><th class="n">کشته‌شدگان آمریکا</th><th class="n">هزینه تخمینی</th></tr></thead><tbody>
+{% for p in d.phases_table %}
+<tr><td><span class="ph p{{ loop.index }}">{{ p.phase }}</span></td><td class="b">{{ p.dates }}</td><td>{{ p.duration }}</td><td>{{ p.trigger }}</td><td class="n b">{{ p.iran_munitions }}</td><td class="n b">{{ p.us_isr_strikes }}</td><td class="n gr">{{ p.intercept_rate }}</td><td class="n r">{{ p.iran_killed }}</td><td class="n{% if p.israel_killed != '0' and p.israel_killed != '1 (inj)' %} r{% endif %}">{{ p.israel_killed }}</td><td class="n{% if p.us_killed != '0' %} r{% endif %}">{{ p.us_killed }}</td><td class="n am">{{ p.cost }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="cf"><h3>افزایش تشدید در تمام مراحل</h3><div class="cht"><canvas id="c_ov"></canvas></div></div>
+</div>
+
+<!-- ===== PHASE I ===== -->
+<div class="tab" id="t-p1">
+<div class="st">مرحله اول: مبادلات مستقیم ۲۰۲۴ <span class="bdg bdg-b">تکمیل‌شده</span></div>
+<div class="nb"><strong>دامنه:</strong> {{ d.phase1.scope }}</div>
+<div class="tw"><table><thead><tr><th>تاریخ</th><th>رویداد</th><th>طرف اقدام‌کننده</th><th>سلاح‌ها</th><th class="n">مهمات</th><th class="n">رهگیری‌شده</th><th class="n">کشته</th><th>اثر</th></tr></thead><tbody>
+{% for e in d.phase1.events %}
+<tr><td class="b">{{ e.date }}</td><td>{{ e.event }}</td><td class="{% if e.attacker == 'Iran' %}r{% else %}bl{% endif %}">{{ e.attacker }}</td><td>{{ e.weapons }}</td><td class="n b">{{ e.munitions }}</td><td class="n gr">{{ e.intercepted }}</td><td class="n{% if e.killed != '0' %} r{% endif %}">{{ e.killed }}</td><td>{{ e.effect }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="cg">
+<div class="cc"><h3>مهمات پرتاب‌شده در برابر رهگیری‌شده</h3><div class="ch"><canvas id="c_p1a"></canvas></div></div>
+<div class="cc"><h3>نرخ رهگیری</h3><div class="ch"><canvas id="c_p1b"></canvas></div></div>
+</div>
+</div>
+
+<!-- ===== PHASE II ===== -->
+<div class="tab" id="t-p2">
+<div class="st">مرحله دوم: جنگ دوازده‌روزه — ژوئن ۲۰۲۵ <span class="bdg bdg-r">شدت بالا</span></div>
+<div class="nb"><strong>دامنه:</strong> {{ d.phase2.scope }}</div>
+<div class="kpi kpi4">
+<div class="k kr"><div class="kl">کشته‌شدگان ایران</div><div class="kv r">{{ d.phase2.kpis.iran_killed }}</div><div class="ks">{{ d.phase2.kpis.iran_killed_detail }}</div></div>
+<div class="k kr"><div class="kl">کشته/مجروح اسرائیل</div><div class="kv am">{{ d.phase2.kpis.israel_killed_wounded }}</div><div class="ks">{{ d.phase2.kpis.israel_detail }}</div></div>
+<div class="k kb"><div class="kl">موشک‌های ایران به اسرائیل</div><div class="kv bl">{{ d.phase2.kpis.iran_missiles }}</div><div class="ks">{{ d.phase2.kpis.missiles_detail }}</div></div>
+<div class="k ka"><div class="kl">هزینه رهگیری</div><div class="kv am">{{ d.phase2.kpis.interceptor_cost }}</div><div class="ks">{{ d.phase2.kpis.interceptor_detail }}</div></div>
+</div>
+<div class="tw"><div class="stbl"><table><thead><tr><th>روز</th><th>تاریخ</th><th>رویدادهای کلیدی</th><th class="n">تلفات ایران</th><th class="n">تلفات اسرائیل</th><th class="n">ایران→اسرائیل</th><th class="n">اسرائیل→ایران</th></tr></thead><tbody>
+{% for day in d.phase2.days %}
+<tr><td class="b">{{ day.day }}</td><td>{{ day.date }}</td><td{% if day.highlight is defined and day.highlight %} class="b"{% endif %}>{{ day.events }}</td><td class="n r">{{ day.iran_cas }}</td><td class="n r{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.israel_cas }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_to_israel }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.israel_to_iran }}</td></tr>
+{% endfor %}
+</tbody></table></div></div>
+<div class="cg">
+<div class="cc"><h3>تلفات ایران به تفکیک روز</h3><div class="ch"><canvas id="c_p2a"></canvas></div></div>
+<div class="cc"><h3>تلفات اسرائیل به تفکیک روز</h3><div class="ch"><canvas id="c_p2b"></canvas></div></div>
+</div>
+</div>
+
+<!-- ===== PHASE III ===== -->
+<div class="tab" id="t-p3">
+<div class="st">مرحله سوم: جنگ فوریه–مارس ۲۰۲۶ <span class="bdg bdg-r">فعال — روز {{ meta.day_number }}</span></div>
+<div class="nb2"><strong>اختلاف منابع در مورد تلفات ایران:</strong> {{ d.phase3.source_note }}</div>
+<div class="kpi kpi6">
+<div class="k kr"><div class="kl">کشته‌شدگان ایران (برآورد هنگاو)</div><div class="kv r">{{ d.phase3.kpis.iran_killed_hengaw }}</div><div class="ks">{{ d.phase3.kpis.iran_killed_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">کشته/مجروح اسرائیل</div><div class="kv am">{{ d.phase3.kpis.israel_killed_wounded }}</div><div class="ks">{{ d.phase3.kpis.israel_detail | replace('\n','<br>') }}</div></div>
+<div class="k kp"><div class="kl">کشته‌شدگان نظامی آمریکا</div><div class="kv pu">{{ d.phase3.kpis.us_killed }}</div><div class="ks">{{ d.phase3.kpis.us_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">لبنان / خلیج / سایر</div><div class="kv r">{{ d.phase3.kpis.lebanon_gulf_other }}</div><div class="ks">{{ d.phase3.kpis.other_detail | replace('\n','<br>') }}</div></div>
+<div class="k kb"><div class="kl">مهمات ایران</div><div class="kv bl">{{ d.phase3.kpis.iran_munitions }}</div><div class="ks">{{ d.phase3.kpis.munitions_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">حملات آمریکا+اسرائیل بر ایران</div><div class="kv am">{{ d.phase3.kpis.us_israel_strikes }}</div><div class="ks">{{ d.phase3.kpis.strikes_detail | replace('\n','<br>') }}</div></div>
+</div>
+<div class="nb" style="background:rgba(139,92,246,.07);border-color:rgba(139,92,246,.18)"><strong style="color:var(--p)">حملات پهپادی اسرائیل به بسیج و نیروهای امنیت داخلی:</strong> {{ d.phase3.basij_note }}</div>
+<div class="nb" style="background:rgba(245,158,11,.07);border-color:rgba(245,158,11,.18)"><strong style="color:var(--a)">تحولات روز {{ meta.day_number - 1 }} — جزیره خارک و تشدید خلیج:</strong> {{ d.phase3.day15_note }}</div>
+
+<div class="st">روز به روز — ۲۸ فوریه تا {{ d.phase3.days[-1].date }} {{ meta.last_updated[:4] }}</div>
+<div class="tw"><div class="stbl"><table>
+<thead><tr><th>روز</th><th>تاریخ</th><th>موج‌ها</th><th class="n">کشته ایران</th><th class="n">کشته اسرائیل</th><th class="n">کشته آمریکا</th><th class="n">سایر</th><th class="n">موشک ایران</th><th class="n">پهپاد ایران</th><th class="n">اهداف</th><th>رویدادهای کلیدی</th></tr></thead>
+<tbody>
+{% for day in d.phase3.days %}
+<tr{% if day.highlight is defined and day.highlight %} style="background:rgba(245,158,11,.06)"{% endif %}><td class="b">{{ day.day }}</td><td class="b">{{ day.date }}</td><td{% if day.day == 1 %} class="b"{% endif %}>{{ day.waves }}</td><td class="n r{% if day.day == 1 %} b{% endif %}">{{ day.iran_dead }}</td><td class="n r{% if day.isr_dead not in ['0', '—'] %} b{% endif %}">{{ day.isr_dead }}</td><td class="n{% if day.us_dead not in ['0', '—'] %} r b{% endif %}">{{ day.us_dead }}</td><td class="n{% if day.other not in ['—', '0'] %} r{% endif %}">{{ day.other }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_bms }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.iran_drones }}</td><td class="n{% if day.highlight is defined and day.highlight %} b{% endif %}">{{ day.targets }}</td><td{% if day.highlight is defined and day.highlight %} class="b"{% endif %}>{{ day.events }}</td></tr>
+{% endfor %}
+</tbody></table></div></div>
+<div class="cg">
+<div class="cc"><h3>موج‌های روزانه در مقابل مهمات ایران</h3><div class="ch"><canvas id="c_p3a"></canvas></div></div>
+<div class="cc"><h3>تلفات تجمعی ایران</h3><div class="ch"><canvas id="c_p3b"></canvas></div></div>
+</div>
+<div class="cf"><h3>الگوی پرتاب موشک بالستیک ایران — چرخش خلیج قابل‌مشاهده روز {{ meta.day_number - 1 }}</h3><div class="ch"><canvas id="c_deg"></canvas></div></div>
+</div>
+
+<!-- ===== US CASUALTIES ===== -->
+<div class="tab" id="t-us">
+<div class="st">تلفات نظامی ایالات متحده <span class="bdg bdg-r">{{ d.us_casualties.kpis.total_deaths }} کشته</span></div>
+<div class="nb"><strong>منابع:</strong> {{ d.us_casualties.sources }}</div>
+<div class="kpi kpi4">
+<div class="k kr"><div class="kl">مجموع کشته‌شدگان آمریکا</div><div class="kv r">{{ d.us_casualties.kpis.total_deaths }}</div><div class="ks">{{ d.us_casualties.kpis.deaths_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">مجروحان</div><div class="kv am">{{ d.us_casualties.kpis.wounded }}</div><div class="ks">{{ d.us_casualties.kpis.wounded_detail | replace('\n','<br>') }}</div></div>
+<div class="k kb"><div class="kl">هواپیماهای ازدست‌رفته</div><div class="kv bl">{{ d.us_casualties.kpis.aircraft_lost }}</div><div class="ks">{{ d.us_casualties.kpis.aircraft_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">هزینه آمریکا ({{ meta.day_number }} روز)</div><div class="kv am">{{ d.us_casualties.kpis.us_cost }}</div><div class="ks">{{ d.us_casualties.kpis.cost_detail | replace('\n','<br>') }}</div></div>
+</div>
+<div class="st">نظامیان کشته‌شده</div>
+<div class="tw"><table>
+<thead><tr><th>#</th><th>نام</th><th>درجه</th><th>سن</th><th>محل سکونت</th><th>یگان</th><th>تاریخ</th><th>مکان</th><th>علت</th></tr></thead>
+<tbody>
+{% for sm in d.us_casualties.service_members %}
+<tr><td class="b">{{ sm.num }}</td><td class="b">{{ sm.name }}</td><td>{{ sm.rank }}</td><td>{{ sm.age }}</td><td>{{ sm.hometown }}</td><td>{{ sm.unit }}</td><td class="r">{{ sm.date }}</td><td>{{ sm.location }}</td><td>{{ sm.cause }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="st" style="margin-top:16px">هواپیماهای ازدست‌رفته</div>
+<div class="tw"><table><thead><tr><th>تاریخ</th><th>هواپیما</th><th>مکان</th><th>علت</th><th>خدمه</th><th>یادداشت‌ها</th></tr></thead><tbody>
+{% for al in d.us_casualties.aircraft_losses %}
+<tr><td class="b">{{ al.date }}</td><td>{{ al.aircraft }}</td><td>{{ al.location }}</td><td>{{ al.cause }}</td><td class="{% if al.crew_status == 'safe' %}gr{% else %}r{% endif %}">{{ al.crew }}</td><td>{{ al.notes }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="cf" style="margin-top:16px"><h3>هزینه تجمعی آمریکا ($B)</h3><div class="ch"><canvas id="c_us"></canvas></div></div>
+</div>
+
+<!-- ===== COSTS ===== -->
+<div class="tab" id="t-co">
+<div class="st">تحلیل اقتصادی و هزینه‌ها <span class="bdg bdg-r">بحرانی</span></div>
+<div class="nb"><strong>منابع:</strong> {{ d.costs.sources }}</div>
+<div class="kpi kpi5">
+<div class="k ka"><div class="kl">هزینه آمریکا ({{ meta.day_number }} روز)</div><div class="kv am">{{ d.costs.kpis.us_cost_16d }}</div><div class="ks">{{ d.costs.kpis.us_cost_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">دفاع اسرائیل</div><div class="kv am">{{ d.costs.kpis.israel_defense }}</div><div class="ks">{{ d.costs.kpis.israel_detail }}</div></div>
+<div class="k kr"><div class="kl">خسارت ایران</div><div class="kv r">{{ d.costs.kpis.iran_damage }}</div><div class="ks">{{ d.costs.kpis.iran_detail | replace('\n','<br>') }}</div></div>
+<div class="k ka"><div class="kl">نفت (برنت)</div><div class="kv am">{{ d.costs.kpis.oil_brent }}</div><div class="ks">{{ d.costs.kpis.oil_detail | replace('\n','<br>') }}</div></div>
+<div class="k kr"><div class="kl">تولید ناخالص داخلی ایران (سالانه)</div><div class="kv r">{{ d.costs.kpis.iran_gdp }}</div><div class="ks">{{ d.costs.kpis.iran_gdp_detail | replace('\n','<br>') }}</div></div>
+</div>
+<div class="cg">
+<div class="cc"><h3>توزیع هزینه ($B، میانگین)</h3><div class="ch"><canvas id="c_cpie"></canvas></div></div>
+<div class="cc"><h3>نفت خام برنت — ۲۶ فوریه تا ۱۵ مارس</h3><div class="ch"><canvas id="c_oil"></canvas></div></div>
+</div>
+<div class="st">جزئیات هزینه‌ها</div>
+<div class="tw"><table><thead><tr><th>دسته</th><th>بازیگر</th><th class="n">حداقل</th><th class="n">حداکثر</th><th>اطمینان</th><th>محرک‌ها</th></tr></thead><tbody>
+{% for c in d.costs.breakdown %}
+<tr><td class="b">{{ c.category }}</td><td>{{ c.actor }}</td>{% if c.colspan is defined and c.colspan %}<td class="n am" colspan="2">{{ c.low }}</td>{% else %}<td class="n am">{{ c.low }}</td><td class="n am">{{ c.high }}</td>{% endif %}<td>{{ c.confidence }}</td><td>{{ c.drivers }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<div class="cf" style="margin-top:16px"><h3>ترانزیت نفتکش هرمز (٪ نرمال)</h3><div class="ch"><canvas id="c_hor"></canvas></div></div>
+</div>
+
+<!-- ===== SCENARIOS ===== -->
+<div class="tab" id="t-sc">
+<div class="st">پیش‌بینی سناریوها <span class="bdg bdg-r">آینده‌نگرانه</span></div>
+<div class="nb"><strong>روش:</strong> {{ d.scenarios.method }}</div>
+<div class="sc">
+{% for s in d.scenarios.options %}
+{% set color_var = {'amber': 'var(--a)', 'red': 'var(--r)', 'green': 'var(--g)'}[s.color] %}
+{% set color_class = {'amber': 'am', 'red': 'r', 'green': 'gr'}[s.color] %}
+{% set bg_var = {'amber': 'var(--ad)', 'red': 'var(--rd)', 'green': 'var(--gd)'}[s.color] %}
+<div class="scc" style="border-top:3px solid {{ color_var }}"><div class="scp {{ color_class }}">{{ s.probability }}%</div>
+<h3 style="color:{{ color_var }}">{{ s.id }}: {{ s.title }}</h3>
+<div class="d">{{ s.description }}</div>
+<div class="dr"><h4>محرک‌های کلیدی</h4>
+{% for driver in s.drivers %}<span class="dt" style="background:{{ bg_var }};color:{{ color_var }}">{{ driver }}</span>{% endfor %}</div></div>
+{% endfor %}
+</div>
+<div class="cf"><h3>ارزیابی احتمال</h3><div class="ch"><canvas id="c_sc"></canvas></div></div>
+<div class="st">شاخص‌های قابل پیگیری</div>
+<div class="tw"><table><thead><tr><th>شاخص</th><th>وضعیت (روز {{ meta.day_number }})</th><th>→ الف (آتش‌بس)</th><th>→ ب (طولانی‌مدت)</th><th>→ ج (فروپاشی)</th></tr></thead><tbody>
+{% for ind in d.scenarios.indicators %}
+<tr><td class="b">{{ ind.indicator }}</td><td>{{ ind.status }}</td><td class="gr">{{ ind.a }}</td><td class="r">{{ ind.b }}</td><td class="am">{{ ind.c }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+</div>
+
+</div>
+<div class="ftr">
+<strong>ردیاب درگیری ایران–اسرائیل–آمریکا</strong> | اطلاعات منبع‌باز | {{ meta.last_updated }}, {{ meta.update_time }} | روز {{ meta.day_number }}<br>
+منابع: {{ meta.sources }}<br>
+تمام برآوردها دامنه‌ای بوده و بازتاب‌دهنده تفاوت میان منابع مختلف هستند. این گزارش بی‌طرفانه تهیه شده و موضع هیچ دولت یا طرفی را نمایندگی نمی‌کند.
+</div>
+<script>
+function sw(id,el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('on'));document.getElementById('t-'+id).classList.add('on');el.classList.add('on')}
+Chart.defaults.color='#8b97b0';Chart.defaults.borderColor='rgba(42,54,84,.5)';Chart.defaults.font.family="'Vazirmatn',sans-serif";Chart.defaults.font.size=11;
+const d16={{ d.charts.phase3_daily_timeline.labels | tojson }};
+new Chart(document.getElementById('c_ov'),{type:'bar',data:{labels:{{ d.charts.overview_escalation.labels | tojson }},datasets:[{label:'مهمات ایران',data:{{ d.charts.overview_escalation.iran_munitions | tojson }},backgroundColor:'rgba(239,68,68,.7)'},{label:'حملات آمریکا/اسرائیل',data:{{ d.charts.overview_escalation.us_israel_strikes | tojson }},backgroundColor:'rgba(59,130,246,.7)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p1a'),{type:'bar',data:{labels:{{ d.charts.phase1_launched_intercepted.labels | tojson }},datasets:[{label:'پرتاب‌شده',data:{{ d.charts.phase1_launched_intercepted.launched | tojson }},backgroundColor:'rgba(239,68,68,.6)'},{label:'رهگیری‌شده',data:{{ d.charts.phase1_launched_intercepted.intercepted | tojson }},backgroundColor:'rgba(16,185,129,.6)'},{label:'اصابت',data:{{ d.charts.phase1_launched_intercepted.impact | tojson }},backgroundColor:'rgba(245,158,11,.6)'}]},options:{responsive:true,maintainAspectRatio:false}});
+new Chart(document.getElementById('c_p1b'),{type:'doughnut',data:{labels:['رهگیری‌شده (~{{ d.charts.phase1_interception_rate.intercepted_pct }}%)','اصابت (~{{ d.charts.phase1_interception_rate.impact_pct }}%)'],datasets:[{data:[{{ d.charts.phase1_interception_rate.intercepted_pct }},{{ d.charts.phase1_interception_rate.impact_pct }}],backgroundColor:['rgba(16,185,129,.7)','rgba(239,68,68,.7)'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom'}}}});
+new Chart(document.getElementById('c_p2a'),{type:'bar',data:{labels:{{ d.charts.phase2_iran_casualties.labels | tojson }},datasets:[{label:'تلفات ایران',data:{{ d.charts.phase2_iran_casualties.data | tojson }},backgroundColor:'rgba(239,68,68,.6)'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p2b'),{type:'bar',data:{labels:{{ d.charts.phase2_israel_casualties.labels | tojson }},datasets:[{label:'کشته',data:{{ d.charts.phase2_israel_casualties.killed | tojson }},backgroundColor:'rgba(239,68,68,.8)'},{label:'مجروح',data:{{ d.charts.phase2_israel_casualties.wounded | tojson }},backgroundColor:'rgba(245,158,11,.6)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{stacked:true},y:{stacked:true,beginAtZero:true}}}});
+new Chart(document.getElementById('c_p3a'),{type:'line',data:{labels:d16,datasets:[{label:'موج آمریکا/اسرائیل',data:{{ d.charts.phase3_daily_timeline.us_israel_waves | tojson }},borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.1)',fill:true,tension:.3,pointRadius:4},{label:'موشک بالستیک ایران',data:{{ d.charts.phase3_daily_timeline.iran_bms | tojson }},borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.1)',fill:true,tension:.3,pointRadius:4},{label:'پهپاد ایران',data:{{ d.charts.phase3_daily_timeline.iran_drones | tojson }},borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.1)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_p3b'),{type:'line',data:{labels:d16,datasets:[{label:'هنگاو (مجموع کشته‌شدگان)',data:{{ d.charts.phase3_cumulative_casualties.hengaw_total | tojson }},borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.12)',fill:true,tension:.3,pointRadius:4},{label:'هرانا (کشته غیرنظامی)',data:{{ d.charts.phase3_cumulative_casualties.hrana_civilian | tojson }},borderColor:'#f97316',backgroundColor:'rgba(249,115,22,.08)',fill:false,tension:.3,pointRadius:3,borderDash:[5,3]}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_deg'),{type:'line',data:{labels:d16,datasets:[{label:'پرتاب روزانه موشک بالستیک',data:{{ d.charts.bm_degradation.daily_bm | tojson }},borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,.2)',fill:true,tension:.4,pointRadius:5},{label:'خط روند ۹۰٪ (در مقابل اسرائیل)',data:{{ d.charts.bm_degradation.trendline | tojson }},borderColor:'rgba(139,92,246,.5)',borderDash:[8,4],fill:false,tension:.4,pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{title:{display:true,text:'{{ d.charts.bm_degradation.title }}',font:{size:10,weight:'normal'},color:'#8b97b0'}},scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_us'),{type:'line',data:{labels:d16,datasets:[{label:'هزینه تجمعی آمریکا ($B)',data:{{ d.charts.us_cost_cumulative.data | tojson }},borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
+new Chart(document.getElementById('c_cpie'),{type:'doughnut',data:{labels:{{ d.charts.cost_distribution.labels | tojson }},datasets:[{data:{{ d.charts.cost_distribution.data | tojson }},backgroundColor:['rgba(59,130,246,.7)','rgba(6,182,212,.7)','rgba(239,68,68,.7)','rgba(249,115,22,.7)','rgba(245,158,11,.7)','rgba(139,92,246,.7)'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'left',labels:{font:{size:10}}}}}});
+new Chart(document.getElementById('c_oil'),{type:'line',data:{labels:{{ d.charts.brent_oil.labels | tojson }},datasets:[{label:'برنت ($/بشکه)',data:{{ d.charts.brent_oil.data | tojson }},borderColor:'#f59e0b',backgroundColor:'rgba(245,158,11,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:60}}}});
+new Chart(document.getElementById('c_hor'),{type:'line',data:{labels:{{ d.charts.hormuz_transit.labels | tojson }},datasets:[{label:'٪ نرمال',data:{{ d.charts.hormuz_transit.data | tojson }},borderColor:'#06b6d4',backgroundColor:'rgba(6,182,212,.12)',fill:true,tension:.3,pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:0,max:110,ticks:{callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('c_sc'),{type:'bar',data:{labels:{{ d.charts.scenario_probabilities.labels | tojson }},datasets:[{data:{{ d.charts.scenario_probabilities.data | tojson }},backgroundColor:{{ d.charts.scenario_probabilities.colors | tojson }},borderColor:{{ d.charts.scenario_probabilities.borders | tojson }},borderWidth:2}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{min:0,max:50,ticks:{callback:v=>v+'%'}}}}});
+</script>
+</body>
+</html>
