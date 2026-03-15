@@ -444,7 +444,7 @@ Sources: CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Criti
 All estimates are bounded ranges reflecting source disagreement. This report is prepared impartially and does not represent the position of any government or party.
 </div>
 <script>
-function sw(id,el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('on'));document.getElementById('t-'+id).classList.add('on');el.classList.add('on')}
+function sw(id,el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('on'));document.getElementById('t-'+id).classList.add('on');el.classList.add('on');setTimeout(()=>{document.getElementById('t-'+id).querySelectorAll('canvas').forEach(c=>{const ci=Chart.getChart(c);if(ci)ci.resize()})},50)}
 Chart.defaults.color='#8b97b0';Chart.defaults.borderColor='rgba(42,54,84,.5)';Chart.defaults.font.family="'Inter',sans-serif";Chart.defaults.font.size=11;
 const d16=["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15"];
 new Chart(document.getElementById('c_ov'),{type:'bar',data:{labels:["Apr 2024\\nTrue Promise I", "Oct 2024\\nTrue Promise II", "Oct 2024\\nDays of Repentance", "Jun 2025\\nTwelve-Day War", "Feb-Mar 2026\\nPhase III (16d)"],datasets:[{label:'Iran Munitions',data:[320, 200, 0, 1550, 3400],backgroundColor:'rgba(239,68,68,.7)'},{label:'US/Israel Strikes',data:[0, 0, 120, 500, 8700],backgroundColor:'rgba(59,130,246,.7)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});

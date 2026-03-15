@@ -294,7 +294,7 @@ Sources: {{ meta.sources }}<br>
 All estimates are bounded ranges reflecting source disagreement. This report is prepared impartially and does not represent the position of any government or party.
 </div>
 <script>
-function sw(id,el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('on'));document.getElementById('t-'+id).classList.add('on');el.classList.add('on')}
+function sw(id,el){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('on'));document.getElementById('t-'+id).classList.add('on');el.classList.add('on');setTimeout(()=>{document.getElementById('t-'+id).querySelectorAll('canvas').forEach(c=>{const ci=Chart.getChart(c);if(ci)ci.resize()})},50)}
 Chart.defaults.color='#8b97b0';Chart.defaults.borderColor='rgba(42,54,84,.5)';Chart.defaults.font.family="'Inter',sans-serif";Chart.defaults.font.size=11;
 const d16={{ d.charts.phase3_daily_timeline.labels | tojson }};
 new Chart(document.getElementById('c_ov'),{type:'bar',data:{labels:{{ d.charts.overview_escalation.labels | tojson }},datasets:[{label:'Iran Munitions',data:{{ d.charts.overview_escalation.iran_munitions | tojson }},backgroundColor:'rgba(239,68,68,.7)'},{label:'US/Israel Strikes',data:{{ d.charts.overview_escalation.us_israel_strikes | tojson }},backgroundColor:'rgba(59,130,246,.7)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{beginAtZero:true}}}});
