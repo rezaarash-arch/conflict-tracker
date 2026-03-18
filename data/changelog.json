@@ -48,5 +48,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-03-18",
+    "timestamp": "2026-03-18T02:58:56.792898-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation with Iranian missile and drone attacks on Israel and Gulf states; Israeli airstrikes on Beirut; U.S. airstrikes on Kharg Island; Strait of Hormuz shipping halted.",
+    "changes": [
+      "meta.last_updated: 2026-03-17 -> 2026-03-18",
+      "meta.day_number: 18 -> 19",
+      "NEW DAY 19: Iran launched missile and drone attacks on Israel and Gulf countries; Israeli ai...",
+      "overview.us_israel_strikes: ~9,500+ -> ~10,000+",
+      "costs.kpis.oil_brent: $105→$126+ -> $126→$130+",
+      "scenario A prob: 30% -> 25%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
