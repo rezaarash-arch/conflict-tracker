@@ -72,5 +72,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-03-19",
+    "timestamp": "2026-03-19T02:37:56.167238-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in the conflict with new attacks on energy infrastructure and maritime vessels, leading to increased casualties and economic impact.",
+    "changes": [
+      "meta.last_updated: 2026-03-18 -> 2026-03-19",
+      "meta.update_time: 08:00 EST -> 07:37 EST",
+      "meta.day_number: 19 -> 20",
+      "NEW DAY 20: Iran launched missile and drone attacks on Gulf energy facilities; Israel struck...",
+      "overview.us_israel_strikes: ~10,000+ -> ~11,000+",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 50% -> 60%",
+      "scenario C prob: 25% -> 20%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
