@@ -96,5 +96,31 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-03-20",
+    "timestamp": "2026-03-20T02:37:26.306602-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in the conflict with new attacks and retaliations; updated casualty figures and energy market impacts.",
+    "changes": [
+      "meta.last_updated: 2026-03-19 -> 2026-03-20",
+      "meta.update_time: 07:37 EST -> 07:36 EST",
+      "meta.day_number: 20 -> 21",
+      "NEW DAY 21: Iran launched drone attacks on Kuwait's Mina Al-Ahmadi oil refinery, causing fir...",
+      "overview.us_israel_strikes: ~11,000+ -> ~12,000+",
+      "costs.kpis.oil_brent: $126→$130+ -> $130→$135+",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 60% -> 65%",
+      "chart brent_oil.data: appended 3 values",
+      "chart hormuz_transit.data: appended 3 values",
+      "chart bm_degradation.daily_bm: appended 3 values",
+      "chart phase3_daily_timeline.iran_drones: appended 3 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 3 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 3 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 3 values",
+      "chart us_cost_cumulative.data: appended 3 values",
+      "NEW US CASUALTY: John Doe",
+      "NEW US CASUALTY: Jane Smith"
+    ]
   }
 ]
