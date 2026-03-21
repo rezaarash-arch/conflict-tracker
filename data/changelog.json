@@ -122,5 +122,29 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-03-21",
+    "timestamp": "2026-03-21T02:10:58.569122-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include U.S. airstrikes on Kharg Island, Israeli attacks on Iran's South Pars gas field, and ongoing Iranian missile strikes on Israel and the UAE. Casualty figures have been updated accordingly.",
+    "changes": [
+      "meta.last_updated: 2026-03-20 -> 2026-03-21",
+      "meta.update_time: 07:36 EST -> 07:10 EST",
+      "meta.day_number: 21 -> 22",
+      "NEW DAY 22: U.S. airstrikes targeted Kharg Island; Israel attacked Iran's South Pars gas fie...",
+      "overview.us_israel_strikes: ~12,000+ -> ~13,000+",
+      "costs.kpis.oil_brent: $130→$135+ -> $135→$140+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 65% -> 70%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
