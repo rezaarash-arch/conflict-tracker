@@ -146,5 +146,29 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-03-22",
+    "timestamp": "2026-03-22T02:28:09.858463-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in the conflict with new military actions and threats; updated casualty figures and strategic developments.",
+    "changes": [
+      "meta.last_updated: 2026-03-21 -> 2026-03-22",
+      "meta.update_time: 07:10 EST -> 07:27 EST",
+      "meta.day_number: 22 -> 23",
+      "NEW DAY 23: Iranian missile strikes hit near Israel's Dimona nuclear site, injuring dozens; ...",
+      "overview.us_israel_strikes: ~13,000+ -> ~13,500+",
+      "costs.kpis.oil_brent: $135→$140+ -> $140→$145+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 70% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
