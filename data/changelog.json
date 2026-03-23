@@ -170,5 +170,30 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-03-23",
+    "timestamp": "2026-03-23T03:09:38.229533-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in the conflict with new threats and military actions; updated casualty figures and economic impacts.",
+    "changes": [
+      "meta.last_updated: 2026-03-22 -> 2026-03-23",
+      "meta.update_time: 07:27 EST -> 08:09 EST",
+      "meta.day_number: 23 -> 24",
+      "NEW DAY 24: Iran threatened to mine the Persian Gulf and target Gulf power plants; Israel co...",
+      "overview.us_israel_strikes: ~13,500+ -> ~14,000+",
+      "costs.kpis.oil_brent: $140→$145+ -> $145→$150+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 65% -> 70%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
