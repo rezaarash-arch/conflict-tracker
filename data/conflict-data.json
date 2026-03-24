@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-03-23",
-    "update_time": "08:09 EST",
-    "day_number": 24,
+    "last_updated": "2026-03-24",
+    "update_time": "08:00 EST",
+    "day_number": 25,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~14,000+",
+    "us_israel_strikes": "~14,500+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -753,6 +753,23 @@
         "events": "Iran threatened to mine the Persian Gulf and target Gulf power plants; Israel conducted strikes on Iranian natural gas facilities; U.S. issued a 48-hour ultimatum to Iran regarding the Strait of Hormuz.",
         "events_fa": "ایران تهدید به مین‌گذاری خلیج فارس و هدف قرار دادن نیروگاه‌های خلیج کرد؛ اسرائیل حملاتی به تأسیسات گاز طبیعی ایران انجام داد؛ ایالات متحده به ایران ۴۸ ساعت مهلت برای بازگشایی تنگه هرمز داد.",
         "highlight": true
+      },
+      {
+        "day": 25,
+        "date": "24 Mar",
+        "date_fa": "۲۴ مارس",
+        "waves": "Multiple",
+        "iran_dead": "200+",
+        "isr_dead": "20+",
+        "us_dead": "1",
+        "other": "50+",
+        "other_fa": "۵۰+",
+        "iran_bms": "300+",
+        "iran_drones": "150+",
+        "targets": "Tel Aviv, Gulf Arab states",
+        "events": "Iran launched missile and drone attacks targeting Israel and Gulf Arab states, including a direct hit in central Tel Aviv. U.S. President Donald Trump claimed negotiations were underway with Iran to end the war, although Tehran denies any such talks. The U.S. extended a deadline for Iran to reopen the Strait of Hormuz, temporarily impacting oil prices. Israeli strikes on Hezbollah targets in Beirut resulted in civilian casualties. The U.S. deployed Marines near the region, sparking speculation about a potential invasion of Iran’s Kharg Island, a critical oil hub. Iran threatened to mine the Persian Gulf in defense.",
+        "events_fa": "ایران حملات موشکی و پهپادی به اسرائیل و کشورهای عربی خلیج فارس انجام داد، از جمله اصابت مستقیم در مرکز تل‌آویو. رئیس‌جمهور آمریکا، دونالد ترامپ، ادعا کرد که مذاکراتی با ایران برای پایان دادن به جنگ در جریان است، اگرچه تهران هرگونه مذاکره‌ای را تکذیب می‌کند. آمریکا مهلت ایران برای بازگشایی تنگه هرمز را تمدید کرد که به طور موقت بر قیمت نفت تأثیر گذاشت. حملات اسرائیل به اهداف حزب‌الله در بیروت منجر به تلفات غیرنظامیان شد. آمریکا تفنگداران دریایی را در نزدیکی منطقه مستقر کرد که گمانه‌زنی‌ها درباره احتمال حمله به جزیره خارک ایران، یک مرکز نفتی حیاتی، را برانگیخت. ایران تهدید کرد که خلیج فارس را مین‌گذاری خواهد کرد.",
+        "highlight": true
       }
     ]
   },
@@ -1074,6 +1091,21 @@
         "location_fa": "نزدیک تنگه هرمز",
         "cause": "Hostile fire",
         "cause_fa": "آتش دشمن"
+      },
+      {
+        "num": 21,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Marine Division",
+        "date": "2026-03-24",
+        "date_fa": "۲۴ مارس ۲۰۲۶",
+        "location": "Near Strait of Hormuz",
+        "location_fa": "نزدیک تنگه هرمز",
+        "cause": "Hostile fire",
+        "cause_fa": "آتش دشمن"
       }
     ],
     "aircraft_losses": [
@@ -1264,10 +1296,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "De-escalation leading to ceasefire",
-        "description_fa": "کاهش تنش منجر به آتش‌بس",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1276,18 +1308,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "خستگی جنگی"
+          "مذاکرات ادعایی بین آمریکا و ایران",
+          "فشار بین‌المللی برای پایان دادن به درگیری"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 70,
+        "probability": 65,
         "color": "red",
-        "description": "Prolonged conflict with regional implications",
-        "description_fa": "درگیری طولانی با پیامدهای منطقه‌ای",
+        "description": "Continued conflict with intermittent escalations",
+        "description_fa": "ادامه درگیری با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1296,8 +1328,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات",
-          "تشدید تهدیدات"
+          "حملات مداوم موشکی و پهپادی",
+          "عدم توافق در مذاکرات"
         ]
       },
       {
@@ -1316,8 +1348,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات به زیرساخت‌های حیاتی",
-          "ورود کشورهای دیگر"
+          "گسترش درگیری به کشورهای همسایه",
+          "حملات به زیرساخت‌های حیاتی"
         ]
       }
     ],
@@ -1613,7 +1645,8 @@
         "20 Mar",
         "21 Mar",
         "22 Mar",
-        "23 Mar"
+        "23 Mar",
+        "24 Mar"
       ],
       "us_israel_waves": [
         55,
@@ -1639,6 +1672,7 @@
         5,
         6,
         7,
+        3,
         3,
         3,
         3
@@ -1669,6 +1703,7 @@
         60,
         50,
         150,
+        300,
         300
       ],
       "iran_drones": [
@@ -1697,7 +1732,8 @@
         40,
         30,
         20,
-        50
+        50,
+        150
       ]
     },
     "phase3_cumulative_casualties": {
@@ -1725,7 +1761,8 @@
         "20 Mar",
         "21 Mar",
         "22 Mar",
-        "23 Mar"
+        "23 Mar",
+        "24 Mar"
       ],
       "hengaw_total": [
         1000,
@@ -1753,7 +1790,8 @@
         5000,
         5000,
         4800,
-        4800
+        4800,
+        7500
       ],
       "hrana_civilian": [
         133,
@@ -1779,6 +1817,7 @@
         4500,
         4700,
         4900,
+        null,
         null,
         null,
         null
@@ -1809,7 +1848,8 @@
         "20 Mar",
         "21 Mar",
         "22 Mar",
-        "23 Mar"
+        "23 Mar",
+        "24 Mar"
       ],
       "daily_bm": [
         200,
@@ -1837,6 +1877,7 @@
         60,
         50,
         150,
+        300,
         300
       ],
       "trendline": [
@@ -1885,7 +1926,8 @@
         "20 Mar",
         "21 Mar",
         "22 Mar",
-        "23 Mar"
+        "23 Mar",
+        "24 Mar"
       ],
       "data": [
         1.5,
@@ -1911,6 +1953,7 @@
         200,
         220,
         240,
+        null,
         null,
         null,
         null
@@ -1991,7 +2034,8 @@
         135,
         140,
         145,
-        150
+        150,
+        155
       ]
     },
     "hormuz_transit": {
@@ -2043,7 +2087,8 @@
         90,
         60,
         85,
-        0
+        0,
+        85
       ]
     },
     "scenario_probabilities": {
@@ -2058,8 +2103,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        70,
+        15,
+        65,
         20
       ],
       "colors": [

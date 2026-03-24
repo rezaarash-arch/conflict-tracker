@@ -195,5 +195,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-03-24",
+    "timestamp": "2026-03-24T03:00:59.526243-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include ongoing missile and drone exchanges between Iran and Israel, U.S. claims of negotiations with Iran, and continued regional instability.",
+    "changes": [
+      "meta.last_updated: 2026-03-23 -> 2026-03-24",
+      "meta.update_time: 08:09 EST -> 08:00 EST",
+      "meta.day_number: 24 -> 25",
+      "NEW DAY 25: Iran launched missile and drone attacks targeting Israel and Gulf Arab states, i...",
+      "overview.us_israel_strikes: ~14,000+ -> ~14,500+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 70% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
