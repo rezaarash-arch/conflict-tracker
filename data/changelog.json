@@ -219,5 +219,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-03-25",
+    "timestamp": "2026-03-25T03:00:35.777986-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's rejection of a U.S. ceasefire proposal, continued missile and drone attacks by Iran, and Lebanon's expulsion of Iran's ambassador.",
+    "changes": [
+      "meta.last_updated: 2026-03-24 -> 2026-03-25",
+      "meta.day_number: 25 -> 26",
+      "NEW DAY 26: Iran rejected a U.S. 15-point ceasefire proposal delivered through Pakistani int...",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 65% -> 70%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe",
+      "NEW US CASUALTY: Jane Smith"
+    ]
   }
 ]

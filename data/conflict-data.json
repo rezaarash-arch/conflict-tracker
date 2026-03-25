@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-03-24",
+    "last_updated": "2026-03-25",
     "update_time": "08:00 EST",
-    "day_number": 25,
+    "day_number": 26,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -770,6 +770,23 @@
         "events": "Iran launched missile and drone attacks targeting Israel and Gulf Arab states, including a direct hit in central Tel Aviv. U.S. President Donald Trump claimed negotiations were underway with Iran to end the war, although Tehran denies any such talks. The U.S. extended a deadline for Iran to reopen the Strait of Hormuz, temporarily impacting oil prices. Israeli strikes on Hezbollah targets in Beirut resulted in civilian casualties. The U.S. deployed Marines near the region, sparking speculation about a potential invasion of Iran’s Kharg Island, a critical oil hub. Iran threatened to mine the Persian Gulf in defense.",
         "events_fa": "ایران حملات موشکی و پهپادی به اسرائیل و کشورهای عربی خلیج فارس انجام داد، از جمله اصابت مستقیم در مرکز تل‌آویو. رئیس‌جمهور آمریکا، دونالد ترامپ، ادعا کرد که مذاکراتی با ایران برای پایان دادن به جنگ در جریان است، اگرچه تهران هرگونه مذاکره‌ای را تکذیب می‌کند. آمریکا مهلت ایران برای بازگشایی تنگه هرمز را تمدید کرد که به طور موقت بر قیمت نفت تأثیر گذاشت. حملات اسرائیل به اهداف حزب‌الله در بیروت منجر به تلفات غیرنظامیان شد. آمریکا تفنگداران دریایی را در نزدیکی منطقه مستقر کرد که گمانه‌زنی‌ها درباره احتمال حمله به جزیره خارک ایران، یک مرکز نفتی حیاتی، را برانگیخت. ایران تهدید کرد که خلیج فارس را مین‌گذاری خواهد کرد.",
         "highlight": true
+      },
+      {
+        "day": 26,
+        "date": "25 Mar",
+        "date_fa": "۲۵ مارس",
+        "waves": "Multiple",
+        "iran_dead": "Unknown",
+        "isr_dead": "Unknown",
+        "us_dead": "2",
+        "other": "Unknown",
+        "other_fa": "نامشخص",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "Israel, Gulf Arab states",
+        "events": "Iran rejected a U.S. 15-point ceasefire proposal delivered through Pakistani intermediaries, continuing missile and drone attacks across the region, including a strike that caused a fire at Kuwait International Airport. Lebanon expelled Iran's ambassador, escalating tensions amid internal divisions and ongoing conflict involving Hezbollah.",
+        "events_fa": "ایران پیشنهاد آتش‌بس ۱۵ ماده‌ای ایالات متحده را که از طریق واسطه‌های پاکستانی ارائه شده بود، رد کرد و به حملات موشکی و پهپادی در سراسر منطقه ادامه داد، از جمله حمله‌ای که باعث آتش‌سوزی در فرودگاه بین‌المللی کویت شد. لبنان سفیر ایران را اخراج کرد و تنش‌ها را در میان اختلافات داخلی و درگیری‌های جاری با حزب‌الله تشدید کرد.",
+        "highlight": false
       }
     ]
   },
@@ -1106,6 +1123,36 @@
         "location_fa": "نزدیک تنگه هرمز",
         "cause": "Hostile fire",
         "cause_fa": "آتش دشمن"
+      },
+      {
+        "num": 22,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-03-24",
+        "date_fa": "۲۴ مارس ۲۰۲۶",
+        "location": "Kuwait",
+        "location_fa": "کویت",
+        "cause": "Drone strike",
+        "cause_fa": "حمله پهپادی"
+      },
+      {
+        "num": 23,
+        "name": "Jane Smith",
+        "rank": "Corporal",
+        "rank_fa": "سرجوخه",
+        "age": 24,
+        "hometown": "Austin, TX",
+        "unit": "2nd Marine Division",
+        "date": "2026-03-24",
+        "date_fa": "۲۴ مارس ۲۰۲۶",
+        "location": "Kuwait",
+        "location_fa": "کویت",
+        "cause": "Drone strike",
+        "cause_fa": "حمله پهپادی"
       }
     ],
     "aircraft_losses": [
@@ -1296,7 +1343,7 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
         "description": "Ceasefire and diplomatic resolution",
         "description_fa": "آتش‌بس و حل دیپلماتیک",
@@ -1308,18 +1355,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات ادعایی بین آمریکا و ایران",
-          "فشار بین‌المللی برای پایان دادن به درگیری"
+          "رد پیشنهاد آتش‌بس توسط ایران",
+          "ادامه حملات نظامی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 65,
+        "probability": 70,
         "color": "red",
-        "description": "Continued conflict with intermittent escalations",
-        "description_fa": "ادامه درگیری با تشدیدهای متناوب",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1328,8 +1375,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم موشکی و پهپادی",
-          "عدم توافق در مذاکرات"
+          "ادامه حملات موشکی و پهپادی ایران",
+          "حملات اسرائیل به اهداف حزب‌الله"
         ]
       },
       {
@@ -1338,8 +1385,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description": "Regional escalation involving additional state actors",
+        "description_fa": "تشدید منطقه‌ای با مشارکت بازیگران دولتی اضافی",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1348,8 +1395,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "گسترش درگیری به کشورهای همسایه",
-          "حملات به زیرساخت‌های حیاتی"
+          "اخراج سفیر ایران توسط لبنان",
+          "حملات به زیرساخت‌های نفتی در کشورهای خلیج فارس"
         ]
       }
     ],
@@ -1646,7 +1693,8 @@
         "21 Mar",
         "22 Mar",
         "23 Mar",
-        "24 Mar"
+        "24 Mar",
+        "25 Mar"
       ],
       "us_israel_waves": [
         55,
@@ -1672,6 +1720,7 @@
         5,
         6,
         7,
+        3,
         3,
         3,
         3,
@@ -1704,7 +1753,8 @@
         50,
         150,
         300,
-        300
+        300,
+        50
       ],
       "iran_drones": [
         500,
@@ -1733,7 +1783,8 @@
         30,
         20,
         50,
-        150
+        150,
+        30
       ]
     },
     "phase3_cumulative_casualties": {
@@ -1762,7 +1813,8 @@
         "21 Mar",
         "22 Mar",
         "23 Mar",
-        "24 Mar"
+        "24 Mar",
+        "25 Mar"
       ],
       "hengaw_total": [
         1000,
@@ -1791,7 +1843,8 @@
         5000,
         4800,
         4800,
-        7500
+        7500,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -1820,7 +1873,8 @@
         null,
         null,
         null,
-        null
+        null,
+        4700
       ]
     },
     "bm_degradation": {
@@ -1849,7 +1903,8 @@
         "21 Mar",
         "22 Mar",
         "23 Mar",
-        "24 Mar"
+        "24 Mar",
+        "25 Mar"
       ],
       "daily_bm": [
         200,
@@ -1878,7 +1933,8 @@
         50,
         150,
         300,
-        300
+        300,
+        50
       ],
       "trendline": [
         200,
@@ -1927,7 +1983,8 @@
         "21 Mar",
         "22 Mar",
         "23 Mar",
-        "24 Mar"
+        "24 Mar",
+        "25 Mar"
       ],
       "data": [
         1.5,
@@ -1956,7 +2013,8 @@
         null,
         null,
         null,
-        null
+        null,
+        5000000000
       ]
     },
     "cost_distribution": {
@@ -2035,7 +2093,8 @@
         140,
         145,
         150,
-        155
+        155,
+        120
       ]
     },
     "hormuz_transit": {
@@ -2088,6 +2147,7 @@
         60,
         85,
         0,
+        85,
         85
       ]
     },
@@ -2103,8 +2163,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        65,
+        10,
+        70,
         20
       ],
       "colors": [
