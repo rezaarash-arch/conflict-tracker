@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-03-25",
-    "update_time": "08:00 EST",
-    "day_number": 26,
+    "last_updated": "2026-03-26",
+    "update_time": "08:09 EST",
+    "day_number": 27,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~14,500+",
+    "us_israel_strikes": "~15,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -787,6 +787,23 @@
         "events": "Iran rejected a U.S. 15-point ceasefire proposal delivered through Pakistani intermediaries, continuing missile and drone attacks across the region, including a strike that caused a fire at Kuwait International Airport. Lebanon expelled Iran's ambassador, escalating tensions amid internal divisions and ongoing conflict involving Hezbollah.",
         "events_fa": "ایران پیشنهاد آتش‌بس ۱۵ ماده‌ای ایالات متحده را که از طریق واسطه‌های پاکستانی ارائه شده بود، رد کرد و به حملات موشکی و پهپادی در سراسر منطقه ادامه داد، از جمله حمله‌ای که باعث آتش‌سوزی در فرودگاه بین‌المللی کویت شد. لبنان سفیر ایران را اخراج کرد و تنش‌ها را در میان اختلافات داخلی و درگیری‌های جاری با حزب‌الله تشدید کرد.",
         "highlight": false
+      },
+      {
+        "day": 27,
+        "date": "26 Mar",
+        "date_fa": "۲۶ مارس",
+        "waves": "Multiple",
+        "iran_dead": "Unknown",
+        "isr_dead": "Unknown",
+        "us_dead": "Unknown",
+        "other": "Unknown",
+        "other_fa": "نامشخص",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "Various regional targets including Israel and Gulf states",
+        "events": "Iran rejected a U.S. 15-point ceasefire proposal delivered through Pakistani intermediaries, continuing missile and drone attacks across the region, including a strike that caused a fire at Kuwait International Airport. Lebanon expelled Iran's ambassador, escalating tensions amid internal divisions and ongoing conflict involving Hezbollah.",
+        "events_fa": "ایران پیشنهاد آتش‌بس ۱۵ ماده‌ای ایالات متحده را که از طریق واسطه‌های پاکستانی ارائه شده بود، رد کرد و به حملات موشکی و پهپادی در سراسر منطقه ادامه داد، از جمله حمله‌ای که باعث آتش‌سوزی در فرودگاه بین‌المللی کویت شد. لبنان سفیر ایران را اخراج کرد و تنش‌ها را در میان اختلافات داخلی و درگیری‌های جاری با حزب‌الله تشدید کرد.",
+        "highlight": false
       }
     ]
   },
@@ -1345,8 +1362,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 10,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Ceasefire agreement reached",
+        "description_fa": "توافق آتش‌بس حاصل شد",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1355,8 +1372,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "رد پیشنهاد آتش‌بس توسط ایران",
-          "ادامه حملات نظامی"
+          "مذاکرات دیپلماتیک موفق",
+          "فشار بین‌المللی"
         ]
       },
       {
@@ -1365,8 +1382,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 70,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
+        "description": "Continued conflict with intermittent escalations",
+        "description_fa": "ادامه درگیری با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1375,8 +1392,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات موشکی و پهپادی ایران",
-          "حملات اسرائیل به اهداف حزب‌الله"
+          "حملات مداوم",
+          "عدم توافق در مذاکرات"
         ]
       },
       {
@@ -1385,8 +1402,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Regional escalation involving additional state actors",
-        "description_fa": "تشدید منطقه‌ای با مشارکت بازیگران دولتی اضافی",
+        "description": "Full-scale regional war",
+        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1395,8 +1412,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "اخراج سفیر ایران توسط لبنان",
-          "حملات به زیرساخت‌های نفتی در کشورهای خلیج فارس"
+          "افزایش حملات",
+          "ورود کشورهای دیگر به درگیری"
         ]
       }
     ],
@@ -1694,7 +1711,8 @@
         "22 Mar",
         "23 Mar",
         "24 Mar",
-        "25 Mar"
+        "25 Mar",
+        "26 Mar"
       ],
       "us_israel_waves": [
         55,
@@ -1814,7 +1832,8 @@
         "22 Mar",
         "23 Mar",
         "24 Mar",
-        "25 Mar"
+        "25 Mar",
+        "26 Mar"
       ],
       "hengaw_total": [
         1000,
@@ -1904,7 +1923,8 @@
         "22 Mar",
         "23 Mar",
         "24 Mar",
-        "25 Mar"
+        "25 Mar",
+        "26 Mar"
       ],
       "daily_bm": [
         200,
@@ -1984,7 +2004,8 @@
         "22 Mar",
         "23 Mar",
         "24 Mar",
-        "25 Mar"
+        "25 Mar",
+        "26 Mar"
       ],
       "data": [
         1.5,
@@ -2094,7 +2115,8 @@
         145,
         150,
         155,
-        120
+        120,
+        155
       ]
     },
     "hormuz_transit": {

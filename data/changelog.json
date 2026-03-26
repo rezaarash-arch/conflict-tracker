@@ -242,5 +242,19 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-03-26",
+    "timestamp": "2026-03-26T03:09:34.853543-05:00",
+    "status": "UPDATED",
+    "summary": "Iran rejected a U.S. ceasefire proposal, continued missile and drone attacks, and the conflict's economic impact intensified.",
+    "changes": [
+      "meta.last_updated: 2026-03-25 -> 2026-03-26",
+      "meta.update_time: 08:00 EST -> 08:09 EST",
+      "meta.day_number: 26 -> 27",
+      "NEW DAY 27: Iran rejected a U.S. 15-point ceasefire proposal delivered through Pakistani int...",
+      "overview.us_israel_strikes: ~14,500+ -> ~15,000+",
+      "chart brent_oil.data: appended 1 values"
+    ]
   }
 ]
