@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-03-26",
-    "update_time": "08:09 EST",
-    "day_number": 27,
+    "last_updated": "2026-03-27",
+    "update_time": "08:05 EST",
+    "day_number": 28,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~15,000+",
+    "us_israel_strikes": "~16,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -804,6 +804,23 @@
         "events": "Iran rejected a U.S. 15-point ceasefire proposal delivered through Pakistani intermediaries, continuing missile and drone attacks across the region, including a strike that caused a fire at Kuwait International Airport. Lebanon expelled Iran's ambassador, escalating tensions amid internal divisions and ongoing conflict involving Hezbollah.",
         "events_fa": "ایران پیشنهاد آتش‌بس ۱۵ ماده‌ای ایالات متحده را که از طریق واسطه‌های پاکستانی ارائه شده بود، رد کرد و به حملات موشکی و پهپادی در سراسر منطقه ادامه داد، از جمله حمله‌ای که باعث آتش‌سوزی در فرودگاه بین‌المللی کویت شد. لبنان سفیر ایران را اخراج کرد و تنش‌ها را در میان اختلافات داخلی و درگیری‌های جاری با حزب‌الله تشدید کرد.",
         "highlight": false
+      },
+      {
+        "day": 28,
+        "date": "27 Mar",
+        "date_fa": "۲۷ مارس",
+        "waves": "Multiple",
+        "iran_dead": "200+",
+        "isr_dead": "50+",
+        "us_dead": "5",
+        "other": "100+",
+        "other_fa": "۱۰۰+",
+        "iran_bms": "50+",
+        "iran_drones": "20+",
+        "targets": "Tehran, Persian Gulf, Beirut",
+        "events": "Israeli airstrikes hit central Tehran; Iranian missiles target U.S. positions in the Persian Gulf; damage reported in Beirut.",
+        "events_fa": "حملات هوایی اسرائیل به مرکز تهران؛ موشک‌های ایرانی مواضع آمریکا در خلیج فارس را هدف قرار دادند؛ خساراتی در بیروت گزارش شده است.",
+        "highlight": true
       }
     ]
   },
@@ -1170,6 +1187,21 @@
         "location_fa": "کویت",
         "cause": "Drone strike",
         "cause_fa": "حمله پهپادی"
+      },
+      {
+        "num": 24,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-03-27",
+        "date_fa": "۲۷ مارس ۲۰۲۶",
+        "location": "Persian Gulf",
+        "location_fa": "خلیج فارس",
+        "cause": "Missile attack",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -1360,10 +1392,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 5,
         "color": "amber",
-        "description": "Ceasefire agreement reached",
-        "description_fa": "توافق آتش‌بس حاصل شد",
+        "description": "Rapid de-escalation leading to ceasefire",
+        "description_fa": "کاهش سریع تنش‌ها منجر به آتش‌بس",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1372,18 +1404,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات دیپلماتیک موفق",
-          "فشار بین‌المللی"
+          "فشار بین‌المللی",
+          "خستگی جنگی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 70,
+        "probability": 75,
         "color": "red",
-        "description": "Continued conflict with intermittent escalations",
-        "description_fa": "ادامه درگیری با تشدیدهای متناوب",
+        "description": "Prolonged conflict with intermittent negotiations",
+        "description_fa": "درگیری طولانی با مذاکرات متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1392,8 +1424,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم",
-          "عدم توافق در مذاکرات"
+          "عدم اعتماد",
+          "اهداف استراتژیک"
         ]
       },
       {
@@ -1412,8 +1444,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "افزایش حملات",
-          "ورود کشورهای دیگر به درگیری"
+          "گسترش درگیری‌ها",
+          "مداخله قدرت‌های منطقه‌ای"
         ]
       }
     ],
@@ -1712,7 +1744,8 @@
         "23 Mar",
         "24 Mar",
         "25 Mar",
-        "26 Mar"
+        "26 Mar",
+        "27 Mar"
       ],
       "us_israel_waves": [
         55,
@@ -1738,6 +1771,7 @@
         5,
         6,
         7,
+        3,
         3,
         3,
         3,
@@ -1772,6 +1806,7 @@
         150,
         300,
         300,
+        50,
         50
       ],
       "iran_drones": [
@@ -1802,7 +1837,8 @@
         20,
         50,
         150,
-        30
+        30,
+        20
       ]
     },
     "phase3_cumulative_casualties": {
@@ -1833,7 +1869,8 @@
         "23 Mar",
         "24 Mar",
         "25 Mar",
-        "26 Mar"
+        "26 Mar",
+        "27 Mar"
       ],
       "hengaw_total": [
         1000,
@@ -1863,7 +1900,8 @@
         4800,
         4800,
         7500,
-        4600
+        4600,
+        5000
       ],
       "hrana_civilian": [
         133,
@@ -1893,7 +1931,8 @@
         null,
         null,
         null,
-        4700
+        4700,
+        null
       ]
     },
     "bm_degradation": {
@@ -1924,7 +1963,8 @@
         "23 Mar",
         "24 Mar",
         "25 Mar",
-        "26 Mar"
+        "26 Mar",
+        "27 Mar"
       ],
       "daily_bm": [
         200,
@@ -1954,6 +1994,7 @@
         150,
         300,
         300,
+        50,
         50
       ],
       "trendline": [
@@ -2005,7 +2046,8 @@
         "23 Mar",
         "24 Mar",
         "25 Mar",
-        "26 Mar"
+        "26 Mar",
+        "27 Mar"
       ],
       "data": [
         1.5,
@@ -2035,7 +2077,8 @@
         null,
         null,
         null,
-        5000000000
+        5000000000,
+        null
       ]
     },
     "cost_distribution": {
@@ -2116,6 +2159,7 @@
         150,
         155,
         120,
+        155,
         155
       ]
     },
@@ -2170,6 +2214,7 @@
         85,
         0,
         85,
+        85,
         85
       ]
     },
@@ -2185,8 +2230,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        70,
+        5,
+        75,
         20
       ],
       "colors": [
