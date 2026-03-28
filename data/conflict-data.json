@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-03-27",
-    "update_time": "08:05 EST",
-    "day_number": 28,
+    "last_updated": "2026-03-28",
+    "update_time": "07:36 EST",
+    "day_number": 29,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~16,000+",
+    "us_israel_strikes": "~17,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -821,6 +821,23 @@
         "events": "Israeli airstrikes hit central Tehran; Iranian missiles target U.S. positions in the Persian Gulf; damage reported in Beirut.",
         "events_fa": "حملات هوایی اسرائیل به مرکز تهران؛ موشک‌های ایرانی مواضع آمریکا در خلیج فارس را هدف قرار دادند؛ خساراتی در بیروت گزارش شده است.",
         "highlight": true
+      },
+      {
+        "day": 29,
+        "date": "28 Mar",
+        "date_fa": "۲۸ مارس",
+        "waves": "3",
+        "iran_dead": "400",
+        "isr_dead": "20",
+        "us_dead": "2",
+        "other": "15",
+        "other_fa": "۱۵",
+        "iran_bms": "50",
+        "iran_drones": "30",
+        "targets": "US bases in the Gulf, Israeli cities",
+        "events": "Iranian missile strikes on US bases in the Gulf; Israeli airstrikes on Iranian military facilities; continued closure of the Strait of Hormuz.",
+        "events_fa": "حملات موشکی ایران به پایگاه‌های آمریکا در خلیج؛ حملات هوایی اسرائیل به تأسیسات نظامی ایران؛ ادامه بسته بودن تنگه هرمز.",
+        "highlight": false
       }
     ]
   },
@@ -1202,6 +1219,36 @@
         "location_fa": "خلیج فارس",
         "cause": "Missile attack",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 25,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-03-28",
+        "date_fa": "۲۸ مارس ۲۰۲۶",
+        "location": "Persian Gulf",
+        "location_fa": "خلیج فارس",
+        "cause": "Missile strike",
+        "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 26,
+        "name": "Jane Smith",
+        "rank": "Lieutenant",
+        "rank_fa": "ستوان",
+        "age": 29,
+        "hometown": "Austin, TX",
+        "unit": "2nd Marine Division",
+        "date": "2026-03-28",
+        "date_fa": "۲۸ مارس ۲۰۲۶",
+        "location": "Persian Gulf",
+        "location_fa": "خلیج فارس",
+        "cause": "Missile strike",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -1232,6 +1279,18 @@
         "crew_status": "killed",
         "notes": "Names released 15 Mar",
         "notes_fa": "اسامی ۱۵ مارس اعلام شد"
+      },
+      {
+        "aircraft": "F-15E",
+        "aircraft_fa": "اف-۱۵ئی",
+        "operator": "US Air Force",
+        "operator_fa": "نیروی هوایی ایالات متحده",
+        "date": "2026-03-28",
+        "date_fa": "۲۸ مارس ۲۰۲۶",
+        "location": "Persian Gulf",
+        "location_fa": "خلیج فارس",
+        "cause": "Missile strike",
+        "cause_fa": "حمله موشکی"
       }
     ]
   },
@@ -1394,8 +1453,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 5,
         "color": "amber",
-        "description": "Rapid de-escalation leading to ceasefire",
-        "description_fa": "کاهش سریع تنش‌ها منجر به آتش‌بس",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1412,10 +1471,10 @@
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 75,
+        "probability": 70,
         "color": "red",
-        "description": "Prolonged conflict with intermittent negotiations",
-        "description_fa": "درگیری طولانی با مذاکرات متناوب",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1424,18 +1483,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم اعتماد",
-          "اهداف استراتژیک"
+          "حملات مداوم",
+          "عدم توافق دیپلماتیک"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 20,
+        "probability": 25,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description": "Regional escalation involving additional state actors",
+        "description_fa": "تشدید منطقه‌ای با دخالت بازیگران دولتی دیگر",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1444,8 +1503,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "گسترش درگیری‌ها",
-          "مداخله قدرت‌های منطقه‌ای"
+          "حملات به کشورهای همسایه",
+          "ورود نیروهای جدید"
         ]
       }
     ],
@@ -1745,7 +1804,8 @@
         "24 Mar",
         "25 Mar",
         "26 Mar",
-        "27 Mar"
+        "27 Mar",
+        "28 Mar"
       ],
       "us_israel_waves": [
         55,
@@ -1771,6 +1831,7 @@
         5,
         6,
         7,
+        3,
         3,
         3,
         3,
@@ -1807,6 +1868,7 @@
         300,
         300,
         50,
+        50,
         50
       ],
       "iran_drones": [
@@ -1838,7 +1900,8 @@
         50,
         150,
         30,
-        20
+        20,
+        30
       ]
     },
     "phase3_cumulative_casualties": {
@@ -1870,7 +1933,8 @@
         "24 Mar",
         "25 Mar",
         "26 Mar",
-        "27 Mar"
+        "27 Mar",
+        "28 Mar"
       ],
       "hengaw_total": [
         1000,
@@ -1901,7 +1965,8 @@
         4800,
         7500,
         4600,
-        5000
+        5000,
+        4800
       ],
       "hrana_civilian": [
         133,
@@ -1932,6 +1997,7 @@
         null,
         null,
         4700,
+        null,
         null
       ]
     },
@@ -1964,7 +2030,8 @@
         "24 Mar",
         "25 Mar",
         "26 Mar",
-        "27 Mar"
+        "27 Mar",
+        "28 Mar"
       ],
       "daily_bm": [
         200,
@@ -1994,6 +2061,7 @@
         150,
         300,
         300,
+        50,
         50,
         50
       ],
@@ -2047,7 +2115,8 @@
         "24 Mar",
         "25 Mar",
         "26 Mar",
-        "27 Mar"
+        "27 Mar",
+        "28 Mar"
       ],
       "data": [
         1.5,
@@ -2078,6 +2147,7 @@
         null,
         null,
         5000000000,
+        null,
         null
       ]
     },
@@ -2160,6 +2230,7 @@
         155,
         120,
         155,
+        155,
         155
       ]
     },
@@ -2215,6 +2286,7 @@
         0,
         85,
         85,
+        85,
         85
       ]
     },
@@ -2231,8 +2303,8 @@
       ],
       "data": [
         5,
-        75,
-        20
+        70,
+        25
       ],
       "colors": [
         "rgba(245,158,11,.7)",

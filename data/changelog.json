@@ -280,5 +280,31 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-03-28",
+    "timestamp": "2026-03-28T02:36:26.503984-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, military actions, and economic impacts based on recent developments.",
+    "changes": [
+      "meta.last_updated: 2026-03-27 -> 2026-03-28",
+      "meta.update_time: 08:05 EST -> 07:36 EST",
+      "meta.day_number: 28 -> 29",
+      "NEW DAY 29: Iranian missile strikes on US bases in the Gulf; Israeli airstrikes on Iranian m...",
+      "overview.us_israel_strikes: ~16,000+ -> ~17,000+",
+      "scenario B prob: 75% -> 70%",
+      "scenario C prob: 20% -> 25%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe",
+      "NEW US CASUALTY: Jane Smith",
+      "NEW AIRCRAFT LOSS: F-15E"
+    ]
   }
 ]
