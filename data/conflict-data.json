@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-03-28",
-    "update_time": "07:36 EST",
-    "day_number": 29,
+    "last_updated": "2026-03-29",
+    "update_time": "08:00 EST",
+    "day_number": 30,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -838,6 +838,23 @@
         "events": "Iranian missile strikes on US bases in the Gulf; Israeli airstrikes on Iranian military facilities; continued closure of the Strait of Hormuz.",
         "events_fa": "حملات موشکی ایران به پایگاه‌های آمریکا در خلیج؛ حملات هوایی اسرائیل به تأسیسات نظامی ایران؛ ادامه بسته بودن تنگه هرمز.",
         "highlight": false
+      },
+      {
+        "day": 30,
+        "date": "29 Mar",
+        "date_fa": "۲۹ مارس",
+        "waves": "Multiple",
+        "iran_dead": "Unknown",
+        "isr_dead": "1",
+        "us_dead": "1",
+        "other": "Unknown",
+        "other_fa": "نامشخص",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "Israeli cities, U.S. bases in the Gulf",
+        "events": "Houthi rebels launch missile at Israel; Iranian missile strikes on Tel Aviv result in civilian casualties; U.S. military personnel injured in attacks on Saudi base; U.S. deploys additional forces to the Middle East.",
+        "events_fa": "حملات موشکی حوثی‌ها به اسرائیل؛ حملات موشکی ایران به تل‌آویو منجر به تلفات غیرنظامیان شد؛ نیروهای نظامی آمریکایی در حملات به پایگاه سعودی مجروح شدند؛ ایالات متحده نیروهای بیشتری به خاورمیانه اعزام کرد.",
+        "highlight": true
       }
     ]
   },
@@ -1249,6 +1266,21 @@
         "location_fa": "خلیج فارس",
         "cause": "Missile strike",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 27,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "28 Mar",
+        "date_fa": "۲۸ مارس",
+        "location": "Prince Sultan Air Base, Saudi Arabia",
+        "location_fa": "پایگاه هوایی پرنس سلطان، عربستان سعودی",
+        "cause": "Missile attack",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -1310,7 +1342,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$145→$150+",
+      "oil_brent": "$150→$155+",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -1463,18 +1495,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "خستگی جنگی"
+          "فشار بین‌المللی برای پایان دادن به درگیری",
+          "مذاکرات موفقیت‌آمیز بین طرفین"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 70,
+        "probability": 65,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
+        "description": "Prolonged conflict with regional escalation",
+        "description_fa": "درگیری طولانی‌مدت با تشدید منطقه‌ای",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1483,18 +1515,19 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم",
-          "عدم توافق دیپلماتیک"
+          "ورود حوثی‌ها به درگیری",
+          "حملات مداوم موشکی و پهپادی",
+          "افزایش حضور نظامی ایالات متحده"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 25,
+        "probability": 30,
         "color": "green",
-        "description": "Regional escalation involving additional state actors",
-        "description_fa": "تشدید منطقه‌ای با دخالت بازیگران دولتی دیگر",
+        "description": "Economic crisis due to prolonged conflict",
+        "description_fa": "بحران اقتصادی به دلیل درگیری طولانی‌مدت",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1503,8 +1536,9 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات به کشورهای همسایه",
-          "ورود نیروهای جدید"
+          "افزایش قیمت نفت",
+          "اختلال در زنجیره تأمین جهانی",
+          "رکود اقتصادی در کشورهای درگیر"
         ]
       }
     ],
@@ -1805,7 +1839,8 @@
         "25 Mar",
         "26 Mar",
         "27 Mar",
-        "28 Mar"
+        "28 Mar",
+        "29 Mar"
       ],
       "us_israel_waves": [
         55,
@@ -1837,7 +1872,8 @@
         3,
         3,
         3,
-        3
+        3,
+        5
       ],
       "iran_bms": [
         200,
@@ -1867,6 +1903,7 @@
         150,
         300,
         300,
+        50,
         50,
         50,
         50
@@ -1901,6 +1938,7 @@
         150,
         30,
         20,
+        30,
         30
       ]
     },
@@ -1934,7 +1972,8 @@
         "25 Mar",
         "26 Mar",
         "27 Mar",
-        "28 Mar"
+        "28 Mar",
+        "29 Mar"
       ],
       "hengaw_total": [
         1000,
@@ -1966,7 +2005,8 @@
         7500,
         4600,
         5000,
-        4800
+        4800,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -1998,7 +2038,8 @@
         null,
         4700,
         null,
-        null
+        null,
+        3100
       ]
     },
     "bm_degradation": {
@@ -2031,7 +2072,8 @@
         "25 Mar",
         "26 Mar",
         "27 Mar",
-        "28 Mar"
+        "28 Mar",
+        "29 Mar"
       ],
       "daily_bm": [
         200,
@@ -2061,6 +2103,7 @@
         150,
         300,
         300,
+        50,
         50,
         50,
         50
@@ -2116,7 +2159,8 @@
         "25 Mar",
         "26 Mar",
         "27 Mar",
-        "28 Mar"
+        "28 Mar",
+        "29 Mar"
       ],
       "data": [
         1.5,
@@ -2148,7 +2192,8 @@
         null,
         5000000000,
         null,
-        null
+        null,
+        200000000000
       ]
     },
     "cost_distribution": {
@@ -2231,6 +2276,7 @@
         120,
         155,
         155,
+        155,
         155
       ]
     },
@@ -2287,7 +2333,8 @@
         85,
         85,
         85,
-        85
+        85,
+        0
       ]
     },
     "scenario_probabilities": {
@@ -2303,8 +2350,8 @@
       ],
       "data": [
         5,
-        70,
-        25
+        65,
+        30
       ],
       "colors": [
         "rgba(245,158,11,.7)",

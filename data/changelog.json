@@ -306,5 +306,29 @@
       "NEW US CASUALTY: Jane Smith",
       "NEW AIRCRAFT LOSS: F-15E"
     ]
+  },
+  {
+    "date": "2026-03-29",
+    "timestamp": "2026-03-29T02:57:11.268866-05:00",
+    "status": "UPDATED",
+    "summary": "Houthi rebels have entered the conflict by launching missiles at Israel; Iranian missile attacks have resulted in additional casualties in Israel; the U.S. has increased its military presence in the Middle East; global economic concerns have intensified due to disruptions in oil and gas supplies.",
+    "changes": [
+      "meta.last_updated: 2026-03-28 -> 2026-03-29",
+      "meta.update_time: 07:36 EST -> 08:00 EST",
+      "meta.day_number: 29 -> 30",
+      "NEW DAY 30: Houthi rebels launch missile at Israel; Iranian missile strikes on Tel Aviv resu...",
+      "costs.kpis.oil_brent: $145→$150+ -> $150→$155+",
+      "scenario B prob: 70% -> 65%",
+      "scenario C prob: 25% -> 30%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
