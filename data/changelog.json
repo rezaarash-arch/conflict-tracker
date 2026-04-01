@@ -380,5 +380,25 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-04-01",
+    "timestamp": "2026-04-01T03:47:44.388704-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's attacks on a tanker near Qatar and Kuwait International Airport, Israel's airstrikes in Beirut, and statements from U.S. and Iranian leaders indicating potential shifts in the conflict's trajectory.",
+    "changes": [
+      "meta.last_updated: 2026-03-31 -> 2026-04-01",
+      "meta.update_time: 08:16 EST -> 08:47 EST",
+      "meta.day_number: 32 -> 33",
+      "NEW DAY 33: Iran strikes oil tanker near Qatar; Iran attacks Kuwait International Airport; I...",
+      "overview.us_israel_strikes: ~20,000+ -> ~21,000+",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
+    ]
   }
 ]
