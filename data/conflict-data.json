@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-01",
-    "update_time": "08:47 EST",
-    "day_number": 33,
+    "last_updated": "2026-04-02",
+    "update_time": "08:15 EST",
+    "day_number": 34,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~21,000+",
+    "us_israel_strikes": "~22,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -906,6 +906,23 @@
         "events": "Iran strikes oil tanker near Qatar; Iran attacks Kuwait International Airport; Israel conducts airstrikes in Beirut; U.S. President Trump announces potential withdrawal timeline; Iranian President Pezeshkian expresses willingness to end conflict with guarantees.",
         "events_fa": "ایران به نفتکش نزدیک قطر حمله می‌کند؛ ایران فرودگاه بین‌المللی کویت را هدف قرار می‌دهد؛ اسرائیل حملات هوایی در بیروت انجام می‌دهد؛ رئیس‌جمهور آمریکا ترامپ زمان‌بندی احتمالی خروج را اعلام می‌کند؛ رئیس‌جمهور ایران پزشکیان تمایل به پایان درگیری با تضمین‌ها را ابراز می‌کند.",
         "highlight": true
+      },
+      {
+        "day": 34,
+        "date": "2 Apr",
+        "date_fa": "۲ آوریل",
+        "waves": "2",
+        "iran_dead": "200+",
+        "isr_dead": "10+",
+        "us_dead": "1",
+        "other": "15+",
+        "other_fa": "۱۵+",
+        "iran_bms": "50+",
+        "iran_drones": "10+",
+        "targets": "Military installations, oil infrastructure",
+        "events": "Iran launches missile attacks on Israel and Gulf countries; U.S. President Trump announces intensified military action against Iran; Israeli airstrikes target Hezbollah positions in Beirut.",
+        "events_fa": "ایران حملات موشکی به اسرائیل و کشورهای خلیج فارس انجام می‌دهد؛ رئیس‌جمهور آمریکا ترامپ اقدام نظامی شدیدتری علیه ایران اعلام می‌کند؛ حملات هوایی اسرائیل مواضع حزب‌الله در بیروت را هدف قرار می‌دهد.",
+        "highlight": true
       }
     ]
   },
@@ -1362,6 +1379,21 @@
         "location_fa": "اصفهان، ایران",
         "cause": "IED explosion",
         "cause_fa": "انفجار بمب کنار جاده‌ای"
+      },
+      {
+        "num": 30,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-04-01",
+        "date_fa": "۱۲ فروردین ۱۴۰۵",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "Killed in action during airstrike",
+        "cause_fa": "کشته شده در عملیات در جریان حمله هوایی"
       }
     ],
     "aircraft_losses": [
@@ -1564,7 +1596,7 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 15,
         "color": "amber",
         "description": "Ceasefire and diplomatic resolution",
         "description_fa": "آتش‌بس و حل دیپلماتیک",
@@ -1576,15 +1608,15 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تمایل ایران به پایان درگیری با تضمین‌ها",
-          "اعلام زمان‌بندی خروج توسط رئیس‌جمهور آمریکا"
+          "افزایش فشار بین‌المللی",
+          "خستگی جنگی در طرفین"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 50,
         "color": "red",
         "description": "Prolonged conflict with intermittent escalations",
         "description_fa": "درگیری طولانی با تشدیدهای متناوب",
@@ -1596,8 +1628,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم ایران به اهداف منطقه‌ای",
-          "حملات هوایی اسرائیل در بیروت"
+          "ادامه حملات متقابل",
+          "عدم توافق دیپلماتیک"
         ]
       },
       {
@@ -1607,7 +1639,7 @@
         "probability": 35,
         "color": "green",
         "description": "Regional escalation involving additional state and non-state actors",
-        "description_fa": "تشدید منطقه‌ای با مشارکت بازیگران دولتی و غیردولتی اضافی",
+        "description_fa": "تشدید منطقه‌ای با دخالت بازیگران دولتی و غیردولتی بیشتر",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1616,8 +1648,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات حوثی‌ها به اسرائیل",
-          "حملات ایران به کشورهای خلیج فارس"
+          "گسترش درگیری به کشورهای همسایه",
+          "فعالیت‌های گروه‌های شبه‌نظامی"
         ]
       }
     ],
@@ -1922,7 +1954,8 @@
         "29 Mar",
         "30 Mar",
         "31 Mar",
-        "1 Apr"
+        "1 Apr",
+        "2 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -1958,7 +1991,8 @@
         5,
         5,
         3,
-        3
+        3,
+        2
       ],
       "iran_bms": [
         200,
@@ -1994,6 +2028,7 @@
         50,
         150,
         150,
+        50,
         50
       ],
       "iran_drones": [
@@ -2030,7 +2065,8 @@
         30,
         75,
         50,
-        20
+        20,
+        10
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2067,7 +2103,8 @@
         "29 Mar",
         "30 Mar",
         "31 Mar",
-        "1 Apr"
+        "1 Apr",
+        "2 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2103,7 +2140,8 @@
         4600,
         4800,
         5000,
-        4800
+        4800,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -2138,7 +2176,8 @@
         null,
         3100,
         5000,
-        4800
+        4800,
+        3300
       ]
     },
     "bm_degradation": {
@@ -2175,7 +2214,8 @@
         "29 Mar",
         "30 Mar",
         "31 Mar",
-        "1 Apr"
+        "1 Apr",
+        "2 Apr"
       ],
       "daily_bm": [
         200,
@@ -2211,6 +2251,7 @@
         50,
         150,
         150,
+        50,
         50
       ],
       "trendline": [
@@ -2268,7 +2309,8 @@
         "29 Mar",
         "30 Mar",
         "31 Mar",
-        "1 Apr"
+        "1 Apr",
+        "2 Apr"
       ],
       "data": [
         1.5,
@@ -2303,7 +2345,8 @@
         null,
         200000000000,
         2000000000,
-        200
+        200,
+        1500000000
       ]
     },
     "cost_distribution": {
@@ -2390,7 +2433,8 @@
         155,
         115,
         120,
-        104
+        104,
+        108
       ]
     },
     "hormuz_transit": {
@@ -2449,6 +2493,7 @@
         85,
         0,
         85,
+        85,
         85
       ]
     },
@@ -2464,8 +2509,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        45,
+        15,
+        50,
         35
       ],
       "colors": [

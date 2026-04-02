@@ -400,5 +400,29 @@
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
       "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-02",
+    "timestamp": "2026-04-02T03:15:22.483164-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include intensified U.S. military actions against Iran, continued Iranian missile attacks on Israel and Gulf countries, and escalating regional instability.",
+    "changes": [
+      "meta.last_updated: 2026-04-01 -> 2026-04-02",
+      "meta.update_time: 08:47 EST -> 08:15 EST",
+      "meta.day_number: 33 -> 34",
+      "NEW DAY 34: Iran launches missile attacks on Israel and Gulf countries; U.S. President Trump...",
+      "overview.us_israel_strikes: ~21,000+ -> ~22,000+",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
