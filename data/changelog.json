@@ -424,5 +424,30 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-04-03",
+    "timestamp": "2026-04-03T03:08:58.680215-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in the conflict with new attacks and strategic developments.",
+    "changes": [
+      "meta.last_updated: 2026-04-02 -> 2026-04-03",
+      "meta.update_time: 08:15 EST -> 08:08 EST",
+      "meta.day_number: 34 -> 35",
+      "NEW DAY 35: Iran launched missile and drone attacks targeting Tel Aviv and Haifa, causing si...",
+      "overview.us_israel_strikes: ~22,000+ -> ~24,500+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 50% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe",
+      "NEW US CASUALTY: Jane Smith"
+    ]
   }
 ]
