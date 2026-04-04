@@ -449,5 +449,30 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-04-04",
+    "timestamp": "2026-04-04T02:39:28.430653-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the downing of two U.S. aircraft by Iranian forces, resulting in one crew member missing; increased U.S. military casualties; and intensified Israeli airstrikes on Hezbollah positions in Lebanon.",
+    "changes": [
+      "meta.last_updated: 2026-04-03 -> 2026-04-04",
+      "meta.update_time: 08:08 EST -> 07:39 EST",
+      "meta.day_number: 35 -> 36",
+      "NEW DAY 36: Iran launched missile and drone attacks targeting Tel Aviv and Haifa, causing si...",
+      "costs.kpis.oil_brent: $115 -> $118",
+      "scenario A prob: 10% -> 12%",
+      "scenario B prob: 55% -> 50%",
+      "scenario C prob: 35% -> 38%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
