@@ -474,5 +474,30 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-04-05",
+    "timestamp": "2026-04-05T03:00:23.444129-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the rescue of a previously missing U.S. pilot, intensified U.S. and Israeli strikes on Iranian civilian infrastructure, and Iran's missile attacks on regional targets. President Trump issued a 48-hour ultimatum to Iran regarding the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-04-04 -> 2026-04-05",
+      "meta.update_time: 07:39 EST -> 08:00 EST",
+      "meta.day_number: 36 -> 37",
+      "NEW DAY 37: Iran launched missile and drone attacks targeting Tel Aviv and Haifa, causing si...",
+      "overview.us_israel_strikes: ~24,500+ -> ~25,000+",
+      "scenario A prob: 12% -> 10%",
+      "scenario B prob: 50% -> 55%",
+      "scenario C prob: 38% -> 35%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
