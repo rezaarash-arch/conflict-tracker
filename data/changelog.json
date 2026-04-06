@@ -499,5 +499,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-04-06",
+    "timestamp": "2026-04-06T03:57:33.008335-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include over 25 fatalities in Iran due to U.S. and Israeli airstrikes, the death of IRGC intelligence chief Maj. Gen. Majid Khademi, Iranian missile attacks causing casualties in Israel and the UAE, and ongoing ceasefire negotiations.",
+    "changes": [
+      "meta.last_updated: 2026-04-05 -> 2026-04-06",
+      "meta.update_time: 08:00 EST -> 08:57 EST",
+      "meta.day_number: 37 -> 38",
+      "NEW DAY 38: U.S. and Israeli airstrikes killed over 25 in Iran, including IRGC intelligence ...",
+      "costs.kpis.oil_brent: $118 -> $120",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 55% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]

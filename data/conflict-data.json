@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-05",
-    "update_time": "08:00 EST",
-    "day_number": 37,
+    "last_updated": "2026-04-06",
+    "update_time": "08:57 EST",
+    "day_number": 38,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -974,6 +974,23 @@
         "events": "Iran launched missile and drone attacks targeting Tel Aviv and Haifa, causing significant damage and casualties. The IRGC announced strikes on the USS Abraham Lincoln and U.S. military sites in the region. U.S. and Israeli forces conducted airstrikes on Tehran and Isfahan, targeting military infrastructure.",
         "events_fa": "ایران حملات موشکی و پهپادی به تل‌آویو و حیفا انجام داد که منجر به خسارات و تلفات قابل توجهی شد. سپاه پاسداران انقلاب اسلامی اعلام کرد که به ناو یو‌اس‌اس آبراهام لینکلن و سایت‌های نظامی آمریکا در منطقه حمله کرده است. نیروهای آمریکایی و اسرائیلی حملات هوایی به تهران و اصفهان انجام دادند و زیرساخت‌های نظامی را هدف قرار دادند.",
         "highlight": true
+      },
+      {
+        "day": 38,
+        "date": "6 Apr",
+        "date_fa": "۶ آوریل",
+        "waves": "Multiple",
+        "iran_dead": "25+",
+        "isr_dead": "2",
+        "us_dead": "0",
+        "other": "1",
+        "other_fa": "۱",
+        "iran_bms": "Multiple",
+        "iran_drones": "Unknown",
+        "targets": "Tehran, Isfahan, Haifa, Tel Aviv, Abu Dhabi",
+        "events": "U.S. and Israeli airstrikes killed over 25 in Iran, including IRGC intelligence chief Maj. Gen. Majid Khademi. Iranian missile attacks targeted central Israel and Haifa, causing civilian casualties. An Iranian missile strike in Abu Dhabi injured one person. Ceasefire negotiations are ongoing.",
+        "events_fa": "حملات هوایی ایالات متحده و اسرائیل بیش از ۲۵ نفر را در ایران کشتند، از جمله سرتیپ مجید خادمی، رئیس اطلاعات سپاه پاسداران. حملات موشکی ایران به مرکز اسرائیل و حیفا منجر به تلفات غیرنظامیان شد. یک حمله موشکی ایران در ابوظبی یک نفر را مجروح کرد. مذاکرات آتش‌بس در حال انجام است.",
+        "highlight": true
       }
     ]
   },
@@ -1566,7 +1583,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$118",
+      "oil_brent": "$120",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -1707,10 +1724,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل و فصل دیپلماتیک",
+        "description": "Immediate ceasefire leading to negotiations",
+        "description_fa": "آتش‌بس فوری منجر به مذاکرات",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1719,18 +1736,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک بین‌المللی",
-          "فشار اقتصادی بر طرفین"
+          "مذاکرات آتش‌بس در حال انجام",
+          "فشار بین‌المللی برای پایان دادن به درگیری"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 50,
         "color": "red",
         "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
+        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1739,8 +1756,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم",
-          "عدم توافق دیپلماتیک"
+          "حملات مداوم دو طرف",
+          "عدم توافق در مذاکرات"
         ]
       },
       {
@@ -1760,7 +1777,7 @@
         ],
         "drivers_fa": [
           "گسترش درگیری به کشورهای همسایه",
-          "ورود نیروهای جدید به جنگ"
+          "حملات به زیرساخت‌های حیاتی"
         ]
       }
     ],
@@ -2069,7 +2086,8 @@
         "2 Apr",
         "3 Apr",
         "4 Apr",
-        "5 Apr"
+        "5 Apr",
+        "6 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2109,6 +2127,7 @@
         2,
         5,
         2,
+        3,
         3
       ],
       "iran_bms": [
@@ -2149,6 +2168,7 @@
         50,
         15,
         15,
+        50,
         50
       ],
       "iran_drones": [
@@ -2189,7 +2209,8 @@
         10,
         10,
         5,
-        20
+        20,
+        10
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2230,7 +2251,8 @@
         "2 Apr",
         "3 Apr",
         "4 Apr",
-        "5 Apr"
+        "5 Apr",
+        "6 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2270,7 +2292,8 @@
         4600,
         5000,
         4700,
-        4800
+        4800,
+        4625
       ],
       "hrana_civilian": [
         133,
@@ -2309,7 +2332,8 @@
         3300,
         4800,
         7000,
-        5000
+        5000,
+        null
       ]
     },
     "bm_degradation": {
@@ -2350,7 +2374,8 @@
         "2 Apr",
         "3 Apr",
         "4 Apr",
-        "5 Apr"
+        "5 Apr",
+        "6 Apr"
       ],
       "daily_bm": [
         200,
@@ -2390,6 +2415,7 @@
         50,
         15,
         15,
+        50,
         50
       ],
       "trendline": [
@@ -2451,7 +2477,8 @@
         "2 Apr",
         "3 Apr",
         "4 Apr",
-        "5 Apr"
+        "5 Apr",
+        "6 Apr"
       ],
       "data": [
         1.5,
@@ -2490,7 +2517,8 @@
         1500000000,
         1.2,
         55000000000,
-        1500000000
+        1500000000,
+        null
       ]
     },
     "cost_distribution": {
@@ -2581,6 +2609,7 @@
         108,
         109,
         118,
+        120,
         120
       ]
     },
@@ -2644,6 +2673,7 @@
         85,
         75,
         85,
+        85,
         85
       ]
     },
@@ -2659,8 +2689,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        55,
+        15,
+        50,
         35
       ],
       "colors": [
