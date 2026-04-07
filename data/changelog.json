@@ -522,5 +522,23 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-07",
+    "timestamp": "2026-04-07T03:45:27.941160-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's rejection of a 45-day ceasefire proposal, U.S. President Trump's ultimatum to reopen the Strait of Hormuz by April 7, 8 p.m. EDT, and escalating military actions between Iran and Israel. Additionally, oil prices have risen due to the ongoing conflict.",
+    "changes": [
+      "meta.last_updated: 2026-04-06 -> 2026-04-07",
+      "meta.update_time: 08:57 EST -> 08:45 EST",
+      "meta.day_number: 38 -> 39",
+      "NEW DAY 39: Iran launched seven ballistic missiles targeting Saudi Arabia's Eastern Province...",
+      "overview.us_israel_strikes: ~25,000+ -> ~25,500+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 50% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
+    ]
   }
 ]
