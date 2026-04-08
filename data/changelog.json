@@ -540,5 +540,27 @@
       "chart bm_degradation.daily_bm: appended 1 values",
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-08",
+    "timestamp": "2026-04-08T03:45:23.813324-05:00",
+    "status": "UPDATED",
+    "summary": "A two-week ceasefire between the United States, Israel, and Iran has been agreed upon, effective April 8, 2026. Iran has committed to reopening the Strait of Hormuz during this period. However, reports indicate that hostilities have not entirely ceased, with continued military actions in certain regions.",
+    "changes": [
+      "meta.last_updated: 2026-04-07 -> 2026-04-08",
+      "meta.day_number: 39 -> 40",
+      "NEW DAY 40: A two-week ceasefire between the United States, Israel, and Iran has been agreed...",
+      "overview.us_israel_strikes: ~25,500+ -> ~26,000+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 55% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]

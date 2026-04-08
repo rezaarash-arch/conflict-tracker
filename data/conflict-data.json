@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-08",
     "update_time": "08:45 EST",
-    "day_number": 39,
+    "day_number": 40,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~25,500+",
+    "us_israel_strikes": "~26,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -1008,6 +1008,23 @@
         "events": "Iran launched seven ballistic missiles targeting Saudi Arabia's Eastern Province, causing debris near energy facilities. Israel conducted airstrikes on Tehran and Alborz province, resulting in at least 18 deaths. U.S. President Trump issued an ultimatum for Iran to reopen the Strait of Hormuz by April 7, 8 p.m. EDT, threatening strikes on Iranian infrastructure if demands are not met.",
         "events_fa": "ایران هفت موشک بالستیک به سمت استان شرقی عربستان سعودی شلیک کرد که منجر به سقوط بقایایی در نزدیکی تأسیسات انرژی شد. اسرائیل حملات هوایی به تهران و استان البرز انجام داد که منجر به کشته شدن حداقل ۱۸ نفر شد. رئیس‌جمهور آمریکا ترامپ اولتیماتومی برای ایران صادر کرد تا تنگه هرمز را تا ۷ آوریل ساعت ۸ شب به وقت شرقی باز کند و تهدید به حملات به زیرساخت‌های ایران در صورت عدم تحقق خواسته‌ها کرد.",
         "highlight": true
+      },
+      {
+        "day": 40,
+        "date": "8 Apr",
+        "date_fa": "۸ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "A two-week ceasefire between the United States, Israel, and Iran has been agreed upon, effective April 8, 2026. Iran has committed to reopening the Strait of Hormuz during this period. However, reports indicate that hostilities have not entirely ceased, with continued military actions in certain regions.",
+        "events_fa": "یک آتش‌بس دو هفته‌ای بین ایالات متحده، اسرائیل و ایران توافق شده است که از ۸ آوریل ۲۰۲۶ به اجرا در می‌آید. ایران متعهد شده است که در این دوره تنگه هرمز را بازگشایی کند. با این حال، گزارش‌ها نشان می‌دهد که خصومت‌ها به‌طور کامل متوقف نشده است و اقدامات نظامی در برخی مناطق ادامه دارد.",
+        "highlight": true
       }
     ]
   },
@@ -1741,10 +1758,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire agreement leading to de-escalation",
-        "description_fa": "توافق آتش‌بس منجر به کاهش تنش",
+        "description": "Ceasefire holds, leading to de-escalation and potential peace talks.",
+        "description_fa": "آتش‌بس برقرار می‌ماند، منجر به کاهش تنش‌ها و مذاکرات صلح احتمالی می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1753,18 +1770,19 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات جاری",
-          "فشار بین‌المللی"
+          "توافق آتش‌بس",
+          "بازگشایی تنگه هرمز",
+          "کاهش حملات نظامی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 50,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
+        "description": "Ceasefire is fragile, with sporadic violations leading to renewed hostilities.",
+        "description_fa": "آتش‌بس شکننده است، با نقض‌های پراکنده که منجر به خصومت‌های مجدد می‌شود.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1773,8 +1791,9 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم",
-          "عدم توافق در مذاکرات"
+          "ادامه حملات در برخی مناطق",
+          "عدم اعتماد بین طرفین",
+          "فشارهای داخلی"
         ]
       },
       {
@@ -1783,8 +1802,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 35,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
+        "description": "Ceasefire collapses, leading to full-scale resumption of conflict.",
+        "description_fa": "آتش‌بس فرو می‌ریزد، منجر به از سرگیری کامل درگیری می‌شود.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1793,8 +1812,9 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "اولتیماتوم‌های آمریکا",
-          "حملات متقابل"
+          "نقض‌های مکرر آتش‌بس",
+          "عدم توافق در مذاکرات",
+          "افزایش تنش‌های منطقه‌ای"
         ]
       }
     ],
@@ -2105,7 +2125,8 @@
         "4 Apr",
         "5 Apr",
         "6 Apr",
-        "7 Apr"
+        "7 Apr",
+        "8 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2147,7 +2168,8 @@
         2,
         3,
         3,
-        "Multiple"
+        "Multiple",
+        0
       ],
       "iran_bms": [
         200,
@@ -2189,7 +2211,8 @@
         15,
         50,
         50,
-        7
+        7,
+        0
       ],
       "iran_drones": [
         500,
@@ -2230,7 +2253,8 @@
         10,
         5,
         20,
-        10
+        10,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2273,7 +2297,8 @@
         "4 Apr",
         "5 Apr",
         "6 Apr",
-        "7 Apr"
+        "7 Apr",
+        "8 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2314,7 +2339,8 @@
         5000,
         4700,
         4800,
-        4625
+        4625,
+        7200
       ],
       "hrana_civilian": [
         133,
@@ -2354,7 +2380,8 @@
         4800,
         7000,
         5000,
-        null
+        null,
+        23500
       ]
     },
     "bm_degradation": {
@@ -2397,7 +2424,8 @@
         "4 Apr",
         "5 Apr",
         "6 Apr",
-        "7 Apr"
+        "7 Apr",
+        "8 Apr"
       ],
       "daily_bm": [
         200,
@@ -2439,7 +2467,8 @@
         15,
         50,
         50,
-        7
+        7,
+        0
       ],
       "trendline": [
         200,
@@ -2502,7 +2531,8 @@
         "4 Apr",
         "5 Apr",
         "6 Apr",
-        "7 Apr"
+        "7 Apr",
+        "8 Apr"
       ],
       "data": [
         1.5,
@@ -2542,7 +2572,8 @@
         1.2,
         55000000000,
         1500000000,
-        null
+        null,
+        0
       ]
     },
     "cost_distribution": {
@@ -2635,7 +2666,8 @@
         118,
         120,
         120,
-        111
+        111,
+        115
       ]
     },
     "hormuz_transit": {
@@ -2699,7 +2731,8 @@
         75,
         85,
         85,
-        85
+        85,
+        100
       ]
     },
     "scenario_probabilities": {
@@ -2714,8 +2747,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        55,
+        15,
+        50,
         35
       ],
       "colors": [
