@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-08",
-    "update_time": "08:45 EST",
-    "day_number": 40,
+    "last_updated": "2026-04-09",
+    "update_time": "08:55 EST",
+    "day_number": 41,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1025,6 +1025,23 @@
         "events": "A two-week ceasefire between the United States, Israel, and Iran has been agreed upon, effective April 8, 2026. Iran has committed to reopening the Strait of Hormuz during this period. However, reports indicate that hostilities have not entirely ceased, with continued military actions in certain regions.",
         "events_fa": "یک آتش‌بس دو هفته‌ای بین ایالات متحده، اسرائیل و ایران توافق شده است که از ۸ آوریل ۲۰۲۶ به اجرا در می‌آید. ایران متعهد شده است که در این دوره تنگه هرمز را بازگشایی کند. با این حال، گزارش‌ها نشان می‌دهد که خصومت‌ها به‌طور کامل متوقف نشده است و اقدامات نظامی در برخی مناطق ادامه دارد.",
         "highlight": true
+      },
+      {
+        "day": 41,
+        "date": "9 Apr",
+        "date_fa": "۹ آوریل",
+        "waves": "2",
+        "iran_dead": "50",
+        "isr_dead": "10",
+        "us_dead": "1",
+        "other": "5",
+        "other_fa": "۵",
+        "iran_bms": "20",
+        "iran_drones": "10",
+        "targets": "Military installations in Israel and US bases in the region",
+        "events": "Despite the ceasefire, Israeli airstrikes continued in Lebanon, targeting Hezbollah positions and resulting in over 180 casualties. Iran released a chart suggesting the placement of sea mines in the Strait of Hormuz, causing disruptions to global oil shipping. Hezbollah launched a missile attack against northern Israel in response to Israeli strikes.",
+        "events_fa": "با وجود آتش‌بس، حملات هوایی اسرائیل در لبنان ادامه یافت و مواضع حزب‌الله را هدف قرار داد که منجر به بیش از ۱۸۰ کشته شد. ایران نموداری منتشر کرد که نشان می‌دهد ممکن است مین‌های دریایی در تنگه هرمز قرار داده باشد که باعث اختلال در حمل و نقل نفت جهانی شد. حزب‌الله در پاسخ به حملات اسرائیل، حمله موشکی به شمال اسرائیل انجام داد.",
+        "highlight": false
       }
     ]
   },
@@ -1556,6 +1573,21 @@
         "location_fa": "نزدیک تهران، ایران",
         "cause": "Aircraft shootdown",
         "cause_fa": "سقوط هواپیما"
+      },
+      {
+        "num": 35,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-04-08",
+        "date_fa": "۸ آوریل ۲۰۲۶",
+        "location": "Lebanon",
+        "location_fa": "لبنان",
+        "cause": "Killed in action during ongoing hostilities",
+        "cause_fa": "کشته شده در عملیات در جریان خصومت‌ها"
       }
     ],
     "aircraft_losses": [
@@ -1617,7 +1649,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$120",
+      "oil_brent": "$118",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -1758,10 +1790,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Ceasefire holds, leading to de-escalation and potential peace talks.",
-        "description_fa": "آتش‌بس برقرار می‌ماند، منجر به کاهش تنش‌ها و مذاکرات صلح احتمالی می‌شود.",
+        "description": "Full cessation of hostilities and comprehensive peace agreement.",
+        "description_fa": "توقف کامل خصومت‌ها و توافق صلح جامع",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1770,19 +1802,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "توافق آتش‌بس",
-          "بازگشایی تنگه هرمز",
-          "کاهش حملات نظامی"
+          "مذاکرات موفقیت‌آمیز",
+          "فشار بین‌المللی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Ceasefire is fragile, with sporadic violations leading to renewed hostilities.",
-        "description_fa": "آتش‌بس شکننده است، با نقض‌های پراکنده که منجر به خصومت‌های مجدد می‌شود.",
+        "description": "Prolonged ceasefire with intermittent violations.",
+        "description_fa": "آتش‌بس طولانی‌مدت با نقض‌های متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1791,19 +1822,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات در برخی مناطق",
-          "عدم اعتماد بین طرفین",
-          "فشارهای داخلی"
+          "بی‌اعتمادی متقابل",
+          "حملات پراکنده"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 35,
+        "probability": 45,
         "color": "green",
-        "description": "Ceasefire collapses, leading to full-scale resumption of conflict.",
-        "description_fa": "آتش‌بس فرو می‌ریزد، منجر به از سرگیری کامل درگیری می‌شود.",
+        "description": "Resumption of full-scale hostilities.",
+        "description_fa": "از سرگیری خصومت‌های تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1812,9 +1842,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "نقض‌های مکرر آتش‌بس",
-          "عدم توافق در مذاکرات",
-          "افزایش تنش‌های منطقه‌ای"
+          "شکست مذاکرات",
+          "حملات تحریک‌آمیز"
         ]
       }
     ],
@@ -2126,7 +2155,8 @@
         "5 Apr",
         "6 Apr",
         "7 Apr",
-        "8 Apr"
+        "8 Apr",
+        "9 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2169,7 +2199,8 @@
         3,
         3,
         "Multiple",
-        0
+        0,
+        2
       ],
       "iran_bms": [
         200,
@@ -2212,7 +2243,8 @@
         50,
         50,
         7,
-        0
+        0,
+        20
       ],
       "iran_drones": [
         500,
@@ -2254,7 +2286,8 @@
         5,
         20,
         10,
-        0
+        0,
+        10
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2298,7 +2331,8 @@
         "5 Apr",
         "6 Apr",
         "7 Apr",
-        "8 Apr"
+        "8 Apr",
+        "9 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2340,7 +2374,8 @@
         4700,
         4800,
         4625,
-        7200
+        7200,
+        4700
       ],
       "hrana_civilian": [
         133,
@@ -2381,7 +2416,8 @@
         7000,
         5000,
         null,
-        23500
+        23500,
+        null
       ]
     },
     "bm_degradation": {
@@ -2425,7 +2461,8 @@
         "5 Apr",
         "6 Apr",
         "7 Apr",
-        "8 Apr"
+        "8 Apr",
+        "9 Apr"
       ],
       "daily_bm": [
         200,
@@ -2468,7 +2505,8 @@
         50,
         50,
         7,
-        0
+        0,
+        20
       ],
       "trendline": [
         200,
@@ -2532,7 +2570,8 @@
         "5 Apr",
         "6 Apr",
         "7 Apr",
-        "8 Apr"
+        "8 Apr",
+        "9 Apr"
       ],
       "data": [
         1.5,
@@ -2573,7 +2612,8 @@
         55000000000,
         1500000000,
         null,
-        0
+        0,
+        null
       ]
     },
     "cost_distribution": {
@@ -2667,7 +2707,8 @@
         120,
         120,
         111,
-        115
+        115,
+        118
       ]
     },
     "hormuz_transit": {
@@ -2732,7 +2773,8 @@
         85,
         85,
         85,
-        100
+        100,
+        50
       ]
     },
     "scenario_probabilities": {
@@ -2747,9 +2789,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        50,
-        35
+        10,
+        45,
+        45
       ],
       "colors": [
         "rgba(245,158,11,.7)",

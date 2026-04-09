@@ -562,5 +562,30 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-09",
+    "timestamp": "2026-04-09T03:55:45.198514-05:00",
+    "status": "UPDATED",
+    "summary": "Ceasefire declared on April 8, 2026, with ongoing hostilities in Lebanon and the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-04-08 -> 2026-04-09",
+      "meta.update_time: 08:45 EST -> 08:55 EST",
+      "meta.day_number: 40 -> 41",
+      "NEW DAY 41: Despite the ceasefire, Israeli airstrikes continued in Lebanon, targeting Hezbol...",
+      "costs.kpis.oil_brent: $120 -> $118",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 50% -> 45%",
+      "scenario C prob: 35% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
