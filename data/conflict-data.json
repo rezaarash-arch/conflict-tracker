@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-11",
-    "update_time": "00:00 EST",
-    "day_number": 41,
+    "last_updated": "2026-04-12",
+    "update_time": "06:17 EST",
+    "day_number": 42,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1042,6 +1042,23 @@
         "events": "Despite the ceasefire, Israeli airstrikes continued in Lebanon, targeting Hezbollah positions and resulting in over 180 casualties. Iran released a chart suggesting the placement of sea mines in the Strait of Hormuz, causing disruptions to global oil shipping. Hezbollah launched a missile attack against northern Israel in response to Israeli strikes.",
         "events_fa": "با وجود آتش‌بس، حملات هوایی اسرائیل در لبنان ادامه یافت و مواضع حزب‌الله را هدف قرار داد که منجر به بیش از ۱۸۰ کشته شد. ایران نموداری منتشر کرد که نشان می‌دهد ممکن است مین‌های دریایی در تنگه هرمز قرار داده باشد که باعث اختلال در حمل و نقل نفت جهانی شد. حزب‌الله در پاسخ به حملات اسرائیل، حمله موشکی به شمال اسرائیل انجام داد.",
         "highlight": false
+      },
+      {
+        "day": 42,
+        "date": "12 Apr",
+        "date_fa": "۱۲ آوریل",
+        "waves": "1",
+        "iran_dead": "200+",
+        "isr_dead": "15+",
+        "us_dead": "0",
+        "other": "Lebanon: 200+",
+        "other_fa": "لبنان: ۲۰۰+",
+        "iran_bms": "50+",
+        "iran_drones": "20+",
+        "targets": "Military installations in Israel and Lebanon",
+        "events": "Despite ongoing ceasefire talks, hostilities continued with Israeli airstrikes in Lebanon resulting in over 200 casualties. Hezbollah launched missile attacks into northern Israel in response. The United States and Iran concluded negotiations in Islamabad without reaching an agreement, leaving the ceasefire's future uncertain.",
+        "events_fa": "با وجود مذاکرات آتش‌بس جاری، خصومت‌ها ادامه یافت و حملات هوایی اسرائیل در لبنان منجر به بیش از ۲۰۰ کشته شد. حزب‌الله در پاسخ، حملات موشکی به شمال اسرائیل انجام داد. ایالات متحده و ایران مذاکرات در اسلام‌آباد را بدون دستیابی به توافقی به پایان رساندند و آینده آتش‌بس نامشخص باقی ماند.",
+        "highlight": false
       }
     ]
   },
@@ -1790,10 +1807,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 5,
         "color": "amber",
-        "description": "Full cessation of hostilities and comprehensive peace agreement.",
-        "description_fa": "توقف کامل خصومت‌ها و توافق صلح جامع",
+        "description": "Full-scale war resumes between Iran and Israel/US.",
+        "description_fa": "از سرگیری جنگ تمام‌عیار بین ایران و اسرائیل/ایالات متحده.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1802,18 +1819,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات موفقیت‌آمیز",
-          "فشار بین‌المللی"
+          "شکست مذاکرات آتش‌بس",
+          "افزایش حملات نظامی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 50,
         "color": "red",
-        "description": "Prolonged ceasefire with intermittent violations.",
-        "description_fa": "آتش‌بس طولانی‌مدت با نقض‌های متناوب",
+        "description": "Prolonged ceasefire with intermittent skirmishes.",
+        "description_fa": "آتش‌بس طولانی‌مدت با درگیری‌های پراکنده.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1822,8 +1839,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "بی‌اعتمادی متقابل",
-          "حملات پراکنده"
+          "ادامه مذاکرات دیپلماتیک",
+          "فشار بین‌المللی برای حفظ آتش‌بس"
         ]
       },
       {
@@ -1832,8 +1849,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 45,
         "color": "green",
-        "description": "Resumption of full-scale hostilities.",
-        "description_fa": "از سرگیری خصومت‌های تمام‌عیار",
+        "description": "Comprehensive peace agreement reached.",
+        "description_fa": "دستیابی به توافق صلح جامع.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1842,8 +1859,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات تحریک‌آمیز"
+          "موفقیت مذاکرات اسلام‌آباد",
+          "توافق بر سر مسائل کلیدی"
         ]
       }
     ],
@@ -2156,7 +2173,8 @@
         "6 Apr",
         "7 Apr",
         "8 Apr",
-        "9 Apr"
+        "9 Apr",
+        "12 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2200,7 +2218,8 @@
         3,
         "Multiple",
         0,
-        2
+        2,
+        1
       ],
       "iran_bms": [
         200,
@@ -2244,7 +2263,8 @@
         50,
         7,
         0,
-        20
+        20,
+        50
       ],
       "iran_drones": [
         500,
@@ -2287,7 +2307,8 @@
         20,
         10,
         0,
-        10
+        10,
+        20
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2332,7 +2353,8 @@
         "6 Apr",
         "7 Apr",
         "8 Apr",
-        "9 Apr"
+        "9 Apr",
+        "12 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2375,7 +2397,8 @@
         4800,
         4625,
         7200,
-        4700
+        4700,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -2417,7 +2440,8 @@
         5000,
         null,
         23500,
-        null
+        null,
+        0
       ]
     },
     "bm_degradation": {
@@ -2462,7 +2486,8 @@
         "6 Apr",
         "7 Apr",
         "8 Apr",
-        "9 Apr"
+        "9 Apr",
+        "12 Apr"
       ],
       "daily_bm": [
         200,
@@ -2506,7 +2531,8 @@
         50,
         7,
         0,
-        20
+        20,
+        50
       ],
       "trendline": [
         200,
@@ -2571,7 +2597,8 @@
         "6 Apr",
         "7 Apr",
         "8 Apr",
-        "9 Apr"
+        "9 Apr",
+        "12 Apr"
       ],
       "data": [
         1.5,
@@ -2613,7 +2640,8 @@
         1500000000,
         null,
         0,
-        null
+        null,
+        0
       ]
     },
     "cost_distribution": {
@@ -2708,7 +2736,8 @@
         120,
         111,
         115,
-        118
+        118,
+        94.74
       ]
     },
     "hormuz_transit": {
@@ -2774,7 +2803,8 @@
         85,
         85,
         100,
-        50
+        50,
+        85
       ]
     },
     "scenario_probabilities": {
@@ -2789,8 +2819,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        45,
+        5,
+        50,
         45
       ],
       "colors": [

@@ -587,5 +587,27 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-04-12",
+    "timestamp": "2026-04-12T01:18:03.107908-05:00",
+    "status": "UPDATED",
+    "summary": "Ceasefire talks between the United States and Iran in Islamabad concluded without an agreement, and military activities continue in the region.",
+    "changes": [
+      "meta.last_updated: 2026-04-11 -> 2026-04-12",
+      "meta.update_time: 00:00 EST -> 06:17 EST",
+      "meta.day_number: 41 -> 42",
+      "NEW DAY 42: Despite ongoing ceasefire talks, hostilities continued with Israeli airstrikes i...",
+      "scenario A prob: 10% -> 5%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
