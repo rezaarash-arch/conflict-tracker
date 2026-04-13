@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-12",
-    "update_time": "06:17 EST",
-    "day_number": 42,
+    "last_updated": "2026-04-13",
+    "update_time": "07:07 EST",
+    "day_number": 43,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1059,6 +1059,23 @@
         "events": "Despite ongoing ceasefire talks, hostilities continued with Israeli airstrikes in Lebanon resulting in over 200 casualties. Hezbollah launched missile attacks into northern Israel in response. The United States and Iran concluded negotiations in Islamabad without reaching an agreement, leaving the ceasefire's future uncertain.",
         "events_fa": "با وجود مذاکرات آتش‌بس جاری، خصومت‌ها ادامه یافت و حملات هوایی اسرائیل در لبنان منجر به بیش از ۲۰۰ کشته شد. حزب‌الله در پاسخ، حملات موشکی به شمال اسرائیل انجام داد. ایالات متحده و ایران مذاکرات در اسلام‌آباد را بدون دستیابی به توافقی به پایان رساندند و آینده آتش‌بس نامشخص باقی ماند.",
         "highlight": false
+      },
+      {
+        "day": 43,
+        "date": "13 Apr",
+        "date_fa": "۱۳ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "The United States announced a blockade of all Iranian ports and coastal areas, following the collapse of ceasefire negotiations in Islamabad. This move aims to pressure Iran over its nuclear program and control of the Strait of Hormuz. Iranian leaders vowed retaliation, emphasizing their control over the strait and warning military vessels of possible forceful responses.",
+        "events_fa": "ایالات متحده اعلام کرد که تمامی بنادر و مناطق ساحلی ایران را محاصره خواهد کرد، پس از شکست مذاکرات آتش‌بس در اسلام‌آباد. این اقدام با هدف فشار بر ایران در مورد برنامه هسته‌ای و کنترل تنگه هرمز انجام می‌شود. رهبران ایران وعده انتقام دادند، بر کنترل خود بر تنگه تأکید کردند و به کشتی‌های نظامی در مورد پاسخ‌های احتمالی هشدار دادند.",
+        "highlight": true
       }
     ]
   },
@@ -1807,10 +1824,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 5,
+        "probability": 10,
         "color": "amber",
-        "description": "Full-scale war resumes between Iran and Israel/US.",
-        "description_fa": "از سرگیری جنگ تمام‌عیار بین ایران و اسرائیل/ایالات متحده.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1819,18 +1836,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "شکست مذاکرات آتش‌بس",
-          "افزایش حملات نظامی"
+          "مذاکرات دیپلماتیک",
+          "فشار بین‌المللی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 40,
         "color": "red",
-        "description": "Prolonged ceasefire with intermittent skirmishes.",
-        "description_fa": "آتش‌بس طولانی‌مدت با درگیری‌های پراکنده.",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1839,18 +1856,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه مذاکرات دیپلماتیک",
-          "فشار بین‌المللی برای حفظ آتش‌بس"
+          "شکست مذاکرات",
+          "حملات نظامی مداوم"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 45,
+        "probability": 50,
         "color": "green",
-        "description": "Comprehensive peace agreement reached.",
-        "description_fa": "دستیابی به توافق صلح جامع.",
+        "description": "Full-scale regional war",
+        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1859,8 +1876,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "موفقیت مذاکرات اسلام‌آباد",
-          "توافق بر سر مسائل کلیدی"
+          "محاصره بنادر ایران",
+          "تهدیدات انتقام‌جویانه ایران"
         ]
       }
     ],
@@ -2174,7 +2191,8 @@
         "7 Apr",
         "8 Apr",
         "9 Apr",
-        "12 Apr"
+        "12 Apr",
+        "13 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2354,7 +2372,8 @@
         "7 Apr",
         "8 Apr",
         "9 Apr",
-        "12 Apr"
+        "12 Apr",
+        "13 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2487,7 +2506,8 @@
         "7 Apr",
         "8 Apr",
         "9 Apr",
-        "12 Apr"
+        "12 Apr",
+        "13 Apr"
       ],
       "daily_bm": [
         200,
@@ -2598,7 +2618,8 @@
         "7 Apr",
         "8 Apr",
         "9 Apr",
-        "12 Apr"
+        "12 Apr",
+        "13 Apr"
       ],
       "data": [
         1.5,
@@ -2737,7 +2758,8 @@
         111,
         115,
         118,
-        94.74
+        94.74,
+        126
       ]
     },
     "hormuz_transit": {
@@ -2819,9 +2841,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        5,
-        50,
-        45
+        10,
+        40,
+        50
       ],
       "colors": [
         "rgba(245,158,11,.7)",

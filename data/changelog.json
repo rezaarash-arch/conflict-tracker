@@ -609,5 +609,21 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-13",
+    "timestamp": "2026-04-13T02:07:50.590859-05:00",
+    "status": "UPDATED",
+    "summary": "The United States announced a blockade of Iranian ports and coastal areas following the collapse of ceasefire negotiations. Oil prices surged due to the blockade announcement.",
+    "changes": [
+      "meta.last_updated: 2026-04-12 -> 2026-04-13",
+      "meta.update_time: 06:17 EST -> 07:07 EST",
+      "meta.day_number: 42 -> 43",
+      "NEW DAY 43: The United States announced a blockade of all Iranian ports and coastal areas, f...",
+      "scenario A prob: 5% -> 10%",
+      "scenario B prob: 50% -> 40%",
+      "scenario C prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values"
+    ]
   }
 ]
