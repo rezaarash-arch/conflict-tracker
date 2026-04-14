@@ -625,5 +625,28 @@
       "scenario C prob: 45% -> 50%",
       "chart brent_oil.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-14",
+    "timestamp": "2026-04-14T01:25:36.451518-05:00",
+    "status": "UPDATED",
+    "summary": "The United States has initiated a naval blockade of Iranian ports and the Strait of Hormuz following unsuccessful ceasefire negotiations. Iran has condemned the blockade and warned of potential retaliatory measures. Oil prices have surged due to the blockade's impact on global supply routes.",
+    "changes": [
+      "meta.last_updated: 2026-04-13 -> 2026-04-14",
+      "meta.update_time: 07:07 EST -> 06:24 EST",
+      "meta.day_number: 43 -> 44",
+      "NEW DAY 44: The United States commenced a naval blockade of Iranian ports and the Strait of ...",
+      "costs.kpis.oil_brent: $118 -> $114.81",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 40% -> 35%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]

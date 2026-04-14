@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-13",
-    "update_time": "07:07 EST",
-    "day_number": 43,
+    "last_updated": "2026-04-14",
+    "update_time": "06:24 EST",
+    "day_number": 44,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1076,6 +1076,23 @@
         "events": "The United States announced a blockade of all Iranian ports and coastal areas, following the collapse of ceasefire negotiations in Islamabad. This move aims to pressure Iran over its nuclear program and control of the Strait of Hormuz. Iranian leaders vowed retaliation, emphasizing their control over the strait and warning military vessels of possible forceful responses.",
         "events_fa": "ایالات متحده اعلام کرد که تمامی بنادر و مناطق ساحلی ایران را محاصره خواهد کرد، پس از شکست مذاکرات آتش‌بس در اسلام‌آباد. این اقدام با هدف فشار بر ایران در مورد برنامه هسته‌ای و کنترل تنگه هرمز انجام می‌شود. رهبران ایران وعده انتقام دادند، بر کنترل خود بر تنگه تأکید کردند و به کشتی‌های نظامی در مورد پاسخ‌های احتمالی هشدار دادند.",
         "highlight": true
+      },
+      {
+        "day": 44,
+        "date": "14 Apr",
+        "date_fa": "۱۴ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "The United States commenced a naval blockade of Iranian ports and the Strait of Hormuz at 10 a.m. ET, following the collapse of ceasefire negotiations in Islamabad. Iran condemned the blockade as a violation of its sovereignty and warned of potential retaliatory measures. Oil prices surged past $114 per barrel due to concerns over global supply disruptions.",
+        "events_fa": "ایالات متحده در ساعت ۱۰ صبح به وقت شرقی، پس از شکست مذاکرات آتش‌بس در اسلام‌آباد، محاصره دریایی بنادر ایران و تنگه هرمز را آغاز کرد. ایران این محاصره را نقض حاکمیت خود دانسته و هشدار به اقدامات تلافی‌جویانه داد. قیمت نفت به دلیل نگرانی‌ها از اختلال در عرضه جهانی به بیش از ۱۱۴ دلار در هر بشکه افزایش یافت.",
+        "highlight": true
       }
     ]
   },
@@ -1683,7 +1700,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$118",
+      "oil_brent": "$114.81",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -1824,10 +1841,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "A negotiated settlement leading to a lasting ceasefire.",
+        "description_fa": "توافق مذاکره‌شده منجر به آتش‌بس پایدار.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1836,18 +1853,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات دیپلماتیک",
-          "فشار بین‌المللی"
+          "تلاش‌های دیپلماتیک بین‌المللی",
+          "فشار اقتصادی بر ایران"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 40,
+        "probability": 35,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
+        "description": "Prolonged conflict with intermittent ceasefires.",
+        "description_fa": "درگیری طولانی‌مدت با آتش‌بس‌های متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1856,8 +1873,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات نظامی مداوم"
+          "عدم اعتماد بین طرفین",
+          "ادامه حملات نظامی"
         ]
       },
       {
@@ -1866,8 +1883,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description": "Escalation into a broader regional conflict.",
+        "description_fa": "تشدید به یک درگیری منطقه‌ای گسترده‌تر.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1876,8 +1893,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "محاصره بنادر ایران",
-          "تهدیدات انتقام‌جویانه ایران"
+          "مداخله نیروهای منطقه‌ای",
+          "افزایش حملات تلافی‌جویانه"
         ]
       }
     ],
@@ -2192,7 +2209,8 @@
         "8 Apr",
         "9 Apr",
         "12 Apr",
-        "13 Apr"
+        "13 Apr",
+        "14 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2237,7 +2255,8 @@
         "Multiple",
         0,
         2,
-        1
+        1,
+        0
       ],
       "iran_bms": [
         200,
@@ -2282,7 +2301,8 @@
         7,
         0,
         20,
-        50
+        50,
+        0
       ],
       "iran_drones": [
         500,
@@ -2326,7 +2346,8 @@
         10,
         0,
         10,
-        20
+        20,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2373,7 +2394,8 @@
         "8 Apr",
         "9 Apr",
         "12 Apr",
-        "13 Apr"
+        "13 Apr",
+        "14 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2417,7 +2439,8 @@
         4625,
         7200,
         4700,
-        4600
+        4600,
+        0
       ],
       "hrana_civilian": [
         133,
@@ -2460,6 +2483,7 @@
         null,
         23500,
         null,
+        0,
         0
       ]
     },
@@ -2507,7 +2531,8 @@
         "8 Apr",
         "9 Apr",
         "12 Apr",
-        "13 Apr"
+        "13 Apr",
+        "14 Apr"
       ],
       "daily_bm": [
         200,
@@ -2552,7 +2577,8 @@
         7,
         0,
         20,
-        50
+        50,
+        0
       ],
       "trendline": [
         200,
@@ -2619,7 +2645,8 @@
         "8 Apr",
         "9 Apr",
         "12 Apr",
-        "13 Apr"
+        "13 Apr",
+        "14 Apr"
       ],
       "data": [
         1.5,
@@ -2662,6 +2689,7 @@
         null,
         0,
         null,
+        0,
         0
       ]
     },
@@ -2759,7 +2787,8 @@
         115,
         118,
         94.74,
-        126
+        126,
+        114.81
       ]
     },
     "hormuz_transit": {
@@ -2826,7 +2855,8 @@
         85,
         100,
         50,
-        85
+        85,
+        0
       ]
     },
     "scenario_probabilities": {
@@ -2841,8 +2871,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        40,
+        15,
+        35,
         50
       ],
       "colors": [
