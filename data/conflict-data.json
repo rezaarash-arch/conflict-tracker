@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-14",
-    "update_time": "06:24 EST",
-    "day_number": 44,
+    "last_updated": "2026-04-15",
+    "update_time": "06:26 EST",
+    "day_number": 45,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1093,6 +1093,23 @@
         "events": "The United States commenced a naval blockade of Iranian ports and the Strait of Hormuz at 10 a.m. ET, following the collapse of ceasefire negotiations in Islamabad. Iran condemned the blockade as a violation of its sovereignty and warned of potential retaliatory measures. Oil prices surged past $114 per barrel due to concerns over global supply disruptions.",
         "events_fa": "ایالات متحده در ساعت ۱۰ صبح به وقت شرقی، پس از شکست مذاکرات آتش‌بس در اسلام‌آباد، محاصره دریایی بنادر ایران و تنگه هرمز را آغاز کرد. ایران این محاصره را نقض حاکمیت خود دانسته و هشدار به اقدامات تلافی‌جویانه داد. قیمت نفت به دلیل نگرانی‌ها از اختلال در عرضه جهانی به بیش از ۱۱۴ دلار در هر بشکه افزایش یافت.",
         "highlight": true
+      },
+      {
+        "day": 45,
+        "date": "15 Apr",
+        "date_fa": "۱۵ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "The U.S. military has fully implemented a blockade on Iranian ports, aiming to halt Iran's oil exports. President Donald Trump expressed optimism about a second round of U.S.-Iran negotiations, potentially in Islamabad. Diplomatic efforts are ongoing, with Pakistan and international mediators facilitating talks. The blockade has led to a surge in global oil prices, surpassing $114 per barrel, and the IMF has downgraded the global economic growth forecast for 2026 to 3.1%, citing the conflict's economic repercussions.",
+        "events_fa": "ارتش ایالات متحده به طور کامل محاصره بنادر ایران را اجرا کرده است، با هدف توقف صادرات نفت ایران. رئیس‌جمهور دونالد ترامپ ابراز خوش‌بینی کرده است درباره دور دوم مذاکرات ایالات متحده و ایران، احتمالاً در اسلام‌آباد. تلاش‌های دیپلماتیک در جریان است، با میانجی‌گری پاکستان و واسطه‌های بین‌المللی برای تسهیل مذاکرات. این محاصره منجر به افزایش قیمت جهانی نفت شده است، که از ۱۱۴ دلار در هر بشکه فراتر رفته است، و صندوق بین‌المللی پول پیش‌بینی رشد اقتصادی جهانی برای سال ۲۰۲۶ را به ۳.۱٪ کاهش داده است، با اشاره به پیامدهای اقتصادی این درگیری.",
+        "highlight": true
       }
     ]
   },
@@ -1841,10 +1858,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 20,
         "color": "amber",
-        "description": "A negotiated settlement leading to a lasting ceasefire.",
-        "description_fa": "توافق مذاکره‌شده منجر به آتش‌بس پایدار.",
+        "description": "Ceasefire and diplomatic resolution achieved.",
+        "description_fa": "آتش‌بس و حل دیپلماتیک به دست آمده است.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1853,18 +1870,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک بین‌المللی",
-          "فشار اقتصادی بر ایران"
+          "تلاش‌های دیپلماتیک در جریان",
+          "ابراز خوش‌بینی رهبران"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 35,
+        "probability": 30,
         "color": "red",
-        "description": "Prolonged conflict with intermittent ceasefires.",
-        "description_fa": "درگیری طولانی‌مدت با آتش‌بس‌های متناوب.",
+        "description": "Prolonged conflict with intermittent negotiations.",
+        "description_fa": "درگیری طولانی با مذاکرات متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1873,8 +1890,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم اعتماد بین طرفین",
-          "ادامه حملات نظامی"
+          "ادامه محاصره",
+          "تهدیدهای تلافی‌جویانه ایران"
         ]
       },
       {
@@ -1883,8 +1900,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Escalation into a broader regional conflict.",
-        "description_fa": "تشدید به یک درگیری منطقه‌ای گسترده‌تر.",
+        "description": "Escalation into broader regional conflict.",
+        "description_fa": "تشدید به درگیری گسترده‌تر منطقه‌ای.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1893,8 +1910,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "مداخله نیروهای منطقه‌ای",
-          "افزایش حملات تلافی‌جویانه"
+          "افزایش تنش‌ها",
+          "تأثیرات اقتصادی منفی"
         ]
       }
     ],
@@ -2210,7 +2227,8 @@
         "9 Apr",
         "12 Apr",
         "13 Apr",
-        "14 Apr"
+        "14 Apr",
+        "15 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2395,7 +2413,8 @@
         "9 Apr",
         "12 Apr",
         "13 Apr",
-        "14 Apr"
+        "14 Apr",
+        "15 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2532,7 +2551,8 @@
         "9 Apr",
         "12 Apr",
         "13 Apr",
-        "14 Apr"
+        "14 Apr",
+        "15 Apr"
       ],
       "daily_bm": [
         200,
@@ -2646,7 +2666,8 @@
         "9 Apr",
         "12 Apr",
         "13 Apr",
-        "14 Apr"
+        "14 Apr",
+        "15 Apr"
       ],
       "data": [
         1.5,
@@ -2788,6 +2809,7 @@
         118,
         94.74,
         126,
+        114.81,
         114.81
       ]
     },
@@ -2856,7 +2878,8 @@
         100,
         50,
         85,
-        0
+        0,
+        100
       ]
     },
     "scenario_probabilities": {
@@ -2871,8 +2894,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        35,
+        20,
+        30,
         50
       ],
       "colors": [

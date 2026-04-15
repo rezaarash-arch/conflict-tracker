@@ -648,5 +648,21 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-15",
+    "timestamp": "2026-04-15T01:26:30.461627-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the full implementation of the U.S. naval blockade on Iranian ports, ongoing diplomatic efforts for renewed U.S.-Iran talks, and the blockade's impact on global oil prices and economic forecasts.",
+    "changes": [
+      "meta.last_updated: 2026-04-14 -> 2026-04-15",
+      "meta.update_time: 06:24 EST -> 06:26 EST",
+      "meta.day_number: 44 -> 45",
+      "NEW DAY 45: The U.S. military has fully implemented a blockade on Iranian ports, aiming to h...",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 35% -> 30%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values"
+    ]
   }
 ]
