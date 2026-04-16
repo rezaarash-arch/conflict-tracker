@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-15",
-    "update_time": "06:26 EST",
-    "day_number": 45,
+    "last_updated": "2026-04-16",
+    "update_time": "06:27 EST",
+    "day_number": 46,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1110,6 +1110,23 @@
         "events": "The U.S. military has fully implemented a blockade on Iranian ports, aiming to halt Iran's oil exports. President Donald Trump expressed optimism about a second round of U.S.-Iran negotiations, potentially in Islamabad. Diplomatic efforts are ongoing, with Pakistan and international mediators facilitating talks. The blockade has led to a surge in global oil prices, surpassing $114 per barrel, and the IMF has downgraded the global economic growth forecast for 2026 to 3.1%, citing the conflict's economic repercussions.",
         "events_fa": "ارتش ایالات متحده به طور کامل محاصره بنادر ایران را اجرا کرده است، با هدف توقف صادرات نفت ایران. رئیس‌جمهور دونالد ترامپ ابراز خوش‌بینی کرده است درباره دور دوم مذاکرات ایالات متحده و ایران، احتمالاً در اسلام‌آباد. تلاش‌های دیپلماتیک در جریان است، با میانجی‌گری پاکستان و واسطه‌های بین‌المللی برای تسهیل مذاکرات. این محاصره منجر به افزایش قیمت جهانی نفت شده است، که از ۱۱۴ دلار در هر بشکه فراتر رفته است، و صندوق بین‌المللی پول پیش‌بینی رشد اقتصادی جهانی برای سال ۲۰۲۶ را به ۳.۱٪ کاهش داده است، با اشاره به پیامدهای اقتصادی این درگیری.",
         "highlight": true
+      },
+      {
+        "day": 46,
+        "date": "16 Apr",
+        "date_fa": "۱۶ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "The U.S. military has fully implemented a blockade on Iranian ports, aiming to halt Iran's oil exports. President Donald Trump expressed optimism about a second round of U.S.-Iran negotiations, potentially in Islamabad. Diplomatic efforts are ongoing, with Pakistan and international mediators facilitating talks. The blockade has led to a surge in global oil prices, surpassing $114 per barrel, and the IMF has downgraded the global economic growth forecast for 2026 to 3.1%, citing the conflict's economic repercussions.",
+        "events_fa": "ارتش ایالات متحده به طور کامل محاصره بنادر ایران را اجرا کرده است، با هدف توقف صادرات نفت ایران. رئیس‌جمهور دونالد ترامپ ابراز خوش‌بینی کرده است درباره دور دوم مذاکرات ایالات متحده و ایران، که ممکن است در اسلام‌آباد برگزار شود. تلاش‌های دیپلماتیک ادامه دارد، با میانجی‌گری پاکستان و واسطه‌های بین‌المللی. این محاصره منجر به افزایش قیمت جهانی نفت شده است، که از ۱۱۴ دلار در هر بشکه فراتر رفته است، و صندوق بین‌المللی پول پیش‌بینی رشد اقتصادی جهانی برای سال ۲۰۲۶ را به ۳.۱٪ کاهش داده است، با اشاره به پیامدهای اقتصادی این درگیری.",
+        "highlight": false
       }
     ]
   },
@@ -1858,10 +1875,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution achieved.",
-        "description_fa": "آتش‌بس و حل دیپلماتیک به دست آمده است.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1870,18 +1887,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک در جریان",
-          "ابراز خوش‌بینی رهبران"
+          "تلاش‌های میانجی‌گری پاکستان",
+          "مذاکرات مستقیم اسرائیل و لبنان"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 30,
+        "probability": 35,
         "color": "red",
-        "description": "Prolonged conflict with intermittent negotiations.",
-        "description_fa": "درگیری طولانی با مذاکرات متناوب.",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1890,18 +1907,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه محاصره",
-          "تهدیدهای تلافی‌جویانه ایران"
+          "ادامه محاصره بنادر ایران",
+          "تشدید حملات در جنوب لبنان"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 50,
+        "probability": 40,
         "color": "green",
-        "description": "Escalation into broader regional conflict.",
-        "description_fa": "تشدید به درگیری گسترده‌تر منطقه‌ای.",
+        "description": "Regional escalation involving multiple actors",
+        "description_fa": "تشدید منطقه‌ای با مشارکت بازیگران متعدد",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1910,8 +1927,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "افزایش تنش‌ها",
-          "تأثیرات اقتصادی منفی"
+          "تهدیدهای ایران به حمله به اهداف منطقه‌ای",
+          "افزایش تنش‌ها در تنگه هرمز"
         ]
       }
     ],
@@ -2228,7 +2245,8 @@
         "12 Apr",
         "13 Apr",
         "14 Apr",
-        "15 Apr"
+        "15 Apr",
+        "16 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2414,7 +2432,8 @@
         "12 Apr",
         "13 Apr",
         "14 Apr",
-        "15 Apr"
+        "15 Apr",
+        "16 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2552,7 +2571,8 @@
         "12 Apr",
         "13 Apr",
         "14 Apr",
-        "15 Apr"
+        "15 Apr",
+        "16 Apr"
       ],
       "daily_bm": [
         200,
@@ -2667,7 +2687,8 @@
         "12 Apr",
         "13 Apr",
         "14 Apr",
-        "15 Apr"
+        "15 Apr",
+        "16 Apr"
       ],
       "data": [
         1.5,
@@ -2810,6 +2831,7 @@
         94.74,
         126,
         114.81,
+        114.81,
         114.81
       ]
     },
@@ -2894,9 +2916,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        30,
-        50
+        25,
+        35,
+        40
       ],
       "colors": [
         "rgba(245,158,11,.7)",
