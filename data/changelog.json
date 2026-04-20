@@ -696,5 +696,24 @@
       "scenario C prob: 40% -> 30%",
       "chart brent_oil.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-20",
+    "timestamp": "2026-04-20T02:09:49.526939-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the U.S. Navy's seizure of an Iranian-flagged cargo ship, Iran's closure of the Strait of Hormuz, and updated casualty figures.",
+    "changes": [
+      "meta.last_updated: 2026-04-19 -> 2026-04-20",
+      "meta.update_time: 00:00 EST -> 07:09 EST",
+      "meta.day_number: 47 -> 48",
+      "NEW DAY 48: The U.S. Navy seized an Iranian-flagged cargo ship, the *Touska*, near the Strai...",
+      "scenario A prob: 30% -> 25%",
+      "scenario B prob: 40% -> 50%",
+      "scenario C prob: 30% -> 25%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-19",
-    "update_time": "00:00 EST",
-    "day_number": 47,
+    "last_updated": "2026-04-20",
+    "update_time": "07:09 EST",
+    "day_number": 48,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1144,6 +1144,23 @@
         "events": "A 10-day ceasefire between Israel and Hezbollah in Lebanon has been implemented, aiming to halt hostilities and facilitate broader peace negotiations. The U.S. military has expanded its operations beyond the blockade of Iranian ports, authorizing global interdiction of ships linked to Iran or suspected of transporting materials supporting Tehran's war efforts.",
         "events_fa": "یک آتش‌بس ۱۰ روزه بین اسرائیل و حزب‌الله در لبنان به اجرا درآمده است که هدف آن توقف درگیری‌ها و تسهیل مذاکرات صلح گسترده‌تر است. ارتش ایالات متحده عملیات خود را فراتر از محاصره بنادر ایرانی گسترش داده و مجوز توقیف جهانی کشتی‌های مرتبط با ایران یا مشکوک به حمل مواد حمایتی از تلاش‌های جنگی تهران را صادر کرده است.",
         "highlight": true
+      },
+      {
+        "day": 48,
+        "date": "20 Apr",
+        "date_fa": "۲۰ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "The U.S. Navy seized an Iranian-flagged cargo ship, the *Touska*, near the Strait of Hormuz, claiming it was attempting to evade a U.S. naval blockade. Iran condemned the seizure as an act of piracy and vowed retaliation. In response, Iran announced the closure of the Strait of Hormuz until the U.S. lifts its blockade on Iranian ports. These developments have heightened tensions and led to a surge in global oil prices.",
+        "events_fa": "نیروی دریایی ایالات متحده یک کشتی باری با پرچم ایران به نام *توسکا* را در نزدیکی تنگه هرمز توقیف کرد و ادعا کرد که این کشتی در تلاش برای دور زدن محاصره دریایی ایالات متحده بوده است. ایران این توقیف را به عنوان یک اقدام دزدی دریایی محکوم کرد و وعده انتقام داد. در پاسخ، ایران اعلام کرد که تنگه هرمز را تا زمانی که ایالات متحده محاصره بنادر ایرانی را لغو نکند، بسته خواهد نگه داشت. این تحولات تنش‌ها را افزایش داده و منجر به افزایش قیمت جهانی نفت شده است.",
+        "highlight": true
       }
     ]
   },
@@ -1690,6 +1707,21 @@
         "location_fa": "لبنان",
         "cause": "Killed in action during ongoing hostilities",
         "cause_fa": "کشته شده در عملیات در جریان خصومت‌ها"
+      },
+      {
+        "num": 36,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-04-19",
+        "date_fa": "۱۹ آوریل ۲۰۲۶",
+        "location": "Strait of Hormuz",
+        "location_fa": "تنگه هرمز",
+        "cause": "Combat-related incident",
+        "cause_fa": "حادثه مرتبط با جنگ"
       }
     ],
     "aircraft_losses": [
@@ -1892,10 +1924,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 30,
+        "probability": 25,
         "color": "amber",
-        "description": "Ceasefire holds, leading to comprehensive peace talks.",
-        "description_fa": "آتش‌بس برقرار می‌ماند و به مذاکرات صلح جامع منجر می‌شود.",
+        "description": "Ceasefire leads to diplomatic resolution.",
+        "description_fa": "آتش‌بس منجر به حل دیپلماتیک می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1904,18 +1936,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "آتش‌بس ۱۰ روزه بین اسرائیل و حزب‌الله",
-          "گسترش عملیات نظامی ایالات متحده"
+          "تلاش‌های میانجی‌گری",
+          "فشار بین‌المللی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 40,
+        "probability": 50,
         "color": "red",
-        "description": "Ceasefire collapses, resumption of hostilities.",
-        "description_fa": "آتش‌بس فرو می‌پاشد و درگیری‌ها از سر گرفته می‌شود.",
+        "description": "Prolonged conflict with intermittent ceasefires.",
+        "description_fa": "درگیری طولانی با آتش‌بس‌های متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1924,18 +1956,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "نقض احتمالی آتش‌بس",
-          "ادامه تنش‌ها در منطقه"
+          "عدم اعتماد متقابل",
+          "منافع استراتژیک"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 30,
+        "probability": 25,
         "color": "green",
-        "description": "Prolonged stalemate with intermittent skirmishes.",
-        "description_fa": "بن‌بست طولانی با درگیری‌های پراکنده.",
+        "description": "Escalation into regional war.",
+        "description_fa": "تشدید به جنگ منطقه‌ای.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1944,8 +1976,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عدم پیشرفت در مذاکرات صلح",
-          "ادامه تحریم‌ها و محاصره‌ها"
+          "حملات تلافی‌جویانه",
+          "مداخله بازیگران منطقه‌ای"
         ]
       }
     ],
@@ -2264,7 +2296,8 @@
         "14 Apr",
         "15 Apr",
         "16 Apr",
-        "17 Apr"
+        "17 Apr",
+        "20 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2452,7 +2485,8 @@
         "14 Apr",
         "15 Apr",
         "16 Apr",
-        "17 Apr"
+        "17 Apr",
+        "20 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2497,7 +2531,8 @@
         7200,
         4700,
         4600,
-        0
+        0,
+        7650
       ],
       "hrana_civilian": [
         133,
@@ -2592,7 +2627,8 @@
         "14 Apr",
         "15 Apr",
         "16 Apr",
-        "17 Apr"
+        "17 Apr",
+        "20 Apr"
       ],
       "daily_bm": [
         200,
@@ -2709,7 +2745,8 @@
         "14 Apr",
         "15 Apr",
         "16 Apr",
-        "17 Apr"
+        "17 Apr",
+        "20 Apr"
       ],
       "data": [
         1.5,
@@ -2854,7 +2891,8 @@
         114.81,
         114.81,
         114.81,
-        114.81
+        114.81,
+        95.64
       ]
     },
     "hormuz_transit": {
@@ -2923,7 +2961,8 @@
         50,
         85,
         0,
-        100
+        100,
+        0
       ]
     },
     "scenario_probabilities": {
@@ -2938,9 +2977,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        30,
-        40,
-        30
+        25,
+        50,
+        25
       ],
       "colors": [
         "rgba(245,158,11,.7)",
