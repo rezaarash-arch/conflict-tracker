@@ -715,5 +715,22 @@
       "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-04-21",
+    "timestamp": "2026-04-21T01:28:20.708334-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the U.S. Navy's seizure of the Iranian-flagged cargo ship *Touska*, Iran's closure of the Strait of Hormuz, and escalating tensions affecting global oil prices and diplomatic negotiations.",
+    "changes": [
+      "meta.last_updated: 2026-04-20 -> 2026-04-21",
+      "meta.update_time: 07:09 EST -> 06:28 EST",
+      "meta.day_number: 48 -> 49",
+      "NEW DAY 49: The U.S. Navy seized the Iranian-flagged cargo ship *Touska* near the Strait of ...",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 50% -> 60%",
+      "scenario C prob: 25% -> 20%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values"
+    ]
   }
 ]

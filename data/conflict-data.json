@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-20",
-    "update_time": "07:09 EST",
-    "day_number": 48,
+    "last_updated": "2026-04-21",
+    "update_time": "06:28 EST",
+    "day_number": 49,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1161,6 +1161,23 @@
         "events": "The U.S. Navy seized an Iranian-flagged cargo ship, the *Touska*, near the Strait of Hormuz, claiming it was attempting to evade a U.S. naval blockade. Iran condemned the seizure as an act of piracy and vowed retaliation. In response, Iran announced the closure of the Strait of Hormuz until the U.S. lifts its blockade on Iranian ports. These developments have heightened tensions and led to a surge in global oil prices.",
         "events_fa": "نیروی دریایی ایالات متحده یک کشتی باری با پرچم ایران به نام *توسکا* را در نزدیکی تنگه هرمز توقیف کرد و ادعا کرد که این کشتی در تلاش برای دور زدن محاصره دریایی ایالات متحده بوده است. ایران این توقیف را به عنوان یک اقدام دزدی دریایی محکوم کرد و وعده انتقام داد. در پاسخ، ایران اعلام کرد که تنگه هرمز را تا زمانی که ایالات متحده محاصره بنادر ایرانی را لغو نکند، بسته خواهد نگه داشت. این تحولات تنش‌ها را افزایش داده و منجر به افزایش قیمت جهانی نفت شده است.",
         "highlight": true
+      },
+      {
+        "day": 49,
+        "date": "21 Apr",
+        "date_fa": "۲۱ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "The U.S. Navy seized the Iranian-flagged cargo ship *Touska* near the Strait of Hormuz, alleging it was attempting to breach a U.S. naval blockade. Iran condemned the seizure as piracy and announced the closure of the Strait of Hormuz until the blockade is lifted. These actions have intensified tensions and led to a surge in global oil prices.",
+        "events_fa": "نیروی دریایی ایالات متحده کشتی باری با پرچم ایران *توسکا* را در نزدیکی تنگه هرمز توقیف کرد و ادعا کرد که این کشتی در تلاش برای نقض محاصره دریایی ایالات متحده بود. ایران این توقیف را به عنوان دزدی دریایی محکوم کرد و اعلام کرد که تنگه هرمز را تا زمانی که محاصره برداشته نشود، خواهد بست. این اقدامات تنش‌ها را تشدید کرده و منجر به افزایش قیمت جهانی نفت شده است.",
+        "highlight": true
       }
     ]
   },
@@ -1924,10 +1941,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire leads to diplomatic resolution.",
-        "description_fa": "آتش‌بس منجر به حل دیپلماتیک می‌شود.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1936,18 +1953,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های میانجی‌گری",
-          "فشار بین‌المللی"
+          "تلاش‌های دیپلماتیک در اسلام‌آباد",
+          "فشار بین‌المللی برای کاهش تنش‌ها"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 60,
         "color": "red",
-        "description": "Prolonged conflict with intermittent ceasefires.",
-        "description_fa": "درگیری طولانی با آتش‌بس‌های متناوب.",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1956,18 +1973,19 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم اعتماد متقابل",
-          "منافع استراتژیک"
+          "توقیف کشتی توسکا",
+          "بسته شدن تنگه هرمز",
+          "افزایش تنش‌های نظامی"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 25,
+        "probability": 20,
         "color": "green",
-        "description": "Escalation into regional war.",
-        "description_fa": "تشدید به جنگ منطقه‌ای.",
+        "description": "Full-scale regional war",
+        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1976,8 +1994,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات تلافی‌جویانه",
-          "مداخله بازیگران منطقه‌ای"
+          "شکست مذاکرات",
+          "حملات نظامی گسترده"
         ]
       }
     ],
@@ -2297,7 +2315,8 @@
         "15 Apr",
         "16 Apr",
         "17 Apr",
-        "20 Apr"
+        "20 Apr",
+        "21 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2486,7 +2505,8 @@
         "15 Apr",
         "16 Apr",
         "17 Apr",
-        "20 Apr"
+        "20 Apr",
+        "21 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2628,7 +2648,8 @@
         "15 Apr",
         "16 Apr",
         "17 Apr",
-        "20 Apr"
+        "20 Apr",
+        "21 Apr"
       ],
       "daily_bm": [
         200,
@@ -2746,7 +2767,8 @@
         "15 Apr",
         "16 Apr",
         "17 Apr",
-        "20 Apr"
+        "20 Apr",
+        "21 Apr"
       ],
       "data": [
         1.5,
@@ -2892,7 +2914,8 @@
         114.81,
         114.81,
         114.81,
-        95.64
+        95.64,
+        95.0
       ]
     },
     "hormuz_transit": {
@@ -2962,7 +2985,8 @@
         85,
         0,
         100,
-        0
+        0,
+        100
       ]
     },
     "scenario_probabilities": {
@@ -2977,9 +3001,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        50,
-        25
+        20,
+        60,
+        20
       ],
       "colors": [
         "rgba(245,158,11,.7)",
