@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-22",
     "update_time": "06:28 EST",
-    "day_number": 49,
+    "day_number": 50,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1178,6 +1178,23 @@
         "events": "The U.S. Navy seized the Iranian-flagged cargo ship *Touska* near the Strait of Hormuz, alleging it was attempting to breach a U.S. naval blockade. Iran condemned the seizure as piracy and announced the closure of the Strait of Hormuz until the blockade is lifted. These actions have intensified tensions and led to a surge in global oil prices.",
         "events_fa": "نیروی دریایی ایالات متحده کشتی باری با پرچم ایران *توسکا* را در نزدیکی تنگه هرمز توقیف کرد و ادعا کرد که این کشتی در تلاش برای نقض محاصره دریایی ایالات متحده بود. ایران این توقیف را به عنوان دزدی دریایی محکوم کرد و اعلام کرد که تنگه هرمز را تا زمانی که محاصره برداشته نشود، خواهد بست. این اقدامات تنش‌ها را تشدید کرده و منجر به افزایش قیمت جهانی نفت شده است.",
         "highlight": true
+      },
+      {
+        "day": 50,
+        "date": "22 Apr",
+        "date_fa": "۲۲ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "President Trump announced an indefinite extension of the ceasefire with Iran, citing internal divisions within the Iranian government. ([axios.com](https://www.axios.com/2026/04/21/trump-iran-war-ceasefire-extension?utm_source=openai)) Iran's Revolutionary Guard fired upon a container ship in the Strait of Hormuz, claiming enforcement of control over the waterway. ([apnews.com](https://apnews.com/article/c039494005af5ea605a74e263fbbdcc5?utm_source=openai)) Hezbollah launched a drone into northern Israel, triggering sirens; the IDF confirmed the incursion. ([jpost.com](https://www.jpost.com/middle-east/iran-news/2026-04-22/live-updates-893795/?utm_source=openai))",
+        "events_fa": "رئیس‌جمهور ترامپ تمدید نامحدود آتش‌بس با ایران را اعلام کرد و به اختلافات داخلی در دولت ایران اشاره کرد. سپاه پاسداران ایران به یک کشتی کانتینری در تنگه هرمز شلیک کرد و ادعای کنترل بر این آبراه را داشت. حزب‌الله یک پهپاد به شمال اسرائیل فرستاد که باعث به صدا درآمدن آژیرها شد؛ ارتش اسرائیل این نفوذ را تأیید کرد.",
+        "highlight": false
       }
     ]
   },
@@ -1941,10 +1958,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Scenario A: Diplomatic resolution leading to a lasting ceasefire.",
+        "description_fa": "سناریو الف: حل دیپلماتیک منجر به آتش‌بس پایدار.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1953,18 +1970,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک در اسلام‌آباد",
-          "فشار بین‌المللی برای کاهش تنش‌ها"
+          "تمدید آتش‌بس توسط ایالات متحده",
+          "میانجی‌گری پاکستان"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 55,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
+        "description": "Scenario B: Prolonged conflict with intermittent ceasefires.",
+        "description_fa": "سناریو ب: درگیری طولانی‌مدت با آتش‌بس‌های متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1973,9 +1990,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "توقیف کشتی توسکا",
-          "بسته شدن تنگه هرمز",
-          "افزایش تنش‌های نظامی"
+          "اختلافات داخلی در ایران",
+          "حملات مداوم در تنگه هرمز"
         ]
       },
       {
@@ -1984,8 +2000,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description": "Scenario C: Escalation into a broader regional war.",
+        "description_fa": "سناریو ج: تشدید به یک جنگ منطقه‌ای گسترده‌تر.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -1994,8 +2010,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات نظامی گسترده"
+          "حملات پهپادی حزب‌الله",
+          "افزایش تنش‌ها در مرزهای اسرائیل"
         ]
       }
     ],
@@ -2316,7 +2332,8 @@
         "16 Apr",
         "17 Apr",
         "20 Apr",
-        "21 Apr"
+        "21 Apr",
+        "22 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2362,6 +2379,7 @@
         0,
         2,
         1,
+        0,
         0
       ],
       "iran_bms": [
@@ -2408,6 +2426,7 @@
         0,
         20,
         50,
+        0,
         0
       ],
       "iran_drones": [
@@ -2453,7 +2472,8 @@
         0,
         10,
         20,
-        0
+        0,
+        1
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2506,7 +2526,8 @@
         "16 Apr",
         "17 Apr",
         "20 Apr",
-        "21 Apr"
+        "21 Apr",
+        "22 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2552,7 +2573,8 @@
         4700,
         4600,
         0,
-        7650
+        7650,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -2595,6 +2617,7 @@
         null,
         23500,
         null,
+        0,
         0,
         0
       ]
@@ -2649,7 +2672,8 @@
         "16 Apr",
         "17 Apr",
         "20 Apr",
-        "21 Apr"
+        "21 Apr",
+        "22 Apr"
       ],
       "daily_bm": [
         200,
@@ -2695,6 +2719,7 @@
         0,
         20,
         50,
+        0,
         0
       ],
       "trendline": [
@@ -2768,7 +2793,8 @@
         "16 Apr",
         "17 Apr",
         "20 Apr",
-        "21 Apr"
+        "21 Apr",
+        "22 Apr"
       ],
       "data": [
         1.5,
@@ -2811,6 +2837,7 @@
         null,
         0,
         null,
+        0,
         0,
         0
       ]
@@ -2915,7 +2942,8 @@
         114.81,
         114.81,
         95.64,
-        95.0
+        95.0,
+        98.36
       ]
     },
     "hormuz_transit": {
@@ -2986,7 +3014,8 @@
         0,
         100,
         0,
-        100
+        100,
+        75
       ]
     },
     "scenario_probabilities": {
@@ -3001,8 +3030,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        60,
+        25,
+        55,
         20
       ],
       "colors": [

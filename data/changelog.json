@@ -732,5 +732,26 @@
       "chart brent_oil.data: appended 1 values",
       "chart hormuz_transit.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-22",
+    "timestamp": "2026-04-22T01:29:00.501296-05:00",
+    "status": "UPDATED",
+    "summary": "Ceasefire extended amid internal Iranian divisions; Iran fires on container ship in Strait of Hormuz; Hezbollah drone incursion into Israel.",
+    "changes": [
+      "meta.last_updated: 2026-04-21 -> 2026-04-22",
+      "meta.day_number: 49 -> 50",
+      "NEW DAY 50: President Trump announced an indefinite extension of the ceasefire with Iran, ci...",
+      "scenario A prob: 20% -> 25%",
+      "scenario B prob: 60% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
