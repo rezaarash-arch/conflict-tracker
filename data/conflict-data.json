@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-23",
-    "update_time": "00:00 EST",
-    "day_number": 50,
+    "last_updated": "2026-04-24",
+    "update_time": "06:57 EST",
+    "day_number": 51,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1195,6 +1195,23 @@
         "events": "President Trump announced an indefinite extension of the ceasefire with Iran, citing internal divisions within the Iranian government. ([axios.com](https://www.axios.com/2026/04/21/trump-iran-war-ceasefire-extension?utm_source=openai)) Iran's Revolutionary Guard fired upon a container ship in the Strait of Hormuz, claiming enforcement of control over the waterway. ([apnews.com](https://apnews.com/article/c039494005af5ea605a74e263fbbdcc5?utm_source=openai)) Hezbollah launched a drone into northern Israel, triggering sirens; the IDF confirmed the incursion. ([jpost.com](https://www.jpost.com/middle-east/iran-news/2026-04-22/live-updates-893795/?utm_source=openai))",
         "events_fa": "رئیس‌جمهور ترامپ تمدید نامحدود آتش‌بس با ایران را اعلام کرد و به اختلافات داخلی در دولت ایران اشاره کرد. سپاه پاسداران ایران به یک کشتی کانتینری در تنگه هرمز شلیک کرد و ادعای کنترل بر این آبراه را داشت. حزب‌الله یک پهپاد به شمال اسرائیل فرستاد که باعث به صدا درآمدن آژیرها شد؛ ارتش اسرائیل این نفوذ را تأیید کرد.",
         "highlight": false
+      },
+      {
+        "day": 51,
+        "date": "24 Apr",
+        "date_fa": "۲۴ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "President Trump announced a three-week extension of the Israel-Lebanon ceasefire following talks with Israeli and Lebanese officials. ([axios.com](https://www.axios.com/2026/04/23/trump-israel-lebanon-ceasefire-extended-talks-us-iran-war)) Iran's Revolutionary Guard seized two container ships in the Strait of Hormuz, escalating tensions over control of the vital waterway. ([apnews.com](https://apnews.com/article/ab475cb979825b956a10d60103026b37)) Israeli warplanes conducted airstrikes in southern Lebanon, targeting Hezbollah positions despite the ceasefire extension. ([elpais.com](https://elpais.com/internacional/2026-04-24/ultima-hora-de-la-guerra-de-estados-unidos-e-israel-contra-iran-en-directo.html))",
+        "events_fa": "رئیس‌جمهور ترامپ تمدید سه‌هفته‌ای آتش‌بس اسرائیل و لبنان را پس از مذاکرات با مقامات اسرائیلی و لبنانی اعلام کرد. ([axios.com](https://www.axios.com/2026/04/23/trump-israel-lebanon-ceasefire-extended-talks-us-iran-war)) سپاه پاسداران ایران دو کشتی کانتینری را در تنگه هرمز توقیف کرد و تنش‌ها بر سر کنترل این آبراه حیاتی را تشدید کرد. ([apnews.com](https://apnews.com/article/ab475cb979825b956a10d60103026b37)) جنگنده‌های اسرائیلی حملاتی هوایی در جنوب لبنان انجام دادند و مواضع حزب‌الله را هدف قرار دادند، علیرغم تمدید آتش‌بس. ([elpais.com](https://elpais.com/internacional/2026-04-24/ultima-hora-de-la-guerra-de-estados-unidos-e-israel-contra-iran-en-directo.html))",
+        "highlight": false
       }
     ]
   },
@@ -1756,6 +1773,21 @@
         "location_fa": "تنگه هرمز",
         "cause": "Combat-related incident",
         "cause_fa": "حادثه مرتبط با جنگ"
+      },
+      {
+        "num": 37,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-04-23",
+        "date_fa": "۲۳ آوریل ۲۰۲۶",
+        "location": "Strait of Hormuz",
+        "location_fa": "تنگه هرمز",
+        "cause": "Hostile fire",
+        "cause_fa": "آتش دشمن"
       }
     ],
     "aircraft_losses": [
@@ -1958,10 +1990,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Scenario A: Diplomatic resolution leading to a lasting ceasefire.",
-        "description_fa": "سناریو الف: حل دیپلماتیک منجر به آتش‌بس پایدار.",
+        "description": "Ceasefire holds, leading to diplomatic resolution.",
+        "description_fa": "آتش‌بس برقرار می‌ماند و به راه‌حل دیپلماتیک منجر می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -1970,18 +2002,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تمدید آتش‌بس توسط ایالات متحده",
-          "میانجی‌گری پاکستان"
+          "تمدید آتش‌بس اسرائیل و لبنان",
+          "مذاکرات دیپلماتیک در جریان"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 60,
         "color": "red",
-        "description": "Scenario B: Prolonged conflict with intermittent ceasefires.",
-        "description_fa": "سناریو ب: درگیری طولانی‌مدت با آتش‌بس‌های متناوب.",
+        "description": "Intermittent clashes continue despite ceasefire.",
+        "description_fa": "درگیری‌های پراکنده علیرغم آتش‌بس ادامه می‌یابد.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -1990,8 +2022,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "اختلافات داخلی در ایران",
-          "حملات مداوم در تنگه هرمز"
+          "حملات هوایی اسرائیل در جنوب لبنان",
+          "توقیف کشتی‌ها توسط ایران"
         ]
       },
       {
@@ -2000,8 +2032,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Scenario C: Escalation into a broader regional war.",
-        "description_fa": "سناریو ج: تشدید به یک جنگ منطقه‌ای گسترده‌تر.",
+        "description": "Full-scale conflict resumes.",
+        "description_fa": "درگیری تمام‌عیار از سر گرفته می‌شود.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2010,8 +2042,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات پهپادی حزب‌الله",
-          "افزایش تنش‌ها در مرزهای اسرائیل"
+          "افزایش تنش‌ها در تنگه هرمز",
+          "حملات متقابل نظامی"
         ]
       }
     ],
@@ -2333,7 +2365,8 @@
         "17 Apr",
         "20 Apr",
         "21 Apr",
-        "22 Apr"
+        "22 Apr",
+        "24 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2379,6 +2412,7 @@
         0,
         2,
         1,
+        0,
         0,
         0
       ],
@@ -2427,6 +2461,7 @@
         20,
         50,
         0,
+        0,
         0
       ],
       "iran_drones": [
@@ -2473,7 +2508,8 @@
         10,
         20,
         0,
-        1
+        1,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2527,7 +2563,8 @@
         "17 Apr",
         "20 Apr",
         "21 Apr",
-        "22 Apr"
+        "22 Apr",
+        "24 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2574,7 +2611,8 @@
         4600,
         0,
         7650,
-        4600
+        4600,
+        0
       ],
       "hrana_civilian": [
         133,
@@ -2617,6 +2655,7 @@
         null,
         23500,
         null,
+        0,
         0,
         0,
         0
@@ -2673,7 +2712,8 @@
         "17 Apr",
         "20 Apr",
         "21 Apr",
-        "22 Apr"
+        "22 Apr",
+        "24 Apr"
       ],
       "daily_bm": [
         200,
@@ -2719,6 +2759,7 @@
         0,
         20,
         50,
+        0,
         0,
         0
       ],
@@ -2794,7 +2835,8 @@
         "17 Apr",
         "20 Apr",
         "21 Apr",
-        "22 Apr"
+        "22 Apr",
+        "24 Apr"
       ],
       "data": [
         1.5,
@@ -2837,6 +2879,7 @@
         null,
         0,
         null,
+        0,
         0,
         0,
         0
@@ -2943,7 +2986,8 @@
         114.81,
         95.64,
         95.0,
-        98.36
+        98.36,
+        106.0
       ]
     },
     "hormuz_transit": {
@@ -3015,6 +3059,7 @@
         100,
         0,
         100,
+        75,
         75
       ]
     },
@@ -3030,8 +3075,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        55,
+        20,
+        60,
         20
       ],
       "colors": [

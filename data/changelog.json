@@ -753,5 +753,28 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-24",
+    "timestamp": "2026-04-24T01:57:59.355919-05:00",
+    "status": "UPDATED",
+    "summary": "Extension of Israel-Lebanon ceasefire; Iranian seizure of ships in Strait of Hormuz; Israeli airstrikes in southern Lebanon; updated casualty figures.",
+    "changes": [
+      "meta.last_updated: 2026-04-23 -> 2026-04-24",
+      "meta.update_time: 00:00 EST -> 06:57 EST",
+      "meta.day_number: 50 -> 51",
+      "NEW DAY 51: President Trump announced a three-week extension of the Israel-Lebanon ceasefire...",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 55% -> 60%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
