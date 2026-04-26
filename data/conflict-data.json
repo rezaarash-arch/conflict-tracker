@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-25",
-    "update_time": "00:00 EST",
-    "day_number": 51,
+    "last_updated": "2026-04-26",
+    "update_time": "06:53 EST",
+    "day_number": 52,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1212,6 +1212,23 @@
         "events": "President Trump announced a three-week extension of the Israel-Lebanon ceasefire following talks with Israeli and Lebanese officials. ([axios.com](https://www.axios.com/2026/04/23/trump-israel-lebanon-ceasefire-extended-talks-us-iran-war)) Iran's Revolutionary Guard seized two container ships in the Strait of Hormuz, escalating tensions over control of the vital waterway. ([apnews.com](https://apnews.com/article/ab475cb979825b956a10d60103026b37)) Israeli warplanes conducted airstrikes in southern Lebanon, targeting Hezbollah positions despite the ceasefire extension. ([elpais.com](https://elpais.com/internacional/2026-04-24/ultima-hora-de-la-guerra-de-estados-unidos-e-israel-contra-iran-en-directo.html))",
         "events_fa": "رئیس‌جمهور ترامپ تمدید سه‌هفته‌ای آتش‌بس اسرائیل و لبنان را پس از مذاکرات با مقامات اسرائیلی و لبنانی اعلام کرد. ([axios.com](https://www.axios.com/2026/04/23/trump-israel-lebanon-ceasefire-extended-talks-us-iran-war)) سپاه پاسداران ایران دو کشتی کانتینری را در تنگه هرمز توقیف کرد و تنش‌ها بر سر کنترل این آبراه حیاتی را تشدید کرد. ([apnews.com](https://apnews.com/article/ab475cb979825b956a10d60103026b37)) جنگنده‌های اسرائیلی حملاتی هوایی در جنوب لبنان انجام دادند و مواضع حزب‌الله را هدف قرار دادند، علیرغم تمدید آتش‌بس. ([elpais.com](https://elpais.com/internacional/2026-04-24/ultima-hora-de-la-guerra-de-estados-unidos-e-israel-contra-iran-en-directo.html))",
         "highlight": false
+      },
+      {
+        "day": 52,
+        "date": "26 Apr",
+        "date_fa": "۲۶ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Ceasefire negotiations between the U.S. and Iran stalled after Iran’s Foreign Minister Abbas Araghchi left Islamabad and President Donald Trump canceled his envoys' trip. The U.S. Navy is actively clearing Iranian mines from the Strait of Hormuz, a process expected to take up to six months. The Israel-Lebanon ceasefire has been extended by three weeks, but tensions persist with renewed cross-border attacks.",
+        "events_fa": "مذاکرات آتش‌بس بین ایالات متحده و ایران پس از خروج وزیر امور خارجه ایران، عباس عراقچی، از اسلام‌آباد و لغو سفر نمایندگان رئیس‌جمهور دونالد ترامپ متوقف شد. نیروی دریایی ایالات متحده در حال پاکسازی مین‌های ایرانی از تنگه هرمز است، فرآیندی که انتظار می‌رود تا شش ماه طول بکشد. آتش‌بس بین اسرائیل و لبنان به مدت سه هفته تمدید شده است، اما تنش‌ها با حملات مرزی مجدد ادامه دارد.",
+        "highlight": false
       }
     ]
   },
@@ -1990,10 +2007,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire holds, leading to diplomatic resolution.",
-        "description_fa": "آتش‌بس برقرار می‌ماند و به راه‌حل دیپلماتیک منجر می‌شود.",
+        "description": "Scenario A description",
+        "description_fa": "توضیحات سناریو A",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2002,18 +2019,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تمدید آتش‌بس اسرائیل و لبنان",
-          "مذاکرات دیپلماتیک در جریان"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 65,
         "color": "red",
-        "description": "Intermittent clashes continue despite ceasefire.",
-        "description_fa": "درگیری‌های پراکنده علیرغم آتش‌بس ادامه می‌یابد.",
+        "description": "Scenario B description",
+        "description_fa": "توضیحات سناریو B",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2022,8 +2039,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات هوایی اسرائیل در جنوب لبنان",
-          "توقیف کشتی‌ها توسط ایران"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -2032,8 +2049,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Full-scale conflict resumes.",
-        "description_fa": "درگیری تمام‌عیار از سر گرفته می‌شود.",
+        "description": "Scenario C description",
+        "description_fa": "توضیحات سناریو C",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2042,8 +2059,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "افزایش تنش‌ها در تنگه هرمز",
-          "حملات متقابل نظامی"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -2366,7 +2383,8 @@
         "20 Apr",
         "21 Apr",
         "22 Apr",
-        "24 Apr"
+        "24 Apr",
+        "26 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2414,7 +2432,8 @@
         1,
         0,
         0,
-        0
+        0,
+        null
       ],
       "iran_bms": [
         200,
@@ -2462,7 +2481,8 @@
         50,
         0,
         0,
-        0
+        0,
+        null
       ],
       "iran_drones": [
         500,
@@ -2509,7 +2529,8 @@
         20,
         0,
         1,
-        0
+        0,
+        null
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2564,7 +2585,8 @@
         "20 Apr",
         "21 Apr",
         "22 Apr",
-        "24 Apr"
+        "24 Apr",
+        "26 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2612,7 +2634,8 @@
         0,
         7650,
         4600,
-        0
+        0,
+        null
       ],
       "hrana_civilian": [
         133,
@@ -2658,7 +2681,8 @@
         0,
         0,
         0,
-        0
+        0,
+        null
       ]
     },
     "bm_degradation": {
@@ -2713,7 +2737,8 @@
         "20 Apr",
         "21 Apr",
         "22 Apr",
-        "24 Apr"
+        "24 Apr",
+        "26 Apr"
       ],
       "daily_bm": [
         200,
@@ -2761,7 +2786,8 @@
         50,
         0,
         0,
-        0
+        0,
+        null
       ],
       "trendline": [
         200,
@@ -2836,7 +2862,8 @@
         "20 Apr",
         "21 Apr",
         "22 Apr",
-        "24 Apr"
+        "24 Apr",
+        "26 Apr"
       ],
       "data": [
         1.5,
@@ -2882,7 +2909,8 @@
         0,
         0,
         0,
-        0
+        0,
+        null
       ]
     },
     "cost_distribution": {
@@ -2987,7 +3015,8 @@
         95.64,
         95.0,
         98.36,
-        106.0
+        106.0,
+        118.5
       ]
     },
     "hormuz_transit": {
@@ -3060,7 +3089,8 @@
         0,
         100,
         75,
-        75
+        75,
+        null
       ]
     },
     "scenario_probabilities": {
@@ -3075,8 +3105,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        60,
+        15,
+        65,
         20
       ],
       "colors": [

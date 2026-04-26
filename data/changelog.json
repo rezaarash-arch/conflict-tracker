@@ -776,5 +776,27 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-04-26",
+    "timestamp": "2026-04-26T01:53:48.674130-05:00",
+    "status": "UPDATED",
+    "summary": "Ceasefire negotiations between the U.S. and Iran have stalled, with Iran's Foreign Minister leaving Islamabad and U.S. envoys canceling their trip. The U.S. Navy is actively clearing mines in the Strait of Hormuz, a process expected to take up to six months. The Israel-Lebanon ceasefire has been extended by three weeks, but tensions persist with renewed cross-border attacks.",
+    "changes": [
+      "meta.last_updated: 2026-04-25 -> 2026-04-26",
+      "meta.update_time: 00:00 EST -> 06:53 EST",
+      "meta.day_number: 51 -> 52",
+      "NEW DAY 52: Ceasefire negotiations between the U.S. and Iran stalled after Iran’s Foreign Mi...",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 60% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
