@@ -798,5 +798,29 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-04-27",
+    "timestamp": "2026-04-27T02:29:45.057198-05:00",
+    "status": "UPDATED",
+    "summary": "Iran proposes reopening the Strait of Hormuz without nuclear concessions; U.S. cancels envoy trip to Pakistan; Israel-Lebanon ceasefire extended amid violations.",
+    "changes": [
+      "meta.last_updated: 2026-04-26 -> 2026-04-27",
+      "meta.update_time: 06:53 EST -> 07:29 EST",
+      "meta.day_number: 52 -> 53",
+      "NEW DAY 53: Iran proposes reopening the Strait of Hormuz without nuclear concessions; U.S. c...",
+      "overview.us_israel_strikes: ~26,000+ -> ~26,500+",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 65% -> 60%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

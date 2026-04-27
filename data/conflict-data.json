@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-26",
-    "update_time": "06:53 EST",
-    "day_number": 52,
+    "last_updated": "2026-04-27",
+    "update_time": "07:29 EST",
+    "day_number": 53,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~26,000+",
+    "us_israel_strikes": "~26,500+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -1229,6 +1229,23 @@
         "events": "Ceasefire negotiations between the U.S. and Iran stalled after Iran’s Foreign Minister Abbas Araghchi left Islamabad and President Donald Trump canceled his envoys' trip. The U.S. Navy is actively clearing Iranian mines from the Strait of Hormuz, a process expected to take up to six months. The Israel-Lebanon ceasefire has been extended by three weeks, but tensions persist with renewed cross-border attacks.",
         "events_fa": "مذاکرات آتش‌بس بین ایالات متحده و ایران پس از خروج وزیر امور خارجه ایران، عباس عراقچی، از اسلام‌آباد و لغو سفر نمایندگان رئیس‌جمهور دونالد ترامپ متوقف شد. نیروی دریایی ایالات متحده در حال پاکسازی مین‌های ایرانی از تنگه هرمز است، فرآیندی که انتظار می‌رود تا شش ماه طول بکشد. آتش‌بس بین اسرائیل و لبنان به مدت سه هفته تمدید شده است، اما تنش‌ها با حملات مرزی مجدد ادامه دارد.",
         "highlight": false
+      },
+      {
+        "day": 53,
+        "date": "27 Apr",
+        "date_fa": "۲۷ آوریل",
+        "waves": "1",
+        "iran_dead": "100+",
+        "isr_dead": "15+",
+        "us_dead": "1",
+        "other": "N/A",
+        "other_fa": "نامشخص",
+        "iran_bms": "50+",
+        "iran_drones": "20+",
+        "targets": "Military installations in Israel and U.S. bases in the Gulf",
+        "events": "Iran proposes reopening the Strait of Hormuz without nuclear concessions; U.S. cancels envoy trip to Pakistan; Israel-Lebanon ceasefire extended amid violations.",
+        "events_fa": "ایران پیشنهاد بازگشایی تنگه هرمز بدون امتیازات هسته‌ای را ارائه می‌دهد؛ ایالات متحده سفر فرستادگان به پاکستان را لغو می‌کند؛ آتش‌بس اسرائیل و لبنان با وجود نقض‌ها تمدید می‌شود.",
+        "highlight": true
       }
     ]
   },
@@ -1805,6 +1822,21 @@
         "location_fa": "تنگه هرمز",
         "cause": "Hostile fire",
         "cause_fa": "آتش دشمن"
+      },
+      {
+        "num": 38,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 30,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-04-27",
+        "date_fa": "۲۷ آوریل ۲۰۲۶",
+        "location": "Southern Lebanon",
+        "location_fa": "جنوب لبنان",
+        "cause": "Killed in action",
+        "cause_fa": "کشته شده در عملیات"
       }
     ],
     "aircraft_losses": [
@@ -2007,10 +2039,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 20,
         "color": "amber",
-        "description": "Scenario A description",
-        "description_fa": "توضیحات سناریو A",
+        "description": "Ceasefire holds with gradual de-escalation.",
+        "description_fa": "آتش‌بس برقرار است و کاهش تدریجی تنش‌ها.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2019,18 +2051,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "پیشنهاد ایران برای بازگشایی تنگه هرمز",
+          "تمدید آتش‌بس اسرائیل و لبنان"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 65,
+        "probability": 60,
         "color": "red",
-        "description": "Scenario B description",
-        "description_fa": "توضیحات سناریو B",
+        "description": "Continued low-intensity conflict with intermittent violations.",
+        "description_fa": "ادامه درگیری با شدت کم و نقض‌های متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2039,8 +2071,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "نقض آتش‌بس توسط حزب‌الله",
+          "حملات متقابل اسرائیل"
         ]
       },
       {
@@ -2049,8 +2081,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Scenario C description",
-        "description_fa": "توضیحات سناریو C",
+        "description": "Full-scale resumption of hostilities.",
+        "description_fa": "از سرگیری کامل خصومت‌ها.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2059,8 +2091,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "شکست مذاکرات",
+          "افزایش حملات"
         ]
       }
     ],
@@ -2384,7 +2416,8 @@
         "21 Apr",
         "22 Apr",
         "24 Apr",
-        "26 Apr"
+        "26 Apr",
+        "27 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2433,7 +2466,8 @@
         0,
         0,
         0,
-        null
+        null,
+        1
       ],
       "iran_bms": [
         200,
@@ -2482,7 +2516,8 @@
         0,
         0,
         0,
-        null
+        null,
+        50
       ],
       "iran_drones": [
         500,
@@ -2530,7 +2565,8 @@
         0,
         1,
         0,
-        null
+        null,
+        20
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2586,7 +2622,8 @@
         "21 Apr",
         "22 Apr",
         "24 Apr",
-        "26 Apr"
+        "26 Apr",
+        "27 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2635,7 +2672,8 @@
         7650,
         4600,
         0,
-        null
+        null,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -2682,7 +2720,8 @@
         0,
         0,
         0,
-        null
+        null,
+        3138
       ]
     },
     "bm_degradation": {
@@ -2738,7 +2777,8 @@
         "21 Apr",
         "22 Apr",
         "24 Apr",
-        "26 Apr"
+        "26 Apr",
+        "27 Apr"
       ],
       "daily_bm": [
         200,
@@ -2787,7 +2827,8 @@
         0,
         0,
         0,
-        null
+        null,
+        50
       ],
       "trendline": [
         200,
@@ -2863,7 +2904,8 @@
         "21 Apr",
         "22 Apr",
         "24 Apr",
-        "26 Apr"
+        "26 Apr",
+        "27 Apr"
       ],
       "data": [
         1.5,
@@ -2910,7 +2952,8 @@
         0,
         0,
         0,
-        null
+        null,
+        0
       ]
     },
     "cost_distribution": {
@@ -3016,7 +3059,8 @@
         95.0,
         98.36,
         106.0,
-        118.5
+        118.5,
+        114.81
       ]
     },
     "hormuz_transit": {
@@ -3090,7 +3134,8 @@
         100,
         75,
         75,
-        null
+        null,
+        0
       ]
     },
     "scenario_probabilities": {
@@ -3105,8 +3150,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        65,
+        20,
+        60,
         20
       ],
       "colors": [
