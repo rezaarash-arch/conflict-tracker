@@ -822,5 +822,18 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-04-28",
+    "timestamp": "2026-04-28T02:25:56.966504-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, U.S. response to Iran's proposal, and extended Israel-Lebanon ceasefire.",
+    "changes": [
+      "meta.last_updated: 2026-04-27 -> 2026-04-28",
+      "meta.update_time: 07:29 EST -> 07:25 EST",
+      "meta.day_number: 53 -> 54",
+      "NEW DAY 54: U.S. unlikely to accept Iran's proposal to end the war without addressing nuclea...",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

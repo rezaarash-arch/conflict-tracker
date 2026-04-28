@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-27",
-    "update_time": "07:29 EST",
-    "day_number": 53,
+    "last_updated": "2026-04-28",
+    "update_time": "07:25 EST",
+    "day_number": 54,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1246,6 +1246,23 @@
         "events": "Iran proposes reopening the Strait of Hormuz without nuclear concessions; U.S. cancels envoy trip to Pakistan; Israel-Lebanon ceasefire extended amid violations.",
         "events_fa": "ایران پیشنهاد بازگشایی تنگه هرمز بدون امتیازات هسته‌ای را ارائه می‌دهد؛ ایالات متحده سفر فرستادگان به پاکستان را لغو می‌کند؛ آتش‌بس اسرائیل و لبنان با وجود نقض‌ها تمدید می‌شود.",
         "highlight": true
+      },
+      {
+        "day": 54,
+        "date": "28 Apr",
+        "date_fa": "۲۸ آوریل",
+        "waves": "N/A",
+        "iran_dead": "3,375",
+        "isr_dead": "23",
+        "us_dead": "13",
+        "other": "2,521",
+        "other_fa": "۲٬۵۲۱",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "U.S. unlikely to accept Iran's proposal to end the war without addressing nuclear program; Israel-Lebanon ceasefire extended by three weeks.",
+        "events_fa": "ایالات متحده احتمالاً پیشنهاد ایران برای پایان جنگ بدون پرداختن به برنامه هسته‌ای را نمی‌پذیرد؛ آتش‌بس اسرائیل و لبنان به مدت سه هفته تمدید شد.",
+        "highlight": false
       }
     ]
   },
@@ -1837,6 +1854,21 @@
         "location_fa": "جنوب لبنان",
         "cause": "Killed in action",
         "cause_fa": "کشته شده در عملیات"
+      },
+      {
+        "num": 39,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 30,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-04-27",
+        "date_fa": "۲۷ آوریل ۲۰۲۶",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "IED explosion",
+        "cause_fa": "انفجار بمب دست‌ساز"
       }
     ],
     "aircraft_losses": [
@@ -2041,8 +2073,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 20,
         "color": "amber",
-        "description": "Ceasefire holds with gradual de-escalation.",
-        "description_fa": "آتش‌بس برقرار است و کاهش تدریجی تنش‌ها.",
+        "description": "Scenario A description remains unchanged.",
+        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2051,8 +2083,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "پیشنهاد ایران برای بازگشایی تنگه هرمز",
-          "تمدید آتش‌بس اسرائیل و لبنان"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -2061,8 +2093,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 60,
         "color": "red",
-        "description": "Continued low-intensity conflict with intermittent violations.",
-        "description_fa": "ادامه درگیری با شدت کم و نقض‌های متناوب.",
+        "description": "Scenario B description remains unchanged.",
+        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2071,8 +2103,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "نقض آتش‌بس توسط حزب‌الله",
-          "حملات متقابل اسرائیل"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -2081,8 +2113,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Full-scale resumption of hostilities.",
-        "description_fa": "از سرگیری کامل خصومت‌ها.",
+        "description": "Scenario C description remains unchanged.",
+        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2091,8 +2123,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "افزایش حملات"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -2417,7 +2449,8 @@
         "22 Apr",
         "24 Apr",
         "26 Apr",
-        "27 Apr"
+        "27 Apr",
+        "28 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2623,7 +2656,8 @@
         "22 Apr",
         "24 Apr",
         "26 Apr",
-        "27 Apr"
+        "27 Apr",
+        "28 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2778,7 +2812,8 @@
         "22 Apr",
         "24 Apr",
         "26 Apr",
-        "27 Apr"
+        "27 Apr",
+        "28 Apr"
       ],
       "daily_bm": [
         200,
@@ -2905,7 +2940,8 @@
         "22 Apr",
         "24 Apr",
         "26 Apr",
-        "27 Apr"
+        "27 Apr",
+        "28 Apr"
       ],
       "data": [
         1.5,
