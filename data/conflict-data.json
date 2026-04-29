@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-28",
-    "update_time": "07:25 EST",
-    "day_number": 54,
+    "last_updated": "2026-04-29",
+    "update_time": "07:14 EST",
+    "day_number": 55,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1263,6 +1263,23 @@
         "events": "U.S. unlikely to accept Iran's proposal to end the war without addressing nuclear program; Israel-Lebanon ceasefire extended by three weeks.",
         "events_fa": "ایالات متحده احتمالاً پیشنهاد ایران برای پایان جنگ بدون پرداختن به برنامه هسته‌ای را نمی‌پذیرد؛ آتش‌بس اسرائیل و لبنان به مدت سه هفته تمدید شد.",
         "highlight": false
+      },
+      {
+        "day": 55,
+        "date": "29 Apr",
+        "date_fa": "۲۹ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "U.S. prepares for extended blockade of Iran; fresh sanctions imposed on Iran's financial network; IDF destroys Hezbollah tunnel in southern Lebanon.",
+        "events_fa": "آمریکا برای محاصره طولانی‌مدت ایران آماده می‌شود؛ تحریم‌های جدیدی بر شبکه مالی ایران اعمال شد؛ ارتش اسرائیل تونل حزب‌الله در جنوب لبنان را منهدم کرد.",
+        "highlight": false
       }
     ]
   },
@@ -2450,7 +2467,8 @@
         "24 Apr",
         "26 Apr",
         "27 Apr",
-        "28 Apr"
+        "28 Apr",
+        "29 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2657,7 +2675,8 @@
         "24 Apr",
         "26 Apr",
         "27 Apr",
-        "28 Apr"
+        "28 Apr",
+        "29 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2813,7 +2832,8 @@
         "24 Apr",
         "26 Apr",
         "27 Apr",
-        "28 Apr"
+        "28 Apr",
+        "29 Apr"
       ],
       "daily_bm": [
         200,
@@ -2941,7 +2961,8 @@
         "24 Apr",
         "26 Apr",
         "27 Apr",
-        "28 Apr"
+        "28 Apr",
+        "29 Apr"
       ],
       "data": [
         1.5,
