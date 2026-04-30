@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-04-29",
-    "update_time": "07:14 EST",
-    "day_number": 55,
+    "last_updated": "2026-04-30",
+    "update_time": "07:23 EST",
+    "day_number": 56,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1280,6 +1280,23 @@
         "events": "U.S. prepares for extended blockade of Iran; fresh sanctions imposed on Iran's financial network; IDF destroys Hezbollah tunnel in southern Lebanon.",
         "events_fa": "آمریکا برای محاصره طولانی‌مدت ایران آماده می‌شود؛ تحریم‌های جدیدی بر شبکه مالی ایران اعمال شد؛ ارتش اسرائیل تونل حزب‌الله در جنوب لبنان را منهدم کرد.",
         "highlight": false
+      },
+      {
+        "day": 56,
+        "date": "30 Apr",
+        "date_fa": "۳۰ آوریل",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "U.S. President Trump to receive briefing on new military strategies against Iran; Iran's rial hits record low amid economic turmoil; Ceasefire negotiations between Iran and the U.S. stall.",
+        "events_fa": "رئیس‌جمهور آمریکا ترامپ برای دریافت گزارش درباره استراتژی‌های نظامی جدید علیه ایران؛ سقوط تاریخی ارزش ریال ایران در میان بحران اقتصادی؛ مذاکرات آتش‌بس بین ایران و آمریکا متوقف شد.",
+        "highlight": false
       }
     ]
   },
@@ -2088,10 +2105,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Scenario A description remains unchanged.",
-        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
+        "description": "Escalation of military conflict leading to broader regional involvement.",
+        "description_fa": "تشدید درگیری نظامی منجر به مشارکت گسترده‌تر منطقه‌ای.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2100,18 +2117,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "افزایش تنش‌های نظامی",
+          "مداخله کشورهای همسایه"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 50,
         "color": "red",
-        "description": "Scenario B description remains unchanged.",
-        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
+        "description": "Prolonged stalemate with ongoing economic sanctions and blockades.",
+        "description_fa": "بن‌بست طولانی‌مدت با تحریم‌ها و محاصره‌های اقتصادی مداوم.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2120,18 +2137,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "ادامه تحریم‌های اقتصادی",
+          "عدم پیشرفت در مذاکرات"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 20,
+        "probability": 25,
         "color": "green",
-        "description": "Scenario C description remains unchanged.",
-        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
+        "description": "Diplomatic resolution leading to gradual de-escalation and lifting of sanctions.",
+        "description_fa": "حل دیپلماتیک منجر به کاهش تدریجی تنش‌ها و لغو تحریم‌ها.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2140,8 +2157,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "مذاکرات موفقیت‌آمیز",
+          "فشار بین‌المللی برای صلح"
         ]
       }
     ],
@@ -2468,7 +2485,8 @@
         "26 Apr",
         "27 Apr",
         "28 Apr",
-        "29 Apr"
+        "29 Apr",
+        "30 Apr"
       ],
       "us_israel_waves": [
         55,
@@ -2676,7 +2694,8 @@
         "26 Apr",
         "27 Apr",
         "28 Apr",
-        "29 Apr"
+        "29 Apr",
+        "30 Apr"
       ],
       "hengaw_total": [
         1000,
@@ -2833,7 +2852,8 @@
         "26 Apr",
         "27 Apr",
         "28 Apr",
-        "29 Apr"
+        "29 Apr",
+        "30 Apr"
       ],
       "daily_bm": [
         200,
@@ -2962,7 +2982,8 @@
         "26 Apr",
         "27 Apr",
         "28 Apr",
-        "29 Apr"
+        "29 Apr",
+        "30 Apr"
       ],
       "data": [
         1.5,
@@ -3117,7 +3138,8 @@
         98.36,
         106.0,
         118.5,
-        114.81
+        114.81,
+        124.0
       ]
     },
     "hormuz_transit": {
@@ -3207,9 +3229,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        60,
-        20
+        25,
+        50,
+        25
       ],
       "colors": [
         "rgba(245,158,11,.7)",
