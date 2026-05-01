@@ -863,5 +863,18 @@
       "scenario C prob: 20% -> 25%",
       "chart brent_oil.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-01",
+    "timestamp": "2026-05-01T02:22:07.176599-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, military actions, and political developments as of May 1, 2026.",
+    "changes": [
+      "meta.last_updated: 2026-04-30 -> 2026-05-01",
+      "meta.update_time: 07:23 EST -> 07:21 EST",
+      "meta.day_number: 56 -> 57",
+      "NEW DAY 57: Iran threatens 'long and painful strikes' if US renews attacks; US declares host...",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
