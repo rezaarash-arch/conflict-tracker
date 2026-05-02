@@ -876,5 +876,29 @@
       "NEW DAY 57: Iran threatens 'long and painful strikes' if US renews attacks; US declares host...",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-02",
+    "timestamp": "2026-05-02T01:56:05.116430-05:00",
+    "status": "UPDATED",
+    "summary": "Ceasefire declared; hostilities terminated; new sanctions imposed; Iran's proposal rejected.",
+    "changes": [
+      "meta.last_updated: 2026-05-01 -> 2026-05-02",
+      "meta.update_time: 07:21 EST -> 06:55 EST",
+      "meta.day_number: 57 -> 58",
+      "NEW DAY 58: Ceasefire holds; no new military engagements reported....",
+      "costs.kpis.oil_brent: $114.81 -> $115.00",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 50% -> 60%",
+      "scenario C prob: 25% -> 20%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]

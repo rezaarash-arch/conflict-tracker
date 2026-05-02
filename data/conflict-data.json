@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-01",
-    "update_time": "07:21 EST",
-    "day_number": 57,
+    "last_updated": "2026-05-02",
+    "update_time": "06:55 EST",
+    "day_number": 58,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1314,6 +1314,23 @@
         "events": "Iran threatens 'long and painful strikes' if US renews attacks; US declares hostilities with Iran have terminated under War Powers; Iran's air defenses engage drones over parts of Tehran.",
         "events_fa": "ایران تهدید به 'حملات طولانی و دردناک' در صورت تجدید حملات آمریکا؛ آمریکا اعلام کرد که خصومت‌ها با ایران تحت قانون اختیارات جنگی پایان یافته است؛ پدافند هوایی ایران در بخش‌هایی از تهران با پهپادها درگیر شد.",
         "highlight": false
+      },
+      {
+        "day": 58,
+        "date": "2 May",
+        "date_fa": "۲ مه",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "Ceasefire holds; no new military engagements reported.",
+        "events_fa": "آتش‌بس برقرار است؛ هیچ درگیری نظامی جدیدی گزارش نشده است.",
+        "highlight": false
       }
     ]
   },
@@ -1996,7 +2013,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$114.81",
+      "oil_brent": "$115.00",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -2137,10 +2154,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Scenario A description",
-        "description_fa": "توضیحات سناریو A",
+        "description": "Full-scale war resumes",
+        "description_fa": "از سرگیری جنگ تمام‌عیار",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2149,18 +2166,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "شکست مذاکرات صلح",
+          "افزایش تنش‌ها در منطقه"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 60,
         "color": "red",
-        "description": "Scenario B description",
-        "description_fa": "توضیحات سناریو B",
+        "description": "Prolonged ceasefire with sporadic skirmishes",
+        "description_fa": "آتش‌بس طولانی‌مدت با درگیری‌های پراکنده",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2169,18 +2186,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "ادامه مذاکرات صلح",
+          "فشارهای بین‌المللی"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 25,
+        "probability": 20,
         "color": "green",
-        "description": "Scenario C description",
-        "description_fa": "توضیحات سناریو C",
+        "description": "Comprehensive peace agreement reached",
+        "description_fa": "دستیابی به توافق صلح جامع",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2189,8 +2206,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "موفقیت مذاکرات صلح",
+          "توافق بر سر مسائل کلیدی"
         ]
       }
     ],
@@ -2519,7 +2536,8 @@
         "28 Apr",
         "29 Apr",
         "30 Apr",
-        "1 May"
+        "1 May",
+        "2 May"
       ],
       "us_israel_waves": [
         55,
@@ -2569,7 +2587,8 @@
         0,
         0,
         null,
-        1
+        1,
+        0
       ],
       "iran_bms": [
         200,
@@ -2619,7 +2638,8 @@
         0,
         0,
         null,
-        50
+        50,
+        0
       ],
       "iran_drones": [
         500,
@@ -2668,7 +2688,8 @@
         1,
         0,
         null,
-        20
+        20,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -2729,7 +2750,8 @@
         "28 Apr",
         "29 Apr",
         "30 Apr",
-        "1 May"
+        "1 May",
+        "2 May"
       ],
       "hengaw_total": [
         1000,
@@ -2779,7 +2801,8 @@
         4600,
         0,
         null,
-        4600
+        4600,
+        4700
       ],
       "hrana_civilian": [
         133,
@@ -2827,7 +2850,8 @@
         0,
         0,
         null,
-        3138
+        3138,
+        0
       ]
     },
     "bm_degradation": {
@@ -2888,7 +2912,8 @@
         "28 Apr",
         "29 Apr",
         "30 Apr",
-        "1 May"
+        "1 May",
+        "2 May"
       ],
       "daily_bm": [
         200,
@@ -2938,7 +2963,8 @@
         0,
         0,
         null,
-        50
+        50,
+        0
       ],
       "trendline": [
         200,
@@ -3019,7 +3045,8 @@
         "28 Apr",
         "29 Apr",
         "30 Apr",
-        "1 May"
+        "1 May",
+        "2 May"
       ],
       "data": [
         1.5,
@@ -3067,6 +3094,7 @@
         0,
         0,
         null,
+        0,
         0
       ]
     },
@@ -3175,7 +3203,8 @@
         106.0,
         118.5,
         114.81,
-        124.0
+        124.0,
+        115.0
       ]
     },
     "hormuz_transit": {
@@ -3250,6 +3279,7 @@
         75,
         75,
         null,
+        0,
         0
       ]
     },
@@ -3265,9 +3295,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        50,
-        25
+        20,
+        60,
+        20
       ],
       "colors": [
         "rgba(245,158,11,.7)",
