@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-02",
-    "update_time": "06:55 EST",
-    "day_number": 58,
+    "last_updated": "2026-05-03",
+    "update_time": "07:13 EST",
+    "day_number": 59,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1331,6 +1331,23 @@
         "events": "Ceasefire holds; no new military engagements reported.",
         "events_fa": "آتش‌بس برقرار است؛ هیچ درگیری نظامی جدیدی گزارش نشده است.",
         "highlight": false
+      },
+      {
+        "day": 59,
+        "date": "3 May",
+        "date_fa": "۳ مه",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "7",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "Israeli airstrikes in Lebanon result in 7 fatalities; President Trump reviews Iran's 14-point peace proposal; Iran warns of 'long and painful' response to potential U.S. attacks.",
+        "events_fa": "حملات هوایی اسرائیل در لبنان منجر به ۷ کشته شد؛ رئیس‌جمهور ترامپ پیشنهاد صلح ۱۴ ماده‌ای ایران را بررسی می‌کند؛ ایران نسبت به پاسخ 'طولانی و دردناک' به حملات احتمالی آمریکا هشدار می‌دهد.",
+        "highlight": false
       }
     ]
   },
@@ -2156,8 +2173,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 20,
         "color": "amber",
-        "description": "Full-scale war resumes",
-        "description_fa": "از سرگیری جنگ تمام‌عیار",
+        "description": "Ceasefire holds with ongoing diplomatic negotiations.",
+        "description_fa": "آتش‌بس برقرار است و مذاکرات دیپلماتیک ادامه دارد.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2166,8 +2183,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "شکست مذاکرات صلح",
-          "افزایش تنش‌ها در منطقه"
+          "تلاش‌های دیپلماتیک",
+          "فشارهای بین‌المللی"
         ]
       },
       {
@@ -2176,8 +2193,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 60,
         "color": "red",
-        "description": "Prolonged ceasefire with sporadic skirmishes",
-        "description_fa": "آتش‌بس طولانی‌مدت با درگیری‌های پراکنده",
+        "description": "Renewed military engagements following failed negotiations.",
+        "description_fa": "درگیری‌های نظامی مجدد پس از شکست مذاکرات.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2186,8 +2203,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه مذاکرات صلح",
-          "فشارهای بین‌المللی"
+          "شکست مذاکرات",
+          "افزایش تنش‌ها"
         ]
       },
       {
@@ -2196,8 +2213,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Comprehensive peace agreement reached",
-        "description_fa": "دستیابی به توافق صلح جامع",
+        "description": "Prolonged stalemate with intermittent skirmishes.",
+        "description_fa": "بن‌بست طولانی با درگیری‌های پراکنده.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2206,8 +2223,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "موفقیت مذاکرات صلح",
-          "توافق بر سر مسائل کلیدی"
+          "عدم توافق",
+          "درگیری‌های پراکنده"
         ]
       }
     ],
@@ -2537,7 +2554,8 @@
         "29 Apr",
         "30 Apr",
         "1 May",
-        "2 May"
+        "2 May",
+        "3 May"
       ],
       "us_israel_waves": [
         55,
@@ -2751,7 +2769,8 @@
         "29 Apr",
         "30 Apr",
         "1 May",
-        "2 May"
+        "2 May",
+        "3 May"
       ],
       "hengaw_total": [
         1000,
@@ -2913,7 +2932,8 @@
         "29 Apr",
         "30 Apr",
         "1 May",
-        "2 May"
+        "2 May",
+        "3 May"
       ],
       "daily_bm": [
         200,
@@ -3046,7 +3066,8 @@
         "29 Apr",
         "30 Apr",
         "1 May",
-        "2 May"
+        "2 May",
+        "3 May"
       ],
       "data": [
         1.5,

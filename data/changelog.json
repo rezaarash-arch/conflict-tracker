@@ -900,5 +900,17 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-03",
+    "timestamp": "2026-05-03T02:13:25.917272-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include President Trump's consideration of Iran's 14-point peace proposal, his indication of potential future military action if Iran 'misbehaves,' and Iran's warning of a 'long and painful' response to any renewed U.S. attacks. Additionally, the death of Supreme Leader Ali Khamenei has led to a consolidation of power among Iran's military generals.",
+    "changes": [
+      "meta.last_updated: 2026-05-02 -> 2026-05-03",
+      "meta.update_time: 06:55 EST -> 07:13 EST",
+      "meta.day_number: 58 -> 59",
+      "NEW DAY 59: Israeli airstrikes in Lebanon result in 7 fatalities; President Trump reviews Ir..."
+    ]
   }
 ]
