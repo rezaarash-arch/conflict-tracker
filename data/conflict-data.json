@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-03",
-    "update_time": "07:13 EST",
-    "day_number": 59,
+    "last_updated": "2026-05-04",
+    "update_time": "07:42 EST",
+    "day_number": 60,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1348,6 +1348,23 @@
         "events": "Israeli airstrikes in Lebanon result in 7 fatalities; President Trump reviews Iran's 14-point peace proposal; Iran warns of 'long and painful' response to potential U.S. attacks.",
         "events_fa": "حملات هوایی اسرائیل در لبنان منجر به ۷ کشته شد؛ رئیس‌جمهور ترامپ پیشنهاد صلح ۱۴ ماده‌ای ایران را بررسی می‌کند؛ ایران نسبت به پاسخ 'طولانی و دردناک' به حملات احتمالی آمریکا هشدار می‌دهد.",
         "highlight": false
+      },
+      {
+        "day": 60,
+        "date": "4 May",
+        "date_fa": "۴ مه",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "U.S. initiates 'Project Freedom' to guide stranded ships through the Strait of Hormuz; Iran warns of potential attacks on U.S. forces entering the strait; ongoing diplomatic exchanges regarding Iran's peace proposal.",
+        "events_fa": "آمریکا عملیات 'پروژه آزادی' را برای هدایت کشتی‌های گرفتار در تنگه هرمز آغاز می‌کند؛ ایران نسبت به حملات احتمالی به نیروهای آمریکایی که وارد تنگه شوند هشدار می‌دهد؛ تبادلات دیپلماتیک در مورد پیشنهاد صلح ایران ادامه دارد.",
+        "highlight": false
       }
     ]
   },
@@ -2173,8 +2190,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 20,
         "color": "amber",
-        "description": "Ceasefire holds with ongoing diplomatic negotiations.",
-        "description_fa": "آتش‌بس برقرار است و مذاکرات دیپلماتیک ادامه دارد.",
+        "description": "Ceasefire holds, leading to diplomatic resolution.",
+        "description_fa": "آتش‌بس برقرار می‌ماند و به حل دیپلماتیک منجر می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2183,8 +2200,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک",
-          "فشارهای بین‌المللی"
+          "تداوم مذاکرات صلح",
+          "کاهش تنش‌های نظامی"
         ]
       },
       {
@@ -2193,8 +2210,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 60,
         "color": "red",
-        "description": "Renewed military engagements following failed negotiations.",
-        "description_fa": "درگیری‌های نظامی مجدد پس از شکست مذاکرات.",
+        "description": "Conflict escalates due to military actions in the Strait of Hormuz.",
+        "description_fa": "درگیری به دلیل اقدامات نظامی در تنگه هرمز تشدید می‌شود.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2203,8 +2220,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "افزایش تنش‌ها"
+          "آغاز عملیات 'پروژه آزادی' توسط آمریکا",
+          "هشدارهای ایران درباره حملات احتمالی"
         ]
       },
       {
@@ -2223,8 +2240,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عدم توافق",
-          "درگیری‌های پراکنده"
+          "عدم پیشرفت در مذاکرات صلح",
+          "ادامه تحریم‌ها و محاصره"
         ]
       }
     ],
@@ -2555,7 +2572,8 @@
         "30 Apr",
         "1 May",
         "2 May",
-        "3 May"
+        "3 May",
+        "4 May"
       ],
       "us_israel_waves": [
         55,
@@ -2770,7 +2788,8 @@
         "30 Apr",
         "1 May",
         "2 May",
-        "3 May"
+        "3 May",
+        "4 May"
       ],
       "hengaw_total": [
         1000,
@@ -2933,7 +2952,8 @@
         "30 Apr",
         "1 May",
         "2 May",
-        "3 May"
+        "3 May",
+        "4 May"
       ],
       "daily_bm": [
         200,
@@ -3067,7 +3087,8 @@
         "30 Apr",
         "1 May",
         "2 May",
-        "3 May"
+        "3 May",
+        "4 May"
       ],
       "data": [
         1.5,

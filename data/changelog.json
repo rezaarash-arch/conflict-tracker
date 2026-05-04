@@ -912,5 +912,17 @@
       "meta.day_number: 58 -> 59",
       "NEW DAY 59: Israeli airstrikes in Lebanon result in 7 fatalities; President Trump reviews Ir..."
     ]
+  },
+  {
+    "date": "2026-05-04",
+    "timestamp": "2026-05-04T02:42:38.513844-05:00",
+    "status": "UPDATED",
+    "summary": "Initiation of 'Project Freedom' to guide stranded ships through the Strait of Hormuz; Iran's warning of potential attacks on U.S. forces entering the strait; ongoing diplomatic exchanges regarding Iran's peace proposal.",
+    "changes": [
+      "meta.last_updated: 2026-05-03 -> 2026-05-04",
+      "meta.update_time: 07:13 EST -> 07:42 EST",
+      "meta.day_number: 59 -> 60",
+      "NEW DAY 60: U.S. initiates 'Project Freedom' to guide stranded ships through the Strait of H..."
+    ]
   }
 ]
