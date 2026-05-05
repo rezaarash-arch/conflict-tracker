@@ -924,5 +924,28 @@
       "meta.day_number: 59 -> 60",
       "NEW DAY 60: U.S. initiates 'Project Freedom' to guide stranded ships through the Strait of H..."
     ]
+  },
+  {
+    "date": "2026-05-05",
+    "timestamp": "2026-05-05T02:11:15.418247-05:00",
+    "status": "UPDATED",
+    "summary": "Renewed hostilities in the Strait of Hormuz, including U.S. military actions and Iranian attacks on the UAE, have escalated tensions and impacted oil prices.",
+    "changes": [
+      "meta.last_updated: 2026-05-04 -> 2026-05-05",
+      "meta.update_time: 07:42 EST -> 07:11 EST",
+      "meta.day_number: 60 -> 61",
+      "NEW DAY 61: U.S. military sinks six Iranian boats; Iran launches missile and drone attacks o...",
+      "overview.us_israel_strikes: ~26,500+ -> ~27,000+",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 60% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
