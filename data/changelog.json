@@ -947,5 +947,29 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-06",
+    "timestamp": "2026-05-06T02:30:11.828579-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the U.S. launching 'Project Freedom' to reopen the Strait of Hormuz, Iran's missile and drone attacks on the UAE, and the U.S. sinking six Iranian boats. A new UN resolution threatens sanctions against Iran if it doesn't cease its actions in the Strait.",
+    "changes": [
+      "meta.last_updated: 2026-05-05 -> 2026-05-06",
+      "meta.update_time: 07:11 EST -> 07:29 EST",
+      "meta.day_number: 61 -> 62",
+      "NEW DAY 62: Iran launched missile and drone attacks on UAE; U.S. military destroyed six Iran...",
+      "overview.us_israel_strikes: ~27,000+ -> ~27,500+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 65% -> 70%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
