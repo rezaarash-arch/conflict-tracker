@@ -971,5 +971,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-07",
+    "timestamp": "2026-05-07T02:36:53.801854-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include U.S.-Iran negotiations nearing a memorandum of understanding to end the conflict, U.S. military actions in the Strait of Hormuz, and Israeli airstrikes in Beirut.",
+    "changes": [
+      "meta.last_updated: 2026-05-06 -> 2026-05-07",
+      "meta.update_time: 07:29 EST -> 07:36 EST",
+      "meta.day_number: 62 -> 63",
+      "NEW DAY 63: U.S. Navy strikes Iranian-flagged oil tanker attempting to breach Strait of Horm...",
+      "overview.us_israel_strikes: ~27,500+ -> ~27,510+",
+      "costs.kpis.oil_brent: $115.00 -> $118.00",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 70% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
