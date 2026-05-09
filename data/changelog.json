@@ -1020,5 +1020,30 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-09",
+    "timestamp": "2026-05-09T02:01:31.723510-05:00",
+    "status": "UPDATED",
+    "summary": "Recent hostilities in the Strait of Hormuz have resulted in increased casualties and military engagements, affecting the overall conflict metrics.",
+    "changes": [
+      "meta.last_updated: 2026-05-08 -> 2026-05-09",
+      "meta.update_time: 06:26 EST -> 07:01 EST",
+      "meta.day_number: 64 -> 65",
+      "NEW DAY 65: Iranian forces launched missiles, drones, and small boats targeting U.S. Navy sh...",
+      "overview.us_israel_strikes: ~27,800+ -> ~28,200+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 60% -> 50%",
+      "scenario C prob: 30% -> 35%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

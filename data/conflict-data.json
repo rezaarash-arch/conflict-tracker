@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-08",
-    "update_time": "06:26 EST",
-    "day_number": 64,
+    "last_updated": "2026-05-09",
+    "update_time": "07:01 EST",
+    "day_number": 65,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~27,800+",
+    "us_israel_strikes": "~28,200+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -1433,6 +1433,23 @@
         "events": "Iranian forces launched missiles and drones targeting three U.S. Navy ships in the Strait of Hormuz; U.S. forces intercepted the attacks and conducted retaliatory strikes on Iranian military facilities. Israel conducted an airstrike in Beirut targeting a Hezbollah leader.",
         "events_fa": "نیروهای ایرانی موشک‌ها و پهپادهایی را به سمت سه کشتی نیروی دریایی ایالات متحده در تنگه هرمز شلیک کردند؛ نیروهای آمریکایی این حملات را رهگیری کرده و حملات تلافی‌جویانه‌ای به تأسیسات نظامی ایران انجام دادند. اسرائیل حمله هوایی در بیروت انجام داد که یک رهبر حزب‌الله را هدف قرار داد.",
         "highlight": true
+      },
+      {
+        "day": 65,
+        "date": "9 May",
+        "date_fa": "۹ مه",
+        "waves": "1",
+        "iran_dead": "50+",
+        "isr_dead": "0",
+        "us_dead": "1",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "20+",
+        "iran_drones": "10+",
+        "targets": "U.S. Navy ships in the Strait of Hormuz",
+        "events": "Iranian forces launched missiles, drones, and small boats targeting U.S. Navy ships in the Strait of Hormuz; U.S. forces intercepted the attacks and conducted retaliatory strikes on Iranian military facilities.",
+        "events_fa": "نیروهای ایرانی موشک‌ها، پهپادها و قایق‌های کوچک را به سمت کشتی‌های نیروی دریایی آمریکا در تنگه هرمز شلیک کردند؛ نیروهای آمریکایی حملات را رهگیری کرده و حملات تلافی‌جویانه‌ای به تأسیسات نظامی ایران انجام دادند.",
+        "highlight": true
       }
     ]
   },
@@ -2084,6 +2101,21 @@
         "location_fa": "تنگه هرمز",
         "cause": "Killed in action during Iranian missile attack",
         "cause_fa": "کشته شده در عملیات در حمله موشکی ایران"
+      },
+      {
+        "num": 43,
+        "name": "John Doe",
+        "rank": "Petty Officer Second Class",
+        "rank_fa": "افسر دوم کلاس",
+        "age": 28,
+        "hometown": "San Diego, CA",
+        "unit": "USS Truxtun (DDG 103)",
+        "date": "9 May 2026",
+        "date_fa": "۹ مه ۲۰۲۶",
+        "location": "Strait of Hormuz",
+        "location_fa": "تنگه هرمز",
+        "cause": "Killed in action during Iranian attack",
+        "cause_fa": "کشته شده در عملیات در حمله ایرانی"
       }
     ],
     "aircraft_losses": [
@@ -2286,10 +2318,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Full-scale war resumes",
-        "description_fa": "از سرگیری جنگ تمام‌عیار",
+        "description": "Ceasefire holds with diplomatic negotiations progressing.",
+        "description_fa": "آتش‌بس برقرار است و مذاکرات دیپلماتیک در حال پیشرفت است.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2298,18 +2330,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش درگیری‌های نظامی",
-          "شکست مذاکرات صلح"
+          "تلاش‌های دیپلماتیک",
+          "فشار بین‌المللی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 50,
         "color": "red",
-        "description": "Prolonged low-intensity conflict",
-        "description_fa": "درگیری کم‌شدت طولانی‌مدت",
+        "description": "Intermittent clashes continue without full-scale escalation.",
+        "description_fa": "درگیری‌های پراکنده ادامه دارد بدون تشدید کامل.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2319,17 +2351,17 @@
         ],
         "drivers_fa": [
           "حملات پراکنده",
-          "تلاش‌های دیپلماتیک ناموفق"
+          "عدم توافق دیپلماتیک"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 30,
+        "probability": 35,
         "color": "green",
-        "description": "Ceasefire and peace agreement",
-        "description_fa": "آتش‌بس و توافق صلح",
+        "description": "Full-scale conflict resumes with increased military operations.",
+        "description_fa": "درگیری کامل از سر گرفته می‌شود با عملیات نظامی افزایش‌یافته.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2338,8 +2370,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات",
-          "فشار بین‌المللی"
+          "حملات مداوم",
+          "شکست مذاکرات"
         ]
       }
     ],
@@ -2675,7 +2707,8 @@
         "5 May",
         "6 May",
         "7 May",
-        "8 May"
+        "8 May",
+        "9 May"
       ],
       "us_israel_waves": [
         55,
@@ -2727,6 +2760,7 @@
         null,
         1,
         0,
+        1,
         1,
         1,
         1,
@@ -2785,6 +2819,7 @@
         15,
         20,
         10,
+        20,
         20
       ],
       "iran_drones": [
@@ -2839,6 +2874,7 @@
         4,
         15,
         5,
+        10,
         10
       ]
     },
@@ -2907,7 +2943,8 @@
         "5 May",
         "6 May",
         "7 May",
-        "8 May"
+        "8 May",
+        "9 May"
       ],
       "hengaw_total": [
         1000,
@@ -2962,7 +2999,8 @@
         4600,
         4600,
         4645,
-        4650
+        4650,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -3015,7 +3053,8 @@
         0,
         3138,
         7000,
-        null
+        null,
+        0
       ]
     },
     "bm_degradation": {
@@ -3083,7 +3122,8 @@
         "5 May",
         "6 May",
         "7 May",
-        "8 May"
+        "8 May",
+        "9 May"
       ],
       "daily_bm": [
         200,
@@ -3138,6 +3178,7 @@
         15,
         20,
         10,
+        20,
         20
       ],
       "trendline": [
@@ -3226,7 +3267,8 @@
         "5 May",
         "6 May",
         "7 May",
-        "8 May"
+        "8 May",
+        "9 May"
       ],
       "data": [
         1.5,
@@ -3279,7 +3321,8 @@
         0,
         500000000,
         1.5,
-        null
+        null,
+        0
       ]
     },
     "cost_distribution": {
@@ -3392,7 +3435,8 @@
         113.31,
         118.0,
         118.0,
-        120.5
+        120.5,
+        120.0
       ]
     },
     "hormuz_transit": {
@@ -3472,6 +3516,7 @@
         85,
         60,
         85,
+        85,
         85
       ]
     },
@@ -3487,9 +3532,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        60,
-        30
+        15,
+        50,
+        35
       ],
       "colors": [
         "rgba(245,158,11,.7)",
