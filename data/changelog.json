@@ -1045,5 +1045,30 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-10",
+    "timestamp": "2026-05-10T02:20:41.823393-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. airstrikes on Iranian military sites following attacks on U.S. Navy vessels, Iran's warning against targeting its oil tankers, and ongoing diplomatic efforts toward a ceasefire.",
+    "changes": [
+      "meta.last_updated: 2026-05-09 -> 2026-05-10",
+      "meta.update_time: 07:01 EST -> 07:20 EST",
+      "meta.day_number: 65 -> 66",
+      "NEW DAY 66: Iranian forces launched missiles, drones, and small boats targeting U.S. Navy sh...",
+      "overview.us_israel_strikes: ~28,200+ -> ~28,500+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 50% -> 45%",
+      "scenario C prob: 35% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
