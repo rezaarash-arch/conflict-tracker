@@ -1070,5 +1070,27 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-11",
+    "timestamp": "2026-05-11T03:20:22.597494-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include the rejection of Iran's ceasefire proposal by the U.S., continued Israeli military operations in Lebanon, and escalating tensions in the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-05-10 -> 2026-05-11",
+      "meta.update_time: 07:20 EST -> 08:19 EST",
+      "meta.day_number: 66 -> 67",
+      "NEW DAY 67: U.S. President Donald Trump rejected Iran's ceasefire proposal as 'totally unacc...",
+      "scenario A prob: 10% -> 5%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
