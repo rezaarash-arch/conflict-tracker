@@ -1092,5 +1092,21 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-12",
+    "timestamp": "2026-05-12T02:36:42.172892-05:00",
+    "status": "UPDATED",
+    "summary": "Ceasefire status deteriorates; U.S. considers resuming military operations; oil prices rise.",
+    "changes": [
+      "meta.last_updated: 2026-05-11 -> 2026-05-12",
+      "meta.update_time: 08:19 EST -> 07:36 EST",
+      "meta.day_number: 67 -> 68",
+      "NEW DAY 68: U.S. President Donald Trump declared the ceasefire with Iran is 'on life support...",
+      "scenario A prob: 5% -> 10%",
+      "scenario B prob: 50% -> 40%",
+      "scenario C prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values"
+    ]
   }
 ]
