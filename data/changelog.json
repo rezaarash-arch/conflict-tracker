@@ -1108,5 +1108,21 @@
       "scenario C prob: 45% -> 50%",
       "chart brent_oil.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-13",
+    "timestamp": "2026-05-13T02:43:46.281427-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include President Trump's departure for a summit with China's President Xi Jinping amid escalating tensions with Iran, the U.S. Defense Secretary's assertion of control over the Strait of Hormuz, and Iran's rejection of the latest U.S. peace proposal.",
+    "changes": [
+      "meta.last_updated: 2026-05-12 -> 2026-05-13",
+      "meta.update_time: 07:36 EST -> 07:43 EST",
+      "meta.day_number: 68 -> 69",
+      "NEW DAY 69: President Trump departs for a summit with China's President Xi Jinping amid esca...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 40% -> 35%",
+      "chart brent_oil.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

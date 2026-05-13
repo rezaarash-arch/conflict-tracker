@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-12",
-    "update_time": "07:36 EST",
-    "day_number": 68,
+    "last_updated": "2026-05-13",
+    "update_time": "07:43 EST",
+    "day_number": 69,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1501,6 +1501,23 @@
         "events": "U.S. President Donald Trump declared the ceasefire with Iran is 'on life support' and is considering resuming military operations. Iran rejected the latest U.S. peace proposal, maintaining demands for sovereignty over the Strait of Hormuz and lifting of sanctions. Oil prices have risen amid the escalating tensions.",
         "events_fa": "رئیس‌جمهور ایالات متحده، دونالد ترامپ، اعلام کرد که آتش‌بس با ایران 'در حال احتضار' است و در حال بررسی از سرگیری عملیات نظامی است. ایران آخرین پیشنهاد صلح ایالات متحده را رد کرد و بر خواسته‌های خود برای حاکمیت بر تنگه هرمز و لغو تحریم‌ها پافشاری کرد. قیمت نفت در پی تشدید تنش‌ها افزایش یافته است.",
         "highlight": true
+      },
+      {
+        "day": 69,
+        "date": "13 May",
+        "date_fa": "۲۳ اردیبهشت",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "1",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "President Trump departs for a summit with China's President Xi Jinping amid escalating tensions with Iran. U.S. Defense Secretary asserts control over the Strait of Hormuz. Iran rejects the latest U.S. peace proposal.",
+        "events_fa": "رئیس‌جمهور ترامپ برای دیدار با رئیس‌جمهور چین، شی جین‌پینگ، در میان تنش‌های فزاینده با ایران عازم شد. وزیر دفاع آمریکا کنترل تنگه هرمز را اعلام کرد. ایران آخرین پیشنهاد صلح آمریکا را رد کرد.",
+        "highlight": true
       }
     ]
   },
@@ -2182,6 +2199,21 @@
         "location_fa": "تنگه هرمز",
         "cause": "Killed in action during Iranian attack",
         "cause_fa": "کشته شده در عملیات در حمله ایرانی"
+      },
+      {
+        "num": 45,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-05-12",
+        "date_fa": "۲۲ اردیبهشت ۱۴۰۵",
+        "location": "Strait of Hormuz",
+        "location_fa": "تنگه هرمز",
+        "cause": "Hostile fire",
+        "cause_fa": "آتش دشمن"
       }
     ],
     "aircraft_losses": [
@@ -2384,10 +2416,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire holds, leading to diplomatic resolution.",
-        "description_fa": "آتش‌بس برقرار می‌ماند و به حل دیپلماتیک منجر می‌شود.",
+        "description": "Ceasefire holds with gradual de-escalation.",
+        "description_fa": "آتش‌بس برقرار می‌ماند و تنش‌ها به تدریج کاهش می‌یابد.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2397,17 +2429,17 @@
         ],
         "drivers_fa": [
           "تلاش‌های دیپلماتیک",
-          "فشار بین‌المللی"
+          "فشارهای بین‌المللی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 40,
+        "probability": 35,
         "color": "red",
-        "description": "Ceasefire collapses; limited military engagements resume.",
-        "description_fa": "آتش‌بس فرو می‌پاشد؛ درگیری‌های نظامی محدود از سر گرفته می‌شود.",
+        "description": "Intermittent skirmishes continue without full-scale war.",
+        "description_fa": "درگیری‌های پراکنده ادامه می‌یابد بدون جنگ تمام‌عیار.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2416,8 +2448,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم توافق در مذاکرات",
-          "افزایش تنش‌ها"
+          "حملات متقابل",
+          "عدم توافق در مذاکرات"
         ]
       },
       {
@@ -2426,8 +2458,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Full-scale military operations resume.",
-        "description_fa": "عملیات نظامی تمام‌عیار از سر گرفته می‌شود.",
+        "description": "Full-scale conflict resumes.",
+        "description_fa": "جنگ تمام‌عیار از سر گرفته می‌شود.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2436,8 +2468,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "رد پیشنهادات صلح",
-          "افزایش حملات نظامی"
+          "شکست مذاکرات",
+          "حملات گسترده"
         ]
       }
     ],
@@ -2777,7 +2809,8 @@
         "9 May",
         "10 May",
         "11 May",
-        "12 May"
+        "12 May",
+        "13 May"
       ],
       "us_israel_waves": [
         55,
@@ -3022,7 +3055,8 @@
         "9 May",
         "10 May",
         "11 May",
-        "12 May"
+        "12 May",
+        "13 May"
       ],
       "hengaw_total": [
         1000,
@@ -3208,7 +3242,8 @@
         "9 May",
         "10 May",
         "11 May",
-        "12 May"
+        "12 May",
+        "13 May"
       ],
       "daily_bm": [
         200,
@@ -3358,7 +3393,8 @@
         "9 May",
         "10 May",
         "11 May",
-        "12 May"
+        "12 May",
+        "13 May"
       ],
       "data": [
         1.5,
@@ -3531,7 +3567,8 @@
         120.0,
         120.5,
         122.5,
-        120.5
+        120.5,
+        120.0
       ]
     },
     "hormuz_transit": {
@@ -3629,8 +3666,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        40,
+        15,
+        35,
         50
       ],
       "colors": [
