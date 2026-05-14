@@ -1124,5 +1124,28 @@
       "chart brent_oil.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-14",
+    "timestamp": "2026-05-14T02:36:48.911514-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, military actions, and diplomatic developments as of May 14, 2026.",
+    "changes": [
+      "meta.last_updated: 2026-05-13 -> 2026-05-14",
+      "meta.update_time: 07:43 EST -> 07:36 EST",
+      "meta.day_number: 69 -> 70",
+      "NEW DAY 70: Israeli airstrikes in southern Lebanon result in 25 fatalities, including childr...",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 35% -> 40%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

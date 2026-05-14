@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-13",
-    "update_time": "07:43 EST",
-    "day_number": 69,
+    "last_updated": "2026-05-14",
+    "update_time": "07:36 EST",
+    "day_number": 70,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1518,6 +1518,23 @@
         "events": "President Trump departs for a summit with China's President Xi Jinping amid escalating tensions with Iran. U.S. Defense Secretary asserts control over the Strait of Hormuz. Iran rejects the latest U.S. peace proposal.",
         "events_fa": "رئیس‌جمهور ترامپ برای دیدار با رئیس‌جمهور چین، شی جین‌پینگ، در میان تنش‌های فزاینده با ایران عازم شد. وزیر دفاع آمریکا کنترل تنگه هرمز را اعلام کرد. ایران آخرین پیشنهاد صلح آمریکا را رد کرد.",
         "highlight": true
+      },
+      {
+        "day": 70,
+        "date": "14 May",
+        "date_fa": "۱۴ مه",
+        "waves": "1",
+        "iran_dead": "25",
+        "isr_dead": "0",
+        "us_dead": "1",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "50",
+        "iran_drones": "10",
+        "targets": "Military installations in southern Lebanon",
+        "events": "Israeli airstrikes in southern Lebanon result in 25 fatalities, including children. UAE denies reports of secret visit by Israeli Prime Minister Netanyahu. US Vice President Vance reports progress in negotiations with Iran.",
+        "events_fa": "حملات هوایی اسرائیل در جنوب لبنان منجر به ۲۵ کشته، از جمله کودکان شد. امارات متحده عربی گزارش‌های مربوط به دیدار مخفیانه نخست‌وزیر اسرائیل نتانیاهو را تکذیب کرد. معاون رئیس‌جمهور آمریکا ونس از پیشرفت در مذاکرات با ایران خبر داد.",
+        "highlight": false
       }
     ]
   },
@@ -2214,6 +2231,21 @@
         "location_fa": "تنگه هرمز",
         "cause": "Hostile fire",
         "cause_fa": "آتش دشمن"
+      },
+      {
+        "num": 46,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-05-14",
+        "date_fa": "۱۴ مه ۲۰۲۶",
+        "location": "Southern Lebanon",
+        "location_fa": "جنوب لبنان",
+        "cause": "Killed in action during airstrike",
+        "cause_fa": "کشته شده در عملیات در جریان حمله هوایی"
       }
     ],
     "aircraft_losses": [
@@ -2416,10 +2448,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Ceasefire holds with gradual de-escalation.",
-        "description_fa": "آتش‌بس برقرار می‌ماند و تنش‌ها به تدریج کاهش می‌یابد.",
+        "description": "Ceasefire agreement reached with immediate de-escalation.",
+        "description_fa": "توافق آتش‌بس با کاهش تنش فوری.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2428,18 +2460,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک",
-          "فشارهای بین‌المللی"
+          "پیشرفت در مذاکرات دیپلماتیک",
+          "فشار بین‌المللی برای پایان دادن به درگیری"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 35,
+        "probability": 40,
         "color": "red",
-        "description": "Intermittent skirmishes continue without full-scale war.",
-        "description_fa": "درگیری‌های پراکنده ادامه می‌یابد بدون جنگ تمام‌عیار.",
+        "description": "Prolonged conflict with intermittent escalations.",
+        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2448,8 +2480,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل",
-          "عدم توافق در مذاکرات"
+          "ادامه حملات نظامی",
+          "عدم توافق در مذاکرات صلح"
         ]
       },
       {
@@ -2458,8 +2490,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Full-scale conflict resumes.",
-        "description_fa": "جنگ تمام‌عیار از سر گرفته می‌شود.",
+        "description": "Full-scale regional war involving multiple state and non-state actors.",
+        "description_fa": "جنگ منطقه‌ای تمام‌عیار با مشارکت چندین بازیگر دولتی و غیردولتی.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2468,8 +2500,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات گسترده"
+          "گسترش درگیری به کشورهای همسایه",
+          "مداخله نیروهای نیابتی"
         ]
       }
     ],
@@ -2810,7 +2842,8 @@
         "10 May",
         "11 May",
         "12 May",
-        "13 May"
+        "13 May",
+        "14 May"
       ],
       "us_israel_waves": [
         55,
@@ -2862,6 +2895,7 @@
         null,
         1,
         0,
+        1,
         1,
         1,
         1,
@@ -2926,7 +2960,8 @@
         20,
         20,
         20,
-        0
+        0,
+        50
       ],
       "iran_drones": [
         500,
@@ -2983,7 +3018,8 @@
         10,
         10,
         10,
-        0
+        0,
+        10
       ]
     },
     "phase3_cumulative_casualties": {
@@ -3056,7 +3092,8 @@
         "10 May",
         "11 May",
         "12 May",
-        "13 May"
+        "13 May",
+        "14 May"
       ],
       "hengaw_total": [
         1000,
@@ -3114,7 +3151,8 @@
         4650,
         4600,
         4600,
-        4600
+        4600,
+        4625
       ],
       "hrana_civilian": [
         133,
@@ -3170,7 +3208,8 @@
         null,
         0,
         0,
-        0
+        0,
+        null
       ]
     },
     "bm_degradation": {
@@ -3243,7 +3282,8 @@
         "10 May",
         "11 May",
         "12 May",
-        "13 May"
+        "13 May",
+        "14 May"
       ],
       "daily_bm": [
         200,
@@ -3301,7 +3341,8 @@
         20,
         20,
         20,
-        0
+        0,
+        50
       ],
       "trendline": [
         200,
@@ -3394,7 +3435,8 @@
         "10 May",
         "11 May",
         "12 May",
-        "13 May"
+        "13 May",
+        "14 May"
       ],
       "data": [
         1.5,
@@ -3450,7 +3492,8 @@
         null,
         0,
         0,
-        0
+        0,
+        null
       ]
     },
     "cost_distribution": {
@@ -3568,6 +3611,7 @@
         120.5,
         122.5,
         120.5,
+        120.0,
         120.0
       ]
     },
@@ -3651,6 +3695,7 @@
         85,
         85,
         75,
+        85,
         85
       ]
     },
@@ -3666,8 +3711,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        35,
+        10,
+        40,
         50
       ],
       "colors": [
