@@ -1147,5 +1147,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-15",
+    "timestamp": "2026-05-15T02:48:06.256132-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include ongoing Israel-Lebanon talks, U.S.-China discussions on Iran, and continued military actions in the region.",
+    "changes": [
+      "meta.last_updated: 2026-05-14 -> 2026-05-15",
+      "meta.update_time: 07:36 EST -> 07:47 EST",
+      "meta.day_number: 70 -> 71",
+      "NEW DAY 71: Israeli airstrikes in southern Lebanon result in 25 fatalities, including childr...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 40% -> 35%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
