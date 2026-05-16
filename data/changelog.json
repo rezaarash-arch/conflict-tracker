@@ -1170,5 +1170,17 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-16",
+    "timestamp": "2026-05-16T02:09:12.375625-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, ceasefire extension, and diplomatic developments.",
+    "changes": [
+      "meta.last_updated: 2026-05-15 -> 2026-05-16",
+      "meta.update_time: 07:47 EST -> 07:08 EST",
+      "meta.day_number: 71 -> 72",
+      "NEW DAY 72: Lebanon and Israel have agreed to extend their ceasefire by 45 days. Iran's Fore..."
+    ]
   }
 ]

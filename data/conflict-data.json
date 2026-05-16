@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-15",
-    "update_time": "07:47 EST",
-    "day_number": 71,
+    "last_updated": "2026-05-16",
+    "update_time": "07:08 EST",
+    "day_number": 72,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1552,6 +1552,23 @@
         "events": "Israeli airstrikes in southern Lebanon result in 25 fatalities, including children. UAE denies reports of secret visit by Israeli Prime Minister Netanyahu. US Vice President Vance reports progress in negotiations with Iran.",
         "events_fa": "حملات هوایی اسرائیل در جنوب لبنان منجر به ۲۵ کشته، از جمله کودکان شد. امارات متحده عربی گزارش‌های مربوط به دیدار مخفیانه نخست‌وزیر اسرائیل نتانیاهو را تکذیب کرد. معاون رئیس‌جمهور آمریکا ونس از پیشرفت در مذاکرات با ایران خبر داد.",
         "highlight": false
+      },
+      {
+        "day": 72,
+        "date": "16 May",
+        "date_fa": "۲۶ اردیبهشت",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Lebanon and Israel have agreed to extend their ceasefire by 45 days. Iran's Foreign Minister Abbas Araghchi stated that a lack of trust is impeding talks to end the war with the U.S., emphasizing openness to diplomatic assistance, particularly from China.",
+        "events_fa": "لبنان و اسرائیل توافق کرده‌اند که آتش‌بس خود را به مدت ۴۵ روز تمدید کنند. وزیر امور خارجه ایران، عباس عراقچی، اظهار داشت که عدم اعتماد مانع از مذاکرات برای پایان دادن به جنگ با ایالات متحده است و بر تمایل به کمک‌های دیپلماتیک، به ویژه از چین، تأکید کرد.",
+        "highlight": false
       }
     ]
   },
@@ -2482,8 +2499,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 15,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Scenario A description remains unchanged.",
+        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2492,8 +2509,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات اسرائیل و لبنان",
-          "حمایت چین از بازگشایی تنگه هرمز"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -2502,8 +2519,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 35,
         "color": "red",
-        "description": "Prolonged low-intensity conflict",
-        "description_fa": "درگیری طولانی‌مدت با شدت کم",
+        "description": "Scenario B description remains unchanged.",
+        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2512,8 +2529,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات هوایی اسرائیل در لبنان",
-          "عدم توافق در مذاکرات"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -2522,8 +2539,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Escalation into regional war",
-        "description_fa": "تشدید به جنگ منطقه‌ای",
+        "description": "Scenario C description remains unchanged.",
+        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2532,8 +2549,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "تهدیدات نظامی جدید از سوی آمریکا",
-          "حمایت ایران از حزب‌الله"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -2876,7 +2893,8 @@
         "12 May",
         "13 May",
         "14 May",
-        "15 May"
+        "15 May",
+        "16 May"
       ],
       "us_israel_waves": [
         55,
@@ -3130,7 +3148,8 @@
         "12 May",
         "13 May",
         "14 May",
-        "15 May"
+        "15 May",
+        "16 May"
       ],
       "hengaw_total": [
         1000,
@@ -3323,7 +3342,8 @@
         "12 May",
         "13 May",
         "14 May",
-        "15 May"
+        "15 May",
+        "16 May"
       ],
       "daily_bm": [
         200,
@@ -3478,7 +3498,8 @@
         "12 May",
         "13 May",
         "14 May",
-        "15 May"
+        "15 May",
+        "16 May"
       ],
       "data": [
         1.5,
