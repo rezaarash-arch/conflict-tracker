@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-16",
-    "update_time": "07:08 EST",
-    "day_number": 72,
+    "last_updated": "2026-05-17",
+    "update_time": "07:29 EST",
+    "day_number": 73,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~28,500+",
+    "us_israel_strikes": "~29,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -1569,6 +1569,23 @@
         "events": "Lebanon and Israel have agreed to extend their ceasefire by 45 days. Iran's Foreign Minister Abbas Araghchi stated that a lack of trust is impeding talks to end the war with the U.S., emphasizing openness to diplomatic assistance, particularly from China.",
         "events_fa": "لبنان و اسرائیل توافق کرده‌اند که آتش‌بس خود را به مدت ۴۵ روز تمدید کنند. وزیر امور خارجه ایران، عباس عراقچی، اظهار داشت که عدم اعتماد مانع از مذاکرات برای پایان دادن به جنگ با ایالات متحده است و بر تمایل به کمک‌های دیپلماتیک، به ویژه از چین، تأکید کرد.",
         "highlight": false
+      },
+      {
+        "day": 73,
+        "date": "17 May",
+        "date_fa": "۱۷ مه",
+        "waves": "1",
+        "iran_dead": "50",
+        "isr_dead": "10",
+        "us_dead": "0",
+        "other": "5",
+        "other_fa": "۵",
+        "iran_bms": "20",
+        "iran_drones": "5",
+        "targets": "Military installations in southern Lebanon",
+        "events": "Iran announces plan to manage Strait of Hormuz traffic; Israel conducts airstrikes in southern Lebanon despite ceasefire extension; U.S. and China discuss Hormuz situation; Pakistan's interior minister visits Tehran to facilitate peace talks.",
+        "events_fa": "ایران برنامه‌ای برای مدیریت ترافیک تنگه هرمز اعلام می‌کند؛ اسرائیل با وجود تمدید آتش‌بس، حملات هوایی در جنوب لبنان انجام می‌دهد؛ ایالات متحده و چین وضعیت هرمز را مورد بحث قرار می‌دهند؛ وزیر کشور پاکستان برای تسهیل مذاکرات صلح به تهران سفر می‌کند.",
+        "highlight": true
       }
     ]
   },
@@ -2497,10 +2514,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Scenario A description remains unchanged.",
-        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
+        "description": "Full-scale war escalation",
+        "description_fa": "تشدید جنگ تمام‌عیار",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2509,18 +2526,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "حملات هوایی اسرائیل در لبنان",
+          "عدم پیشرفت در مذاکرات صلح"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 35,
+        "probability": 40,
         "color": "red",
-        "description": "Scenario B description remains unchanged.",
-        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
+        "description": "Prolonged conflict with intermittent ceasefires",
+        "description_fa": "درگیری طولانی‌مدت با آتش‌بس‌های متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2529,8 +2546,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "تمدید آتش‌بس لبنان و اسرائیل",
+          "ادامه حملات پراکنده"
         ]
       },
       {
@@ -2539,8 +2556,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Scenario C description remains unchanged.",
-        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
+        "description": "Gradual de-escalation leading to peace talks",
+        "description_fa": "کاهش تدریجی تنش‌ها منجر به مذاکرات صلح",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2549,8 +2566,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "مذاکرات ایالات متحده و چین",
+          "میانجی‌گری پاکستان"
         ]
       }
     ],
@@ -2894,7 +2911,8 @@
         "13 May",
         "14 May",
         "15 May",
-        "16 May"
+        "16 May",
+        "17 May"
       ],
       "us_israel_waves": [
         55,
@@ -2954,7 +2972,8 @@
         1,
         1,
         1,
-        2
+        2,
+        1
       ],
       "iran_bms": [
         200,
@@ -3014,7 +3033,8 @@
         20,
         0,
         50,
-        15
+        15,
+        20
       ],
       "iran_drones": [
         500,
@@ -3073,6 +3093,7 @@
         10,
         0,
         10,
+        5,
         5
       ]
     },
@@ -3149,7 +3170,8 @@
         "13 May",
         "14 May",
         "15 May",
-        "16 May"
+        "16 May",
+        "17 May"
       ],
       "hengaw_total": [
         1000,
@@ -3209,7 +3231,8 @@
         4600,
         4600,
         4625,
-        4600
+        4600,
+        7500
       ],
       "hrana_civilian": [
         133,
@@ -3267,7 +3290,8 @@
         0,
         0,
         null,
-        3138
+        3138,
+        24000
       ]
     },
     "bm_degradation": {
@@ -3343,7 +3367,8 @@
         "13 May",
         "14 May",
         "15 May",
-        "16 May"
+        "16 May",
+        "17 May"
       ],
       "daily_bm": [
         200,
@@ -3403,7 +3428,8 @@
         20,
         0,
         50,
-        15
+        15,
+        20
       ],
       "trendline": [
         200,
@@ -3499,7 +3525,8 @@
         "13 May",
         "14 May",
         "15 May",
-        "16 May"
+        "16 May",
+        "17 May"
       ],
       "data": [
         1.5,
@@ -3557,7 +3584,8 @@
         0,
         0,
         null,
-        1500000000
+        1500000000,
+        29000000000
       ]
     },
     "cost_distribution": {
@@ -3677,7 +3705,8 @@
         120.5,
         120.0,
         120.0,
-        118.5
+        118.5,
+        120.0
       ]
     },
     "hormuz_transit": {
@@ -3762,6 +3791,7 @@
         75,
         85,
         85,
+        85,
         85
       ]
     },
@@ -3777,8 +3807,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        35,
+        10,
+        40,
         50
       ],
       "colors": [

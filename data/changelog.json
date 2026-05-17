@@ -1182,5 +1182,28 @@
       "meta.day_number: 71 -> 72",
       "NEW DAY 72: Lebanon and Israel have agreed to extend their ceasefire by 45 days. Iran's Fore..."
     ]
+  },
+  {
+    "date": "2026-05-17",
+    "timestamp": "2026-05-17T02:29:51.740033-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's plan to manage Strait of Hormuz traffic, Israel's airstrikes in southern Lebanon despite a ceasefire extension, and ongoing diplomatic efforts involving the U.S., China, and Pakistan.",
+    "changes": [
+      "meta.last_updated: 2026-05-16 -> 2026-05-17",
+      "meta.update_time: 07:08 EST -> 07:29 EST",
+      "meta.day_number: 72 -> 73",
+      "NEW DAY 73: Iran announces plan to manage Strait of Hormuz traffic; Israel conducts airstrik...",
+      "overview.us_israel_strikes: ~28,500+ -> ~29,000+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 35% -> 40%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
