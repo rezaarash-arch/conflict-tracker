@@ -1230,5 +1230,18 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-05-19",
+    "timestamp": "2026-05-19T03:19:47.015456-05:00",
+    "status": "UPDATED",
+    "summary": "President Trump has postponed a planned military strike on Iran at the request of Gulf allies, citing ongoing serious negotiations. Despite this, Israeli airstrikes in southern Lebanon continue, and Iran's latest peace proposal has been deemed insufficient by the U.S.",
+    "changes": [
+      "meta.last_updated: 2026-05-18 -> 2026-05-19",
+      "meta.update_time: 08:39 EST -> 08:19 EST",
+      "meta.day_number: 74 -> 75",
+      "NEW DAY 75: President Trump postpones planned military strike on Iran at the request of Gulf...",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

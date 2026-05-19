@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-18",
-    "update_time": "08:39 EST",
-    "day_number": 74,
+    "last_updated": "2026-05-19",
+    "update_time": "08:19 EST",
+    "day_number": 75,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1603,6 +1603,23 @@
         "events": "President Trump warns Iran that 'the clock is ticking' for a deal; Israeli airstrikes in southern Lebanon despite ceasefire; Drone attack near UAE nuclear plant.",
         "events_fa": "رئیس‌جمهور ترامپ به ایران هشدار داد که 'زمان در حال اتمام است' برای توافق؛ حملات هوایی اسرائیل در جنوب لبنان علیرغم آتش‌بس؛ حمله پهپادی نزدیک نیروگاه هسته‌ای امارات.",
         "highlight": true
+      },
+      {
+        "day": 75,
+        "date": "19 May",
+        "date_fa": "۱۹ مه",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "President Trump postpones planned military strike on Iran at the request of Gulf allies; Israeli airstrikes continue in southern Lebanon despite ceasefire; U.S. deems Iran's latest peace proposal insufficient.",
+        "events_fa": "رئیس‌جمهور ترامپ حمله نظامی برنامه‌ریزی‌شده به ایران را به درخواست متحدان خلیج فارس به تعویق می‌اندازد؛ حملات هوایی اسرائیل در جنوب لبنان علیرغم آتش‌بس ادامه دارد؛ ایالات متحده پیشنهاد صلح اخیر ایران را ناکافی می‌داند.",
+        "highlight": false
       }
     ]
   },
@@ -2359,6 +2376,21 @@
         "location_fa": "جنوب لبنان",
         "cause": "Killed in action",
         "cause_fa": "کشته‌شده در عملیات"
+      },
+      {
+        "num": 50,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 30,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-05-18",
+        "date_fa": "۲۸ اردیبهشت ۱۴۰۵",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "Killed in action",
+        "cause_fa": "کشته‌شده در عملیات"
       }
     ],
     "aircraft_losses": [
@@ -2563,8 +2595,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 15,
         "color": "amber",
-        "description": "Negotiated settlement leading to ceasefire",
-        "description_fa": "توافق مذاکره‌شده منجر به آتش‌بس",
+        "description": "Scenario A description remains unchanged.",
+        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2573,8 +2605,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشارهای بین‌المللی",
-          "خستگی جنگی در طرفین"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -2583,8 +2615,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 35,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
+        "description": "Scenario B description remains unchanged.",
+        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2593,8 +2625,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم توافق در مذاکرات",
-          "حملات مداوم"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -2603,8 +2635,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
+        "description": "Scenario C description remains unchanged.",
+        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2613,8 +2645,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات گسترده",
-          "ورود کشورهای دیگر به درگیری"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -2960,7 +2992,8 @@
         "15 May",
         "16 May",
         "17 May",
-        "18 May"
+        "18 May",
+        "19 May"
       ],
       "us_israel_waves": [
         55,
@@ -3223,7 +3256,8 @@
         "15 May",
         "16 May",
         "17 May",
-        "18 May"
+        "18 May",
+        "19 May"
       ],
       "hengaw_total": [
         1000,
@@ -3423,7 +3457,8 @@
         "15 May",
         "16 May",
         "17 May",
-        "18 May"
+        "18 May",
+        "19 May"
       ],
       "daily_bm": [
         200,
@@ -3583,7 +3618,8 @@
         "15 May",
         "16 May",
         "17 May",
-        "18 May"
+        "18 May",
+        "19 May"
       ],
       "data": [
         1.5,
