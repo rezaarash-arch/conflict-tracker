@@ -1243,5 +1243,27 @@
       "NEW DAY 75: President Trump postpones planned military strike on Iran at the request of Gulf...",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-21",
+    "timestamp": "2026-05-21T03:25:39.003409-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, military actions, and diplomatic developments as of May 21, 2026.",
+    "changes": [
+      "meta.last_updated: 2026-05-20 -> 2026-05-21",
+      "meta.update_time: 00:00 EST -> 08:25 EST",
+      "meta.day_number: 75 -> 76",
+      "NEW DAY 76: Seven IDF soldiers injured by explosive drones in southern Lebanon; Iran's Presi...",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 35% -> 40%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]

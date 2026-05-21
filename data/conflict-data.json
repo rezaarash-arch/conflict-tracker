@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-20",
-    "update_time": "00:00 EST",
-    "day_number": 75,
+    "last_updated": "2026-05-21",
+    "update_time": "08:25 EST",
+    "day_number": 76,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1620,6 +1620,23 @@
         "events": "President Trump postpones planned military strike on Iran at the request of Gulf allies; Israeli airstrikes continue in southern Lebanon despite ceasefire; U.S. deems Iran's latest peace proposal insufficient.",
         "events_fa": "رئیس‌جمهور ترامپ حمله نظامی برنامه‌ریزی‌شده به ایران را به درخواست متحدان خلیج فارس به تعویق می‌اندازد؛ حملات هوایی اسرائیل در جنوب لبنان علیرغم آتش‌بس ادامه دارد؛ ایالات متحده پیشنهاد صلح اخیر ایران را ناکافی می‌داند.",
         "highlight": false
+      },
+      {
+        "day": 76,
+        "date": "21 May",
+        "date_fa": "۲۱ مه",
+        "waves": "1",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "7",
+        "other_fa": "۷",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "IDF soldiers in southern Lebanon",
+        "events": "Seven IDF soldiers injured by explosive drones in southern Lebanon; Iran's President Pezeshkian states all paths to diplomacy remain open but warns against coercion; Tensions rise between President Trump and PM Netanyahu over Iran peace proposal.",
+        "events_fa": "هفت سرباز ارتش اسرائیل در جنوب لبنان توسط پهپادهای انفجاری مجروح شدند؛ رئیس‌جمهور ایران، مسعود پزشکیان، اعلام کرد که همه راه‌های دیپلماتیک باز هستند اما نسبت به اجبار هشدار داد؛ تنش‌ها بین رئیس‌جمهور ترامپ و نخست‌وزیر نتانیاهو بر سر پیشنهاد صلح ایران افزایش یافت.",
+        "highlight": false
       }
     ]
   },
@@ -2593,10 +2610,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Scenario A description remains unchanged.",
-        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
+        "description": "Full-scale military escalation",
+        "description_fa": "تشدید نظامی تمام‌عیار",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2605,18 +2622,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "افزایش حملات نظامی",
+          "شکست مذاکرات صلح"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 35,
+        "probability": 40,
         "color": "red",
-        "description": "Scenario B description remains unchanged.",
-        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
+        "description": "Prolonged low-intensity conflict",
+        "description_fa": "درگیری کم‌شدت طولانی‌مدت",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2625,8 +2642,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "ادامه حملات پراکنده",
+          "عدم توافق دیپلماتیک"
         ]
       },
       {
@@ -2635,8 +2652,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Scenario C description remains unchanged.",
-        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
+        "description": "Negotiated ceasefire leading to peace talks",
+        "description_fa": "آتش‌بس مذاکره‌شده منجر به مذاکرات صلح",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2645,8 +2662,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "فشار بین‌المللی",
+          "تمایل به حل و فصل دیپلماتیک"
         ]
       }
     ],
@@ -2993,7 +3010,8 @@
         "16 May",
         "17 May",
         "18 May",
-        "19 May"
+        "19 May",
+        "21 May"
       ],
       "us_israel_waves": [
         55,
@@ -3054,6 +3072,7 @@
         1,
         1,
         2,
+        1,
         1,
         1
       ],
@@ -3117,7 +3136,8 @@
         50,
         15,
         20,
-        300
+        300,
+        0
       ],
       "iran_drones": [
         500,
@@ -3178,7 +3198,8 @@
         10,
         5,
         5,
-        50
+        50,
+        1
       ]
     },
     "phase3_cumulative_casualties": {
@@ -3257,7 +3278,8 @@
         "16 May",
         "17 May",
         "18 May",
-        "19 May"
+        "19 May",
+        "21 May"
       ],
       "hengaw_total": [
         1000,
@@ -3319,6 +3341,7 @@
         4625,
         4600,
         7500,
+        4600,
         4600
       ],
       "hrana_civilian": [
@@ -3379,7 +3402,8 @@
         null,
         3138,
         24000,
-        4500
+        4500,
+        0
       ]
     },
     "bm_degradation": {
@@ -3458,7 +3482,8 @@
         "16 May",
         "17 May",
         "18 May",
-        "19 May"
+        "19 May",
+        "21 May"
       ],
       "daily_bm": [
         200,
@@ -3520,7 +3545,8 @@
         50,
         15,
         20,
-        300
+        300,
+        0
       ],
       "trendline": [
         200,
@@ -3619,7 +3645,8 @@
         "16 May",
         "17 May",
         "18 May",
-        "19 May"
+        "19 May",
+        "21 May"
       ],
       "data": [
         1.5,
@@ -3679,7 +3706,8 @@
         null,
         1500000000,
         29000000000,
-        29000000000
+        29000000000,
+        0
       ]
     },
     "cost_distribution": {
@@ -3801,7 +3829,8 @@
         120.0,
         118.5,
         120.0,
-        111.0
+        111.0,
+        118.5
       ]
     },
     "hormuz_transit": {
@@ -3888,6 +3917,7 @@
         85,
         85,
         85,
+        85,
         85
       ]
     },
@@ -3903,8 +3933,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        35,
+        10,
+        40,
         50
       ],
       "colors": [
