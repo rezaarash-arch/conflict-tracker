@@ -1265,5 +1265,19 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-22",
+    "timestamp": "2026-05-22T03:16:18.956657-05:00",
+    "status": "UPDATED",
+    "summary": "Progress in US-Iran negotiations; US imposes sanctions on Lebanese officials over Hezbollah ties; House Republicans delay vote on limiting President Trump's military actions in Iran.",
+    "changes": [
+      "meta.last_updated: 2026-05-21 -> 2026-05-22",
+      "meta.update_time: 08:25 EST -> 08:16 EST",
+      "meta.day_number: 76 -> 77",
+      "NEW DAY 77: US and Iran continue mediated discussions to establish a formal framework for en...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 40% -> 35%"
+    ]
   }
 ]
