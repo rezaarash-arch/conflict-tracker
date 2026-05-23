@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-22",
-    "update_time": "08:16 EST",
-    "day_number": 77,
+    "last_updated": "2026-05-23",
+    "update_time": "07:24 EST",
+    "day_number": 78,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1654,6 +1654,23 @@
         "events": "US and Iran continue mediated discussions to establish a formal framework for ending the conflict; US imposes sanctions on Lebanese officials over Hezbollah ties; House Republicans delay vote on limiting President Trump's military actions in Iran.",
         "events_fa": "ایالات متحده و ایران به مذاکرات میانجی‌گری شده برای ایجاد چارچوب رسمی جهت پایان دادن به درگیری ادامه می‌دهند؛ ایالات متحده تحریم‌هایی علیه مقامات لبنانی به دلیل ارتباط با حزب‌الله اعمال می‌کند؛ جمهوری‌خواهان مجلس رأی‌گیری برای محدود کردن اقدامات نظامی رئیس‌جمهور ترامپ در ایران را به تعویق می‌اندازند.",
         "highlight": false
+      },
+      {
+        "day": 78,
+        "date": "23 May",
+        "date_fa": "۲۳ مه",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Diplomatic efforts between the U.S. and Iran have seen slight progress, with Pakistan intensifying mediation. President Trump is considering resuming military action due to stalled negotiations. A Pentagon leak reveals the U.S. has expended significant missile defense resources, raising concerns over depleted inventories.",
+        "events_fa": "تلاش‌های دیپلماتیک بین ایالات متحده و ایران پیشرفت اندکی داشته است، با تشدید میانجی‌گری پاکستان. رئیس‌جمهور ترامپ به دلیل مذاکرات متوقف شده در حال بررسی از سرگیری اقدامات نظامی است. یک افشای پنتاگون نشان می‌دهد که ایالات متحده منابع دفاع موشکی قابل توجهی را مصرف کرده است، که نگرانی‌هایی در مورد کاهش موجودی‌ها ایجاد می‌کند.",
+        "highlight": false
       }
     ]
   },
@@ -2627,10 +2644,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Negotiated settlement leading to a formal peace agreement.",
-        "description_fa": "توافق مذاکره‌شده منجر به توافق صلح رسمی.",
+        "description": "Full-scale military conflict resumes between the U.S. and Iran.",
+        "description_fa": "از سرگیری درگیری نظامی تمام‌عیار بین ایالات متحده و ایران.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2639,18 +2656,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات میانجی‌گری شده",
-          "تحریم‌های جدید علیه مقامات لبنانی"
+          "توقف مذاکرات دیپلماتیک",
+          "افزایش تنش‌ها در منطقه"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 35,
+        "probability": 40,
         "color": "red",
-        "description": "Prolonged conflict with intermittent ceasefires.",
-        "description_fa": "درگیری طولانی‌مدت با آتش‌بس‌های متناوب.",
+        "description": "Prolonged ceasefire with ongoing diplomatic negotiations.",
+        "description_fa": "آتش‌بس طولانی‌مدت با ادامه مذاکرات دیپلماتیک.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2659,8 +2676,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "تأخیر در رأی‌گیری کنگره",
-          "ادامه تنش‌ها در منطقه"
+          "میانجی‌گری پاکستان",
+          "فشارهای بین‌المللی برای صلح"
         ]
       },
       {
@@ -2669,8 +2686,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 50,
         "color": "green",
-        "description": "Escalation leading to broader regional conflict.",
-        "description_fa": "تشدید منجر به درگیری گسترده‌تر منطقه‌ای.",
+        "description": "Formal peace agreement reached, ending hostilities.",
+        "description_fa": "توافق صلح رسمی حاصل شده، پایان دادن به خصومت‌ها.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2679,8 +2696,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "ادامه تحریم‌ها",
-          "عدم پیشرفت در مذاکرات"
+          "توافق بر سر برنامه هسته‌ای ایران",
+          "رفع تحریم‌ها"
         ]
       }
     ],
@@ -3029,7 +3046,8 @@
         "18 May",
         "19 May",
         "21 May",
-        "22 May"
+        "22 May",
+        "23 May"
       ],
       "us_israel_waves": [
         55,
@@ -3298,7 +3316,8 @@
         "18 May",
         "19 May",
         "21 May",
-        "22 May"
+        "22 May",
+        "23 May"
       ],
       "hengaw_total": [
         1000,
@@ -3503,7 +3522,8 @@
         "18 May",
         "19 May",
         "21 May",
-        "22 May"
+        "22 May",
+        "23 May"
       ],
       "daily_bm": [
         200,
@@ -3667,7 +3687,8 @@
         "18 May",
         "19 May",
         "21 May",
-        "22 May"
+        "22 May",
+        "23 May"
       ],
       "data": [
         1.5,
@@ -3851,7 +3872,8 @@
         118.5,
         120.0,
         111.0,
-        118.5
+        118.5,
+        104.24
       ]
     },
     "hormuz_transit": {
@@ -3954,8 +3976,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        35,
+        10,
+        40,
         50
       ],
       "colors": [

@@ -1279,5 +1279,20 @@
       "scenario A prob: 10% -> 15%",
       "scenario B prob: 40% -> 35%"
     ]
+  },
+  {
+    "date": "2026-05-23",
+    "timestamp": "2026-05-23T02:25:10.922580-05:00",
+    "status": "UPDATED",
+    "summary": "Diplomatic efforts between the U.S. and Iran have seen slight progress, with Pakistan intensifying mediation. President Trump is considering resuming military action due to stalled negotiations. A Pentagon leak reveals the U.S. has expended significant missile defense resources, raising concerns over depleted inventories.",
+    "changes": [
+      "meta.last_updated: 2026-05-22 -> 2026-05-23",
+      "meta.update_time: 08:16 EST -> 07:24 EST",
+      "meta.day_number: 77 -> 78",
+      "NEW DAY 78: Diplomatic efforts between the U.S. and Iran have seen slight progress, with Pak...",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 35% -> 40%",
+      "chart brent_oil.data: appended 1 values"
+    ]
   }
 ]
