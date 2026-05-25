@@ -1313,5 +1313,20 @@
       "chart phase3_daily_timeline.iran_drones: appended 1 values",
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-25",
+    "timestamp": "2026-05-25T03:50:02.994729-05:00",
+    "status": "UPDATED",
+    "summary": "Significant progress in U.S.-Iran negotiations towards a ceasefire and reopening of the Strait of Hormuz; President Trump emphasizes caution in finalizing the deal.",
+    "changes": [
+      "meta.last_updated: 2026-05-24 -> 2026-05-25",
+      "meta.update_time: 07:45 EST -> 08:49 EST",
+      "meta.day_number: 79 -> 80",
+      "NEW DAY 80: U.S. and Iran are nearing a deal involving a 60-day ceasefire extension, reopeni...",
+      "scenario A prob: 20% -> 25%",
+      "scenario C prob: 30% -> 25%",
+      "chart brent_oil.data: appended 1 values"
+    ]
   }
 ]
