@@ -1328,5 +1328,29 @@
       "scenario C prob: 30% -> 25%",
       "chart brent_oil.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-26",
+    "timestamp": "2026-05-26T03:25:05.595092-05:00",
+    "status": "UPDATED",
+    "summary": "Recent U.S. military strikes in southern Iran and Israeli airstrikes on Hezbollah targets in Lebanon have escalated tensions, complicating ongoing ceasefire negotiations.",
+    "changes": [
+      "meta.last_updated: 2026-05-25 -> 2026-05-26",
+      "meta.update_time: 08:49 EST -> 08:24 EST",
+      "meta.day_number: 80 -> 81",
+      "NEW DAY 81: U.S. conducted 'self-defense' strikes in southern Iran targeting missile launch ...",
+      "overview.us_israel_strikes: ~30,000+ -> ~30,500+",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 50% -> 60%",
+      "scenario C prob: 25% -> 20%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
