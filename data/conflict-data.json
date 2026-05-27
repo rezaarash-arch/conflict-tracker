@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-26",
-    "update_time": "08:24 EST",
-    "day_number": 81,
+    "last_updated": "2026-05-27",
+    "update_time": "08:33 EST",
+    "day_number": 82,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~30,500+",
+    "us_israel_strikes": "~30,700+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -1722,6 +1722,23 @@
         "events": "U.S. conducted 'self-defense' strikes in southern Iran targeting missile launch sites and mine-laying vessels. Israeli airstrikes targeted Hezbollah positions in Lebanon.",
         "events_fa": "ایالات متحده حملات 'دفاع از خود' در جنوب ایران انجام داد که سایت‌های پرتاب موشک و کشتی‌های مین‌گذار را هدف قرار داد. حملات هوایی اسرائیل مواضع حزب‌الله در لبنان را هدف قرار داد.",
         "highlight": true
+      },
+      {
+        "day": 82,
+        "date": "27 May",
+        "date_fa": "۲۷ مه",
+        "waves": "1",
+        "iran_dead": "100+",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "10+",
+        "iran_drones": "5+",
+        "targets": "U.S. military assets in the Strait of Hormuz",
+        "events": "U.S. conducted 'self-defense' strikes in southern Iran targeting missile launch sites and mine-laying vessels. Iran condemned the strikes as violations of the ceasefire and warned of retaliation.",
+        "events_fa": "ایالات متحده حملات 'دفاع از خود' را در جنوب ایران انجام داد که سایت‌های پرتاب موشک و کشتی‌های مین‌گذار را هدف قرار داد. ایران این حملات را به عنوان نقض آتش‌بس محکوم کرد و هشدار به تلافی داد.",
+        "highlight": false
       }
     ]
   },
@@ -2695,10 +2712,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire holds with minor violations",
-        "description_fa": "آتش‌بس با نقض‌های جزئی ادامه دارد",
+        "description": "Ceasefire holds, leading to diplomatic resolution.",
+        "description_fa": "آتش‌بس برقرار می‌ماند و به حل دیپلماتیک منجر می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2715,10 +2732,10 @@
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 65,
         "color": "red",
-        "description": "Escalation of hostilities leading to broader conflict",
-        "description_fa": "تشدید خصومت‌ها منجر به درگیری گسترده‌تر می‌شود",
+        "description": "Conflict continues with intermittent escalations.",
+        "description_fa": "درگیری با تشدیدهای متناوب ادامه می‌یابد.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2727,8 +2744,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات اخیر",
-          "شکست مذاکرات"
+          "حملات نظامی",
+          "عدم اعتماد بین طرفین"
         ]
       },
       {
@@ -2737,8 +2754,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Stalemate with intermittent clashes",
-        "description_fa": "بن‌بست با درگیری‌های پراکنده",
+        "description": "Full-scale war resumes.",
+        "description_fa": "جنگ تمام‌عیار از سر گرفته می‌شود.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2747,8 +2764,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عدم پیشرفت در مذاکرات",
-          "توازن قدرت نظامی"
+          "شکست مذاکرات",
+          "حملات گسترده"
         ]
       }
     ],
@@ -3101,7 +3118,8 @@
         "23 May",
         "24 May",
         "25 May",
-        "26 May"
+        "26 May",
+        "27 May"
       ],
       "us_israel_waves": [
         55,
@@ -3166,7 +3184,8 @@
         1,
         1,
         0,
-        2
+        2,
+        1
       ],
       "iran_bms": [
         200,
@@ -3231,7 +3250,8 @@
         300,
         0,
         0,
-        5
+        5,
+        10
       ],
       "iran_drones": [
         500,
@@ -3295,7 +3315,8 @@
         50,
         1,
         0,
-        2
+        2,
+        5
       ]
     },
     "phase3_cumulative_casualties": {
@@ -3380,7 +3401,8 @@
         "23 May",
         "24 May",
         "25 May",
-        "26 May"
+        "26 May",
+        "27 May"
       ],
       "hengaw_total": [
         1000,
@@ -3444,7 +3466,8 @@
         7500,
         4600,
         4600,
-        4604
+        4604,
+        null
       ],
       "hrana_civilian": [
         133,
@@ -3506,7 +3529,8 @@
         24000,
         4500,
         0,
-        0
+        0,
+        null
       ]
     },
     "bm_degradation": {
@@ -3591,7 +3615,8 @@
         "23 May",
         "24 May",
         "25 May",
-        "26 May"
+        "26 May",
+        "27 May"
       ],
       "daily_bm": [
         200,
@@ -3656,7 +3681,8 @@
         300,
         0,
         0,
-        5
+        5,
+        10
       ],
       "trendline": [
         200,
@@ -3761,7 +3787,8 @@
         "23 May",
         "24 May",
         "25 May",
-        "26 May"
+        "26 May",
+        "27 May"
       ],
       "data": [
         1.5,
@@ -3823,7 +3850,8 @@
         29000000000,
         29000000000,
         0,
-        0
+        0,
+        null
       ]
     },
     "cost_distribution": {
@@ -3950,7 +3978,8 @@
         104.24,
         "$118.00",
         97.0,
-        120.0
+        120.0,
+        121.5
       ]
     },
     "hormuz_transit": {
@@ -4039,7 +4068,8 @@
         85,
         85,
         85,
-        85
+        85,
+        null
       ]
     },
     "scenario_probabilities": {
@@ -4054,8 +4084,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        60,
+        15,
+        65,
         20
       ],
       "colors": [

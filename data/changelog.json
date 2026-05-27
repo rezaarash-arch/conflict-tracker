@@ -1352,5 +1352,28 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-27",
+    "timestamp": "2026-05-27T03:33:23.554025-05:00",
+    "status": "UPDATED",
+    "summary": "Recent U.S. airstrikes in southern Iran have been reported, with Iran condemning these actions as violations of the ceasefire. Negotiations to end the conflict are ongoing but face challenges due to these developments.",
+    "changes": [
+      "meta.last_updated: 2026-05-26 -> 2026-05-27",
+      "meta.update_time: 08:24 EST -> 08:33 EST",
+      "meta.day_number: 81 -> 82",
+      "NEW DAY 82: U.S. conducted 'self-defense' strikes in southern Iran targeting missile launch ...",
+      "overview.us_israel_strikes: ~30,500+ -> ~30,700+",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 60% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
