@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-27",
-    "update_time": "08:33 EST",
-    "day_number": 82,
+    "last_updated": "2026-05-28",
+    "update_time": "08:36 EST",
+    "day_number": 83,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1739,6 +1739,23 @@
         "events": "U.S. conducted 'self-defense' strikes in southern Iran targeting missile launch sites and mine-laying vessels. Iran condemned the strikes as violations of the ceasefire and warned of retaliation.",
         "events_fa": "ایالات متحده حملات 'دفاع از خود' را در جنوب ایران انجام داد که سایت‌های پرتاب موشک و کشتی‌های مین‌گذار را هدف قرار داد. ایران این حملات را به عنوان نقض آتش‌بس محکوم کرد و هشدار به تلافی داد.",
         "highlight": false
+      },
+      {
+        "day": 83,
+        "date": "28 May",
+        "date_fa": "۲۸ مه",
+        "waves": "1",
+        "iran_dead": "10",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "4",
+        "iran_drones": "4",
+        "targets": "U.S. military site in Bandar Abbas",
+        "events": "U.S. conducted airstrikes on an Iranian military site in Bandar Abbas; Iran launched four attack drones at a commercial ship in the Strait of Hormuz, all intercepted by U.S. forces.",
+        "events_fa": "ایالات متحده حملات هوایی به یک سایت نظامی ایران در بندرعباس انجام داد؛ ایران چهار پهپاد تهاجمی به یک کشتی تجاری در تنگه هرمز پرتاب کرد که همگی توسط نیروهای آمریکایی رهگیری شدند.",
+        "highlight": true
       }
     ]
   },
@@ -2712,10 +2729,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Ceasefire holds, leading to diplomatic resolution.",
-        "description_fa": "آتش‌بس برقرار می‌ماند و به حل دیپلماتیک منجر می‌شود.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2724,18 +2741,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک",
-          "فشار بین‌المللی"
+          "افزایش فشار بین‌المللی",
+          "خستگی از جنگ در میان طرفین"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 65,
+        "probability": 70,
         "color": "red",
-        "description": "Conflict continues with intermittent escalations.",
-        "description_fa": "درگیری با تشدیدهای متناوب ادامه می‌یابد.",
+        "description": "Continued low-intensity conflict",
+        "description_fa": "ادامه درگیری با شدت کم",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2744,8 +2761,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات نظامی",
-          "عدم اعتماد بین طرفین"
+          "حملات متقابل مداوم",
+          "عدم پیشرفت در مذاکرات صلح"
         ]
       },
       {
@@ -2754,8 +2771,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Full-scale war resumes.",
-        "description_fa": "جنگ تمام‌عیار از سر گرفته می‌شود.",
+        "description": "Escalation to full-scale war",
+        "description_fa": "تشدید به جنگ تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2764,8 +2781,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات گسترده"
+          "حملات گسترده‌تر",
+          "شکست مذاکرات صلح"
         ]
       }
     ],
@@ -3119,7 +3136,8 @@
         "24 May",
         "25 May",
         "26 May",
-        "27 May"
+        "27 May",
+        "28 May"
       ],
       "us_israel_waves": [
         55,
@@ -3185,6 +3203,7 @@
         1,
         0,
         2,
+        1,
         1
       ],
       "iran_bms": [
@@ -3251,7 +3270,8 @@
         0,
         0,
         5,
-        10
+        10,
+        4
       ],
       "iran_drones": [
         500,
@@ -3316,7 +3336,8 @@
         1,
         0,
         2,
-        5
+        5,
+        4
       ]
     },
     "phase3_cumulative_casualties": {
@@ -3402,7 +3423,8 @@
         "24 May",
         "25 May",
         "26 May",
-        "27 May"
+        "27 May",
+        "28 May"
       ],
       "hengaw_total": [
         1000,
@@ -3467,7 +3489,8 @@
         4600,
         4600,
         4604,
-        null
+        null,
+        4610
       ],
       "hrana_civilian": [
         133,
@@ -3530,7 +3553,8 @@
         4500,
         0,
         0,
-        null
+        null,
+        0
       ]
     },
     "bm_degradation": {
@@ -3616,7 +3640,8 @@
         "24 May",
         "25 May",
         "26 May",
-        "27 May"
+        "27 May",
+        "28 May"
       ],
       "daily_bm": [
         200,
@@ -3682,7 +3707,8 @@
         0,
         0,
         5,
-        10
+        10,
+        4
       ],
       "trendline": [
         200,
@@ -3788,7 +3814,8 @@
         "24 May",
         "25 May",
         "26 May",
-        "27 May"
+        "27 May",
+        "28 May"
       ],
       "data": [
         1.5,
@@ -3851,7 +3878,8 @@
         29000000000,
         0,
         0,
-        null
+        null,
+        0
       ]
     },
     "cost_distribution": {
@@ -3979,7 +4007,8 @@
         "$118.00",
         97.0,
         120.0,
-        121.5
+        121.5,
+        120.0
       ]
     },
     "hormuz_transit": {
@@ -4069,7 +4098,8 @@
         85,
         85,
         85,
-        null
+        null,
+        85
       ]
     },
     "scenario_probabilities": {
@@ -4084,8 +4114,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        65,
+        10,
+        70,
         20
       ],
       "colors": [
