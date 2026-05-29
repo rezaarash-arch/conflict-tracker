@@ -1397,5 +1397,29 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-05-29",
+    "timestamp": "2026-05-29T03:37:06.827659-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. and Iranian negotiators reaching a tentative agreement to extend the ceasefire by 60 days and initiate new nuclear talks, pending approval from President Trump. Additionally, both nations have conducted military strikes: the U.S. targeted an Iranian launch site in Bandar Abbas, and Iran retaliated by attacking a U.S. air base in Kuwait. Israel has intensified operations in southern Lebanon against Hezbollah positions.",
+    "changes": [
+      "meta.last_updated: 2026-05-28 -> 2026-05-29",
+      "meta.day_number: 83 -> 84",
+      "NEW DAY 84: Iran launched missiles at a U.S. air base in Kuwait; Israel intensified operatio...",
+      "overview.us_israel_strikes: ~30,700+ -> ~31,000+",
+      "costs.kpis.oil_brent: $118.00 -> $120.00",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 70% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

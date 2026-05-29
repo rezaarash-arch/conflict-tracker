@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "update_time": "08:36 EST",
-    "day_number": 83,
+    "day_number": 84,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~30,700+",
+    "us_israel_strikes": "~31,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -1756,6 +1756,23 @@
         "events": "U.S. conducted airstrikes on an Iranian military site in Bandar Abbas; Iran launched four attack drones at a commercial ship in the Strait of Hormuz, all intercepted by U.S. forces.",
         "events_fa": "ایالات متحده حملات هوایی به یک سایت نظامی ایران در بندرعباس انجام داد؛ ایران چهار پهپاد تهاجمی به یک کشتی تجاری در تنگه هرمز پرتاب کرد که همگی توسط نیروهای آمریکایی رهگیری شدند.",
         "highlight": true
+      },
+      {
+        "day": 84,
+        "date": "29 May",
+        "date_fa": "۲۹ مه",
+        "waves": "1",
+        "iran_dead": "100",
+        "isr_dead": "5",
+        "us_dead": "1",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "50",
+        "iran_drones": "4",
+        "targets": "U.S. air base in Kuwait; Israeli positions in southern Lebanon",
+        "events": "Iran launched missiles at a U.S. air base in Kuwait; Israel intensified operations in southern Lebanon against Hezbollah positions.",
+        "events_fa": "ایران به پایگاه هوایی آمریکا در کویت موشک پرتاب کرد؛ اسرائیل عملیات در جنوب لبنان علیه مواضع حزب‌الله را تشدید کرد.",
+        "highlight": true
       }
     ]
   },
@@ -2527,6 +2544,21 @@
         "location_fa": "تهران، ایران",
         "cause": "Killed in action",
         "cause_fa": "کشته‌شده در عملیات"
+      },
+      {
+        "num": 51,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-05-28",
+        "date_fa": "۲۸ مه ۲۰۲۶",
+        "location": "Kuwait",
+        "location_fa": "کویت",
+        "cause": "Missile attack",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -2588,7 +2620,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$118.00",
+      "oil_brent": "$120.00",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -2729,10 +2761,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Ceasefire holds, leading to de-escalation and diplomatic resolutions.",
+        "description_fa": "آتش‌بس برقرار می‌ماند، منجر به کاهش تنش و حل و فصل دیپلماتیک می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2741,18 +2773,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی",
-          "خستگی از جنگ در میان طرفین"
+          "تمدید آتش‌بس",
+          "آغاز مذاکرات هسته‌ای"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 70,
+        "probability": 65,
         "color": "red",
-        "description": "Continued low-intensity conflict",
-        "description_fa": "ادامه درگیری با شدت کم",
+        "description": "Intermittent clashes continue despite ceasefire agreements.",
+        "description_fa": "درگیری‌های پراکنده علیرغم توافقات آتش‌بس ادامه می‌یابد.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2761,8 +2793,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل مداوم",
-          "عدم پیشرفت در مذاکرات صلح"
+          "حملات متقابل نظامی",
+          "عدم توافق کامل در مذاکرات"
         ]
       },
       {
@@ -2771,8 +2803,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Escalation to full-scale war",
-        "description_fa": "تشدید به جنگ تمام‌عیار",
+        "description": "Full-scale conflict resumes, escalating regional tensions.",
+        "description_fa": "درگیری تمام‌عیار از سر گرفته می‌شود، تنش‌های منطقه‌ای افزایش می‌یابد.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2781,8 +2813,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات گسترده‌تر",
-          "شکست مذاکرات صلح"
+          "شکست مذاکرات",
+          "حملات گسترده نظامی"
         ]
       }
     ],
@@ -3137,7 +3169,8 @@
         "25 May",
         "26 May",
         "27 May",
-        "28 May"
+        "28 May",
+        "29 May"
       ],
       "us_israel_waves": [
         55,
@@ -3203,6 +3236,7 @@
         1,
         0,
         2,
+        1,
         1,
         1
       ],
@@ -3271,7 +3305,8 @@
         0,
         5,
         10,
-        4
+        4,
+        50
       ],
       "iran_drones": [
         500,
@@ -3337,6 +3372,7 @@
         0,
         2,
         5,
+        4,
         4
       ]
     },
@@ -3424,7 +3460,8 @@
         "25 May",
         "26 May",
         "27 May",
-        "28 May"
+        "28 May",
+        "29 May"
       ],
       "hengaw_total": [
         1000,
@@ -3490,7 +3527,8 @@
         4600,
         4604,
         null,
-        4610
+        4610,
+        4700
       ],
       "hrana_civilian": [
         133,
@@ -3554,7 +3592,8 @@
         0,
         0,
         null,
-        0
+        0,
+        3150
       ]
     },
     "bm_degradation": {
@@ -3641,7 +3680,8 @@
         "25 May",
         "26 May",
         "27 May",
-        "28 May"
+        "28 May",
+        "29 May"
       ],
       "daily_bm": [
         200,
@@ -3708,7 +3748,8 @@
         0,
         5,
         10,
-        4
+        4,
+        50
       ],
       "trendline": [
         200,
@@ -3815,7 +3856,8 @@
         "25 May",
         "26 May",
         "27 May",
-        "28 May"
+        "28 May",
+        "29 May"
       ],
       "data": [
         1.5,
@@ -3879,7 +3921,8 @@
         0,
         0,
         null,
-        0
+        0,
+        1500000000
       ]
     },
     "cost_distribution": {
@@ -4008,6 +4051,7 @@
         97.0,
         120.0,
         121.5,
+        120.0,
         120.0
       ]
     },
@@ -4099,6 +4143,7 @@
         85,
         85,
         null,
+        85,
         85
       ]
     },
@@ -4114,8 +4159,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        70,
+        15,
+        65,
         20
       ],
       "colors": [
