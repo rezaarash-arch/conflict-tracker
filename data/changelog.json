@@ -1421,5 +1421,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-30",
+    "timestamp": "2026-05-30T02:34:42.365546-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include ongoing negotiations for a ceasefire extension, continued military engagements in southern Lebanon, and U.S. readiness to resume strikes if no agreement is reached.",
+    "changes": [
+      "meta.last_updated: 2026-05-29 -> 2026-05-30",
+      "meta.update_time: 08:36 EST -> 07:34 EST",
+      "meta.day_number: 84 -> 85",
+      "NEW DAY 85: Iran launched missiles at a U.S. airbase in Kuwait; Israel intensified operation...",
+      "overview.us_israel_strikes: ~31,000+ -> ~31,500+",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 65% -> 60%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
