@@ -1445,5 +1445,30 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-05-31",
+    "timestamp": "2026-05-31T03:08:10.559158-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include intensified Israeli military operations in southern Lebanon, ongoing U.S.-Iran negotiations over the Strait of Hormuz, and heightened tensions with potential for resumed hostilities.",
+    "changes": [
+      "meta.last_updated: 2026-05-30 -> 2026-05-31",
+      "meta.update_time: 07:34 EST -> 08:08 EST",
+      "meta.day_number: 85 -> 86",
+      "NEW DAY 86: Israeli forces advanced into southern Lebanon, targeting Hezbollah positions; U....",
+      "overview.us_israel_strikes: ~31,500+ -> ~32,000+",
+      "costs.kpis.oil_brent: $120.00 -> $122.00",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 60% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
