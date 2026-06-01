@@ -1470,5 +1470,30 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-06-01",
+    "timestamp": "2026-06-01T05:10:09.187865-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. strikes on Iranian military sites, Iranian retaliatory attacks, intensified Israeli operations in Lebanon, and ongoing negotiations over the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-05-31 -> 2026-06-01",
+      "meta.update_time: 08:08 EST -> 10:09 EST",
+      "meta.day_number: 86 -> 87",
+      "NEW DAY 87: U.S. conducted strikes on Iranian radar and drone control sites; Iran retaliated...",
+      "overview.us_israel_strikes: ~32,000+ -> ~32,500+",
+      "costs.kpis.oil_brent: $122.00 -> $125.00",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 65% -> 70%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
