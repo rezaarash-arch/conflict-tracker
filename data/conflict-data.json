@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-03",
-    "update_time": "09:19 EST",
-    "day_number": 88,
+    "last_updated": "2026-06-04",
+    "update_time": "08:42 EST",
+    "day_number": 89,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1841,6 +1841,23 @@
         "events": "Iranian drone attacks on Kuwait International Airport; U.S. strikes on Iranian military control station on Qeshm Island; Iran launches missiles targeting U.S. military positions.",
         "events_fa": "حملات پهپادی ایران به فرودگاه بین‌المللی کویت؛ حملات آمریکا به ایستگاه کنترل نظامی ایران در جزیره قشم؛ ایران موشک‌هایی به سمت مواضع نظامی آمریکا شلیک کرد.",
         "highlight": true
+      },
+      {
+        "day": 89,
+        "date": "4 Jun",
+        "date_fa": "۴ ژوئن",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Ceasefire agreements extended between Israel and Lebanon, and between the U.S. and Iran.",
+        "events_fa": "تمدید توافقات آتش‌بس بین اسرائیل و لبنان، و بین ایالات متحده و ایران.",
+        "highlight": true
       }
     ]
   },
@@ -2889,10 +2906,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 5,
+        "probability": 10,
         "color": "amber",
-        "description": "Immediate de-escalation and ceasefire",
-        "description_fa": "کاهش تنش فوری و آتش‌بس",
+        "description": "Full diplomatic resolution leading to lasting peace.",
+        "description_fa": "حل دیپلماتیک کامل منجر به صلح پایدار.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2901,18 +2918,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "مذاکرات صلح"
+          "تمدید آتش‌بس‌ها",
+          "آغاز مذاکرات هسته‌ای"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 75,
+        "probability": 70,
         "color": "red",
-        "description": "Prolonged conflict with intermittent negotiations",
-        "description_fa": "درگیری طولانی با مذاکرات متناوب",
+        "description": "Prolonged ceasefire with intermittent skirmishes.",
+        "description_fa": "آتش‌بس طولانی‌مدت با درگیری‌های پراکنده.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2921,8 +2938,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل",
-          "منافع استراتژیک"
+          "بی‌اعتمادی متقابل",
+          "پیچیدگی‌های ژئوپلیتیکی"
         ]
       },
       {
@@ -2931,8 +2948,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description": "Resumption of full-scale hostilities.",
+        "description_fa": "از سرگیری خصومت‌های تمام‌عیار.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2941,8 +2958,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "گسترش درگیری‌ها",
-          "مداخله نیروهای منطقه‌ای"
+          "شکست مذاکرات",
+          "حملات مداوم"
         ]
       }
     ],
@@ -3302,7 +3319,8 @@
         "30 May",
         "31 May",
         "1 Jun",
-        "3 Jun"
+        "3 Jun",
+        "4 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -3609,7 +3627,8 @@
         "30 May",
         "31 May",
         "1 Jun",
-        "3 Jun"
+        "3 Jun",
+        "4 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -3841,7 +3860,8 @@
         "30 May",
         "31 May",
         "1 Jun",
-        "3 Jun"
+        "3 Jun",
+        "4 Jun"
       ],
       "daily_bm": [
         200,
@@ -4025,7 +4045,8 @@
         "30 May",
         "31 May",
         "1 Jun",
-        "3 Jun"
+        "3 Jun",
+        "4 Jun"
       ],
       "data": [
         1.5,
@@ -4228,7 +4249,8 @@
         122.5,
         122.0,
         125.0,
-        130.0
+        130.0,
+        125.0
       ]
     },
     "hormuz_transit": {
@@ -4339,8 +4361,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        5,
-        75,
+        10,
+        70,
         20
       ],
       "colors": [

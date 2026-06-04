@@ -1519,5 +1519,20 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-06-04",
+    "timestamp": "2026-06-04T03:42:27.804999-05:00",
+    "status": "UPDATED",
+    "summary": "Ceasefire agreements between Israel and Lebanon, and between the U.S. and Iran, have been extended. Casualty figures have been updated based on recent reports.",
+    "changes": [
+      "meta.last_updated: 2026-06-03 -> 2026-06-04",
+      "meta.update_time: 09:19 EST -> 08:42 EST",
+      "meta.day_number: 88 -> 89",
+      "NEW DAY 89: Ceasefire agreements extended between Israel and Lebanon, and between the U.S. a...",
+      "scenario A prob: 5% -> 10%",
+      "scenario B prob: 75% -> 70%",
+      "chart brent_oil.data: appended 1 values"
+    ]
   }
 ]
