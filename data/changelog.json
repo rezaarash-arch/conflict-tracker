@@ -1534,5 +1534,28 @@
       "scenario B prob: 75% -> 70%",
       "chart brent_oil.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-06-05",
+    "timestamp": "2026-06-05T03:37:53.796829-05:00",
+    "status": "UPDATED",
+    "summary": "Hezbollah rejected the Israel-Lebanon ceasefire terms, leading to renewed hostilities. Iran's Supreme Leader declared a 'decisive blow' against the US and Israel. Brent crude oil prices have decreased to $95 per barrel.",
+    "changes": [
+      "meta.last_updated: 2026-06-04 -> 2026-06-05",
+      "meta.update_time: 08:42 EST -> 08:37 EST",
+      "meta.day_number: 89 -> 90",
+      "NEW DAY 90: Hezbollah rejected ceasefire terms; Israeli airstrikes resumed in southern Leban...",
+      "overview.us_israel_strikes: ~33,000+ -> ~33,050+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 70% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]

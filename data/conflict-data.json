@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-04",
-    "update_time": "08:42 EST",
-    "day_number": 89,
+    "last_updated": "2026-06-05",
+    "update_time": "08:37 EST",
+    "day_number": 90,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~33,000+",
+    "us_israel_strikes": "~33,050+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -1858,6 +1858,23 @@
         "events": "Ceasefire agreements extended between Israel and Lebanon, and between the U.S. and Iran.",
         "events_fa": "تمدید توافقات آتش‌بس بین اسرائیل و لبنان، و بین ایالات متحده و ایران.",
         "highlight": true
+      },
+      {
+        "day": 90,
+        "date": "5 Jun",
+        "date_fa": "۵ ژوئن",
+        "waves": "Multiple",
+        "iran_dead": "50+",
+        "isr_dead": "10+",
+        "us_dead": "0",
+        "other": "Several",
+        "other_fa": "چندین",
+        "iran_bms": "20+",
+        "iran_drones": "15+",
+        "targets": "Military installations in southern Lebanon",
+        "events": "Hezbollah rejected ceasefire terms; Israeli airstrikes resumed in southern Lebanon; Iran's Supreme Leader declared a 'decisive blow' against the US and Israel.",
+        "events_fa": "حزب‌الله شرایط آتش‌بس را رد کرد؛ حملات هوایی اسرائیل در جنوب لبنان از سر گرفته شد؛ رهبر معظم ایران از 'ضربه قاطع' علیه آمریکا و اسرائیل خبر داد.",
+        "highlight": true
       }
     ]
   },
@@ -2906,10 +2923,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Full diplomatic resolution leading to lasting peace.",
-        "description_fa": "حل دیپلماتیک کامل منجر به صلح پایدار.",
+        "description": "Comprehensive peace agreement reached.",
+        "description_fa": "توافق صلح جامع حاصل شد.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -2918,18 +2935,19 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تمدید آتش‌بس‌ها",
-          "آغاز مذاکرات هسته‌ای"
+          "فشار بین‌المللی",
+          "خستگی جنگی",
+          "مذاکرات موفق"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 70,
+        "probability": 65,
         "color": "red",
-        "description": "Prolonged ceasefire with intermittent skirmishes.",
-        "description_fa": "آتش‌بس طولانی‌مدت با درگیری‌های پراکنده.",
+        "description": "Prolonged low-intensity conflict.",
+        "description_fa": "درگیری کم‌شدت طولانی‌مدت.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -2939,7 +2957,8 @@
         ],
         "drivers_fa": [
           "بی‌اعتمادی متقابل",
-          "پیچیدگی‌های ژئوپلیتیکی"
+          "منافع استراتژیک",
+          "حمایت‌های خارجی"
         ]
       },
       {
@@ -2948,8 +2967,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Resumption of full-scale hostilities.",
-        "description_fa": "از سرگیری خصومت‌های تمام‌عیار.",
+        "description": "Full-scale war resumes.",
+        "description_fa": "جنگ تمام‌عیار از سر گرفته شد.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -2959,7 +2978,8 @@
         ],
         "drivers_fa": [
           "شکست مذاکرات",
-          "حملات مداوم"
+          "حملات تحریک‌آمیز",
+          "تغییرات رهبری"
         ]
       }
     ],
@@ -3320,7 +3340,8 @@
         "31 May",
         "1 Jun",
         "3 Jun",
-        "4 Jun"
+        "4 Jun",
+        "5 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -3392,7 +3413,8 @@
         2,
         2,
         2,
-        3
+        3,
+        1
       ],
       "iran_bms": [
         200,
@@ -3464,7 +3486,8 @@
         15,
         20,
         50,
-        15
+        15,
+        20
       ],
       "iran_drones": [
         500,
@@ -3535,7 +3558,8 @@
         5,
         5,
         20,
-        10
+        10,
+        15
       ]
     },
     "phase3_cumulative_casualties": {
@@ -3628,7 +3652,8 @@
         "31 May",
         "1 Jun",
         "3 Jun",
-        "4 Jun"
+        "4 Jun",
+        "5 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -3699,7 +3724,8 @@
         4600,
         4800,
         4700,
-        5645
+        5645,
+        4650
       ],
       "hrana_civilian": [
         133,
@@ -3768,7 +3794,8 @@
         3138,
         null,
         null,
-        7000
+        7000,
+        null
       ]
     },
     "bm_degradation": {
@@ -3861,7 +3888,8 @@
         "31 May",
         "1 Jun",
         "3 Jun",
-        "4 Jun"
+        "4 Jun",
+        "5 Jun"
       ],
       "daily_bm": [
         200,
@@ -3933,7 +3961,8 @@
         15,
         20,
         50,
-        15
+        15,
+        20
       ],
       "trendline": [
         200,
@@ -4046,7 +4075,8 @@
         "31 May",
         "1 Jun",
         "3 Jun",
-        "4 Jun"
+        "4 Jun",
+        "5 Jun"
       ],
       "data": [
         1.5,
@@ -4115,7 +4145,8 @@
         500000000,
         null,
         null,
-        1.5
+        1.5,
+        null
       ]
     },
     "cost_distribution": {
@@ -4250,7 +4281,8 @@
         122.0,
         125.0,
         130.0,
-        125.0
+        125.0,
+        95.0
       ]
     },
     "hormuz_transit": {
@@ -4346,7 +4378,8 @@
         85,
         85,
         85,
-        85
+        85,
+        null
       ]
     },
     "scenario_probabilities": {
@@ -4361,8 +4394,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        70,
+        15,
+        65,
         20
       ],
       "colors": [
