@@ -1557,5 +1557,28 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-06-06",
+    "timestamp": "2026-06-06T02:39:32.830627-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in hostilities with Iran launching missiles and drones toward Gulf allies and the Strait of Hormuz, and the U.S. responding with strikes on Iranian radar sites. Lebanese leaders criticized Iran's interference, and Iran's World Cup team received U.S. visas amid tensions.",
+    "changes": [
+      "meta.last_updated: 2026-06-05 -> 2026-06-06",
+      "meta.update_time: 08:37 EST -> 07:39 EST",
+      "meta.day_number: 90 -> 91",
+      "NEW DAY 91: Iran launched seven ballistic missiles toward Kuwait and Bahrain; U.S. forces in...",
+      "overview.us_israel_strikes: ~33,050+ -> ~33,100+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 65% -> 70%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
