@@ -1654,5 +1654,30 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-06-11",
+    "timestamp": "2026-06-11T04:06:55.436060-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in hostilities between the U.S. and Iran, including mutual airstrikes and missile attacks on June 10-11, 2026.",
+    "changes": [
+      "meta.last_updated: 2026-06-10 -> 2026-06-11",
+      "meta.update_time: 08:42 EST -> 09:06 EST",
+      "meta.day_number: 94 -> 95",
+      "NEW DAY 95: U.S. conducted airstrikes on Iranian military infrastructure; Iran launched miss...",
+      "overview.us_israel_strikes: ~33,800+ -> ~34,500+",
+      "scenario A prob: 5% -> 10%",
+      "scenario B prob: 80% -> 70%",
+      "scenario C prob: 15% -> 20%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
