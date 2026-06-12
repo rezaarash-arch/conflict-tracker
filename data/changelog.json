@@ -1679,5 +1679,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-06-12",
+    "timestamp": "2026-06-12T03:52:49.082618-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments indicate potential progress toward a ceasefire agreement between the U.S. and Iran, though no final decision has been confirmed by Tehran. President Trump announced the cancellation of planned military strikes following high-level discussions, and global markets have responded positively to these developments.",
+    "changes": [
+      "meta.last_updated: 2026-06-11 -> 2026-06-12",
+      "meta.update_time: 09:06 EST -> 08:52 EST",
+      "meta.day_number: 95 -> 96",
+      "NEW DAY 96: Iran launched missile and drone attacks on U.S. bases in Bahrain and Kuwait; U.S...",
+      "overview.us_israel_strikes: ~34,500+ -> ~34,600+",
+      "scenario A prob: 10% -> 20%",
+      "scenario B prob: 70% -> 60%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
