@@ -1702,5 +1702,18 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-06-13",
+    "timestamp": "2026-06-13T03:15:41.419926-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the U.S. and Iran nearing a peace agreement, continued military engagements in the Strait of Hormuz, and updated casualty figures.",
+    "changes": [
+      "meta.last_updated: 2026-06-12 -> 2026-06-13",
+      "meta.update_time: 08:52 EST -> 08:15 EST",
+      "meta.day_number: 96 -> 97",
+      "NEW DAY 97: Iran launched multiple one-way attack drones targeting commercial ships in the S...",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

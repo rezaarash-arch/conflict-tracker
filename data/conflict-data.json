@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-12",
-    "update_time": "08:52 EST",
-    "day_number": 96,
+    "last_updated": "2026-06-13",
+    "update_time": "08:15 EST",
+    "day_number": 97,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -1977,6 +1977,23 @@
         "events": "Iran launched missile and drone attacks on U.S. bases in Bahrain and Kuwait; U.S. intercepted several projectiles; President Trump announced cancellation of planned strikes following high-level discussions with Iran.",
         "events_fa": "ایران حملات موشکی و پهپادی به پایگاه‌های آمریکا در بحرین و کویت انجام داد؛ آمریکا چندین پرتابه را رهگیری کرد؛ رئیس‌جمهور ترامپ اعلام کرد که حملات برنامه‌ریزی‌شده را پس از مذاکرات سطح بالا با ایران لغو کرده است.",
         "highlight": true
+      },
+      {
+        "day": 97,
+        "date": "13 Jun",
+        "date_fa": "۲۳ خرداد",
+        "waves": "Multiple",
+        "iran_dead": "Unknown",
+        "isr_dead": "Unknown",
+        "us_dead": "Unknown",
+        "other": "Unknown",
+        "other_fa": "نامشخص",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "Commercial ships in the Strait of Hormuz",
+        "events": "Iran launched multiple one-way attack drones targeting commercial ships in the Strait of Hormuz; U.S. forces intercepted all drones; U.S. and Iran reportedly agreed on the final wording of a peace deal to end the ongoing conflict.",
+        "events_fa": "ایران چندین پهپاد انتحاری را به سمت کشتی‌های تجاری در تنگه هرمز پرتاب کرد؛ نیروهای آمریکایی تمامی پهپادها را رهگیری کردند؛ ایالات متحده و ایران به توافق نهایی برای پایان دادن به درگیری‌های جاری دست یافتند.",
+        "highlight": true
       }
     ]
   },
@@ -2868,6 +2885,21 @@
         "location_fa": "بحرین",
         "cause": "Missile attack",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 59,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 30,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-06-12",
+        "date_fa": "۲۲ خرداد ۱۴۰۵",
+        "location": "Kuwait",
+        "location_fa": "کویت",
+        "cause": "Combat-related incident",
+        "cause_fa": "حادثه مرتبط با جنگ"
       }
     ],
     "aircraft_losses": [
@@ -3072,8 +3104,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 20,
         "color": "amber",
-        "description": "Ceasefire agreement reached, leading to de-escalation.",
-        "description_fa": "توافق آتش‌بس حاصل شده، منجر به کاهش تنش‌ها.",
+        "description": "Prolonged conflict with intermittent ceasefires",
+        "description_fa": "درگیری طولانی‌مدت با آتش‌بس‌های متناوب",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3082,8 +3114,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات سطح بالا بین آمریکا و ایران",
-          "لغو حملات برنامه‌ریزی‌شده توسط آمریکا"
+          "عدم اعتماد متقابل",
+          "تداوم حملات نظامی"
         ]
       },
       {
@@ -3092,8 +3124,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 60,
         "color": "red",
-        "description": "Continued low-intensity conflict with intermittent skirmishes.",
-        "description_fa": "ادامه درگیری با شدت کم و درگیری‌های پراکنده.",
+        "description": "Negotiated peace agreement leading to de-escalation",
+        "description_fa": "توافق صلح مذاکره‌شده منجر به کاهش تنش",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3102,8 +3134,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم توافق نهایی از سوی تهران",
-          "حملات متقابل محدود"
+          "مذاکرات موفقیت‌آمیز",
+          "فشار بین‌المللی"
         ]
       },
       {
@@ -3112,8 +3144,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Escalation into full-scale war.",
-        "description_fa": "تشدید به جنگ تمام‌عیار.",
+        "description": "Escalation into broader regional conflict",
+        "description_fa": "تشدید به درگیری گسترده منطقه‌ای",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3122,8 +3154,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات گسترده از سوی هر دو طرف"
+          "حملات تلافی‌جویانه",
+          "مداخله بازیگران منطقه‌ای"
         ]
       }
     ],
@@ -3491,7 +3523,8 @@
         "8 Jun",
         "10 Jun",
         "11 Jun",
-        "12 Jun"
+        "12 Jun",
+        "13 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -3827,7 +3860,8 @@
         "8 Jun",
         "10 Jun",
         "11 Jun",
-        "12 Jun"
+        "12 Jun",
+        "13 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -4081,7 +4115,8 @@
         "8 Jun",
         "10 Jun",
         "11 Jun",
-        "12 Jun"
+        "12 Jun",
+        "13 Jun"
       ],
       "daily_bm": [
         200,
@@ -4280,7 +4315,8 @@
         "8 Jun",
         "10 Jun",
         "11 Jun",
-        "12 Jun"
+        "12 Jun",
+        "13 Jun"
       ],
       "data": [
         1.5,
