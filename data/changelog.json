@@ -1715,5 +1715,27 @@
       "NEW DAY 97: Iran launched multiple one-way attack drones targeting commercial ships in the S...",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-06-15",
+    "timestamp": "2026-06-15T05:48:54.336881-05:00",
+    "status": "UPDATED",
+    "summary": "A tentative peace agreement has been reached between the U.S. and Iran, aiming to end the conflict and reopen the Strait of Hormuz. The agreement is set to be signed on Friday in Switzerland. However, Israel has expressed reservations about withdrawing from occupied territories, and discussions on Iran's nuclear program are scheduled for the upcoming 60-day negotiation period.",
+    "changes": [
+      "meta.last_updated: 2026-06-14 -> 2026-06-15",
+      "meta.update_time: 00:00 EST -> 10:48 EST",
+      "meta.day_number: 97 -> 98",
+      "NEW DAY 98: U.S. and Iran reach a tentative peace agreement to end the conflict and reopen t...",
+      "scenario A prob: 20% -> 10%",
+      "scenario B prob: 60% -> 70%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
