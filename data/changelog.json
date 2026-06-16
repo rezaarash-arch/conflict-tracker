@@ -1737,5 +1737,30 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-06-16",
+    "timestamp": "2026-06-16T05:01:24.448790-05:00",
+    "status": "UPDATED",
+    "summary": "A preliminary peace agreement between the U.S. and Iran has been electronically signed, aiming to end the conflict and reopen the Strait of Hormuz. However, Israel has expressed reservations, particularly regarding withdrawal from occupied territories in Lebanon. Protests have erupted in Iran over the deal, and oil prices have declined following the announcement.",
+    "changes": [
+      "meta.last_updated: 2026-06-15 -> 2026-06-16",
+      "meta.update_time: 10:48 EST -> 10:01 EST",
+      "meta.day_number: 98 -> 99",
+      "NEW DAY 99: U.S. and Iran electronically sign preliminary peace agreement; Israel expresses ...",
+      "overview.us_israel_strikes: ~34,600+ -> ~34,700+",
+      "costs.kpis.oil_brent: $130.00 -> $83.38",
+      "scenario A prob: 10% -> 20%",
+      "scenario B prob: 70% -> 60%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
