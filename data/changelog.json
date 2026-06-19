@@ -1784,5 +1784,27 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-06-19",
+    "timestamp": "2026-06-19T04:23:58.096923-05:00",
+    "status": "UPDATED",
+    "summary": "Recent Israeli airstrikes in southern Lebanon have resulted in increased casualties and heightened regional tensions, leading to the postponement of U.S.-Iran peace talks.",
+    "changes": [
+      "meta.last_updated: 2026-06-18 -> 2026-06-19",
+      "meta.update_time: 09:07 EST -> 09:23 EST",
+      "meta.day_number: 100 -> 101",
+      "NEW DAY 101: Israeli airstrikes in southern Lebanon result in at least 18 deaths; U.S.-Iran p...",
+      "scenario A prob: 30% -> 25%",
+      "scenario B prob: 50% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]

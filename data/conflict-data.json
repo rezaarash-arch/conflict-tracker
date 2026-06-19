@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-18",
-    "update_time": "09:07 EST",
-    "day_number": 100,
+    "last_updated": "2026-06-19",
+    "update_time": "09:23 EST",
+    "day_number": 101,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2045,6 +2045,23 @@
         "events": "U.S. and Iran sign memorandum of understanding to end hostilities and reopen the Strait of Hormuz; oil prices decline following the announcement.",
         "events_fa": "ایالات متحده و ایران تفاهم‌نامه‌ای برای پایان دادن به خصومت‌ها و بازگشایی تنگه هرمز امضا کردند؛ قیمت نفت پس از این اعلام کاهش یافت.",
         "highlight": true
+      },
+      {
+        "day": 101,
+        "date": "19 Jun",
+        "date_fa": "۱۹ ژوئن",
+        "waves": "1",
+        "iran_dead": "0",
+        "isr_dead": "4",
+        "us_dead": "0",
+        "other": "18",
+        "other_fa": "۱۸",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "Hezbollah positions in southern Lebanon",
+        "events": "Israeli airstrikes in southern Lebanon result in at least 18 deaths; U.S.-Iran peace talks postponed due to escalating tensions.",
+        "events_fa": "حملات هوایی اسرائیل در جنوب لبنان منجر به حداقل ۱۸ کشته شد؛ مذاکرات صلح آمریکا و ایران به دلیل تشدید تنش‌ها به تعویق افتاد.",
+        "highlight": true
       }
     ]
   },
@@ -3168,10 +3185,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 30,
+        "probability": 25,
         "color": "amber",
-        "description": "Comprehensive peace agreement reached, leading to regional stability.",
-        "description_fa": "توافق صلح جامع حاصل شده، منجر به ثبات منطقه‌ای می‌شود.",
+        "description": "Ceasefire holds, leading to de-escalation and diplomatic resolutions.",
+        "description_fa": "آتش‌بس برقرار می‌ماند، منجر به کاهش تنش و حل و فصل دیپلماتیک می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3180,18 +3197,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "امضای تفاهم‌نامه صلح",
-          "بازگشایی تنگه هرمز"
+          "توافق‌نامه‌های دیپلماتیک",
+          "فشار بین‌المللی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 55,
         "color": "red",
-        "description": "Partial agreement with ongoing negotiations and intermittent tensions.",
-        "description_fa": "توافق جزئی با مذاکرات جاری و تنش‌های متناوب.",
+        "description": "Intermittent clashes continue, with sporadic escalations.",
+        "description_fa": "درگیری‌های پراکنده ادامه می‌یابد، با تشدیدهای گاه‌به‌گاه.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3200,8 +3217,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه مذاکرات هسته‌ای",
-          "اعتراضات داخلی در ایران"
+          "حملات هوایی",
+          "تنش‌های مرزی"
         ]
       },
       {
@@ -3210,8 +3227,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Breakdown of talks leading to renewed hostilities.",
-        "description_fa": "شکست مذاکرات منجر به خصومت‌های مجدد می‌شود.",
+        "description": "Full-scale conflict resumes, leading to widespread hostilities.",
+        "description_fa": "درگیری تمام‌عیار از سر گرفته می‌شود، منجر به خصومت‌های گسترده می‌شود.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3220,8 +3237,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "اختلافات بر سر برنامه هسته‌ای",
-          "فشارهای داخلی و خارجی"
+          "شکست مذاکرات",
+          "حملات تلافی‌جویانه"
         ]
       }
     ],
@@ -3593,7 +3610,8 @@
         "13 Jun",
         "15 Jun",
         "16 Jun",
-        "18 Jun"
+        "18 Jun",
+        "19 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -3675,7 +3693,8 @@
         1,
         0,
         1,
-        0
+        0,
+        1
       ],
       "iran_bms": [
         200,
@@ -3757,6 +3776,7 @@
         100,
         0,
         100,
+        0,
         0
       ],
       "iran_drones": [
@@ -3838,6 +3858,7 @@
         10,
         0,
         10,
+        0,
         0
       ]
     },
@@ -3942,7 +3963,8 @@
         "13 Jun",
         "15 Jun",
         "16 Jun",
-        "18 Jun"
+        "18 Jun",
+        "19 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -4023,7 +4045,8 @@
         null,
         0,
         4700,
-        0
+        0,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -4102,7 +4125,8 @@
         null,
         0,
         0,
-        0
+        0,
+        3138
       ]
     },
     "bm_degradation": {
@@ -4206,7 +4230,8 @@
         "13 Jun",
         "15 Jun",
         "16 Jun",
-        "18 Jun"
+        "18 Jun",
+        "19 Jun"
       ],
       "daily_bm": [
         200,
@@ -4288,6 +4313,7 @@
         100,
         0,
         100,
+        0,
         0
       ],
       "trendline": [
@@ -4412,7 +4438,8 @@
         "13 Jun",
         "15 Jun",
         "16 Jun",
-        "18 Jun"
+        "18 Jun",
+        "19 Jun"
       ],
       "data": [
         1.5,
@@ -4489,6 +4516,7 @@
         0,
         500000000,
         null,
+        0,
         0,
         0,
         0
@@ -4636,7 +4664,8 @@
         86.31,
         84.0,
         83.38,
-        78.05
+        78.05,
+        82.5
       ]
     },
     "hormuz_transit": {
@@ -4742,7 +4771,8 @@
         null,
         0,
         100,
-        100
+        100,
+        85
       ]
     },
     "scenario_probabilities": {
@@ -4757,8 +4787,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        30,
-        50,
+        25,
+        55,
         20
       ],
       "colors": [
