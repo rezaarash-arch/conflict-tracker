@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-19",
-    "update_time": "09:23 EST",
-    "day_number": 101,
+    "last_updated": "2026-06-20",
+    "update_time": "08:16 EST",
+    "day_number": 102,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~34,700+",
+    "us_israel_strikes": "~34,750+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2062,6 +2062,23 @@
         "events": "Israeli airstrikes in southern Lebanon result in at least 18 deaths; U.S.-Iran peace talks postponed due to escalating tensions.",
         "events_fa": "حملات هوایی اسرائیل در جنوب لبنان منجر به حداقل ۱۸ کشته شد؛ مذاکرات صلح آمریکا و ایران به دلیل تشدید تنش‌ها به تعویق افتاد.",
         "highlight": true
+      },
+      {
+        "day": 102,
+        "date": "20 Jun",
+        "date_fa": "۲۰ ژوئن",
+        "waves": "1",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "5",
+        "other_fa": "۵",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "Nabatieh region in southern Lebanon",
+        "events": "Israeli airstrikes in southern Lebanon result in at least 5 deaths; U.S.-Iran peace talks postponed due to escalating tensions.",
+        "events_fa": "حملات هوایی اسرائیل در جنوب لبنان منجر به حداقل ۵ کشته شد؛ مذاکرات صلح آمریکا و ایران به دلیل تشدید تنش‌ها به تعویق افتاد.",
+        "highlight": false
       }
     ]
   },
@@ -3185,10 +3202,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire holds, leading to de-escalation and diplomatic resolutions.",
-        "description_fa": "آتش‌بس برقرار می‌ماند، منجر به کاهش تنش و حل و فصل دیپلماتیک می‌شود.",
+        "description": "Ceasefire holds, leading to de-escalation and resumption of peace talks.",
+        "description_fa": "آتش‌بس برقرار می‌ماند، منجر به کاهش تنش‌ها و از سرگیری مذاکرات صلح می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3197,18 +3214,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "توافق‌نامه‌های دیپلماتیک",
-          "فشار بین‌المللی"
+          "توافق آتش‌بس بین اسرائیل و حزب‌الله",
+          "تمایل به کاهش تنش‌ها"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 60,
         "color": "red",
-        "description": "Intermittent clashes continue, with sporadic escalations.",
-        "description_fa": "درگیری‌های پراکنده ادامه می‌یابد، با تشدیدهای گاه‌به‌گاه.",
+        "description": "Ceasefire is fragile, with sporadic violations leading to intermittent clashes.",
+        "description_fa": "آتش‌بس شکننده است، با نقض‌های پراکنده که منجر به درگیری‌های متناوب می‌شود.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3217,8 +3234,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات هوایی",
-          "تنش‌های مرزی"
+          "حملات هوایی اسرائیل در جنوب لبنان",
+          "تعویق مذاکرات صلح آمریکا و ایران"
         ]
       },
       {
@@ -3227,8 +3244,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Full-scale conflict resumes, leading to widespread hostilities.",
-        "description_fa": "درگیری تمام‌عیار از سر گرفته می‌شود، منجر به خصومت‌های گسترده می‌شود.",
+        "description": "Ceasefire collapses, leading to full-scale resumption of hostilities.",
+        "description_fa": "آتش‌بس فرو می‌پاشد، منجر به از سرگیری کامل خصومت‌ها می‌شود.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3237,8 +3254,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات تلافی‌جویانه"
+          "ادامه حملات نظامی",
+          "شکست مذاکرات صلح"
         ]
       }
     ],
@@ -3611,7 +3628,8 @@
         "15 Jun",
         "16 Jun",
         "18 Jun",
-        "19 Jun"
+        "19 Jun",
+        "20 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -3694,6 +3712,7 @@
         0,
         1,
         0,
+        1,
         1
       ],
       "iran_bms": [
@@ -3777,6 +3796,7 @@
         0,
         100,
         0,
+        0,
         0
       ],
       "iran_drones": [
@@ -3858,6 +3878,7 @@
         10,
         0,
         10,
+        0,
         0,
         0
       ]
@@ -3964,7 +3985,8 @@
         "15 Jun",
         "16 Jun",
         "18 Jun",
-        "19 Jun"
+        "19 Jun",
+        "20 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -4231,7 +4253,8 @@
         "15 Jun",
         "16 Jun",
         "18 Jun",
-        "19 Jun"
+        "19 Jun",
+        "20 Jun"
       ],
       "daily_bm": [
         200,
@@ -4313,6 +4336,7 @@
         100,
         0,
         100,
+        0,
         0,
         0
       ],
@@ -4439,7 +4463,8 @@
         "15 Jun",
         "16 Jun",
         "18 Jun",
-        "19 Jun"
+        "19 Jun",
+        "20 Jun"
       ],
       "data": [
         1.5,
@@ -4787,8 +4812,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        55,
+        20,
+        60,
         20
       ],
       "colors": [
