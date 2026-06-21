@@ -1824,5 +1824,21 @@
       "chart phase3_daily_timeline.iran_drones: appended 1 values",
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-06-21",
+    "timestamp": "2026-06-21T03:53:26.055468-05:00",
+    "status": "UPDATED",
+    "summary": "Iran announced the closure of the Strait of Hormuz in response to Israeli airstrikes in Lebanon; U.S. and Iranian negotiators are meeting in Switzerland to discuss an interim agreement.",
+    "changes": [
+      "meta.last_updated: 2026-06-20 -> 2026-06-21",
+      "meta.update_time: 08:16 EST -> 08:53 EST",
+      "meta.day_number: 102 -> 103",
+      "NEW DAY 103: Iran announced the closure of the Strait of Hormuz in response to Israeli airstr...",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 60% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values"
+    ]
   }
 ]
