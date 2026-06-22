@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-21",
-    "update_time": "08:53 EST",
-    "day_number": 103,
+    "last_updated": "2026-06-22",
+    "update_time": "10:31 EST",
+    "day_number": 104,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2096,6 +2096,23 @@
         "events": "Iran announced the closure of the Strait of Hormuz in response to Israeli airstrikes in Lebanon; U.S. and Iranian negotiators are meeting in Switzerland to discuss an interim agreement.",
         "events_fa": "ایران اعلام کرد که تنگه هرمز را در پاسخ به حملات هوایی اسرائیل در لبنان بسته است؛ مذاکره‌کنندگان ایالات متحده و ایران در سوئیس برای بحث در مورد یک توافق موقت دیدار می‌کنند.",
         "highlight": true
+      },
+      {
+        "day": 104,
+        "date": "22 Jun",
+        "date_fa": "۲۲ ژوئن",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "U.S. and Iranian negotiators began talks in Switzerland, agreeing to establish communication lines to keep the Strait of Hormuz open and to end fighting in Lebanon.",
+        "events_fa": "مذاکره‌کنندگان ایالات متحده و ایران در سوئیس مذاکراتی را آغاز کردند و توافق کردند خطوط ارتباطی برای باز نگه داشتن تنگه هرمز و پایان دادن به درگیری‌ها در لبنان ایجاد کنند.",
+        "highlight": true
       }
     ]
   },
@@ -3219,10 +3236,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 20,
         "color": "amber",
-        "description": "Comprehensive peace agreement reached",
-        "description_fa": "دستیابی به توافق صلح جامع",
+        "description": "A comprehensive peace agreement is reached within 60 days.",
+        "description_fa": "توافق صلح جامع در عرض ۶۰ روز حاصل می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3232,17 +3249,17 @@
         ],
         "drivers_fa": [
           "مذاکرات موفقیت‌آمیز در سوئیس",
-          "کاهش تنش‌ها در منطقه"
+          "توافق بر سر مسائل کلیدی مانند برنامه هسته‌ای ایران و درگیری‌های منطقه‌ای"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 65,
+        "probability": 60,
         "color": "red",
-        "description": "Prolonged conflict with intermittent ceasefires",
-        "description_fa": "درگیری طولانی‌مدت با آتش‌بس‌های متناوب",
+        "description": "A partial agreement is reached, leading to a temporary ceasefire but unresolved issues remain.",
+        "description_fa": "توافق جزئی حاصل می‌شود که منجر به آتش‌بس موقت می‌شود اما مسائل حل‌نشده باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3251,8 +3268,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات نظامی",
-          "شکست مذاکرات صلح"
+          "اختلافات بر سر جزئیات توافق",
+          "فشارهای داخلی در هر دو کشور"
         ]
       },
       {
@@ -3261,8 +3278,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Escalation into broader regional war",
-        "description_fa": "تشدید به جنگ منطقه‌ای گسترده‌تر",
+        "description": "Negotiations fail, leading to a resumption of hostilities.",
+        "description_fa": "مذاکرات شکست می‌خورند و منجر به از سرگیری خصومت‌ها می‌شوند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3271,8 +3288,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "بسته شدن تنگه هرمز",
-          "مداخله کشورهای دیگر"
+          "عدم اعتماد متقابل",
+          "تشدید درگیری‌ها در لبنان"
         ]
       }
     ],
@@ -3647,7 +3664,8 @@
         "18 Jun",
         "19 Jun",
         "20 Jun",
-        "21 Jun"
+        "21 Jun",
+        "22 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -4005,7 +4023,8 @@
         "18 Jun",
         "19 Jun",
         "20 Jun",
-        "21 Jun"
+        "21 Jun",
+        "22 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -4274,7 +4293,8 @@
         "18 Jun",
         "19 Jun",
         "20 Jun",
-        "21 Jun"
+        "21 Jun",
+        "22 Jun"
       ],
       "daily_bm": [
         200,
@@ -4485,7 +4505,8 @@
         "18 Jun",
         "19 Jun",
         "20 Jun",
-        "21 Jun"
+        "21 Jun",
+        "22 Jun"
       ],
       "data": [
         1.5,
@@ -4835,8 +4856,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        65,
+        20,
+        60,
         20
       ],
       "colors": [
