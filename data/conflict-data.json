@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-23",
-    "update_time": "00:00 EST",
-    "day_number": 104,
+    "last_updated": "2026-06-24",
+    "update_time": "08:17 EST",
+    "day_number": 105,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2113,6 +2113,23 @@
         "events": "U.S. and Iranian negotiators began talks in Switzerland, agreeing to establish communication lines to keep the Strait of Hormuz open and to end fighting in Lebanon.",
         "events_fa": "مذاکره‌کنندگان ایالات متحده و ایران در سوئیس مذاکراتی را آغاز کردند و توافق کردند خطوط ارتباطی برای باز نگه داشتن تنگه هرمز و پایان دادن به درگیری‌ها در لبنان ایجاد کنند.",
         "highlight": true
+      },
+      {
+        "day": 105,
+        "date": "24 Jun",
+        "date_fa": "۲۴ ژوئن",
+        "waves": "...",
+        "iran_dead": "...",
+        "isr_dead": "...",
+        "us_dead": "...",
+        "other": "...",
+        "other_fa": "...",
+        "iran_bms": "...",
+        "iran_drones": "...",
+        "targets": "...",
+        "events": "U.S. and Iranian negotiators in Switzerland discussed nuclear inspections and the Strait of Hormuz. The U.S. eased travel restrictions for Iran's soccer team ahead of the World Cup match. Tensions persist in southern Lebanon amid Israeli occupation.",
+        "events_fa": "مذاکره‌کنندگان ایالات متحده و ایران در سوئیس درباره بازرسی‌های هسته‌ای و تنگه هرمز بحث کردند. ایالات متحده محدودیت‌های سفر برای تیم فوتبال ایران را پیش از مسابقه جام جهانی کاهش داد. تنش‌ها در جنوب لبنان در میان اشغال اسرائیل ادامه دارد.",
+        "highlight": false
       }
     ]
   },
@@ -3238,8 +3255,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 20,
         "color": "amber",
-        "description": "A comprehensive peace agreement is reached within 60 days.",
-        "description_fa": "توافق صلح جامع در عرض ۶۰ روز حاصل می‌شود.",
+        "description": "Scenario A description",
+        "description_fa": "توضیح سناریو A",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3248,8 +3265,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات موفقیت‌آمیز در سوئیس",
-          "توافق بر سر مسائل کلیدی مانند برنامه هسته‌ای ایران و درگیری‌های منطقه‌ای"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -3258,8 +3275,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 60,
         "color": "red",
-        "description": "A partial agreement is reached, leading to a temporary ceasefire but unresolved issues remain.",
-        "description_fa": "توافق جزئی حاصل می‌شود که منجر به آتش‌بس موقت می‌شود اما مسائل حل‌نشده باقی می‌ماند.",
+        "description": "Scenario B description",
+        "description_fa": "توضیح سناریو B",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3268,8 +3285,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "اختلافات بر سر جزئیات توافق",
-          "فشارهای داخلی در هر دو کشور"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -3278,8 +3295,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Negotiations fail, leading to a resumption of hostilities.",
-        "description_fa": "مذاکرات شکست می‌خورند و منجر به از سرگیری خصومت‌ها می‌شوند.",
+        "description": "Scenario C description",
+        "description_fa": "توضیح سناریو C",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3288,8 +3305,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عدم اعتماد متقابل",
-          "تشدید درگیری‌ها در لبنان"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -3665,7 +3682,8 @@
         "19 Jun",
         "20 Jun",
         "21 Jun",
-        "22 Jun"
+        "22 Jun",
+        "24 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -4024,7 +4042,8 @@
         "19 Jun",
         "20 Jun",
         "21 Jun",
-        "22 Jun"
+        "22 Jun",
+        "24 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -4294,7 +4313,8 @@
         "19 Jun",
         "20 Jun",
         "21 Jun",
-        "22 Jun"
+        "22 Jun",
+        "24 Jun"
       ],
       "daily_bm": [
         200,
@@ -4506,7 +4526,8 @@
         "19 Jun",
         "20 Jun",
         "21 Jun",
-        "22 Jun"
+        "22 Jun",
+        "24 Jun"
       ],
       "data": [
         1.5,

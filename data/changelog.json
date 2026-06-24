@@ -1854,5 +1854,17 @@
       "scenario A prob: 15% -> 20%",
       "scenario B prob: 65% -> 60%"
     ]
+  },
+  {
+    "date": "2026-06-24",
+    "timestamp": "2026-06-24T03:17:24.077988-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include U.S.-Iran negotiations on nuclear inspections, easing of travel restrictions for Iran's soccer team, and ongoing tensions in southern Lebanon.",
+    "changes": [
+      "meta.last_updated: 2026-06-23 -> 2026-06-24",
+      "meta.update_time: 00:00 EST -> 08:17 EST",
+      "meta.day_number: 104 -> 105",
+      "NEW DAY 105: U.S. and Iranian negotiators in Switzerland discussed nuclear inspections and th..."
+    ]
   }
 ]
