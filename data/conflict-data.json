@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-24",
-    "update_time": "08:17 EST",
-    "day_number": 105,
+    "last_updated": "2026-06-25",
+    "update_time": "08:16 EST",
+    "day_number": 106,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2130,6 +2130,23 @@
         "events": "U.S. and Iranian negotiators in Switzerland discussed nuclear inspections and the Strait of Hormuz. The U.S. eased travel restrictions for Iran's soccer team ahead of the World Cup match. Tensions persist in southern Lebanon amid Israeli occupation.",
         "events_fa": "مذاکره‌کنندگان ایالات متحده و ایران در سوئیس درباره بازرسی‌های هسته‌ای و تنگه هرمز بحث کردند. ایالات متحده محدودیت‌های سفر برای تیم فوتبال ایران را پیش از مسابقه جام جهانی کاهش داد. تنش‌ها در جنوب لبنان در میان اشغال اسرائیل ادامه دارد.",
         "highlight": false
+      },
+      {
+        "day": 106,
+        "date": "25 Jun",
+        "date_fa": "۲۵ ژوئن",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "1",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "U.S. submits $87.6 billion supplemental spending request to Congress for war costs. Israel and Hezbollah engage in ceasefire negotiations mediated by the U.S. and Qatar. U.S. and Iran continue discussions on nuclear inspections and the Strait of Hormuz.",
+        "events_fa": "ایالات متحده درخواست هزینه‌های جنگی ۸۷.۶ میلیارد دلاری به کنگره ارائه می‌دهد. اسرائیل و حزب‌الله در مذاکرات آتش‌بس با میانجی‌گری ایالات متحده و قطر شرکت می‌کنند. ایالات متحده و ایران به مذاکرات درباره بازرسی‌های هسته‌ای و تنگه هرمز ادامه می‌دهند.",
+        "highlight": false
       }
     ]
   },
@@ -3051,6 +3068,21 @@
         "location_fa": "جنوب لبنان",
         "cause": "Rocket attack",
         "cause_fa": "حمله راکتی"
+      },
+      {
+        "num": 61,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-06-24",
+        "date_fa": "۲۴ ژوئن ۲۰۲۶",
+        "location": "Southern Lebanon",
+        "location_fa": "جنوب لبنان",
+        "cause": "Hostile fire",
+        "cause_fa": "آتش دشمن"
       }
     ],
     "aircraft_losses": [
@@ -3253,10 +3285,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Scenario A description",
-        "description_fa": "توضیح سناریو A",
+        "description": "Ceasefire holds, leading to gradual de-escalation.",
+        "description_fa": "آتش‌بس برقرار می‌ماند و به کاهش تدریجی تنش‌ها منجر می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3265,18 +3297,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "مذاکرات موفقیت‌آمیز آتش‌بس",
+          "کاهش حملات نظامی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 55,
         "color": "red",
-        "description": "Scenario B description",
-        "description_fa": "توضیح سناریو B",
+        "description": "Intermittent clashes continue despite ceasefire efforts.",
+        "description_fa": "درگیری‌های پراکنده علی‌رغم تلاش‌های آتش‌بس ادامه می‌یابد.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3285,8 +3317,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "نقض آتش‌بس توسط طرفین",
+          "بی‌اعتمادی متقابل"
         ]
       },
       {
@@ -3295,8 +3327,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Scenario C description",
-        "description_fa": "توضیح سناریو C",
+        "description": "Full-scale conflict resumes.",
+        "description_fa": "درگیری تمام‌عیار از سر گرفته می‌شود.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3305,8 +3337,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "شکست مذاکرات",
+          "افزایش حملات"
         ]
       }
     ],
@@ -3683,7 +3715,8 @@
         "20 Jun",
         "21 Jun",
         "22 Jun",
-        "24 Jun"
+        "24 Jun",
+        "25 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -3767,7 +3800,8 @@
         1,
         0,
         1,
-        1
+        1,
+        "N/A"
       ],
       "iran_bms": [
         200,
@@ -3851,7 +3885,8 @@
         100,
         0,
         0,
-        0
+        0,
+        "N/A"
       ],
       "iran_drones": [
         500,
@@ -3934,7 +3969,8 @@
         10,
         0,
         0,
-        0
+        0,
+        "N/A"
       ]
     },
     "phase3_cumulative_casualties": {
@@ -4043,7 +4079,8 @@
         "20 Jun",
         "21 Jun",
         "22 Jun",
-        "24 Jun"
+        "24 Jun",
+        "25 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -4125,7 +4162,8 @@
         0,
         4700,
         0,
-        4600
+        4600,
+        "N/A"
       ],
       "hrana_civilian": [
         133,
@@ -4205,7 +4243,8 @@
         0,
         0,
         0,
-        3138
+        3138,
+        "N/A"
       ]
     },
     "bm_degradation": {
@@ -4314,7 +4353,8 @@
         "20 Jun",
         "21 Jun",
         "22 Jun",
-        "24 Jun"
+        "24 Jun",
+        "25 Jun"
       ],
       "daily_bm": [
         200,
@@ -4398,7 +4438,8 @@
         100,
         0,
         0,
-        0
+        0,
+        "N/A"
       ],
       "trendline": [
         200,
@@ -4527,7 +4568,8 @@
         "20 Jun",
         "21 Jun",
         "22 Jun",
-        "24 Jun"
+        "24 Jun",
+        "25 Jun"
       ],
       "data": [
         1.5,
@@ -4607,7 +4649,8 @@
         0,
         0,
         0,
-        0
+        0,
+        "$87.6B"
       ]
     },
     "cost_distribution": {
@@ -4754,7 +4797,8 @@
         83.38,
         78.05,
         82.5,
-        85.5
+        85.5,
+        "$83.50"
       ]
     },
     "hormuz_transit": {
@@ -4862,7 +4906,8 @@
         100,
         100,
         85,
-        0
+        0,
+        "85%"
       ]
     },
     "scenario_probabilities": {
@@ -4877,8 +4922,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        60,
+        25,
+        55,
         20
       ],
       "colors": [
