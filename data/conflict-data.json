@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-25",
-    "update_time": "08:16 EST",
-    "day_number": 106,
+    "last_updated": "2026-06-26",
+    "update_time": "08:24 EST",
+    "day_number": 107,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~34,750+",
+    "us_israel_strikes": "~34,760+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2147,6 +2147,23 @@
         "events": "U.S. submits $87.6 billion supplemental spending request to Congress for war costs. Israel and Hezbollah engage in ceasefire negotiations mediated by the U.S. and Qatar. U.S. and Iran continue discussions on nuclear inspections and the Strait of Hormuz.",
         "events_fa": "ایالات متحده درخواست هزینه‌های جنگی ۸۷.۶ میلیارد دلاری به کنگره ارائه می‌دهد. اسرائیل و حزب‌الله در مذاکرات آتش‌بس با میانجی‌گری ایالات متحده و قطر شرکت می‌کنند. ایالات متحده و ایران به مذاکرات درباره بازرسی‌های هسته‌ای و تنگه هرمز ادامه می‌دهند.",
         "highlight": false
+      },
+      {
+        "day": 107,
+        "date": "26 Jun",
+        "date_fa": "۲۶ ژوئن",
+        "waves": "1",
+        "iran_dead": "100+",
+        "isr_dead": "5",
+        "us_dead": "0",
+        "other": "3",
+        "other_fa": "۳",
+        "iran_bms": "10",
+        "iran_drones": "5",
+        "targets": "Cargo ship in Strait of Hormuz, southern Lebanon",
+        "events": "Cargo ship struck by unidentified projectile in Strait of Hormuz; UN suspends evacuation plans; Israel conducts operations in southern Lebanon; Iran intensifies internal crackdowns.",
+        "events_fa": "حمله به کشتی باری در تنگه هرمز؛ تعلیق برنامه‌های تخلیه سازمان ملل؛ عملیات اسرائیل در جنوب لبنان؛ تشدید سرکوب‌های داخلی در ایران.",
+        "highlight": true
       }
     ]
   },
@@ -3144,7 +3161,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$83.38",
+      "oil_brent": "$85.50",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -3285,10 +3302,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire holds, leading to gradual de-escalation.",
-        "description_fa": "آتش‌بس برقرار می‌ماند و به کاهش تدریجی تنش‌ها منجر می‌شود.",
+        "description": "Ceasefire holds with ongoing diplomatic negotiations.",
+        "description_fa": "آتش‌بس برقرار است با مذاکرات دیپلماتیک در جریان.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3297,18 +3314,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات موفقیت‌آمیز آتش‌بس",
-          "کاهش حملات نظامی"
+          "مذاکرات صلح",
+          "فشار بین‌المللی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 60,
         "color": "red",
-        "description": "Intermittent clashes continue despite ceasefire efforts.",
-        "description_fa": "درگیری‌های پراکنده علی‌رغم تلاش‌های آتش‌بس ادامه می‌یابد.",
+        "description": "Conflict escalates with increased military engagements.",
+        "description_fa": "تشدید درگیری با افزایش عملیات نظامی.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3317,8 +3334,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "نقض آتش‌بس توسط طرفین",
-          "بی‌اعتمادی متقابل"
+          "حملات جدید",
+          "عدم توافق دیپلماتیک"
         ]
       },
       {
@@ -3327,8 +3344,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 20,
         "color": "green",
-        "description": "Full-scale conflict resumes.",
-        "description_fa": "درگیری تمام‌عیار از سر گرفته می‌شود.",
+        "description": "Stalemate with sporadic skirmishes and no significant progress.",
+        "description_fa": "بن‌بست با درگیری‌های پراکنده و بدون پیشرفت قابل توجه.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3337,8 +3354,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "افزایش حملات"
+          "عدم پیشرفت در مذاکرات",
+          "خستگی جنگی"
         ]
       }
     ],
@@ -3716,7 +3733,8 @@
         "21 Jun",
         "22 Jun",
         "24 Jun",
-        "25 Jun"
+        "25 Jun",
+        "26 Jun"
       ],
       "us_israel_waves": [
         55,
@@ -3801,7 +3819,8 @@
         0,
         1,
         1,
-        "N/A"
+        "N/A",
+        1
       ],
       "iran_bms": [
         200,
@@ -3886,7 +3905,8 @@
         0,
         0,
         0,
-        "N/A"
+        "N/A",
+        10
       ],
       "iran_drones": [
         500,
@@ -3970,7 +3990,8 @@
         0,
         0,
         0,
-        "N/A"
+        "N/A",
+        5
       ]
     },
     "phase3_cumulative_casualties": {
@@ -4080,7 +4101,8 @@
         "21 Jun",
         "22 Jun",
         "24 Jun",
-        "25 Jun"
+        "25 Jun",
+        "26 Jun"
       ],
       "hengaw_total": [
         1000,
@@ -4163,7 +4185,8 @@
         4700,
         0,
         4600,
-        "N/A"
+        "N/A",
+        4700
       ],
       "hrana_civilian": [
         133,
@@ -4244,7 +4267,8 @@
         0,
         0,
         3138,
-        "N/A"
+        "N/A",
+        null
       ]
     },
     "bm_degradation": {
@@ -4354,7 +4378,8 @@
         "21 Jun",
         "22 Jun",
         "24 Jun",
-        "25 Jun"
+        "25 Jun",
+        "26 Jun"
       ],
       "daily_bm": [
         200,
@@ -4439,7 +4464,8 @@
         0,
         0,
         0,
-        "N/A"
+        "N/A",
+        10
       ],
       "trendline": [
         200,
@@ -4569,7 +4595,8 @@
         "21 Jun",
         "22 Jun",
         "24 Jun",
-        "25 Jun"
+        "25 Jun",
+        "26 Jun"
       ],
       "data": [
         1.5,
@@ -4650,7 +4677,8 @@
         0,
         0,
         0,
-        "$87.6B"
+        "$87.6B",
+        null
       ]
     },
     "cost_distribution": {
@@ -4798,7 +4826,8 @@
         78.05,
         82.5,
         85.5,
-        "$83.50"
+        "$83.50",
+        85.5
       ]
     },
     "hormuz_transit": {
@@ -4907,7 +4936,8 @@
         100,
         85,
         0,
-        "85%"
+        "85%",
+        5
       ]
     },
     "scenario_probabilities": {
@@ -4922,8 +4952,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        55,
+        20,
+        60,
         20
       ],
       "colors": [

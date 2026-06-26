@@ -1889,5 +1889,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-06-26",
+    "timestamp": "2026-06-26T03:24:58.827456-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include a cargo ship attack in the Strait of Hormuz, suspension of UN evacuation plans, ongoing Israel-Lebanon tensions, and intensified internal crackdowns in Iran.",
+    "changes": [
+      "meta.last_updated: 2026-06-25 -> 2026-06-26",
+      "meta.update_time: 08:16 EST -> 08:24 EST",
+      "meta.day_number: 106 -> 107",
+      "NEW DAY 107: Cargo ship struck by unidentified projectile in Strait of Hormuz; UN suspends ev...",
+      "overview.us_israel_strikes: ~34,750+ -> ~34,760+",
+      "costs.kpis.oil_brent: $83.38 -> $85.50",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 55% -> 60%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
