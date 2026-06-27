@@ -1913,5 +1913,28 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-06-27",
+    "timestamp": "2026-06-27T02:42:41.725274-05:00",
+    "status": "UPDATED",
+    "summary": "U.S. conducted airstrikes on Iranian targets in response to a drone attack on a cargo ship in the Strait of Hormuz; Israel and Lebanon signed a U.S.-brokered framework agreement aimed at peace.",
+    "changes": [
+      "meta.last_updated: 2026-06-26 -> 2026-06-27",
+      "meta.update_time: 08:24 EST -> 07:42 EST",
+      "meta.day_number: 107 -> 108",
+      "NEW DAY 108: U.S. conducts airstrikes on Iranian targets in response to drone attack; Israel ...",
+      "overview.us_israel_strikes: ~34,760+ -> ~34,800+",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 60% -> 65%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
