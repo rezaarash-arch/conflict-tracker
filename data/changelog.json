@@ -1960,5 +1960,29 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-06-29",
+    "timestamp": "2026-06-29T04:21:06.317969-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include a mutual agreement between the U.S. and Iran to halt strikes and schedule talks in Doha, Qatar, following renewed military exchanges. Additionally, Israel and Lebanon have reached a significant political agreement aimed at reducing Iranian and Hezbollah influence in Lebanon.",
+    "changes": [
+      "meta.last_updated: 2026-06-28 -> 2026-06-29",
+      "meta.update_time: 08:15 EST -> 09:20 EST",
+      "meta.day_number: 109 -> 110",
+      "NEW DAY 110: Iran launched missile and drone attacks on U.S. military bases in Kuwait and Bah...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 70% -> 60%",
+      "scenario C prob: 20% -> 25%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
