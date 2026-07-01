@@ -2009,5 +2009,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-07-01",
+    "timestamp": "2026-07-01T03:43:13.467163-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. airstrikes on Iranian targets near the Strait of Hormuz following Iranian drone attacks on commercial ships, and conflicting reports regarding U.S.-Iran negotiations in Doha.",
+    "changes": [
+      "meta.last_updated: 2026-06-30 -> 2026-07-01",
+      "meta.update_time: 08:23 EST -> 08:43 EST",
+      "meta.day_number: 111 -> 112",
+      "NEW DAY 112: Iran launched drone attacks on commercial ships in the Strait of Hormuz; U.S. co...",
+      "costs.kpis.oil_brent: $86.00 -> $73.02",
+      "scenario B prob: 65% -> 60%",
+      "scenario C prob: 25% -> 30%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
