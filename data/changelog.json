@@ -2032,5 +2032,28 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-07-02",
+    "timestamp": "2026-07-02T02:59:29.322090-05:00",
+    "status": "UPDATED",
+    "summary": "Recent U.S.-Iran talks in Doha concluded with progress on implementing the memorandum of understanding (MoU) aimed at ending hostilities. A communication channel to monitor compliance is set to begin operations. Despite these diplomatic efforts, tensions persist, with Iran expressing concerns over U.S. adherence to the MoU and ongoing military activities in the region.",
+    "changes": [
+      "meta.last_updated: 2026-07-01 -> 2026-07-02",
+      "meta.update_time: 08:43 EST -> 08:00 EST",
+      "meta.day_number: 112 -> 113",
+      "NEW DAY 113: Iran launched drone and missile attacks on commercial ships in the Strait of Hor...",
+      "overview.us_israel_strikes: ~35,000+ -> ~35,500+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 60% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
