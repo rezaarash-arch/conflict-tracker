@@ -2055,5 +2055,17 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-07-03",
+    "timestamp": "2026-07-03T02:54:05.004325-05:00",
+    "status": "UPDATED",
+    "summary": "Iran has issued warnings to oil tankers in the Strait of Hormuz, and funeral preparations for Supreme Leader Khamenei are underway.",
+    "changes": [
+      "meta.last_updated: 2026-07-02 -> 2026-07-03",
+      "meta.update_time: 08:00 EST -> 07:53 EST",
+      "meta.day_number: 113 -> 114",
+      "NEW DAY 114: Iran has issued warnings to oil tankers in the Strait of Hormuz, demanding they ..."
+    ]
   }
 ]

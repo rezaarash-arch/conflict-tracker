@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-02",
-    "update_time": "08:00 EST",
-    "day_number": 113,
+    "last_updated": "2026-07-03",
+    "update_time": "07:53 EST",
+    "day_number": 114,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2266,6 +2266,23 @@
         "events": "Iran launched drone and missile attacks on commercial ships in the Strait of Hormuz; U.S. conducted retaliatory airstrikes on Iranian targets near the Strait.",
         "events_fa": "ایران حملات پهپادی و موشکی به کشتی‌های تجاری در تنگه هرمز انجام داد؛ ایالات متحده حملات هوایی تلافی‌جویانه به اهداف ایرانی در نزدیکی تنگه انجام داد.",
         "highlight": true
+      },
+      {
+        "day": 114,
+        "date": "3 Jul",
+        "date_fa": "۳ ژوئیه",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Iran has issued warnings to oil tankers in the Strait of Hormuz, demanding they follow designated routes or face a 'forceful response'. Preparations for the funeral of Supreme Leader Khamenei are underway, with ceremonies set to begin on July 4 in Tehran and conclude on July 9 in Mashhad.",
+        "events_fa": "ایران به نفتکش‌ها در تنگه هرمز هشدار داده است که باید از مسیرهای تعیین‌شده پیروی کنند، در غیر این صورت با 'پاسخ قاطع' مواجه خواهند شد. آماده‌سازی برای مراسم تشییع رهبر معظم خامنه‌ای در حال انجام است؛ این مراسم از ۴ ژوئیه در تهران آغاز شده و در ۹ ژوئیه در مشهد به پایان می‌رسد.",
+        "highlight": false
       }
     ]
   },
@@ -3466,8 +3483,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 15,
         "color": "amber",
-        "description": "Full diplomatic resolution leading to a comprehensive peace agreement.",
-        "description_fa": "حل دیپلماتیک کامل منجر به توافق صلح جامع.",
+        "description": "Scenario A description remains unchanged.",
+        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3476,8 +3493,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات دوحه",
-          "ایجاد کانال ارتباطی برای نظارت بر اجرای تفاهم‌نامه"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -3486,8 +3503,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 55,
         "color": "red",
-        "description": "Prolonged low-intensity conflict with intermittent negotiations.",
-        "description_fa": "درگیری کم‌شدت طولانی با مذاکرات متناوب.",
+        "description": "Scenario B description remains unchanged.",
+        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3496,8 +3513,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات نظامی",
-          "نگرانی‌های ایران درباره پایبندی آمریکا به تفاهم‌نامه"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -3506,8 +3523,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Escalation into full-scale regional conflict.",
-        "description_fa": "تشدید به درگیری منطقه‌ای تمام‌عیار.",
+        "description": "Scenario C description remains unchanged.",
+        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3516,8 +3533,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات مداوم به کشتی‌های تجاری",
-          "حملات تلافی‌جویانه"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -3902,7 +3919,8 @@
         "29 Jun",
         "30 Jun",
         "1 Jul",
-        "2 Jul"
+        "2 Jul",
+        "3 Jul"
       ],
       "us_israel_waves": [
         55,
@@ -4294,7 +4312,8 @@
         "29 Jun",
         "30 Jun",
         "1 Jul",
-        "2 Jul"
+        "2 Jul",
+        "3 Jul"
       ],
       "hengaw_total": [
         1000,
@@ -4589,7 +4608,8 @@
         "29 Jun",
         "30 Jun",
         "1 Jul",
-        "2 Jul"
+        "2 Jul",
+        "3 Jul"
       ],
       "daily_bm": [
         200,
@@ -4818,7 +4838,8 @@
         "29 Jun",
         "30 Jun",
         "1 Jul",
-        "2 Jul"
+        "2 Jul",
+        "3 Jul"
       ],
       "data": [
         1.5,
