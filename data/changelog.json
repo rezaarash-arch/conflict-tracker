@@ -2067,5 +2067,26 @@
       "meta.day_number: 113 -> 114",
       "NEW DAY 114: Iran has issued warnings to oil tankers in the Strait of Hormuz, demanding they ..."
     ]
+  },
+  {
+    "date": "2026-07-04",
+    "timestamp": "2026-07-04T02:35:35.095682-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, munitions counts, and oil prices; added new events including Iran's warning to oil tankers and funeral preparations for Supreme Leader Khamenei.",
+    "changes": [
+      "meta.last_updated: 2026-07-03 -> 2026-07-04",
+      "meta.update_time: 07:53 EST -> 07:35 EST",
+      "meta.day_number: 114 -> 115",
+      "NEW DAY 115: Iran issued warnings to oil tankers in the Strait of Hormuz, demanding they foll...",
+      "overview.us_israel_strikes: ~35,500+ -> ~35,700+",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
