@@ -2111,5 +2111,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-07-06",
+    "timestamp": "2026-07-06T03:53:58.144994-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the funeral procession for Supreme Leader Ayatollah Ali Khamenei in Tehran, ongoing U.S.-Iran negotiations in Doha, and discussions between President Trump and Prime Minister Netanyahu regarding a potential meeting in Washington, D.C.",
+    "changes": [
+      "meta.last_updated: 2026-07-05 -> 2026-07-06",
+      "meta.update_time: 07:51 EST -> 08:53 EST",
+      "meta.day_number: 116 -> 117",
+      "NEW DAY 117: Funeral procession for Supreme Leader Ayatollah Ali Khamenei in Tehran; U.S.-Ira...",
+      "overview.us_israel_strikes: ~35,700+ -> ~35,800+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 60% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]

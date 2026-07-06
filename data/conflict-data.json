@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-05",
-    "update_time": "07:51 EST",
-    "day_number": 116,
+    "last_updated": "2026-07-06",
+    "update_time": "08:53 EST",
+    "day_number": 117,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~35,700+",
+    "us_israel_strikes": "~35,800+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2317,6 +2317,23 @@
         "events": "Funeral ceremonies for Supreme Leader Ayatollah Ali Khamenei commenced in Tehran, with millions in attendance. U.S. and Iranian negotiators resumed talks in Doha, focusing on tensions in the Strait of Hormuz. President Trump and Prime Minister Netanyahu discussed a potential meeting in Washington, D.C.",
         "events_fa": "مراسم تشییع جنازه رهبر معظم آیت‌الله علی خامنه‌ای در تهران آغاز شد و میلیون‌ها نفر حضور داشتند. مذاکره‌کنندگان ایالات متحده و ایران در دوحه مذاکرات را از سر گرفتند و بر تنش‌ها در تنگه هرمز تمرکز کردند. رئیس‌جمهور ترامپ و نخست‌وزیر نتانیاهو درباره دیدار احتمالی در واشنگتن، دی.سی. گفتگو کردند.",
         "highlight": true
+      },
+      {
+        "day": 117,
+        "date": "6 Jul",
+        "date_fa": "۶ ژوئیه",
+        "waves": "1",
+        "iran_dead": "100",
+        "isr_dead": "5",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "50",
+        "iran_drones": "10",
+        "targets": "Military installations in southern Lebanon",
+        "events": "Funeral procession for Supreme Leader Ayatollah Ali Khamenei in Tehran; U.S.-Iran negotiations in Doha; President Trump and Prime Minister Netanyahu discuss potential meeting in Washington, D.C.",
+        "events_fa": "مراسم تشییع جنازه رهبر معظم آیت‌الله علی خامنه‌ای در تهران؛ مذاکرات آمریکا و ایران در دوحه؛ گفتگوی رئیس‌جمهور ترامپ و نخست‌وزیر نتانیاهو درباره دیدار احتمالی در واشنگتن، دی.سی.",
+        "highlight": true
       }
     ]
   },
@@ -3530,7 +3547,7 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
         "description": "Ceasefire and diplomatic resolution",
         "description_fa": "آتش‌بس و حل دیپلماتیک",
@@ -3550,7 +3567,7 @@
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 55,
         "color": "red",
         "description": "Prolonged conflict with intermittent escalations",
         "description_fa": "درگیری طولانی با تشدیدهای متناوب",
@@ -3562,8 +3579,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "مراسم تشییع جنازه",
-          "تهدیدات تنگه هرمز"
+          "حملات متقابل",
+          "بی‌اعتمادی متقابل"
         ]
       },
       {
@@ -3582,8 +3599,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات متقابل",
-          "مداخله نیروهای نیابتی"
+          "حملات به لبنان",
+          "تشدید تنش‌ها"
         ]
       }
     ],
@@ -3971,7 +3988,8 @@
         "2 Jul",
         "3 Jul",
         "4 Jul",
-        "5 Jul"
+        "5 Jul",
+        "6 Jul"
       ],
       "us_israel_waves": [
         55,
@@ -4065,7 +4083,8 @@
         1,
         1,
         1,
-        2
+        2,
+        1
       ],
       "iran_bms": [
         200,
@@ -4159,7 +4178,8 @@
         0,
         5,
         5,
-        5
+        5,
+        50
       ],
       "iran_drones": [
         500,
@@ -4252,7 +4272,8 @@
         1,
         10,
         2,
-        3
+        3,
+        10
       ]
     },
     "phase3_cumulative_casualties": {
@@ -4372,7 +4393,8 @@
         "2 Jul",
         "3 Jul",
         "4 Jul",
-        "5 Jul"
+        "5 Jul",
+        "6 Jul"
       ],
       "hengaw_total": [
         1000,
@@ -4464,6 +4486,7 @@
         4600,
         7200,
         4600,
+        4600,
         4600
       ],
       "hrana_civilian": [
@@ -4554,7 +4577,8 @@
         0,
         23500,
         3200,
-        7000
+        7000,
+        3138
       ]
     },
     "bm_degradation": {
@@ -4674,7 +4698,8 @@
         "2 Jul",
         "3 Jul",
         "4 Jul",
-        "5 Jul"
+        "5 Jul",
+        "6 Jul"
       ],
       "daily_bm": [
         200,
@@ -4768,7 +4793,8 @@
         0,
         5,
         5,
-        5
+        5,
+        50
       ],
       "trendline": [
         200,
@@ -4908,7 +4934,8 @@
         "2 Jul",
         "3 Jul",
         "4 Jul",
-        "5 Jul"
+        "5 Jul",
+        "6 Jul"
       ],
       "data": [
         1.5,
@@ -4998,7 +5025,8 @@
         0,
         0,
         1500000000,
-        1.5
+        1.5,
+        0.5
       ]
     },
     "cost_distribution": {
@@ -5155,7 +5183,8 @@
         73.02,
         72.5,
         73.28,
-        75.5
+        75.5,
+        73.5
       ]
     },
     "hormuz_transit": {
@@ -5273,6 +5302,7 @@
         0,
         15,
         85,
+        85,
         85
       ]
     },
@@ -5288,8 +5318,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        60,
+        15,
+        55,
         30
       ],
       "colors": [
