@@ -2156,5 +2156,28 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-07-09",
+    "timestamp": "2026-07-09T03:28:03.182822-05:00",
+    "status": "UPDATED",
+    "summary": "Renewed U.S. airstrikes on Iranian targets following attacks on commercial vessels; Iran retaliated with missile and drone strikes on Gulf states; ceasefire declared over by President Trump; updated casualty figures.",
+    "changes": [
+      "meta.last_updated: 2026-07-08 -> 2026-07-09",
+      "meta.update_time: 00:00 EST -> 08:27 EST",
+      "meta.day_number: 118 -> 119",
+      "NEW DAY 119: U.S. conducted airstrikes on Iranian targets including Bushehr IRGC facility, Ch...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 60% -> 50%",
+      "scenario C prob: 30% -> 35%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
