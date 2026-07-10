@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-09",
-    "update_time": "08:27 EST",
-    "day_number": 119,
+    "last_updated": "2026-07-10",
+    "update_time": "08:14 EST",
+    "day_number": 120,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2368,6 +2368,23 @@
         "events": "U.S. conducted airstrikes on Iranian targets including Bushehr IRGC facility, Chabahar port, and Iranshahr airport; Iran retaliated with missile and drone attacks on U.S. military installations in Kuwait, Qatar, and Bahrain; President Trump declared the ceasefire over.",
         "events_fa": "ایالات متحده حملات هوایی به اهداف ایرانی از جمله تأسیسات سپاه در بوشهر، بندر چابهار و فرودگاه ایرانشهر انجام داد؛ ایران با حملات موشکی و پهپادی به تأسیسات نظامی آمریکا در کویت، قطر و بحرین پاسخ داد؛ رئیس‌جمهور ترامپ آتش‌بس را پایان‌یافته اعلام کرد.",
         "highlight": true
+      },
+      {
+        "day": 120,
+        "date": "10 Jul",
+        "date_fa": "۱۰ ژوئیه",
+        "waves": "2",
+        "iran_dead": "14",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "1",
+        "other_fa": "۱",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "U.S. military installations in Kuwait, Bahrain, and Qatar; Iranian military targets including Bushehr IRGC facility, Chabahar port, and Iranshahr airport.",
+        "events": "U.S. conducted airstrikes on Iranian targets including Bushehr IRGC facility, Chabahar port, and Iranshahr airport; Iran retaliated with missile and drone attacks on U.S. military installations in Kuwait, Bahrain, and Qatar; President Trump declared the ceasefire over.",
+        "events_fa": "ایالات متحده حملات هوایی به اهداف ایرانی از جمله تأسیسات سپاه پاسداران در بوشهر، بندر چابهار و فرودگاه ایرانشهر انجام داد؛ ایران با حملات موشکی و پهپادی به تأسیسات نظامی ایالات متحده در کویت، بحرین و قطر پاسخ داد؛ رئیس‌جمهور ترامپ آتش‌بس را پایان‌یافته اعلام کرد.",
+        "highlight": true
       }
     ]
   },
@@ -3581,10 +3598,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Full-scale war between U.S., Israel, and Iran.",
-        "description_fa": "جنگ تمام‌عیار بین ایالات متحده، اسرائیل و ایران.",
+        "description": "De-escalation leading to renewed ceasefire.",
+        "description_fa": "کاهش تنش‌ها منجر به آتش‌بس مجدد.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3593,18 +3610,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش حملات نظامی",
-          "شکست مذاکرات صلح"
+          "فشار بین‌المللی برای توقف درگیری‌ها",
+          "خستگی طرفین از ادامه جنگ"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 60,
         "color": "red",
-        "description": "Prolonged low-intensity conflict with intermittent escalations.",
-        "description_fa": "درگیری کم‌شدت طولانی‌مدت با تشدیدهای متناوب.",
+        "description": "Prolonged conflict with intermittent escalations.",
+        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3613,18 +3630,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل",
-          "فشارهای دیپلماتیک"
+          "حملات متقابل مداوم",
+          "عدم تمایل به مذاکره"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 35,
+        "probability": 30,
         "color": "green",
-        "description": "Ceasefire and resumption of negotiations leading to de-escalation.",
-        "description_fa": "آتش‌بس و ازسرگیری مذاکرات منجر به کاهش تنش.",
+        "description": "Full-scale war involving regional actors.",
+        "description_fa": "جنگ تمام‌عیار با مشارکت بازیگران منطقه‌ای.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3633,8 +3650,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "تمایل به صلح"
+          "گسترش درگیری به کشورهای همسایه",
+          "ورود نیروهای نظامی جدید به صحنه"
         ]
       }
     ],
@@ -4025,7 +4042,8 @@
         "5 Jul",
         "6 Jul",
         "7 Jul",
-        "9 Jul"
+        "9 Jul",
+        "10 Jul"
       ],
       "us_israel_waves": [
         55,
@@ -4122,6 +4140,7 @@
         2,
         1,
         1,
+        2,
         2
       ],
       "iran_bms": [
@@ -4219,6 +4238,7 @@
         5,
         50,
         2,
+        0,
         0
       ],
       "iran_drones": [
@@ -4314,6 +4334,7 @@
         2,
         3,
         10,
+        0,
         0,
         0
       ]
@@ -4438,7 +4459,8 @@
         "5 Jul",
         "6 Jul",
         "7 Jul",
-        "9 Jul"
+        "9 Jul",
+        "10 Jul"
       ],
       "hengaw_total": [
         1000,
@@ -4533,7 +4555,8 @@
         4600,
         4600,
         4600,
-        4600
+        4600,
+        null
       ],
       "hrana_civilian": [
         133,
@@ -4626,7 +4649,8 @@
         7000,
         3138,
         3138,
-        3636
+        3636,
+        null
       ]
     },
     "bm_degradation": {
@@ -4749,7 +4773,8 @@
         "5 Jul",
         "6 Jul",
         "7 Jul",
-        "9 Jul"
+        "9 Jul",
+        "10 Jul"
       ],
       "daily_bm": [
         200,
@@ -4846,6 +4871,7 @@
         5,
         50,
         2,
+        0,
         0
       ],
       "trendline": [
@@ -4989,7 +5015,8 @@
         "5 Jul",
         "6 Jul",
         "7 Jul",
-        "9 Jul"
+        "9 Jul",
+        "10 Jul"
       ],
       "data": [
         1.5,
@@ -5082,7 +5109,8 @@
         1.5,
         0.5,
         0,
-        0
+        0,
+        null
       ]
     },
     "cost_distribution": {
@@ -5242,7 +5270,8 @@
         75.5,
         73.5,
         75.5,
-        77.0
+        77.0,
+        75.21
       ]
     },
     "hormuz_transit": {
@@ -5363,7 +5392,8 @@
         85,
         85,
         5,
-        85
+        85,
+        null
       ]
     },
     "scenario_probabilities": {
@@ -5378,9 +5408,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        50,
-        35
+        10,
+        60,
+        30
       ],
       "colors": [
         "rgba(245,158,11,.7)",
