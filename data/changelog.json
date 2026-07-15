@@ -2202,5 +2202,30 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-07-15",
+    "timestamp": "2026-07-15T02:05:08.034311-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in the conflict with the U.S. reinstating a naval blockade on Iran, increased airstrikes, and Iranian retaliatory attacks on U.S. allies.",
+    "changes": [
+      "meta.last_updated: 2026-07-14 -> 2026-07-15",
+      "meta.update_time: 00:00 EST -> 07:04 EST",
+      "meta.day_number: 120 -> 121",
+      "NEW DAY 121: U.S. reinstated naval blockade on Iran; U.S. conducted airstrikes on Iranian mil...",
+      "overview.us_israel_strikes: ~35,800+ -> ~36,500+",
+      "costs.kpis.oil_brent: $73.02 -> $75.50",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 60% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
