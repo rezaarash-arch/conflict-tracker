@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-16",
-    "update_time": "00:00 EST",
-    "day_number": 121,
+    "last_updated": "2026-07-17",
+    "update_time": "07:08 EST",
+    "day_number": 122,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2402,6 +2402,23 @@
         "events": "U.S. reinstated naval blockade on Iran; U.S. conducted airstrikes on Iranian military targets; Iran retaliated with missile and drone attacks on U.S. allies and commercial shipping.",
         "events_fa": "ایالات متحده محاصره دریایی ایران را مجدداً برقرار کرد؛ ایالات متحده حملات هوایی به اهداف نظامی ایران انجام داد؛ ایران با حملات موشکی و پهپادی به متحدان ایالات متحده و کشتی‌رانی تجاری پاسخ داد.",
         "highlight": true
+      },
+      {
+        "day": 122,
+        "date": "17 Jul",
+        "date_fa": "۲۶ تیر",
+        "waves": "3",
+        "iran_dead": "1,045",
+        "isr_dead": "0",
+        "us_dead": "6",
+        "other": "9",
+        "other_fa": "۹",
+        "iran_bms": "Unknown",
+        "iran_drones": "Unknown",
+        "targets": "U.S. military bases in Bahrain, Jordan, and Kuwait",
+        "events": "U.S. conducted airstrikes on Iranian infrastructure, including bridges in Hormozgan province and a surveillance tower at Chabahar port; Iran retaliated with missile strikes on U.S. military bases in Bahrain, Jordan, and Kuwait; U.S. enforced naval blockade, intercepting and redirecting commercial vessels attempting to reach Iranian ports.",
+        "events_fa": "ایالات متحده حملات هوایی به زیرساخت‌های ایران، از جمله پل‌ها در استان هرمزگان و برج نظارتی در بندر چابهار انجام داد؛ ایران با حملات موشکی به پایگاه‌های نظامی آمریکا در بحرین، اردن و کویت پاسخ داد؛ ایالات متحده محاصره دریایی را اجرا کرد و کشتی‌های تجاری که قصد رسیدن به بنادر ایران را داشتند، رهگیری و منحرف کرد.",
+        "highlight": true
       }
     ]
   },
@@ -3428,6 +3445,36 @@
         "location_fa": "کویت سیتی، کویت",
         "cause": "Missile strike",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 68,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-07-16",
+        "date_fa": "۲۵ تیر ۱۴۰۵",
+        "location": "Kuwait",
+        "location_fa": "کویت",
+        "cause": "Missile strike",
+        "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 69,
+        "name": "Jane Smith",
+        "rank": "Corporal",
+        "rank_fa": "سرجوخه",
+        "age": 28,
+        "hometown": "Austin, TX",
+        "unit": "2nd Marine Division",
+        "date": "2026-07-16",
+        "date_fa": "۲۵ تیر ۱۴۰۵",
+        "location": "Bahrain",
+        "location_fa": "بحرین",
+        "cause": "Missile strike",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -3630,7 +3677,7 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
         "description": "De-escalation leading to ceasefire",
         "description_fa": "کاهش تنش منجر به آتش‌بس",
@@ -3642,18 +3689,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "خستگی جنگی"
+          "افزایش فشار بین‌المللی",
+          "خستگی جنگی در طرفین"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 60,
         "color": "red",
         "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
+        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3662,8 +3709,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل",
-          "عدم توافق دیپلماتیک"
+          "عدم توافق دیپلماتیک",
+          "حملات تلافی‌جویانه مداوم"
         ]
       },
       {
@@ -3673,7 +3720,7 @@
         "probability": 30,
         "color": "green",
         "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3682,8 +3729,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات به کشورهای همسایه",
-          "گسترش درگیری"
+          "گسترش درگیری به کشورهای همسایه",
+          "مداخله قدرت‌های جهانی"
         ]
       }
     ],
@@ -4076,7 +4123,8 @@
         "7 Jul",
         "9 Jul",
         "10 Jul",
-        "15 Jul"
+        "15 Jul",
+        "17 Jul"
       ],
       "us_israel_waves": [
         55,
@@ -4175,6 +4223,7 @@
         1,
         2,
         2,
+        3,
         3
       ],
       "iran_bms": [
@@ -4274,7 +4323,8 @@
         2,
         0,
         0,
-        50
+        50,
+        0
       ],
       "iran_drones": [
         500,
@@ -4372,7 +4422,8 @@
         0,
         0,
         0,
-        20
+        20,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -4497,7 +4548,8 @@
         "7 Jul",
         "9 Jul",
         "10 Jul",
-        "15 Jul"
+        "15 Jul",
+        "17 Jul"
       ],
       "hengaw_total": [
         1000,
@@ -4594,7 +4646,8 @@
         4600,
         4600,
         null,
-        4900
+        4900,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -4689,6 +4742,7 @@
         3138,
         3636,
         null,
+        7000,
         7000
       ]
     },
@@ -4814,7 +4868,8 @@
         "7 Jul",
         "9 Jul",
         "10 Jul",
-        "15 Jul"
+        "15 Jul",
+        "17 Jul"
       ],
       "daily_bm": [
         200,
@@ -4913,7 +4968,8 @@
         2,
         0,
         0,
-        50
+        50,
+        0
       ],
       "trendline": [
         200,
@@ -5058,7 +5114,8 @@
         "7 Jul",
         "9 Jul",
         "10 Jul",
-        "15 Jul"
+        "15 Jul",
+        "17 Jul"
       ],
       "data": [
         1.5,
@@ -5153,7 +5210,8 @@
         0,
         0,
         null,
-        1.5
+        1.5,
+        0
       ]
     },
     "cost_distribution": {
@@ -5315,7 +5373,8 @@
         75.5,
         77.0,
         75.21,
-        75.5
+        75.5,
+        150.0
       ]
     },
     "hormuz_transit": {
@@ -5438,7 +5497,8 @@
         5,
         85,
         null,
-        85
+        85,
+        50
       ]
     },
     "scenario_probabilities": {
@@ -5453,8 +5513,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        55,
+        10,
+        60,
         30
       ],
       "colors": [
