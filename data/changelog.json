@@ -2251,5 +2251,30 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-07-18",
+    "timestamp": "2026-07-18T01:51:59.687054-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in hostilities between the U.S. and Iran, including mutual airstrikes and regional attacks.",
+    "changes": [
+      "meta.last_updated: 2026-07-17 -> 2026-07-18",
+      "meta.update_time: 07:08 EST -> 06:51 EST",
+      "meta.day_number: 122 -> 123",
+      "NEW DAY 123: U.S. conducted seventh consecutive night of airstrikes targeting Iranian militar...",
+      "overview.us_israel_strikes: ~36,500+ -> ~37,000+",
+      "scenario A prob: 10% -> 5%",
+      "scenario B prob: 60% -> 70%",
+      "scenario C prob: 30% -> 25%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
