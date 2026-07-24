@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-23",
-    "update_time": "00:00 EST",
-    "day_number": 123,
+    "last_updated": "2026-07-24",
+    "update_time": "07:24 EST",
+    "day_number": 124,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2436,6 +2436,23 @@
         "events": "U.S. conducted seventh consecutive night of airstrikes targeting Iranian military sites; Iran retaliated with missile and drone attacks on U.S. military bases in Kuwait and Jordan; Iranian state media reports 3 killed and 8 wounded in Hormozgan province; U.S. denies Iranian claims of oil tanker explosions in the Strait of Hormuz.",
         "events_fa": "ایالات متحده هفتمین شب متوالی حملات هوایی را به سایت‌های نظامی ایران انجام داد؛ ایران با حملات موشکی و پهپادی به پایگاه‌های نظامی ایالات متحده در کویت و اردن پاسخ داد؛ رسانه‌های دولتی ایران گزارش دادند که ۳ کشته و ۸ زخمی در استان هرمزگان؛ ایالات متحده ادعاهای ایران درباره انفجار نفتکش‌ها در تنگه هرمز را رد کرد.",
         "highlight": false
+      },
+      {
+        "day": 124,
+        "date": "24 Jul",
+        "date_fa": "۲۴ ژوئیه",
+        "waves": "13th consecutive night of U.S. airstrikes",
+        "iran_dead": "55",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "629 wounded",
+        "other_fa": "۶۲۹ زخمی",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "U.S. military bases in Kuwait and Jordan",
+        "events": "U.S. conducted 13th consecutive night of airstrikes targeting Iranian military facilities; Iran retaliated with missile and drone attacks on U.S. military bases in Kuwait and Jordan; Bahrain issued shelter warnings due to incoming fire; Houthi rebels attacked two Saudi oil tankers in the Red Sea; Oil prices surged to over $100 per barrel.",
+        "events_fa": "ایالات متحده سیزدهمین شب متوالی حملات هوایی را به تأسیسات نظامی ایران انجام داد؛ ایران با حملات موشکی و پهپادی به پایگاه‌های نظامی ایالات متحده در کویت و اردن پاسخ داد؛ بحرین به دلیل آتش‌باری ورودی هشدارهای پناهگاهی صادر کرد؛ شورشیان حوثی به دو نفتکش سعودی در دریای سرخ حمله کردند؛ قیمت نفت به بیش از ۱۰۰ دلار در هر بشکه افزایش یافت.",
+        "highlight": true
       }
     ]
   },
@@ -3568,7 +3585,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$75.50",
+      "oil_brent": "$100.00",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -3711,8 +3728,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 5,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Ceasefire and de-escalation",
+        "description_fa": "آتش‌بس و کاهش تنش",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3721,8 +3738,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی برای پایان دادن به درگیری",
-          "خستگی جنگی در میان طرفین"
+          "مذاکرات دیپلماتیک",
+          "فشار بین‌المللی"
         ]
       },
       {
@@ -3741,8 +3758,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل مداوم",
-          "عدم تمایل به تشدید کامل"
+          "حملات متقابل",
+          "حمایت‌های منطقه‌ای"
         ]
       },
       {
@@ -3752,7 +3769,7 @@
         "probability": 25,
         "color": "green",
         "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3761,8 +3778,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "افزایش حملات به کشورهای همسایه",
-          "عدم موفقیت در مهار درگیری"
+          "افزایش حملات",
+          "ورود بازیگران جدید"
         ]
       }
     ],
@@ -4157,7 +4174,8 @@
         "10 Jul",
         "15 Jul",
         "17 Jul",
-        "18 Jul"
+        "18 Jul",
+        "24 Jul"
       ],
       "us_israel_waves": [
         55,
@@ -4258,7 +4276,8 @@
         2,
         3,
         3,
-        7
+        7,
+        13
       ],
       "iran_bms": [
         200,
@@ -4359,7 +4378,8 @@
         0,
         50,
         0,
-        15
+        15,
+        null
       ],
       "iran_drones": [
         500,
@@ -4459,7 +4479,8 @@
         0,
         20,
         0,
-        10
+        10,
+        null
       ]
     },
     "phase3_cumulative_casualties": {
@@ -4586,7 +4607,8 @@
         "10 Jul",
         "15 Jul",
         "17 Jul",
-        "18 Jul"
+        "18 Jul",
+        "24 Jul"
       ],
       "hengaw_total": [
         1000,
@@ -4685,7 +4707,8 @@
         null,
         4900,
         4600,
-        4600
+        4600,
+        null
       ],
       "hrana_civilian": [
         133,
@@ -4782,7 +4805,8 @@
         null,
         7000,
         7000,
-        0
+        0,
+        null
       ]
     },
     "bm_degradation": {
@@ -4909,7 +4933,8 @@
         "10 Jul",
         "15 Jul",
         "17 Jul",
-        "18 Jul"
+        "18 Jul",
+        "24 Jul"
       ],
       "daily_bm": [
         200,
@@ -5010,7 +5035,8 @@
         0,
         50,
         0,
-        15
+        15,
+        null
       ],
       "trendline": [
         200,
@@ -5157,7 +5183,8 @@
         "10 Jul",
         "15 Jul",
         "17 Jul",
-        "18 Jul"
+        "18 Jul",
+        "24 Jul"
       ],
       "data": [
         1.5,
@@ -5254,7 +5281,8 @@
         null,
         1.5,
         0,
-        0
+        0,
+        null
       ]
     },
     "cost_distribution": {
@@ -5418,7 +5446,8 @@
         75.21,
         75.5,
         150.0,
-        76.0
+        76.0,
+        100.0
       ]
     },
     "hormuz_transit": {
@@ -5543,7 +5572,8 @@
         null,
         85,
         50,
-        85
+        85,
+        null
       ]
     },
     "scenario_probabilities": {
