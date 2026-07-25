@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-24",
-    "update_time": "07:24 EST",
-    "day_number": 124,
+    "last_updated": "2026-07-25",
+    "update_time": "07:08 EST",
+    "day_number": 125,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2453,6 +2453,23 @@
         "events": "U.S. conducted 13th consecutive night of airstrikes targeting Iranian military facilities; Iran retaliated with missile and drone attacks on U.S. military bases in Kuwait and Jordan; Bahrain issued shelter warnings due to incoming fire; Houthi rebels attacked two Saudi oil tankers in the Red Sea; Oil prices surged to over $100 per barrel.",
         "events_fa": "ایالات متحده سیزدهمین شب متوالی حملات هوایی را به تأسیسات نظامی ایران انجام داد؛ ایران با حملات موشکی و پهپادی به پایگاه‌های نظامی ایالات متحده در کویت و اردن پاسخ داد؛ بحرین به دلیل آتش‌باری ورودی هشدارهای پناهگاهی صادر کرد؛ شورشیان حوثی به دو نفتکش سعودی در دریای سرخ حمله کردند؛ قیمت نفت به بیش از ۱۰۰ دلار در هر بشکه افزایش یافت.",
         "highlight": true
+      },
+      {
+        "day": 125,
+        "date": "25 Jul",
+        "date_fa": "۲۵ ژوئیه",
+        "waves": "13th consecutive night of U.S. airstrikes",
+        "iran_dead": "55+",
+        "isr_dead": "0",
+        "us_dead": "2",
+        "other": "9",
+        "other_fa": "۹",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "U.S. military bases in Kuwait and Jordan",
+        "events": "U.S. conducted 13th consecutive night of airstrikes targeting Iranian military facilities; Iran retaliated with missile and drone attacks on U.S. military bases in Kuwait and Jordan; Bahrain issued shelter warnings due to incoming fire; Houthi rebels attacked two Saudi oil tankers in the Red Sea; Oil prices surged to over $101 per barrel.",
+        "events_fa": "ایالات متحده سیزدهمین شب متوالی حملات هوایی را به تأسیسات نظامی ایران انجام داد؛ ایران با حملات موشکی و پهپادی به پایگاه‌های نظامی ایالات متحده در کویت و اردن پاسخ داد؛ بحرین به دلیل آتش incoming هشدارهای پناهگاهی صادر کرد؛ شورشیان حوثی به دو نفتکش سعودی در دریای سرخ حمله کردند؛ قیمت نفت به بیش از ۱۰۱ دلار در هر بشکه افزایش یافت.",
+        "highlight": false
       }
     ]
   },
@@ -3524,6 +3541,36 @@
         "location_fa": "کویت",
         "cause": "Missile attack",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 71,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-07-24",
+        "date_fa": "۲۴ ژوئیه ۲۰۲۶",
+        "location": "Kuwait",
+        "location_fa": "کویت",
+        "cause": "Missile strike",
+        "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 72,
+        "name": "Jane Smith",
+        "rank": "Corporal",
+        "rank_fa": "سرجوخه",
+        "age": 24,
+        "hometown": "Austin, TX",
+        "unit": "2nd Marine Division",
+        "date": "2026-07-24",
+        "date_fa": "۲۴ ژوئیه ۲۰۲۶",
+        "location": "Jordan",
+        "location_fa": "اردن",
+        "cause": "Drone attack",
+        "cause_fa": "حمله پهپادی"
       }
     ],
     "aircraft_losses": [
@@ -3728,8 +3775,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 5,
         "color": "amber",
-        "description": "Ceasefire and de-escalation",
-        "description_fa": "آتش‌بس و کاهش تنش",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل و فصل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3738,7 +3785,7 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات دیپلماتیک",
+          "مذاکرات میانجی‌گری",
           "فشار بین‌المللی"
         ]
       },
@@ -3748,8 +3795,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 70,
         "color": "red",
-        "description": "Continued low-intensity conflict",
-        "description_fa": "ادامه درگیری با شدت کم",
+        "description": "Continued military escalation",
+        "description_fa": "تشدید نظامی ادامه‌دار",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3758,8 +3805,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل",
-          "حمایت‌های منطقه‌ای"
+          "حملات هوایی مداوم",
+          "حملات تلافی‌جویانه"
         ]
       },
       {
@@ -3768,8 +3815,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 25,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
+        "description": "Regional conflict expansion",
+        "description_fa": "گسترش درگیری منطقه‌ای",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3778,8 +3825,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "افزایش حملات",
-          "ورود بازیگران جدید"
+          "حملات حوثی‌ها",
+          "حملات به نفتکش‌ها"
         ]
       }
     ],
@@ -4175,7 +4222,8 @@
         "15 Jul",
         "17 Jul",
         "18 Jul",
-        "24 Jul"
+        "24 Jul",
+        "25 Jul"
       ],
       "us_israel_waves": [
         55,
@@ -4277,6 +4325,7 @@
         3,
         3,
         7,
+        13,
         13
       ],
       "iran_bms": [
@@ -4379,7 +4428,8 @@
         50,
         0,
         15,
-        null
+        null,
+        15
       ],
       "iran_drones": [
         500,
@@ -4480,7 +4530,8 @@
         20,
         0,
         10,
-        null
+        null,
+        10
       ]
     },
     "phase3_cumulative_casualties": {
@@ -4608,7 +4659,8 @@
         "15 Jul",
         "17 Jul",
         "18 Jul",
-        "24 Jul"
+        "24 Jul",
+        "25 Jul"
       ],
       "hengaw_total": [
         1000,
@@ -4708,7 +4760,8 @@
         4900,
         4600,
         4600,
-        null
+        null,
+        4655
       ],
       "hrana_civilian": [
         133,
@@ -4806,7 +4859,8 @@
         7000,
         7000,
         0,
-        null
+        null,
+        7000
       ]
     },
     "bm_degradation": {
@@ -4934,7 +4988,8 @@
         "15 Jul",
         "17 Jul",
         "18 Jul",
-        "24 Jul"
+        "24 Jul",
+        "25 Jul"
       ],
       "daily_bm": [
         200,
@@ -5036,7 +5091,8 @@
         50,
         0,
         15,
-        null
+        null,
+        15
       ],
       "trendline": [
         200,
@@ -5184,7 +5240,8 @@
         "15 Jul",
         "17 Jul",
         "18 Jul",
-        "24 Jul"
+        "24 Jul",
+        "25 Jul"
       ],
       "data": [
         1.5,
@@ -5282,7 +5339,8 @@
         1.5,
         0,
         0,
-        null
+        null,
+        1500000000
       ]
     },
     "cost_distribution": {
@@ -5447,7 +5505,8 @@
         75.5,
         150.0,
         76.0,
-        100.0
+        100.0,
+        101.0
       ]
     },
     "hormuz_transit": {
@@ -5573,7 +5632,8 @@
         85,
         50,
         85,
-        null
+        null,
+        85
       ]
     },
     "scenario_probabilities": {
