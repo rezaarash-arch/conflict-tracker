@@ -2319,5 +2319,29 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-07-27",
+    "timestamp": "2026-07-27T03:20:26.257133-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include a pause in hostilities between the U.S. and Iran, ongoing diplomatic efforts, and revisions to U.S. casualty figures.",
+    "changes": [
+      "meta.last_updated: 2026-07-26 -> 2026-07-27",
+      "meta.update_time: 00:00 EST -> 08:20 EST",
+      "meta.day_number: 125 -> 126",
+      "NEW DAY 126: Both the U.S. and Iran have paused military attacks for the second consecutive d...",
+      "costs.kpis.oil_brent: $100.00 -> $95.00",
+      "scenario A prob: 5% -> 10%",
+      "scenario B prob: 70% -> 60%",
+      "scenario C prob: 25% -> 30%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
