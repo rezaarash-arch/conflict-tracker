@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-27",
-    "update_time": "08:20 EST",
-    "day_number": 126,
+    "last_updated": "2026-07-28",
+    "update_time": "07:30 EST",
+    "day_number": 127,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~37,000+",
+    "us_israel_strikes": "~37,500+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2487,6 +2487,23 @@
         "events": "Both the U.S. and Iran have paused military attacks for the second consecutive day. Diplomatic efforts, led by mediators including Oman, are ongoing to salvage an interim ceasefire deal signed in mid-June. ([apnews.com](https://apnews.com/article/ad9fa27d5b1b5fd51e30d923ee738238?utm_source=openai))",
         "events_fa": "ایالات متحده و ایران برای دومین روز متوالی حملات نظامی را متوقف کرده‌اند. تلاش‌های دیپلماتیک به رهبری میانجی‌هایی از جمله عمان برای نجات توافق آتش‌بس موقت امضا شده در اواسط ژوئن ادامه دارد.",
         "highlight": false
+      },
+      {
+        "day": 127,
+        "date": "28 Jul",
+        "date_fa": "۲۸ ژوئیه",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "Diplomatic efforts continue as mediators work to reopen the Strait of Hormuz. Israeli Prime Minister Netanyahu meets with U.S. President Trump to discuss the conflict and potential diplomatic solutions.",
+        "events_fa": "تلاش‌های دیپلماتیک ادامه دارد و میانجی‌ها برای بازگشایی تنگه هرمز کار می‌کنند. نخست‌وزیر اسرائیل، نتانیاهو، با رئیس‌جمهور آمریکا، ترامپ، دیدار می‌کند تا درباره درگیری و راه‌حل‌های دیپلماتیک احتمالی بحث کنند.",
+        "highlight": false
       }
     ]
   },
@@ -3588,6 +3605,21 @@
         "location_fa": "اردن",
         "cause": "Drone attack",
         "cause_fa": "حمله پهپادی"
+      },
+      {
+        "num": 73,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-07-27",
+        "date_fa": "۲۷ ژوئیه ۲۰۲۶",
+        "location": "Near Tehran, Iran",
+        "location_fa": "نزدیک تهران، ایران",
+        "cause": "IED explosion",
+        "cause_fa": "انفجار بمب دست‌ساز"
       }
     ],
     "aircraft_losses": [
@@ -3790,10 +3822,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire holds, leading to de-escalation.",
-        "description_fa": "آتش‌بس برقرار می‌ماند و به کاهش تنش‌ها منجر می‌شود.",
+        "description": "Full-scale military escalation resumes.",
+        "description_fa": "از سرگیری تشدید نظامی تمام‌عیار.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3802,18 +3834,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک موفق",
-          "خستگی جنگی"
+          "شکست مذاکرات دیپلماتیک",
+          "حملات جدید از سوی هر یک از طرفین"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 50,
         "color": "red",
-        "description": "Intermittent clashes continue without full-scale war.",
-        "description_fa": "درگیری‌های پراکنده ادامه می‌یابد بدون جنگ تمام‌عیار.",
+        "description": "Prolonged ceasefire with ongoing diplomatic negotiations.",
+        "description_fa": "آتش‌بس طولانی‌مدت با مذاکرات دیپلماتیک در حال انجام.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3822,18 +3854,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم اعتماد متقابل",
-          "فشارهای داخلی"
+          "پیشرفت در مذاکرات میانجی‌گری",
+          "فشار بین‌المللی برای حل مسالمت‌آمیز"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 30,
+        "probability": 35,
         "color": "green",
-        "description": "Full-scale war resumes.",
-        "description_fa": "جنگ تمام‌عیار از سر گرفته می‌شود.",
+        "description": "Partial de-escalation with intermittent skirmishes.",
+        "description_fa": "کاهش تنش جزئی با درگیری‌های پراکنده.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3842,8 +3874,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات تحریک‌آمیز"
+          "عدم اعتماد بین طرفین",
+          "حملات پراکنده از سوی گروه‌های وابسته"
         ]
       }
     ],
@@ -4241,7 +4273,8 @@
         "18 Jul",
         "24 Jul",
         "25 Jul",
-        "27 Jul"
+        "27 Jul",
+        "28 Jul"
       ],
       "us_israel_waves": [
         55,
@@ -4345,6 +4378,7 @@
         7,
         13,
         13,
+        0,
         0
       ],
       "iran_bms": [
@@ -4449,6 +4483,7 @@
         15,
         null,
         15,
+        0,
         0
       ],
       "iran_drones": [
@@ -4552,6 +4587,7 @@
         10,
         null,
         10,
+        0,
         0
       ]
     },
@@ -4682,7 +4718,8 @@
         "18 Jul",
         "24 Jul",
         "25 Jul",
-        "27 Jul"
+        "27 Jul",
+        "28 Jul"
       ],
       "hengaw_total": [
         1000,
@@ -4784,6 +4821,7 @@
         4600,
         null,
         4655,
+        4600,
         4600
       ],
       "hrana_civilian": [
@@ -4884,6 +4922,7 @@
         0,
         null,
         7000,
+        0,
         0
       ]
     },
@@ -5014,7 +5053,8 @@
         "18 Jul",
         "24 Jul",
         "25 Jul",
-        "27 Jul"
+        "27 Jul",
+        "28 Jul"
       ],
       "daily_bm": [
         200,
@@ -5118,6 +5158,7 @@
         15,
         null,
         15,
+        0,
         0
       ],
       "trendline": [
@@ -5268,7 +5309,8 @@
         "18 Jul",
         "24 Jul",
         "25 Jul",
-        "27 Jul"
+        "27 Jul",
+        "28 Jul"
       ],
       "data": [
         1.5,
@@ -5368,6 +5410,7 @@
         0,
         null,
         1500000000,
+        0,
         0
       ]
     },
@@ -5535,7 +5578,8 @@
         76.0,
         100.0,
         101.0,
-        95.0
+        95.0,
+        94.5
       ]
     },
     "hormuz_transit": {
@@ -5663,7 +5707,8 @@
         85,
         null,
         85,
-        85
+        85,
+        30
       ]
     },
     "scenario_probabilities": {
@@ -5678,9 +5723,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        60,
-        30
+        15,
+        50,
+        35
       ],
       "colors": [
         "rgba(245,158,11,.7)",
