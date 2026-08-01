@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-31",
-    "update_time": "00:00 EST",
-    "day_number": 128,
+    "last_updated": "2026-08-01",
+    "update_time": "07:22 EST",
+    "day_number": 129,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2521,6 +2521,23 @@
         "events": "U.S. resumed airstrikes on IRGC facilities; Jordan intercepted five Iranian missiles targeting U.S. bases; Saudi Arabia joined U.S. in striking Iran-backed militias in Iraq.",
         "events_fa": "ایالات متحده حملات هوایی به تأسیسات سپاه پاسداران را از سر گرفت؛ اردن پنج موشک ایرانی را که به پایگاه‌های آمریکایی هدف گرفته بودند، رهگیری کرد؛ عربستان سعودی به همراه ایالات متحده به شبه‌نظامیان مورد حمایت ایران در عراق حمله کرد.",
         "highlight": true
+      },
+      {
+        "day": 129,
+        "date": "1 Aug",
+        "date_fa": "۱ اوت",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "President Trump announced a proposed agreement linking Hamas disarmament to Israeli withdrawal from Gaza.",
+        "events_fa": "رئیس‌جمهور ترامپ توافق پیشنهادی را اعلام کرد که خلع سلاح حماس را به عقب‌نشینی اسرائیل از غزه مرتبط می‌کند.",
+        "highlight": true
       }
     ]
   },
@@ -3652,6 +3669,36 @@
         "location_fa": "پایگاه هوایی موفق ساطی، اردن",
         "cause": "Missile attack",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 75,
+        "name": "Sgt. Angel S. Rampersad",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 27,
+        "hometown": "Ozone Park, NY",
+        "unit": "1st Battalion, 75th Ranger Regiment",
+        "date": "2026-07-22",
+        "date_fa": "۲۲ ژوئیه ۲۰۲۶",
+        "location": "Jordan",
+        "location_fa": "اردن",
+        "cause": "Killed in action",
+        "cause_fa": "کشته شده در عملیات"
+      },
+      {
+        "num": 76,
+        "name": "1st Lt. Tyler James Feehan",
+        "rank": "First Lieutenant",
+        "rank_fa": "ستوان یکم",
+        "age": 24,
+        "hometown": "San Diego, CA",
+        "unit": "2nd Battalion, 7th Cavalry Regiment",
+        "date": "2026-07-22",
+        "date_fa": "۲۲ ژوئیه ۲۰۲۶",
+        "location": "Iraq",
+        "location_fa": "عراق",
+        "cause": "Killed in action",
+        "cause_fa": "کشته شده در عملیات"
       }
     ],
     "aircraft_losses": [
@@ -3856,8 +3903,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 10,
         "color": "amber",
-        "description": "Ceasefire achieved through diplomatic negotiations.",
-        "description_fa": "آتش‌بس از طریق مذاکرات دیپلماتیک حاصل شد.",
+        "description": "Ceasefire holds, leading to de-escalation.",
+        "description_fa": "آتش‌بس برقرار می‌ماند و به کاهش تنش‌ها منجر می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3866,8 +3913,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تشدید درگیری‌ها",
-          "شکست مذاکرات"
+          "توافقات دیپلماتیک",
+          "فشار بین‌المللی"
         ]
       },
       {
@@ -3876,8 +3923,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 55,
         "color": "red",
-        "description": "Continued military engagements with intermittent diplomatic efforts.",
-        "description_fa": "ادامه درگیری‌های نظامی با تلاش‌های دیپلماتیک متناوب.",
+        "description": "Continued low-intensity conflict with periodic escalations.",
+        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای دوره‌ای.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3886,8 +3933,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات هوایی جدید",
-          "مشارکت عربستان سعودی"
+          "حملات پراکنده",
+          "عدم توافق کامل"
         ]
       },
       {
@@ -3896,8 +3943,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 35,
         "color": "green",
-        "description": "Full-scale regional conflict involving multiple state and non-state actors.",
-        "description_fa": "درگیری منطقه‌ای تمام‌عیار با مشارکت چندین بازیگر دولتی و غیردولتی.",
+        "description": "Full-scale conflict resumes.",
+        "description_fa": "از سرگیری درگیری تمام‌عیار.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -3906,8 +3953,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "گسترش درگیری‌ها",
-          "مداخله بازیگران منطقه‌ای"
+          "شکست مذاکرات",
+          "حملات گسترده"
         ]
       }
     ],
@@ -4307,7 +4354,8 @@
         "25 Jul",
         "27 Jul",
         "28 Jul",
-        "30 Jul"
+        "30 Jul",
+        "1 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -4756,7 +4804,8 @@
         "25 Jul",
         "27 Jul",
         "28 Jul",
-        "30 Jul"
+        "30 Jul",
+        "1 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5094,7 +5143,8 @@
         "25 Jul",
         "27 Jul",
         "28 Jul",
-        "30 Jul"
+        "30 Jul",
+        "1 Aug"
       ],
       "daily_bm": [
         200,
@@ -5352,7 +5402,8 @@
         "25 Jul",
         "27 Jul",
         "28 Jul",
-        "30 Jul"
+        "30 Jul",
+        "1 Aug"
       ],
       "data": [
         1.5,

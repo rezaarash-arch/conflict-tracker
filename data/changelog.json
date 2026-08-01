@@ -2391,5 +2391,19 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-08-01",
+    "timestamp": "2026-08-01T02:22:18.996962-05:00",
+    "status": "UPDATED",
+    "summary": "Pentagon reclassified recent U.S. casualties under 'Overseas Operations,' reducing the official Iran war death toll from 18 to 14. President Trump announced a proposed agreement linking Hamas disarmament to Israeli withdrawal from Gaza.",
+    "changes": [
+      "meta.last_updated: 2026-07-31 -> 2026-08-01",
+      "meta.update_time: 00:00 EST -> 07:22 EST",
+      "meta.day_number: 128 -> 129",
+      "NEW DAY 129: President Trump announced a proposed agreement linking Hamas disarmament to Isra...",
+      "NEW US CASUALTY: Sgt. Angel S. Rampersad",
+      "NEW US CASUALTY: 1st Lt. Tyler James Feehan"
+    ]
   }
 ]
