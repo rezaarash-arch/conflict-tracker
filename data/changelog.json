@@ -2405,5 +2405,29 @@
       "NEW US CASUALTY: Sgt. Angel S. Rampersad",
       "NEW US CASUALTY: 1st Lt. Tyler James Feehan"
     ]
+  },
+  {
+    "date": "2026-08-02",
+    "timestamp": "2026-08-02T02:26:14.745178-05:00",
+    "status": "UPDATED",
+    "summary": "President Trump announced the cancellation of planned U.S. military strikes on Iran, citing progress in diplomatic negotiations and the outlines of a potential deal to end the conflict.",
+    "changes": [
+      "meta.last_updated: 2026-08-01 -> 2026-08-02",
+      "meta.update_time: 07:22 EST -> 07:26 EST",
+      "meta.day_number: 129 -> 130",
+      "NEW DAY 130: President Trump announced the cancellation of planned U.S. military strikes on I...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 55% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe",
+      "NEW US CASUALTY: Jane Smith"
+    ]
   }
 ]
