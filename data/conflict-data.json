@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-02",
-    "update_time": "07:26 EST",
-    "day_number": 130,
+    "last_updated": "2026-08-03",
+    "update_time": "08:18 EST",
+    "day_number": 131,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2555,6 +2555,23 @@
         "events": "President Trump announced the cancellation of planned U.S. military strikes on Iran, citing progress in diplomatic negotiations and the outlines of a potential deal to end the conflict.",
         "events_fa": "رئیس‌جمهور ترامپ اعلام کرد که حملات نظامی برنامه‌ریزی‌شده ایالات متحده به ایران را لغو کرده است، با اشاره به پیشرفت در مذاکرات دیپلماتیک و طرح‌های یک توافق احتمالی برای پایان دادن به درگیری.",
         "highlight": true
+      },
+      {
+        "day": 131,
+        "date": "3 Aug",
+        "date_fa": "۳ اوت",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "President Trump announced the cancellation of planned U.S. military strikes on Iran, citing progress in diplomatic negotiations and the outlines of a potential deal to end the conflict.",
+        "events_fa": "رئیس‌جمهور ترامپ اعلام کرد که حملات نظامی برنامه‌ریزی‌شده ایالات متحده به ایران را لغو کرده است، با اشاره به پیشرفت در مذاکرات دیپلماتیک و چارچوب یک توافق احتمالی برای پایان دادن به درگیری.",
+        "highlight": true
       }
     ]
   },
@@ -3948,10 +3965,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Full diplomatic resolution leading to a ceasefire and reopening of the Strait of Hormuz.",
-        "description_fa": "حل دیپلماتیک کامل منجر به آتش‌بس و بازگشایی تنگه هرمز.",
+        "description": "Full-scale military escalation",
+        "description_fa": "تشدید نظامی تمام‌عیار",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3960,18 +3977,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات دیپلماتیک",
-          "تعهدات متحدان منطقه‌ای"
+          "افزایش تنش‌ها",
+          "شکست مذاکرات"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 60,
         "color": "red",
-        "description": "Prolonged negotiations with intermittent hostilities and partial reopening of the Strait of Hormuz.",
-        "description_fa": "مذاکرات طولانی با درگیری‌های متناوب و بازگشایی جزئی تنگه هرمز.",
+        "description": "Prolonged low-intensity conflict",
+        "description_fa": "درگیری طولانی‌مدت با شدت کم",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3980,18 +3997,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "اختلافات داخلی در ایران",
-          "فشارهای بین‌المللی"
+          "ادامه حملات پراکنده",
+          "عدم توافق کامل"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 35,
+        "probability": 30,
         "color": "green",
-        "description": "Resumption of full-scale hostilities leading to regional escalation.",
-        "description_fa": "از سرگیری درگیری‌های تمام‌عیار منجر به تشدید منطقه‌ای.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4000,8 +4017,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات تلافی‌جویانه"
+          "پیشرفت در مذاکرات",
+          "فشار بین‌المللی"
         ]
       }
     ],
@@ -4403,7 +4420,8 @@
         "28 Jul",
         "30 Jul",
         "1 Aug",
-        "2 Aug"
+        "2 Aug",
+        "3 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -4510,6 +4528,7 @@
         0,
         0,
         1,
+        0,
         0
       ],
       "iran_bms": [
@@ -4617,6 +4636,7 @@
         0,
         0,
         5,
+        0,
         0
       ],
       "iran_drones": [
@@ -4720,6 +4740,7 @@
         10,
         null,
         10,
+        0,
         0,
         0,
         0,
@@ -4857,7 +4878,8 @@
         "28 Jul",
         "30 Jul",
         "1 Aug",
-        "2 Aug"
+        "2 Aug",
+        "3 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5199,7 +5221,8 @@
         "28 Jul",
         "30 Jul",
         "1 Aug",
-        "2 Aug"
+        "2 Aug",
+        "3 Aug"
       ],
       "daily_bm": [
         200,
@@ -5306,6 +5329,7 @@
         0,
         0,
         5,
+        0,
         0
       ],
       "trendline": [
@@ -5460,7 +5484,8 @@
         "28 Jul",
         "30 Jul",
         "1 Aug",
-        "2 Aug"
+        "2 Aug",
+        "3 Aug"
       ],
       "data": [
         1.5,
@@ -5733,7 +5758,8 @@
         95.0,
         94.5,
         97.0,
-        95.5
+        95.5,
+        83.87
       ]
     },
     "hormuz_transit": {
@@ -5879,9 +5905,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        50,
-        35
+        10,
+        60,
+        30
       ],
       "colors": [
         "rgba(245,158,11,.7)",
