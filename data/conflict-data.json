@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-04",
-    "update_time": "00:00 EST",
-    "day_number": 131,
+    "last_updated": "2026-08-05",
+    "update_time": "07:30 EST",
+    "day_number": 132,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2572,6 +2572,23 @@
         "events": "President Trump announced the cancellation of planned U.S. military strikes on Iran, citing progress in diplomatic negotiations and the outlines of a potential deal to end the conflict.",
         "events_fa": "رئیس‌جمهور ترامپ اعلام کرد که حملات نظامی برنامه‌ریزی‌شده ایالات متحده به ایران را لغو کرده است، با اشاره به پیشرفت در مذاکرات دیپلماتیک و چارچوب یک توافق احتمالی برای پایان دادن به درگیری.",
         "highlight": true
+      },
+      {
+        "day": 132,
+        "date": "5 Aug",
+        "date_fa": "۵ اوت",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "U.S., Iran, and Oman nearing interim agreement to reopen the Strait of Hormuz; potential announcement expected soon.",
+        "events_fa": "ایالات متحده، ایران و عمان به توافق موقت برای بازگشایی تنگه هرمز نزدیک می‌شوند؛ اعلام احتمالی به زودی انتظار می‌رود.",
+        "highlight": true
       }
     ]
   },
@@ -3763,6 +3780,21 @@
         "location_fa": "عراق",
         "cause": "Drone attack",
         "cause_fa": "حمله پهپادی"
+      },
+      {
+        "num": 79,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-08-04",
+        "date_fa": "۱۴ مرداد ۱۴۰۵",
+        "location": "Near Tehran, Iran",
+        "location_fa": "نزدیک تهران، ایران",
+        "cause": "Hostile fire",
+        "cause_fa": "آتش دشمن"
       }
     ],
     "aircraft_losses": [
@@ -3965,10 +3997,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Full-scale military escalation",
-        "description_fa": "تشدید نظامی تمام‌عیار",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -3977,18 +4009,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش تنش‌ها",
-          "شکست مذاکرات"
+          "پیشرفت در مذاکرات تنگه هرمز",
+          "کاهش تنش‌های نظامی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 55,
         "color": "red",
         "description": "Prolonged low-intensity conflict",
-        "description_fa": "درگیری طولانی‌مدت با شدت کم",
+        "description_fa": "درگیری کم‌شدت طولانی‌مدت",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -3997,8 +4029,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات پراکنده",
-          "عدم توافق کامل"
+          "عدم توافق نهایی",
+          "ادامه حملات پراکنده"
         ]
       },
       {
@@ -4007,8 +4039,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Escalation to full-scale war",
+        "description_fa": "تشدید به جنگ تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4017,8 +4049,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات",
-          "فشار بین‌المللی"
+          "شکست مذاکرات",
+          "حملات گسترده نظامی"
         ]
       }
     ],
@@ -4421,7 +4453,8 @@
         "30 Jul",
         "1 Aug",
         "2 Aug",
-        "3 Aug"
+        "3 Aug",
+        "5 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -4529,7 +4562,8 @@
         0,
         1,
         0,
-        0
+        0,
+        null
       ],
       "iran_bms": [
         200,
@@ -4637,7 +4671,8 @@
         0,
         5,
         0,
-        0
+        0,
+        null
       ],
       "iran_drones": [
         500,
@@ -4744,7 +4779,8 @@
         0,
         0,
         0,
-        0
+        0,
+        null
       ]
     },
     "phase3_cumulative_casualties": {
@@ -4879,7 +4915,8 @@
         "30 Jul",
         "1 Aug",
         "2 Aug",
-        "3 Aug"
+        "3 Aug",
+        "5 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -4984,7 +5021,8 @@
         4600,
         4600,
         4700,
-        0
+        0,
+        null
       ],
       "hrana_civilian": [
         133,
@@ -5087,7 +5125,8 @@
         0,
         0,
         0,
-        0
+        0,
+        null
       ]
     },
     "bm_degradation": {
@@ -5222,7 +5261,8 @@
         "30 Jul",
         "1 Aug",
         "2 Aug",
-        "3 Aug"
+        "3 Aug",
+        "5 Aug"
       ],
       "daily_bm": [
         200,
@@ -5330,7 +5370,8 @@
         0,
         5,
         0,
-        0
+        0,
+        null
       ],
       "trendline": [
         200,
@@ -5485,7 +5526,8 @@
         "30 Jul",
         "1 Aug",
         "2 Aug",
-        "3 Aug"
+        "3 Aug",
+        "5 Aug"
       ],
       "data": [
         1.5,
@@ -5588,7 +5630,8 @@
         0,
         0,
         0,
-        0
+        0,
+        null
       ]
     },
     "cost_distribution": {
@@ -5759,6 +5802,7 @@
         94.5,
         97.0,
         95.5,
+        83.87,
         83.87
       ]
     },
@@ -5890,7 +5934,8 @@
         85,
         30,
         85,
-        0
+        0,
+        null
       ]
     },
     "scenario_probabilities": {
@@ -5905,8 +5950,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        60,
+        15,
+        55,
         30
       ],
       "colors": [
