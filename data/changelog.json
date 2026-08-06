@@ -2471,5 +2471,24 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-08-06",
+    "timestamp": "2026-08-06T02:31:10.522618-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the deaths of two Israeli soldiers in Lebanon, progress toward reopening the Strait of Hormuz, and the Pentagon's request for additional war funding.",
+    "changes": [
+      "meta.last_updated: 2026-08-05 -> 2026-08-06",
+      "meta.update_time: 07:30 EST -> 07:31 EST",
+      "meta.day_number: 132 -> 133",
+      "NEW DAY 133: Two Israeli soldiers killed in Lebanon; U.S., Iran, and Oman nearing interim agr...",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 55% -> 50%",
+      "scenario C prob: 30% -> 40%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

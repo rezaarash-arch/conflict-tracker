@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-05",
-    "update_time": "07:30 EST",
-    "day_number": 132,
+    "last_updated": "2026-08-06",
+    "update_time": "07:31 EST",
+    "day_number": 133,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2589,6 +2589,23 @@
         "events": "U.S., Iran, and Oman nearing interim agreement to reopen the Strait of Hormuz; potential announcement expected soon.",
         "events_fa": "ایالات متحده، ایران و عمان به توافق موقت برای بازگشایی تنگه هرمز نزدیک می‌شوند؛ اعلام احتمالی به زودی انتظار می‌رود.",
         "highlight": true
+      },
+      {
+        "day": 133,
+        "date": "6 Aug",
+        "date_fa": "۶ اوت",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "2",
+        "us_dead": "0",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Two Israeli soldiers killed in Lebanon; U.S., Iran, and Oman nearing interim agreement to reopen the Strait of Hormuz; Pentagon seeks additional funding for war efforts.",
+        "events_fa": "دو سرباز اسرائیلی در لبنان کشته شدند؛ ایالات متحده، ایران و عمان به توافق موقت برای بازگشایی تنگه هرمز نزدیک می‌شوند؛ پنتاگون به دنبال تأمین مالی اضافی برای تلاش‌های جنگی است.",
+        "highlight": true
       }
     ]
   },
@@ -3795,6 +3812,21 @@
         "location_fa": "نزدیک تهران، ایران",
         "cause": "Hostile fire",
         "cause_fa": "آتش دشمن"
+      },
+      {
+        "num": 80,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-08-05",
+        "date_fa": "۱۴ مرداد ۱۴۰۵",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "Combat-related incident",
+        "cause_fa": "حادثه مرتبط با جنگ"
       }
     ],
     "aircraft_losses": [
@@ -3997,10 +4029,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Full-scale war escalation",
+        "description_fa": "تشدید جنگ تمام‌عیار",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4009,18 +4041,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات تنگه هرمز",
-          "کاهش تنش‌های نظامی"
+          "افزایش تنش‌های نظامی",
+          "شکست مذاکرات صلح"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 50,
         "color": "red",
-        "description": "Prolonged low-intensity conflict",
-        "description_fa": "درگیری کم‌شدت طولانی‌مدت",
+        "description": "Prolonged conflict with intermittent ceasefires",
+        "description_fa": "درگیری طولانی‌مدت با آتش‌بس‌های متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4029,18 +4061,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم توافق نهایی",
-          "ادامه حملات پراکنده"
+          "ادامه درگیری‌های پراکنده",
+          "تلاش‌های دیپلماتیک ناموفق"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 30,
+        "probability": 40,
         "color": "green",
-        "description": "Escalation to full-scale war",
-        "description_fa": "تشدید به جنگ تمام‌عیار",
+        "description": "Negotiated settlement leading to de-escalation",
+        "description_fa": "توافق مذاکره‌ای منجر به کاهش تنش",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4049,8 +4081,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات گسترده نظامی"
+          "پیشرفت در مذاکرات",
+          "فشار بین‌المللی برای صلح"
         ]
       }
     ],
@@ -4454,7 +4486,8 @@
         "1 Aug",
         "2 Aug",
         "3 Aug",
-        "5 Aug"
+        "5 Aug",
+        "6 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -4916,7 +4949,8 @@
         "1 Aug",
         "2 Aug",
         "3 Aug",
-        "5 Aug"
+        "5 Aug",
+        "6 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5262,7 +5296,8 @@
         "1 Aug",
         "2 Aug",
         "3 Aug",
-        "5 Aug"
+        "5 Aug",
+        "6 Aug"
       ],
       "daily_bm": [
         200,
@@ -5527,7 +5562,8 @@
         "1 Aug",
         "2 Aug",
         "3 Aug",
-        "5 Aug"
+        "5 Aug",
+        "6 Aug"
       ],
       "data": [
         1.5,
@@ -5631,7 +5667,8 @@
         0,
         0,
         0,
-        null
+        null,
+        67
       ]
     },
     "cost_distribution": {
@@ -5803,7 +5840,8 @@
         97.0,
         95.5,
         83.87,
-        83.87
+        83.87,
+        95.5
       ]
     },
     "hormuz_transit": {
@@ -5935,7 +5973,8 @@
         30,
         85,
         0,
-        null
+        null,
+        60
       ]
     },
     "scenario_probabilities": {
@@ -5950,9 +5989,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        55,
-        30
+        10,
+        50,
+        40
       ],
       "colors": [
         "rgba(245,158,11,.7)",
