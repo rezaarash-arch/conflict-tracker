@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-06",
-    "update_time": "07:31 EST",
-    "day_number": 133,
+    "last_updated": "2026-08-07",
+    "update_time": "06:03 EST",
+    "day_number": 134,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~37,500+",
+    "us_israel_strikes": "~38,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2606,6 +2606,23 @@
         "events": "Two Israeli soldiers killed in Lebanon; U.S., Iran, and Oman nearing interim agreement to reopen the Strait of Hormuz; Pentagon seeks additional funding for war efforts.",
         "events_fa": "دو سرباز اسرائیلی در لبنان کشته شدند؛ ایالات متحده، ایران و عمان به توافق موقت برای بازگشایی تنگه هرمز نزدیک می‌شوند؛ پنتاگون به دنبال تأمین مالی اضافی برای تلاش‌های جنگی است.",
         "highlight": true
+      },
+      {
+        "day": 134,
+        "date": "7 Aug",
+        "date_fa": "۷ اوت",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Iran and Oman are nearing an agreement to reopen the Strait of Hormuz, potentially involving shared control and service fees. President Trump faces pressure to compromise in negotiations with Iran over the strait, amid economic strain and military resource concerns. Saudi Crown Prince Mohammed bin Salman has expressed concerns over potential large-scale U.S. strikes on Iranian energy targets.",
+        "events_fa": "ایران و عمان در آستانه توافقی برای بازگشایی تنگه هرمز هستند که ممکن است شامل کنترل مشترک و هزینه‌های خدماتی باشد. رئیس‌جمهور ترامپ با فشار برای مصالحه در مذاکرات با ایران بر سر تنگه مواجه است، در میان فشارهای اقتصادی و نگرانی‌های منابع نظامی. ولیعهد سعودی محمد بن سلمان نگرانی‌هایی درباره حملات گسترده احتمالی ایالات متحده به اهداف انرژی ایران ابراز کرده است.",
+        "highlight": false
       }
     ]
   },
@@ -3827,6 +3844,21 @@
         "location_fa": "تهران، ایران",
         "cause": "Combat-related incident",
         "cause_fa": "حادثه مرتبط با جنگ"
+      },
+      {
+        "num": 81,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-08-06",
+        "date_fa": "۶ اوت ۲۰۲۶",
+        "location": "Baghdad, Iraq",
+        "location_fa": "بغداد، عراق",
+        "cause": "IED explosion",
+        "cause_fa": "انفجار بمب کنار جاده‌ای"
       }
     ],
     "aircraft_losses": [
@@ -4029,10 +4061,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Full-scale war escalation",
-        "description_fa": "تشدید جنگ تمام‌عیار",
+        "description": "A comprehensive peace agreement is reached, leading to a cessation of hostilities.",
+        "description_fa": "توافق صلح جامع حاصل می‌شود که منجر به توقف خصومت‌ها می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4041,18 +4073,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش تنش‌های نظامی",
-          "شکست مذاکرات صلح"
+          "پیشرفت در مذاکرات تنگه هرمز",
+          "فشارهای اقتصادی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Prolonged conflict with intermittent ceasefires",
-        "description_fa": "درگیری طولانی‌مدت با آتش‌بس‌های متناوب",
+        "description": "Prolonged conflict with intermittent negotiations and skirmishes.",
+        "description_fa": "درگیری طولانی‌مدت با مذاکرات و درگیری‌های پراکنده.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4061,8 +4093,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه درگیری‌های پراکنده",
-          "تلاش‌های دیپلماتیک ناموفق"
+          "ادامه حملات نظامی",
+          "عدم توافق در مذاکرات"
         ]
       },
       {
@@ -4071,8 +4103,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Negotiated settlement leading to de-escalation",
-        "description_fa": "توافق مذاکره‌ای منجر به کاهش تنش",
+        "description": "Escalation into a broader regional war involving multiple state and non-state actors.",
+        "description_fa": "تشدید به یک جنگ منطقه‌ای گسترده‌تر با مشارکت چندین بازیگر دولتی و غیردولتی.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4081,8 +4113,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات",
-          "فشار بین‌المللی برای صلح"
+          "حملات گسترده",
+          "مداخله بازیگران منطقه‌ای"
         ]
       }
     ],
@@ -4487,7 +4519,8 @@
         "2 Aug",
         "3 Aug",
         "5 Aug",
-        "6 Aug"
+        "6 Aug",
+        "7 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -4596,7 +4629,8 @@
         1,
         0,
         0,
-        null
+        null,
+        5
       ],
       "iran_bms": [
         200,
@@ -4705,7 +4739,8 @@
         5,
         0,
         0,
-        null
+        null,
+        100
       ],
       "iran_drones": [
         500,
@@ -4813,7 +4848,8 @@
         0,
         0,
         0,
-        null
+        null,
+        20
       ]
     },
     "phase3_cumulative_casualties": {
@@ -4950,7 +4986,8 @@
         "2 Aug",
         "3 Aug",
         "5 Aug",
-        "6 Aug"
+        "6 Aug",
+        "7 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5056,7 +5093,8 @@
         4600,
         4700,
         0,
-        null
+        null,
+        4800
       ],
       "hrana_civilian": [
         133,
@@ -5160,7 +5198,8 @@
         0,
         0,
         0,
-        null
+        null,
+        4700
       ]
     },
     "bm_degradation": {
@@ -5297,7 +5336,8 @@
         "2 Aug",
         "3 Aug",
         "5 Aug",
-        "6 Aug"
+        "6 Aug",
+        "7 Aug"
       ],
       "daily_bm": [
         200,
@@ -5406,7 +5446,8 @@
         5,
         0,
         0,
-        null
+        null,
+        100
       ],
       "trendline": [
         200,
@@ -5563,7 +5604,8 @@
         "2 Aug",
         "3 Aug",
         "5 Aug",
-        "6 Aug"
+        "6 Aug",
+        "7 Aug"
       ],
       "data": [
         1.5,
@@ -5668,7 +5710,8 @@
         0,
         0,
         null,
-        67
+        67,
+        5000000000
       ]
     },
     "cost_distribution": {
@@ -5841,7 +5884,8 @@
         95.5,
         83.87,
         83.87,
-        95.5
+        95.5,
+        97.0
       ]
     },
     "hormuz_transit": {
@@ -5974,6 +6018,7 @@
         85,
         0,
         null,
+        60,
         60
       ]
     },
@@ -5989,8 +6034,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        50,
+        15,
+        45,
         40
       ],
       "colors": [
