@@ -2514,5 +2514,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-08-08",
+    "timestamp": "2026-08-08T00:33:50.663676-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include Iran's strategic shift towards Iraq and Yemen, and President Trump's cancellation of a planned attack on Iran citing diplomatic progress.",
+    "changes": [
+      "meta.last_updated: 2026-08-07 -> 2026-08-08",
+      "meta.update_time: 06:03 EST -> 05:33 EST",
+      "meta.day_number: 134 -> 135",
+      "NEW DAY 135: Iran launched missile and drone attacks targeting military installations in nort...",
+      "overview.us_israel_strikes: ~38,000+ -> ~38,020+",
+      "costs.kpis.oil_brent: $95.00 -> $96.00",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
