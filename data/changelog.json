@@ -2538,5 +2538,27 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-08-09",
+    "timestamp": "2026-08-09T00:39:33.465807-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's closure of the Strait of Hormuz, a missile attack on a UAE vessel, and progress in Iran-Oman negotiations to reopen the strait.",
+    "changes": [
+      "meta.last_updated: 2026-08-08 -> 2026-08-09",
+      "meta.update_time: 05:33 EST -> 05:39 EST",
+      "meta.day_number: 135 -> 136",
+      "NEW DAY 136: Iran launched missile and drone attacks targeting a UAE vessel and military inst...",
+      "overview.us_israel_strikes: ~38,020+ -> ~38,500+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values"
+    ]
   }
 ]
