@@ -2560,5 +2560,17 @@
       "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "timestamp": "2026-08-10T01:05:21.532760-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. President Trump's decision to de-escalate military actions against Iran, ongoing negotiations to reopen the Strait of Hormuz, and increased regional tensions due to Iranian-backed attacks in Yemen.",
+    "changes": [
+      "meta.last_updated: 2026-08-09 -> 2026-08-10",
+      "meta.update_time: 05:39 EST -> 06:05 EST",
+      "meta.day_number: 136 -> 137",
+      "NEW DAY 137: U.S. President Trump stated a preference for escalating economic pressure over n..."
+    ]
   }
 ]

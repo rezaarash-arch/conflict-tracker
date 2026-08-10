@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-09",
-    "update_time": "05:39 EST",
-    "day_number": 136,
+    "last_updated": "2026-08-10",
+    "update_time": "06:05 EST",
+    "day_number": 137,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2657,6 +2657,23 @@
         "events": "Iran launched missile and drone attacks targeting a UAE vessel and military installations. The UAE accused Iran of launching a missile at an ADNOC vessel, adding to a series of attacks since the U.S. and Israel went to war with Iran.",
         "events_fa": "ایران حملات موشکی و پهپادی به یک کشتی اماراتی و تأسیسات نظامی انجام داد. امارات ایران را به شلیک موشک به یک کشتی ADNOC متهم کرد، که به مجموعه‌ای از حملات از زمان آغاز جنگ آمریکا و اسرائیل با ایران افزوده شد.",
         "highlight": true
+      },
+      {
+        "day": 137,
+        "date": "10 Aug",
+        "date_fa": "۱۰ اوت",
+        "waves": "...",
+        "iran_dead": "...",
+        "isr_dead": "...",
+        "us_dead": "...",
+        "other": "...",
+        "other_fa": "...",
+        "iran_bms": "...",
+        "iran_drones": "...",
+        "targets": "...",
+        "events": "U.S. President Trump stated a preference for escalating economic pressure over new military operations against Iran. Negotiations between Iran and Oman to reopen the Strait of Hormuz are progressing, with a potential interim agreement involving shared control and service fees. Iranian-backed Houthi rebels attacked the Red Sea port city of Mocha and a Saudi Aramco refinery in Jazan, escalating regional tensions.",
+        "events_fa": "رئیس‌جمهور آمریکا، ترامپ، تمایل به افزایش فشار اقتصادی به جای عملیات نظامی جدید علیه ایران را اعلام کرد. مذاکرات بین ایران و عمان برای بازگشایی تنگه هرمز در حال پیشرفت است و احتمال توافق موقت با کنترل مشترک و هزینه‌های خدماتی وجود دارد. شورشیان حوثی مورد حمایت ایران به شهر بندری المخا در دریای سرخ و پالایشگاه آرامکو در جازان حمله کردند و تنش‌های منطقه‌ای را افزایش دادند.",
+        "highlight": false
       }
     ]
   },
@@ -4097,8 +4114,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 15,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "updated EN description if needed",
+        "description_fa": "توضیحات به‌روزرسانی‌شده در صورت نیاز",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4107,8 +4124,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات ایران و عمان برای بازگشایی تنگه هرمز",
-          "کاهش حملات نظامی اخیر"
+          "عامل فارسی ۱",
+          "..."
         ]
       },
       {
@@ -4117,8 +4134,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 45,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
+        "description": "updated EN description if needed",
+        "description_fa": "توضیحات به‌روزرسانی‌شده در صورت نیاز",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4127,8 +4144,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم به کشتی‌ها و تأسیسات نظامی",
-          "ادامه تحریم‌های اقتصادی"
+          "عامل فارسی ۱",
+          "..."
         ]
       },
       {
@@ -4137,8 +4154,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description": "updated EN description if needed",
+        "description_fa": "توضیحات به‌روزرسانی‌شده در صورت نیاز",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4147,8 +4164,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "افزایش حملات به کشورهای همسایه",
-          "عدم پیشرفت در مذاکرات دیپلماتیک"
+          "عامل فارسی ۱",
+          "..."
         ]
       }
     ],
@@ -4556,7 +4573,8 @@
         "6 Aug",
         "7 Aug",
         "8 Aug",
-        "9 Aug"
+        "9 Aug",
+        "10 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -5031,7 +5049,8 @@
         "6 Aug",
         "7 Aug",
         "8 Aug",
-        "9 Aug"
+        "9 Aug",
+        "10 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5387,7 +5406,8 @@
         "6 Aug",
         "7 Aug",
         "8 Aug",
-        "9 Aug"
+        "9 Aug",
+        "10 Aug"
       ],
       "daily_bm": [
         200,
@@ -5659,7 +5679,8 @@
         "6 Aug",
         "7 Aug",
         "8 Aug",
-        "9 Aug"
+        "9 Aug",
+        "10 Aug"
       ],
       "data": [
         1.5,
