@@ -2572,5 +2572,17 @@
       "meta.day_number: 136 -> 137",
       "NEW DAY 137: U.S. President Trump stated a preference for escalating economic pressure over n..."
     ]
+  },
+  {
+    "date": "2026-08-11",
+    "timestamp": "2026-08-11T00:45:49.232202-05:00",
+    "status": "UPDATED",
+    "summary": "Iran's regional strategy shifts focus to Iraq and Yemen; Israel issues eviction order in Lebanon; ongoing conflict in Israel with Iranian missile strikes.",
+    "changes": [
+      "meta.last_updated: 2026-08-10 -> 2026-08-11",
+      "meta.update_time: 06:05 EST -> 00:00 EST",
+      "meta.day_number: 137 -> 138",
+      "NEW DAY 138: Iran's network of allies is reorganizing around Iraq and Yemen after setbacks in..."
+    ]
   }
 ]

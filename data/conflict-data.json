@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-10",
-    "update_time": "06:05 EST",
-    "day_number": 137,
+    "last_updated": "2026-08-11",
+    "update_time": "00:00 EST",
+    "day_number": 138,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2674,6 +2674,23 @@
         "events": "U.S. President Trump stated a preference for escalating economic pressure over new military operations against Iran. Negotiations between Iran and Oman to reopen the Strait of Hormuz are progressing, with a potential interim agreement involving shared control and service fees. Iranian-backed Houthi rebels attacked the Red Sea port city of Mocha and a Saudi Aramco refinery in Jazan, escalating regional tensions.",
         "events_fa": "رئیس‌جمهور آمریکا، ترامپ، تمایل به افزایش فشار اقتصادی به جای عملیات نظامی جدید علیه ایران را اعلام کرد. مذاکرات بین ایران و عمان برای بازگشایی تنگه هرمز در حال پیشرفت است و احتمال توافق موقت با کنترل مشترک و هزینه‌های خدماتی وجود دارد. شورشیان حوثی مورد حمایت ایران به شهر بندری المخا در دریای سرخ و پالایشگاه آرامکو در جازان حمله کردند و تنش‌های منطقه‌ای را افزایش دادند.",
         "highlight": false
+      },
+      {
+        "day": 138,
+        "date": "11 Aug",
+        "date_fa": "۱۱ اوت",
+        "waves": "...",
+        "iran_dead": "...",
+        "isr_dead": "...",
+        "us_dead": "...",
+        "other": "...",
+        "other_fa": "...",
+        "iran_bms": "...",
+        "iran_drones": "...",
+        "targets": "...",
+        "events": "Iran's network of allies is reorganizing around Iraq and Yemen after setbacks in Syria and Lebanon. Israel issued an eviction order in southern Lebanon, marking the first since the U.S.-announced peace agreement in June. Iranian missile strikes continue to impact various locations across Israel.",
+        "events_fa": "شبکه متحدان ایران پس از شکست‌ها در سوریه و لبنان، در حال سازماندهی مجدد در عراق و یمن است. اسرائیل اولین دستور تخلیه در جنوب لبنان را از زمان توافق صلح اعلام‌شده توسط ایالات متحده در ژوئن صادر کرد. حملات موشکی ایران همچنان به مکان‌های مختلف در سراسر اسرائیل ضربه می‌زند.",
+        "highlight": false
       }
     ]
   },
@@ -4115,7 +4132,7 @@
         "probability": 15,
         "color": "amber",
         "description": "updated EN description if needed",
-        "description_fa": "توضیحات به‌روزرسانی‌شده در صورت نیاز",
+        "description_fa": "توضیحات به‌روزشده در صورت نیاز",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4124,8 +4141,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل فارسی ۱",
-          "..."
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -4135,7 +4152,7 @@
         "probability": 45,
         "color": "red",
         "description": "updated EN description if needed",
-        "description_fa": "توضیحات به‌روزرسانی‌شده در صورت نیاز",
+        "description_fa": "توضیحات به‌روزشده در صورت نیاز",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4144,8 +4161,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل فارسی ۱",
-          "..."
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -4155,7 +4172,7 @@
         "probability": 40,
         "color": "green",
         "description": "updated EN description if needed",
-        "description_fa": "توضیحات به‌روزرسانی‌شده در صورت نیاز",
+        "description_fa": "توضیحات به‌روزشده در صورت نیاز",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4164,8 +4181,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل فارسی ۱",
-          "..."
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -4574,7 +4591,8 @@
         "7 Aug",
         "8 Aug",
         "9 Aug",
-        "10 Aug"
+        "10 Aug",
+        "11 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -5050,7 +5068,8 @@
         "7 Aug",
         "8 Aug",
         "9 Aug",
-        "10 Aug"
+        "10 Aug",
+        "11 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5407,7 +5426,8 @@
         "7 Aug",
         "8 Aug",
         "9 Aug",
-        "10 Aug"
+        "10 Aug",
+        "11 Aug"
       ],
       "daily_bm": [
         200,
@@ -5680,7 +5700,8 @@
         "7 Aug",
         "8 Aug",
         "9 Aug",
-        "10 Aug"
+        "10 Aug",
+        "11 Aug"
       ],
       "data": [
         1.5,
