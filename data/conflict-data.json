@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-11",
-    "update_time": "00:00 EST",
-    "day_number": 138,
+    "last_updated": "2026-08-12",
+    "update_time": "06:06 EST",
+    "day_number": 139,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2691,6 +2691,23 @@
         "events": "Iran's network of allies is reorganizing around Iraq and Yemen after setbacks in Syria and Lebanon. Israel issued an eviction order in southern Lebanon, marking the first since the U.S.-announced peace agreement in June. Iranian missile strikes continue to impact various locations across Israel.",
         "events_fa": "شبکه متحدان ایران پس از شکست‌ها در سوریه و لبنان، در حال سازماندهی مجدد در عراق و یمن است. اسرائیل اولین دستور تخلیه در جنوب لبنان را از زمان توافق صلح اعلام‌شده توسط ایالات متحده در ژوئن صادر کرد. حملات موشکی ایران همچنان به مکان‌های مختلف در سراسر اسرائیل ضربه می‌زند.",
         "highlight": false
+      },
+      {
+        "day": 139,
+        "date": "12 Aug",
+        "date_fa": "۱۲ اوت",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "Iran's new Supreme Leader, Mojtaba Khamenei, has restructured the military and security leadership to prepare for prolonged confrontation with the U.S. and Israel. Iran's network of allies is reorganizing around Iraq and Yemen after setbacks in Syria and Lebanon.",
+        "events_fa": "رهبر جدید ایران، مجتبی خامنه‌ای، رهبری نظامی و امنیتی را برای آماده‌سازی در برابر رویارویی طولانی‌مدت با ایالات متحده و اسرائیل بازسازی کرده است. شبکه متحدان ایران پس از شکست‌ها در سوریه و لبنان، در حال سازماندهی مجدد در عراق و یمن است.",
+        "highlight": false
       }
     ]
   },
@@ -4131,8 +4148,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 15,
         "color": "amber",
-        "description": "updated EN description if needed",
-        "description_fa": "توضیحات به‌روزشده در صورت نیاز",
+        "description": "Scenario A description remains unchanged.",
+        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4151,8 +4168,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 45,
         "color": "red",
-        "description": "updated EN description if needed",
-        "description_fa": "توضیحات به‌روزشده در صورت نیاز",
+        "description": "Scenario B description remains unchanged.",
+        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4171,8 +4188,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "updated EN description if needed",
-        "description_fa": "توضیحات به‌روزشده در صورت نیاز",
+        "description": "Scenario C description remains unchanged.",
+        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4592,7 +4609,8 @@
         "8 Aug",
         "9 Aug",
         "10 Aug",
-        "11 Aug"
+        "11 Aug",
+        "12 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -5069,7 +5087,8 @@
         "8 Aug",
         "9 Aug",
         "10 Aug",
-        "11 Aug"
+        "11 Aug",
+        "12 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5427,7 +5446,8 @@
         "8 Aug",
         "9 Aug",
         "10 Aug",
-        "11 Aug"
+        "11 Aug",
+        "12 Aug"
       ],
       "daily_bm": [
         200,
@@ -5701,7 +5721,8 @@
         "8 Aug",
         "9 Aug",
         "10 Aug",
-        "11 Aug"
+        "11 Aug",
+        "12 Aug"
       ],
       "data": [
         1.5,
