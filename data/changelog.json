@@ -2596,5 +2596,22 @@
       "meta.day_number: 138 -> 139",
       "NEW DAY 139: Iran's new Supreme Leader, Mojtaba Khamenei, has restructured the military and s..."
     ]
+  },
+  {
+    "date": "2026-08-13",
+    "timestamp": "2026-08-13T01:08:26.335552-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, military actions, and economic indicators based on recent developments.",
+    "changes": [
+      "meta.last_updated: 2026-08-12 -> 2026-08-13",
+      "meta.update_time: 06:06 EST -> 06:08 EST",
+      "meta.day_number: 139 -> 140",
+      "NEW DAY 140: Israeli drone strike in northern Gaza targets Hamas commander; Houthi attack on ...",
+      "chart brent_oil.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
+    ]
   }
 ]
