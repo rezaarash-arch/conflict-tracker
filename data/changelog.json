@@ -2613,5 +2613,28 @@
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
       "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-08-14",
+    "timestamp": "2026-08-14T01:07:01.358153-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include intensified clashes between Iran-backed Houthis and Yemeni forces, strategic military appointments by Iran's new supreme leader, and ongoing diplomatic efforts by the U.S. in the region.",
+    "changes": [
+      "meta.last_updated: 2026-08-13 -> 2026-08-14",
+      "meta.update_time: 06:08 EST -> 06:06 EST",
+      "meta.day_number: 140 -> 141",
+      "NEW DAY 141: Clashes between Iran-backed Houthis and Yemeni forces in Taiz province; Houthi d...",
+      "overview.us_israel_strikes: ~38,500+ -> ~38,700+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
