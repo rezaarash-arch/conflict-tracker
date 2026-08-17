@@ -2645,5 +2645,18 @@
     "changes": [
       "Timestamp updated, no data changes"
     ]
+  },
+  {
+    "date": "2026-08-17",
+    "timestamp": "2026-08-17T00:25:16.062136-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures and political developments in Iran.",
+    "changes": [
+      "meta.last_updated: 2026-08-16 -> 2026-08-17",
+      "meta.update_time: 05:17 EST -> 05:25 EST",
+      "meta.day_number: 141 -> 142",
+      "NEW DAY 142: Iran's new Supreme Leader, Mojtaba Khamenei, consolidates military power; intern...",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16",
-    "update_time": "05:17 EST",
-    "day_number": 141,
+    "last_updated": "2026-08-17",
+    "update_time": "05:25 EST",
+    "day_number": 142,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2742,6 +2742,23 @@
         "events": "Clashes between Iran-backed Houthis and Yemeni forces in Taiz province; Houthi drone strike on Saudi oil infrastructure.",
         "events_fa": "درگیری‌های بین حوثی‌های تحت حمایت ایران و نیروهای یمنی در استان تعز؛ حمله پهپادی حوثی‌ها به زیرساخت‌های نفتی عربستان.",
         "highlight": false
+      },
+      {
+        "day": 142,
+        "date": "17 Aug",
+        "date_fa": "۱۷ اوت",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Iran's new Supreme Leader, Mojtaba Khamenei, consolidates military power; internal divisions within Iran's leadership affect U.S. negotiations.",
+        "events_fa": "رهبر جدید ایران، مجتبی خامنه‌ای، قدرت نظامی را تقویت می‌کند؛ اختلافات داخلی در رهبری ایران بر مذاکرات با ایالات متحده تأثیر می‌گذارد.",
+        "highlight": false
       }
     ]
   },
@@ -3978,6 +3995,21 @@
         "location_fa": "بغداد، عراق",
         "cause": "IED explosion",
         "cause_fa": "انفجار بمب کنار جاده‌ای"
+      },
+      {
+        "num": 82,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 30,
+        "hometown": "New York, NY",
+        "unit": "1st Infantry Division",
+        "date": "2026-08-16",
+        "date_fa": "۱۶ اوت ۲۰۲۶",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "IED explosion",
+        "cause_fa": "انفجار بمب کنار جاده‌ای"
       }
     ],
     "aircraft_losses": [
@@ -4182,8 +4214,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 10,
         "color": "amber",
-        "description": "Ceasefire agreement reached with partial withdrawal of forces.",
-        "description_fa": "توافق آتش‌بس با عقب‌نشینی جزئی نیروها.",
+        "description": "Scenario A description",
+        "description_fa": "توضیحات سناریو A",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4192,8 +4224,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی برای پایان دادن به درگیری‌ها",
-          "خستگی طرفین از جنگ"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -4202,8 +4234,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 50,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations.",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب.",
+        "description": "Scenario B description",
+        "description_fa": "توضیحات سناریو B",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4212,8 +4244,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات متقابل",
-          "عدم توافق در مذاکرات صلح"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -4222,8 +4254,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Regional conflict expansion involving additional state actors.",
-        "description_fa": "گسترش درگیری منطقه‌ای با مشارکت بازیگران دولتی دیگر.",
+        "description": "Scenario C description",
+        "description_fa": "توضیحات سناریو C",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4232,8 +4264,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "ورود کشورهای همسایه به درگیری",
-          "افزایش حمایت از گروه‌های نیابتی"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -4646,7 +4678,8 @@
         "11 Aug",
         "12 Aug",
         "13 Aug",
-        "14 Aug"
+        "14 Aug",
+        "17 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -5132,7 +5165,8 @@
         "11 Aug",
         "12 Aug",
         "13 Aug",
-        "14 Aug"
+        "14 Aug",
+        "17 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5496,7 +5530,8 @@
         "11 Aug",
         "12 Aug",
         "13 Aug",
-        "14 Aug"
+        "14 Aug",
+        "17 Aug"
       ],
       "daily_bm": [
         200,
@@ -5775,7 +5810,8 @@
         "11 Aug",
         "12 Aug",
         "13 Aug",
-        "14 Aug"
+        "14 Aug",
+        "17 Aug"
       ],
       "data": [
         1.5,
