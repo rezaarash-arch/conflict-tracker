@@ -2658,5 +2658,30 @@
       "NEW DAY 142: Iran's new Supreme Leader, Mojtaba Khamenei, consolidates military power; intern...",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "timestamp": "2026-08-18T00:18:45.069174-05:00",
+    "status": "UPDATED",
+    "summary": "The Memorandum of Understanding between the United States and Iran expired without renewal, leading to increased tensions and military activities. Iran's new Supreme Leader, Mojtaba Khamenei, has consolidated military power, indicating preparations for prolonged confrontation.",
+    "changes": [
+      "meta.last_updated: 2026-08-17 -> 2026-08-18",
+      "meta.update_time: 05:25 EST -> 05:18 EST",
+      "meta.day_number: 142 -> 143",
+      "NEW DAY 143: The Memorandum of Understanding between the United States and Iran expired witho...",
+      "overview.us_israel_strikes: ~38,700+ -> ~39,000+",
+      "costs.kpis.oil_brent: $96.00 -> $98.00",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

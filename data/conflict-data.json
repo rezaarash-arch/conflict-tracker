@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17",
-    "update_time": "05:25 EST",
-    "day_number": 142,
+    "last_updated": "2026-08-18",
+    "update_time": "05:18 EST",
+    "day_number": 143,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~38,700+",
+    "us_israel_strikes": "~39,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2759,6 +2759,23 @@
         "events": "Iran's new Supreme Leader, Mojtaba Khamenei, consolidates military power; internal divisions within Iran's leadership affect U.S. negotiations.",
         "events_fa": "رهبر جدید ایران، مجتبی خامنه‌ای، قدرت نظامی را تقویت می‌کند؛ اختلافات داخلی در رهبری ایران بر مذاکرات با ایالات متحده تأثیر می‌گذارد.",
         "highlight": false
+      },
+      {
+        "day": 143,
+        "date": "18 Aug",
+        "date_fa": "۱۸ اوت",
+        "waves": "...",
+        "iran_dead": "...",
+        "isr_dead": "...",
+        "us_dead": "...",
+        "other": "...",
+        "other_fa": "...",
+        "iran_bms": "...",
+        "iran_drones": "...",
+        "targets": "...",
+        "events": "The Memorandum of Understanding between the United States and Iran expired without renewal, leading to increased tensions and military activities. Iran's new Supreme Leader, Mojtaba Khamenei, has consolidated military power, indicating preparations for prolonged confrontation.",
+        "events_fa": "تفاهم‌نامه بین ایالات متحده و ایران بدون تمدید منقضی شد، که منجر به افزایش تنش‌ها و فعالیت‌های نظامی شد. رهبر جدید ایران، مجتبی خامنه‌ای، قدرت نظامی را تثبیت کرده و نشان‌دهنده آمادگی برای رویارویی طولانی‌مدت است.",
+        "highlight": false
       }
     ]
   },
@@ -4010,6 +4027,21 @@
         "location_fa": "تهران، ایران",
         "cause": "IED explosion",
         "cause_fa": "انفجار بمب کنار جاده‌ای"
+      },
+      {
+        "num": 83,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 30,
+        "hometown": "New York, NY",
+        "unit": "1st Infantry Division",
+        "date": "2026-08-17",
+        "date_fa": "۲۶-۰۸-۱۷",
+        "location": "Baghdad, Iraq",
+        "location_fa": "بغداد، عراق",
+        "cause": "IED explosion",
+        "cause_fa": "انفجار بمب کنار جاده‌ای"
       }
     ],
     "aircraft_losses": [
@@ -4071,7 +4103,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$96.00",
+      "oil_brent": "$98.00",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -4212,10 +4244,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Scenario A description",
-        "description_fa": "توضیحات سناریو A",
+        "description": "Scenario A description updated",
+        "description_fa": "توضیحات سناریو A به‌روزرسانی شد",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4232,10 +4264,10 @@
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Scenario B description",
-        "description_fa": "توضیحات سناریو B",
+        "description": "Scenario B description updated",
+        "description_fa": "توضیحات سناریو B به‌روزرسانی شد",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4254,8 +4286,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Scenario C description",
-        "description_fa": "توضیحات سناریو C",
+        "description": "Scenario C description updated",
+        "description_fa": "توضیحات سناریو C به‌روزرسانی شد",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4679,7 +4711,8 @@
         "12 Aug",
         "13 Aug",
         "14 Aug",
-        "17 Aug"
+        "17 Aug",
+        "18 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -4793,7 +4826,8 @@
         2,
         1,
         1,
-        1
+        1,
+        null
       ],
       "iran_bms": [
         200,
@@ -4907,7 +4941,8 @@
         15,
         5,
         0,
-        5
+        5,
+        null
       ],
       "iran_drones": [
         500,
@@ -5020,7 +5055,8 @@
         5,
         3,
         0,
-        2
+        2,
+        null
       ]
     },
     "phase3_cumulative_casualties": {
@@ -5166,7 +5202,8 @@
         "12 Aug",
         "13 Aug",
         "14 Aug",
-        "17 Aug"
+        "17 Aug",
+        "18 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5277,7 +5314,8 @@
         4650,
         7200,
         4600,
-        4600
+        4600,
+        null
       ],
       "hrana_civilian": [
         133,
@@ -5385,7 +5423,8 @@
         4700,
         null,
         23500,
-        444
+        444,
+        null
       ]
     },
     "bm_degradation": {
@@ -5531,7 +5570,8 @@
         "12 Aug",
         "13 Aug",
         "14 Aug",
-        "17 Aug"
+        "17 Aug",
+        "18 Aug"
       ],
       "daily_bm": [
         200,
@@ -5645,7 +5685,8 @@
         15,
         5,
         0,
-        5
+        5,
+        null
       ],
       "trendline": [
         200,
@@ -5811,7 +5852,8 @@
         "12 Aug",
         "13 Aug",
         "14 Aug",
-        "17 Aug"
+        "17 Aug",
+        "18 Aug"
       ],
       "data": [
         1.5,
@@ -5919,7 +5961,8 @@
         67,
         5000000000,
         null,
-        0.5
+        0.5,
+        null
       ]
     },
     "cost_distribution": {
@@ -6097,7 +6140,8 @@
         96.0,
         83.87,
         100.0,
-        97.5
+        97.5,
+        98.0
       ]
     },
     "hormuz_transit": {
@@ -6234,7 +6278,8 @@
         60,
         85,
         0,
-        85
+        85,
+        null
       ]
     },
     "scenario_probabilities": {
@@ -6249,8 +6294,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        50,
+        15,
+        45,
         40
       ],
       "colors": [
