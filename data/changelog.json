@@ -2683,5 +2683,18 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "timestamp": "2026-08-19T00:19:19.296614-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the expiration of the U.S.-Iran Memorandum of Understanding, increased military activities, and updated casualty figures.",
+    "changes": [
+      "meta.last_updated: 2026-08-18 -> 2026-08-19",
+      "meta.update_time: 05:18 EST -> 05:19 EST",
+      "meta.day_number: 143 -> 144",
+      "NEW DAY 144: The Memorandum of Understanding between the United States and Iran expired witho...",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

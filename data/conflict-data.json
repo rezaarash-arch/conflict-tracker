@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18",
-    "update_time": "05:18 EST",
-    "day_number": 143,
+    "last_updated": "2026-08-19",
+    "update_time": "05:19 EST",
+    "day_number": 144,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -2776,6 +2776,23 @@
         "events": "The Memorandum of Understanding between the United States and Iran expired without renewal, leading to increased tensions and military activities. Iran's new Supreme Leader, Mojtaba Khamenei, has consolidated military power, indicating preparations for prolonged confrontation.",
         "events_fa": "تفاهم‌نامه بین ایالات متحده و ایران بدون تمدید منقضی شد، که منجر به افزایش تنش‌ها و فعالیت‌های نظامی شد. رهبر جدید ایران، مجتبی خامنه‌ای، قدرت نظامی را تثبیت کرده و نشان‌دهنده آمادگی برای رویارویی طولانی‌مدت است.",
         "highlight": false
+      },
+      {
+        "day": 144,
+        "date": "19 Aug",
+        "date_fa": "۱۹ اوت",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "The Memorandum of Understanding between the United States and Iran expired without renewal, leading to increased tensions and military activities. Iran's new Supreme Leader, Mojtaba Khamenei, has consolidated military power, indicating preparations for prolonged confrontation.",
+        "events_fa": "تفاهم‌نامه بین ایالات متحده و ایران بدون تمدید منقضی شد، که منجر به افزایش تنش‌ها و فعالیت‌های نظامی شد. رهبر جدید ایران، مجتبی خامنه‌ای، قدرت نظامی را تثبیت کرده و نشان‌دهنده آمادگی برای رویارویی طولانی‌مدت است.",
+        "highlight": true
       }
     ]
   },
@@ -4042,6 +4059,21 @@
         "location_fa": "بغداد، عراق",
         "cause": "IED explosion",
         "cause_fa": "انفجار بمب کنار جاده‌ای"
+      },
+      {
+        "num": 84,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 30,
+        "hometown": "New York, NY",
+        "unit": "1st Infantry Division",
+        "date": "2026-08-18",
+        "date_fa": "۲۸ مرداد ۱۴۰۵",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "Combat",
+        "cause_fa": "جنگی"
       }
     ],
     "aircraft_losses": [
@@ -4246,8 +4278,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 15,
         "color": "amber",
-        "description": "Scenario A description updated",
-        "description_fa": "توضیحات سناریو A به‌روزرسانی شد",
+        "description": "Scenario A description",
+        "description_fa": "توضیحات سناریو A",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4266,8 +4298,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 45,
         "color": "red",
-        "description": "Scenario B description updated",
-        "description_fa": "توضیحات سناریو B به‌روزرسانی شد",
+        "description": "Scenario B description",
+        "description_fa": "توضیحات سناریو B",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4286,8 +4318,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Scenario C description updated",
-        "description_fa": "توضیحات سناریو C به‌روزرسانی شد",
+        "description": "Scenario C description",
+        "description_fa": "توضیحات سناریو C",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4712,7 +4744,8 @@
         "13 Aug",
         "14 Aug",
         "17 Aug",
-        "18 Aug"
+        "18 Aug",
+        "19 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -5203,7 +5236,8 @@
         "13 Aug",
         "14 Aug",
         "17 Aug",
-        "18 Aug"
+        "18 Aug",
+        "19 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5571,7 +5605,8 @@
         "13 Aug",
         "14 Aug",
         "17 Aug",
-        "18 Aug"
+        "18 Aug",
+        "19 Aug"
       ],
       "daily_bm": [
         200,
@@ -5853,7 +5888,8 @@
         "13 Aug",
         "14 Aug",
         "17 Aug",
-        "18 Aug"
+        "18 Aug",
+        "19 Aug"
       ],
       "data": [
         1.5,
