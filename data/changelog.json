@@ -2696,5 +2696,29 @@
       "NEW DAY 144: The Memorandum of Understanding between the United States and Iran expired witho...",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-08-21",
+    "timestamp": "2026-08-21T00:22:01.749289-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the U.S. announcing unprecedented economic sanctions against Iran, Iran adopting a fully offensive military stance, and competing claims over control of the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-08-20 -> 2026-08-21",
+      "meta.update_time: 00:00 EST -> 05:21 EST",
+      "meta.day_number: 144 -> 145",
+      "NEW DAY 145: U.S. Treasury Secretary Scott Bessent announced plans for unprecedented economic...",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 40%",
+      "scenario C prob: 40% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
