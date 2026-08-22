@@ -2720,5 +2720,27 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-08-22",
+    "timestamp": "2026-08-22T00:16:27.279797-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in economic and military tensions between the U.S. and Iran, including new sanctions, military threats, and regional destabilization.",
+    "changes": [
+      "meta.last_updated: 2026-08-21 -> 2026-08-22",
+      "meta.update_time: 05:21 EST -> 05:16 EST",
+      "meta.day_number: 145 -> 146",
+      "NEW DAY 146: U.S. Treasury Secretary Scott Bessent announced plans for unprecedented economic...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 40% -> 35%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
