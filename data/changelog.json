@@ -2742,5 +2742,29 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-08-23",
+    "timestamp": "2026-08-23T00:18:43.578276-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's warning to neighboring countries against supporting U.S. economic measures, Israel's airstrikes in Syria and Gaza, and the UAE's suspension of commercial and financial dealings with Iran.",
+    "changes": [
+      "meta.last_updated: 2026-08-22 -> 2026-08-23",
+      "meta.update_time: 05:16 EST -> 05:18 EST",
+      "meta.day_number: 146 -> 147",
+      "NEW DAY 147: Iran's security chief, Mohsen Rezaei, warned neighboring countries against suppo...",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 35% -> 30%",
+      "scenario C prob: 50% -> 60%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
