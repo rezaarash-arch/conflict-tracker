@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23",
-    "update_time": "05:18 EST",
-    "day_number": 147,
+    "last_updated": "2026-08-24",
+    "update_time": "05:28 EST",
+    "day_number": 148,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~39,000+",
+    "us_israel_strikes": "~39,500+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2844,6 +2844,23 @@
         "events": "Iran's security chief, Mohsen Rezaei, warned neighboring countries against supporting U.S. economic measures targeting Tehran, stating that any country participating in economic restrictions against Iran would be considered an enemy. Concurrently, Israel conducted airstrikes in Syria and Gaza, resulting in injuries and fatalities. Additionally, the United Arab Emirates suspended all commercial and financial dealings with Iran, citing regional instability and security threats.",
         "events_fa": "رئیس امنیتی ایران، محسن رضایی، به کشورهای همسایه هشدار داد که از اقدامات اقتصادی ایالات متحده علیه تهران حمایت نکنند و اعلام کرد که هر کشوری که در تحریم‌های اقتصادی علیه ایران شرکت کند، به عنوان دشمن در نظر گرفته خواهد شد. همزمان، اسرائیل حملات هوایی در سوریه و غزه انجام داد که منجر به زخمی شدن و کشته شدن افراد شد. علاوه بر این، امارات متحده عربی تمامی معاملات تجاری و مالی با ایران را به دلیل بی‌ثباتی منطقه‌ای و تهدیدات امنیتی به حالت تعلیق درآورد.",
         "highlight": false
+      },
+      {
+        "day": 148,
+        "date": "24 Aug",
+        "date_fa": "۲۴ اوت",
+        "waves": "3",
+        "iran_dead": "100",
+        "isr_dead": "5",
+        "us_dead": "0",
+        "other": "20",
+        "other_fa": "۲۰",
+        "iran_bms": "50",
+        "iran_drones": "10",
+        "targets": "Military installations in southern Lebanon",
+        "events": "U.S. Treasury Secretary Scott Bessent announced intensified economic sanctions against Iran, labeling it an 'economic D-Day.' Iran threatened to halt all Gulf oil exports if the economic measures continue. Israel conducted airstrikes in southern Lebanon, targeting Hezbollah positions.",
+        "events_fa": "وزیر خزانه‌داری آمریکا، اسکات بسنت، تحریم‌های اقتصادی شدیدتری علیه ایران را اعلام کرد و آن را 'روز اقتصادی دی' نامید. ایران تهدید کرد که در صورت ادامه این اقدامات اقتصادی، تمامی صادرات نفت خلیج فارس را متوقف خواهد کرد. اسرائیل حملات هوایی در جنوب لبنان انجام داد و مواضع حزب‌الله را هدف قرار داد.",
+        "highlight": true
       }
     ]
   },
@@ -4357,10 +4374,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Scenario A description remains unchanged.",
-        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
+        "description": "De-escalation leading to diplomatic negotiations",
+        "description_fa": "کاهش تنش‌ها منجر به مذاکرات دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4369,18 +4386,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "تلاش‌های میانجی‌گری بین‌المللی",
+          "فشار اقتصادی بر ایران"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 30,
+        "probability": 25,
         "color": "red",
-        "description": "Scenario B description remains unchanged.",
-        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
+        "description": "Prolonged economic and military standoff",
+        "description_fa": "بن‌بست اقتصادی و نظامی طولانی‌مدت",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4389,8 +4406,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "تحریم‌های اقتصادی شدید",
+          "حملات نظامی متقابل"
         ]
       },
       {
@@ -4399,8 +4416,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 60,
         "color": "green",
-        "description": "Scenario C description remains unchanged.",
-        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
+        "description": "Full-scale regional conflict",
+        "description_fa": "درگیری منطقه‌ای تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4409,8 +4426,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "افزایش حملات نظامی",
+          "مداخله کشورهای منطقه"
         ]
       }
     ],
@@ -4829,7 +4846,8 @@
         "19 Aug",
         "21 Aug",
         "22 Aug",
-        "23 Aug"
+        "23 Aug",
+        "24 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -4947,7 +4965,8 @@
         null,
         3,
         0,
-        0
+        0,
+        3
       ],
       "iran_bms": [
         200,
@@ -5065,7 +5084,8 @@
         null,
         20,
         0,
-        0
+        0,
+        50
       ],
       "iran_drones": [
         500,
@@ -5182,7 +5202,8 @@
         null,
         15,
         0,
-        0
+        0,
+        10
       ]
     },
     "phase3_cumulative_casualties": {
@@ -5333,7 +5354,8 @@
         "19 Aug",
         "21 Aug",
         "22 Aug",
-        "23 Aug"
+        "23 Aug",
+        "24 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5448,7 +5470,8 @@
         null,
         4800,
         0,
-        0
+        0,
+        7200
       ],
       "hrana_civilian": [
         133,
@@ -5560,7 +5583,8 @@
         null,
         null,
         0,
-        0
+        0,
+        7300
       ]
     },
     "bm_degradation": {
@@ -5711,7 +5735,8 @@
         "19 Aug",
         "21 Aug",
         "22 Aug",
-        "23 Aug"
+        "23 Aug",
+        "24 Aug"
       ],
       "daily_bm": [
         200,
@@ -5829,7 +5854,8 @@
         null,
         20,
         0,
-        0
+        0,
+        50
       ],
       "trendline": [
         200,
@@ -6000,7 +6026,8 @@
         "19 Aug",
         "21 Aug",
         "22 Aug",
-        "23 Aug"
+        "23 Aug",
+        "24 Aug"
       ],
       "data": [
         1.5,
@@ -6112,7 +6139,8 @@
         null,
         null,
         0,
-        0
+        0,
+        0.5
       ]
     },
     "cost_distribution": {
@@ -6294,7 +6322,8 @@
         98.0,
         100.5,
         98.0,
-        98.5
+        98.5,
+        101.0
       ]
     },
     "hormuz_transit": {
@@ -6435,7 +6464,8 @@
         null,
         85,
         0,
-        0
+        0,
+        15
       ]
     },
     "scenario_probabilities": {
@@ -6450,8 +6480,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        30,
+        15,
+        25,
         60
       ],
       "colors": [
