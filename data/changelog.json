@@ -2789,5 +2789,29 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T00:22:06.008141-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the U.S. imposing new sanctions on Iran, Iran's threat to halt Gulf oil exports, and Israel's airstrikes in southern Lebanon targeting Hezbollah positions.",
+    "changes": [
+      "meta.last_updated: 2026-08-24 -> 2026-08-25",
+      "meta.update_time: 05:28 EST -> 05:21 EST",
+      "meta.day_number: 148 -> 149",
+      "NEW DAY 149: U.S. Treasury Secretary Scott Bessent announced intensified economic sanctions a...",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 25% -> 30%",
+      "scenario C prob: 60% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
