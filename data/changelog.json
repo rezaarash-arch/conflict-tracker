@@ -2838,5 +2838,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "timestamp": "2026-08-31T06:12:39.487210-05:00",
+    "status": "UPDATED",
+    "summary": "Renewed hostilities between the U.S. and Iran, including U.S. strikes on Iranian launchers and Iranian missile attacks on U.S. bases in Jordan.",
+    "changes": [
+      "meta.last_updated: 2026-08-30 -> 2026-08-31",
+      "meta.update_time: 10:10 EST -> 11:12 EST",
+      "meta.day_number: 150 -> 151",
+      "NEW DAY 151: U.S. strikes Iranian launchers on Larak Island; Iran launches missiles at U.S. b...",
+      "overview.us_israel_strikes: ~40,000+ -> ~40,500+",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 35% -> 40%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

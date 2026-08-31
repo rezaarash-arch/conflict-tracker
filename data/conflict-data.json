@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-30",
-    "update_time": "10:10 EST",
-    "day_number": 150,
+    "last_updated": "2026-08-31",
+    "update_time": "11:12 EST",
+    "day_number": 151,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~40,000+",
+    "us_israel_strikes": "~40,500+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2895,6 +2895,23 @@
         "events": "U.S. military reports gaining control over the Strait of Hormuz; Iran's Supreme Leader urges Gulf nations to confront 'true enemy'; Hezbollah rejects Israel-Lebanon framework deal.",
         "events_fa": "ارتش ایالات متحده گزارش می‌دهد که کنترل تنگه هرمز را به دست آورده است؛ رهبر معظم ایران از کشورهای خلیج فارس می‌خواهد با 'دشمن واقعی' مقابله کنند؛ حزب‌الله توافق‌نامه چارچوب اسرائیل-لبنان را رد می‌کند.",
         "highlight": true
+      },
+      {
+        "day": 151,
+        "date": "31 Aug",
+        "date_fa": "۳۱ اوت",
+        "waves": "1",
+        "iran_dead": "10",
+        "isr_dead": "0",
+        "us_dead": "1",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "5",
+        "iran_drones": "0",
+        "targets": "U.S. bases in Jordan",
+        "events": "U.S. strikes Iranian launchers on Larak Island; Iran launches missiles at U.S. bases in Jordan.",
+        "events_fa": "حملات آمریکا به پرتابگرهای ایرانی در جزیره لارک؛ ایران موشک‌هایی به پایگاه‌های آمریکایی در اردن شلیک می‌کند.",
+        "highlight": true
       }
     ]
   },
@@ -4236,6 +4253,21 @@
         "location_fa": "جنوب لبنان",
         "cause": "Killed in action",
         "cause_fa": "کشته شده در عملیات"
+      },
+      {
+        "num": 89,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-08-31",
+        "date_fa": "۳۱ اوت ۲۰۲۶",
+        "location": "Al Azraq, Jordan",
+        "location_fa": "الازرق، اردن",
+        "cause": "Missile attack",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -4438,10 +4470,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire leading to diplomatic negotiations",
-        "description_fa": "آتش‌بس منجر به مذاکرات دیپلماتیک",
+        "description": "De-escalation leading to ceasefire",
+        "description_fa": "کاهش تنش منجر به آتش‌بس",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4450,15 +4482,15 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی",
-          "خستگی از جنگ در میان طرفین"
+          "فشار بین‌المللی",
+          "خستگی جنگی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 35,
+        "probability": 40,
         "color": "red",
         "description": "Prolonged low-intensity conflict",
         "description_fa": "درگیری طولانی‌مدت با شدت کم",
@@ -4470,8 +4502,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم توافق در مذاکرات",
-          "حمایت مداوم از گروه‌های نیابتی"
+          "عدم توافق دیپلماتیک",
+          "تداوم حملات متقابل"
         ]
       },
       {
@@ -4480,8 +4512,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Escalation into regional war",
-        "description_fa": "تشدید به جنگ منطقه‌ای",
+        "description": "Full-scale regional escalation",
+        "description_fa": "تشدید کامل منطقه‌ای",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4490,8 +4522,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات تلافی‌جویانه",
-          "دخالت قدرت‌های منطقه‌ای"
+          "حملات گسترده",
+          "ورود بازیگران منطقه‌ای دیگر"
         ]
       }
     ],
@@ -4913,7 +4945,8 @@
         "23 Aug",
         "24 Aug",
         "25 Aug",
-        "30 Aug"
+        "30 Aug",
+        "31 Aug"
       ],
       "us_israel_waves": [
         55,
@@ -5034,7 +5067,8 @@
         0,
         3,
         5,
-        2
+        2,
+        1
       ],
       "iran_bms": [
         200,
@@ -5155,7 +5189,8 @@
         0,
         50,
         50,
-        20
+        20,
+        5
       ],
       "iran_drones": [
         500,
@@ -5275,7 +5310,8 @@
         0,
         10,
         20,
-        5
+        5,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -5429,7 +5465,8 @@
         "23 Aug",
         "24 Aug",
         "25 Aug",
-        "30 Aug"
+        "30 Aug",
+        "31 Aug"
       ],
       "hengaw_total": [
         1000,
@@ -5547,6 +5584,7 @@
         0,
         7200,
         4600,
+        4600,
         4600
       ],
       "hrana_civilian": [
@@ -5662,6 +5700,7 @@
         0,
         7300,
         3100,
+        0,
         0
       ]
     },
@@ -5816,7 +5855,8 @@
         "23 Aug",
         "24 Aug",
         "25 Aug",
-        "30 Aug"
+        "30 Aug",
+        "31 Aug"
       ],
       "daily_bm": [
         200,
@@ -5937,7 +5977,8 @@
         0,
         50,
         50,
-        20
+        20,
+        5
       ],
       "trendline": [
         200,
@@ -6111,7 +6152,8 @@
         "23 Aug",
         "24 Aug",
         "25 Aug",
-        "30 Aug"
+        "30 Aug",
+        "31 Aug"
       ],
       "data": [
         1.5,
@@ -6226,6 +6268,7 @@
         0,
         0.5,
         37500,
+        0,
         0
       ]
     },
@@ -6411,7 +6454,8 @@
         98.5,
         101.0,
         98.5,
-        100.0
+        100.0,
+        91.4
       ]
     },
     "hormuz_transit": {
@@ -6555,7 +6599,8 @@
         0,
         15,
         75,
-        75
+        75,
+        85
       ]
     },
     "scenario_probabilities": {
@@ -6570,8 +6615,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        35,
+        20,
+        40,
         40
       ],
       "colors": [
