@@ -2907,5 +2907,25 @@
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
       "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T04:16:53.631954-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in military actions between the U.S. and Iran, including U.S. strikes on Iranian tankers and Iranian missile attacks on U.S. bases in Jordan. Civilian casualties reported in Iran due to U.S. strikes.",
+    "changes": [
+      "meta.last_updated: 2026-09-02 -> 2026-09-03",
+      "meta.update_time: 09:09 EST -> 09:16 EST",
+      "meta.day_number: 153 -> 154",
+      "NEW DAY 154: U.S. strikes Iranian tankers; Iran launches missiles at U.S. bases in Jordan...",
+      "overview.us_israel_strikes: ~40,520+ -> ~40,622+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
+    ]
   }
 ]

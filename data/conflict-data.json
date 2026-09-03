@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-02",
-    "update_time": "09:09 EST",
-    "day_number": 153,
+    "last_updated": "2026-09-03",
+    "update_time": "09:16 EST",
+    "day_number": 154,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~40,520+",
+    "us_israel_strikes": "~40,622+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -2946,6 +2946,23 @@
         "events": "U.S. strikes Iranian tankers; Iran launches missiles at U.S. bases in Jordan",
         "events_fa": "حملات آمریکا به نفتکش‌های ایرانی؛ ایران موشک‌هایی به پایگاه‌های آمریکا در اردن شلیک می‌کند",
         "highlight": true
+      },
+      {
+        "day": 154,
+        "date": "3 Sep",
+        "date_fa": "۳ سپتامبر",
+        "waves": "1",
+        "iran_dead": "19",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "8",
+        "iran_drones": "0",
+        "targets": "U.S. bases in Jordan",
+        "events": "U.S. strikes Iranian tankers; Iran launches missiles at U.S. bases in Jordan",
+        "events_fa": "حملات آمریکا به نفتکش‌های ایرانی؛ ایران موشک‌هایی به پایگاه‌های آمریکا در اردن شلیک می‌کند",
+        "highlight": true
       }
     ]
   },
@@ -4504,7 +4521,7 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
         "description": "De-escalation leading to ceasefire",
         "description_fa": "کاهش تنش منجر به آتش‌بس",
@@ -4516,18 +4533,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "خستگی جنگی"
+          "افزایش فشار بین‌المللی",
+          "خستگی جنگی در طرفین"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Continued tit-for-tat strikes",
-        "description_fa": "ادامه حملات متقابل",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4536,8 +4553,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات اخیر",
-          "عدم تمایل به مذاکره"
+          "عدم تمایل به مذاکره",
+          "حملات متقابل مداوم"
         ]
       },
       {
@@ -4546,8 +4563,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Full-scale regional conflict",
-        "description_fa": "درگیری منطقه‌ای تمام‌عیار",
+        "description": "Full-scale regional war",
+        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -4556,8 +4573,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "افزایش حملات",
-          "مداخله بازیگران منطقه‌ای"
+          "گسترش درگیری به کشورهای همسایه",
+          "افزایش تلفات غیرنظامیان"
         ]
       }
     ],
@@ -4982,7 +4999,8 @@
         "30 Aug",
         "31 Aug",
         "1 Sep",
-        "2 Sep"
+        "2 Sep",
+        "3 Sep"
       ],
       "us_israel_waves": [
         55,
@@ -5104,6 +5122,7 @@
         3,
         5,
         2,
+        1,
         1,
         1,
         1
@@ -5230,7 +5249,8 @@
         20,
         5,
         5,
-        10
+        10,
+        8
       ],
       "iran_drones": [
         500,
@@ -5353,7 +5373,8 @@
         5,
         0,
         10,
-        5
+        5,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -5510,7 +5531,8 @@
         "30 Aug",
         "31 Aug",
         "1 Sep",
-        "2 Sep"
+        "2 Sep",
+        "3 Sep"
       ],
       "hengaw_total": [
         1000,
@@ -5631,7 +5653,8 @@
         4600,
         4600,
         4620,
-        4604
+        4604,
+        4619
       ],
       "hrana_civilian": [
         133,
@@ -5905,7 +5928,8 @@
         "30 Aug",
         "31 Aug",
         "1 Sep",
-        "2 Sep"
+        "2 Sep",
+        "3 Sep"
       ],
       "daily_bm": [
         200,
@@ -6029,7 +6053,8 @@
         20,
         5,
         5,
-        10
+        10,
+        8
       ],
       "trendline": [
         200,
@@ -6206,7 +6231,8 @@
         "30 Aug",
         "31 Aug",
         "1 Sep",
-        "2 Sep"
+        "2 Sep",
+        "3 Sep"
       ],
       "data": [
         1.5,
@@ -6511,7 +6537,8 @@
         100.0,
         91.4,
         101.0,
-        91.43
+        91.43,
+        90.57
       ]
     },
     "hormuz_transit": {
@@ -6673,8 +6700,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        50,
+        15,
+        45,
         40
       ],
       "colors": [
