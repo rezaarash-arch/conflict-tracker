@@ -2927,5 +2927,28 @@
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
       "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T04:10:44.193461-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in hostilities with U.S. and Iranian strikes resulting in civilian casualties and regional tensions.",
+    "changes": [
+      "meta.last_updated: 2026-09-03 -> 2026-09-04",
+      "meta.update_time: 09:16 EST -> 09:10 EST",
+      "meta.day_number: 154 -> 155",
+      "NEW DAY 155: Iranian missile and drone attacks on U.S. bases in Kuwait and UAE; U.S. investig...",
+      "overview.us_israel_strikes: ~40,622+ -> ~40,900+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
