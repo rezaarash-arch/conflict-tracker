@@ -2950,5 +2950,29 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "timestamp": "2026-09-05T03:41:35.196520-05:00",
+    "status": "UPDATED",
+    "summary": "Significant military engagements and diplomatic developments have occurred since the last update, including U.S. airstrikes on Iranian targets, Iranian retaliatory attacks, and strategic territorial gains by Israel in southern Lebanon.",
+    "changes": [
+      "meta.last_updated: 2026-09-04 -> 2026-09-05",
+      "meta.update_time: 09:10 EST -> 08:41 EST",
+      "meta.day_number: 155 -> 156",
+      "NEW DAY 156: U.S. airstrikes on Iranian Navy bases; Iranian missile and drone attacks on U.S....",
+      "overview.us_israel_strikes: ~40,900+ -> ~41,000+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
