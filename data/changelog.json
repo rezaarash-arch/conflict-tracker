@@ -3047,5 +3047,28 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T04:15:37.504021-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in military actions, increased casualties, and economic impacts.",
+    "changes": [
+      "meta.last_updated: 2026-09-09 -> 2026-09-10",
+      "meta.update_time: 09:16 EST -> 09:15 EST",
+      "meta.day_number: 159 -> 160",
+      "NEW DAY 160: Iran launches missile and drone attacks on U.S. military installations in Jordan...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
