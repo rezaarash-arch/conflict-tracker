@@ -3070,5 +3070,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T04:15:01.528292-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iranian missile attacks damaging U.S. aircraft in Jordan, U.S. destruction of Iranian oil tankers, Houthi rebels capturing a strategic Yemeni port, and escalating tensions affecting global oil prices.",
+    "changes": [
+      "meta.last_updated: 2026-09-10 -> 2026-09-11",
+      "meta.update_time: 09:15 EST -> 09:14 EST",
+      "meta.day_number: 160 -> 161",
+      "NEW DAY 161: Iranian missile attacks damage U.S. aircraft in Jordan; U.S. destroys Iranian oi...",
+      "overview.us_israel_strikes: ~42,500+ -> ~43,000+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
