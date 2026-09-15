@@ -3117,5 +3117,30 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T04:40:49.724888-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include the capture of a U.S. underwater drone by Iran, U.S. destruction of five Iranian oil tankers, and escalating regional tensions involving Saudi Arabia and Houthi rebels.",
+    "changes": [
+      "meta.last_updated: 2026-09-14 -> 2026-09-15",
+      "meta.update_time: 00:00 EST -> 09:40 EST",
+      "meta.day_number: 162 -> 163",
+      "NEW DAY 163: U.S. destroys five Iranian oil tankers near Strait of Hormuz; Iran captures U.S....",
+      "costs.kpis.oil_brent: $110.00 -> $115.00",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John A. Smith",
+      "NEW US CASUALTY: Emily R. Johnson"
+    ]
   }
 ]
