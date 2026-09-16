@@ -3142,5 +3142,25 @@
       "NEW US CASUALTY: John A. Smith",
       "NEW US CASUALTY: Emily R. Johnson"
     ]
+  },
+  {
+    "date": "2026-09-16",
+    "timestamp": "2026-09-16T04:34:43.293093-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include U.S. destruction of Iranian boats attempting to seize a Navy drone, a secret meeting of U.S., Israeli, and Arab military chiefs regarding Iran, and the introduction of an impeachment resolution against Defense Secretary Pete Hegseth over unauthorized military operations in Iran.",
+    "changes": [
+      "meta.last_updated: 2026-09-15 -> 2026-09-16",
+      "meta.update_time: 09:40 EST -> 09:34 EST",
+      "meta.day_number: 163 -> 164",
+      "NEW DAY 164: U.S. military destroys two Iranian boats attempting to seize a Navy drone in the...",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
