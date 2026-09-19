@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-18",
-    "update_time": "09:16 EST",
-    "day_number": 166,
+    "last_updated": "2026-09-19",
+    "update_time": "09:02 EST",
+    "day_number": 167,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3167,6 +3167,23 @@
         "events": "Iran's IRGC strikes Togo-flagged oil tanker in Strait of Hormuz; UN report alleges U.S. war crimes in Iran; Massive rallies in Tehran show defiance against U.S. and Israel.",
         "events_fa": "سپاه پاسداران ایران به نفتکش با پرچم توگو در تنگه هرمز حمله می‌کند؛ گزارش سازمان ملل ادعای جنایات جنگی آمریکا در ایران را مطرح می‌کند؛ تجمعات گسترده در تهران نشان‌دهنده مقاومت در برابر آمریکا و اسرائیل است.",
         "highlight": true
+      },
+      {
+        "day": 167,
+        "date": "19 Sep",
+        "date_fa": "۱۹ سپتامبر",
+        "waves": "Multiple",
+        "iran_dead": "1,045",
+        "isr_dead": "9",
+        "us_dead": "6",
+        "other": "9",
+        "other_fa": "۹",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "US Fifth Fleet HQ, Al Udeid Air Base, Camp Arifjan, Tel Aviv, Haifa, Jerusalem, Dubai, Abu Dhabi",
+        "events": "Iran launched multiple waves of retaliatory strikes targeting US and Israeli positions across the Gulf region.",
+        "events_fa": "ایران چندین موج حملات تلافی‌جویانه را به مواضع آمریکا و اسرائیل در سراسر منطقه خلیج فارس انجام داد.",
+        "highlight": true
       }
     ]
   },
@@ -4658,6 +4675,21 @@
         "location_fa": "تهران، ایران",
         "cause": "IED explosion",
         "cause_fa": "انفجار بمب دست‌ساز"
+      },
+      {
+        "num": 99,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-09-18",
+        "date_fa": "۲۷ شهریور ۱۴۰۵",
+        "location": "Camp Arifjan, Kuwait",
+        "location_fa": "کمپ عریفجان، کویت",
+        "cause": "Ballistic missile strike",
+        "cause_fa": "حمله موشکی بالستیک"
       }
     ],
     "aircraft_losses": [
@@ -4860,10 +4892,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 15,
         "color": "amber",
         "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل و فصل دیپلماتیک",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4873,17 +4905,17 @@
         ],
         "drivers_fa": [
           "افزایش فشار بین‌المللی",
-          "خستگی جنگی در میان طرفین"
+          "خستگی جنگی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 40,
+        "probability": 45,
         "color": "red",
         "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
+        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4892,8 +4924,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم",
-          "عدم توافق دیپلماتیک"
+          "حملات تلافی‌جویانه",
+          "حمایت‌های منطقه‌ای"
         ]
       },
       {
@@ -4913,7 +4945,7 @@
         ],
         "drivers_fa": [
           "حملات گسترده",
-          "ورود کشورهای دیگر به درگیری"
+          "مداخله نیروهای نیابتی"
         ]
       }
     ],
@@ -5351,7 +5383,8 @@
         "15 Sep",
         "16 Sep",
         "17 Sep",
-        "18 Sep"
+        "18 Sep",
+        "19 Sep"
       ],
       "us_israel_waves": [
         55,
@@ -5488,7 +5521,8 @@
         1,
         0,
         3,
-        1
+        1,
+        5
       ],
       "iran_bms": [
         200,
@@ -5625,7 +5659,8 @@
         0,
         0,
         15,
-        1
+        1,
+        300
       ],
       "iran_drones": [
         500,
@@ -5761,7 +5796,8 @@
         0,
         0,
         10,
-        0
+        0,
+        150
       ]
     },
     "phase3_cumulative_casualties": {
@@ -5931,7 +5967,8 @@
         "15 Sep",
         "16 Sep",
         "17 Sep",
-        "18 Sep"
+        "18 Sep",
+        "19 Sep"
       ],
       "hengaw_total": [
         1000,
@@ -6065,7 +6102,8 @@
         4600,
         4600,
         4700,
-        4600
+        4600,
+        6000
       ],
       "hrana_civilian": [
         133,
@@ -6194,7 +6232,8 @@
         0,
         0,
         4600,
-        3138
+        3138,
+        7000
       ]
     },
     "bm_degradation": {
@@ -6364,7 +6403,8 @@
         "15 Sep",
         "16 Sep",
         "17 Sep",
-        "18 Sep"
+        "18 Sep",
+        "19 Sep"
       ],
       "daily_bm": [
         200,
@@ -6501,7 +6541,8 @@
         0,
         0,
         15,
-        1
+        1,
+        300
       ],
       "trendline": [
         200,
@@ -6691,7 +6732,8 @@
         "15 Sep",
         "16 Sep",
         "17 Sep",
-        "18 Sep"
+        "18 Sep",
+        "19 Sep"
       ],
       "data": [
         1.5,
@@ -6820,7 +6862,8 @@
         37500000000,
         38,
         40000000000,
-        1500000000
+        1500000000,
+        43600000000
       ]
     },
     "cost_distribution": {
@@ -7021,7 +7064,8 @@
         115.0,
         108.6,
         118.0,
-        118.5
+        118.5,
+        118.0
       ]
     },
     "hormuz_transit": {
@@ -7180,6 +7224,7 @@
         85,
         5,
         85,
+        85,
         85
       ]
     },
@@ -7195,8 +7240,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        40,
+        15,
+        45,
         40
       ],
       "colors": [
