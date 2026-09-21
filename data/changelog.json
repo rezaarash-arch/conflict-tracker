@@ -3234,5 +3234,30 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T05:16:37.155108-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's military warning of potential U.S. strikes, a large pro-government rally in Tehran, and a UN report alleging U.S. war crimes in Iran.",
+    "changes": [
+      "meta.last_updated: 2026-09-20 -> 2026-09-21",
+      "meta.update_time: 00:00 EST -> 10:16 EST",
+      "meta.day_number: 167 -> 168",
+      "NEW DAY 168: Iran's military warns of potential U.S. strikes; large pro-government rally in T...",
+      "overview.us_israel_strikes: ~43,700+ -> ~43,750+",
+      "costs.kpis.oil_brent: $118.00 -> $120.00",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
