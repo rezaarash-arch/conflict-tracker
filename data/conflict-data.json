@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-22",
-    "update_time": "00:00 EST",
-    "day_number": 168,
+    "last_updated": "2026-09-23",
+    "update_time": "09:37 EST",
+    "day_number": 169,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~43,750+",
+    "us_israel_strikes": "~44,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -3201,6 +3201,23 @@
         "events": "Iran's military warns of potential U.S. strikes; large pro-government rally in Tehran; UN report alleges U.S. war crimes.",
         "events_fa": "هشدار نظامی ایران درباره حملات احتمالی آمریکا؛ تجمع بزرگ حامیان دولت در تهران؛ گزارش سازمان ملل ادعای جنایات جنگی آمریکا را مطرح می‌کند.",
         "highlight": true
+      },
+      {
+        "day": 169,
+        "date": "23 Sep",
+        "date_fa": "۲۳ سپتامبر",
+        "waves": "2",
+        "iran_dead": "50",
+        "isr_dead": "5",
+        "us_dead": "1",
+        "other": "10",
+        "other_fa": "۱۰",
+        "iran_bms": "20",
+        "iran_drones": "5",
+        "targets": "Military installations",
+        "events": "U.S. and Iran engage in mediated talks at UNGA; Iran sets conditions for reopening Strait of Hormuz.",
+        "events_fa": "ایالات متحده و ایران در مجمع عمومی سازمان ملل متحد مذاکراتی با واسطه انجام می‌دهند؛ ایران شرایطی برای بازگشایی تنگه هرمز تعیین می‌کند.",
+        "highlight": true
       }
     ]
   },
@@ -4722,6 +4739,21 @@
         "location_fa": "تهران، ایران",
         "cause": "IED explosion",
         "cause_fa": "انفجار بمب کنار جاده‌ای"
+      },
+      {
+        "num": 101,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-09-23",
+        "date_fa": "۲۳ سپتامبر ۲۰۲۶",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "IED explosion",
+        "cause_fa": "انفجار بمب دست‌ساز"
       }
     ],
     "aircraft_losses": [
@@ -4924,10 +4956,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 15,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Negotiated settlement leading to ceasefire",
+        "description_fa": "توافق مذاکره‌شده منجر به آتش‌بس",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4936,15 +4968,15 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "خستگی جنگی"
+          "مذاکرات در مجمع عمومی سازمان ملل",
+          "شرایط ایران برای بازگشایی تنگه هرمز"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
         "description": "Continued low-intensity conflict",
         "description_fa": "ادامه درگیری با شدت کم",
@@ -4956,8 +4988,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات پراکنده",
-          "عدم توافق دیپلماتیک"
+          "عدم توافق در مذاکرات",
+          "حملات پراکنده"
         ]
       },
       {
@@ -4976,8 +5008,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات تلافی‌جویانه",
-          "افزایش تنش‌ها"
+          "شکست مذاکرات",
+          "حملات گسترده"
         ]
       }
     ],
@@ -5417,7 +5449,8 @@
         "17 Sep",
         "18 Sep",
         "19 Sep",
-        "21 Sep"
+        "21 Sep",
+        "23 Sep"
       ],
       "us_israel_waves": [
         55,
@@ -5556,7 +5589,8 @@
         3,
         1,
         5,
-        1
+        1,
+        2
       ],
       "iran_bms": [
         200,
@@ -5695,6 +5729,7 @@
         15,
         1,
         300,
+        20,
         20
       ],
       "iran_drones": [
@@ -5833,6 +5868,7 @@
         10,
         0,
         150,
+        5,
         5
       ]
     },
@@ -6005,7 +6041,8 @@
         "17 Sep",
         "18 Sep",
         "19 Sep",
-        "21 Sep"
+        "21 Sep",
+        "23 Sep"
       ],
       "hengaw_total": [
         1000,
@@ -6141,7 +6178,8 @@
         4700,
         4600,
         6000,
-        4650
+        4650,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -6272,7 +6310,8 @@
         4600,
         3138,
         7000,
-        3150
+        3150,
+        3138
       ]
     },
     "bm_degradation": {
@@ -6444,7 +6483,8 @@
         "17 Sep",
         "18 Sep",
         "19 Sep",
-        "21 Sep"
+        "21 Sep",
+        "23 Sep"
       ],
       "daily_bm": [
         200,
@@ -6583,6 +6623,7 @@
         15,
         1,
         300,
+        20,
         20
       ],
       "trendline": [
@@ -6775,7 +6816,8 @@
         "17 Sep",
         "18 Sep",
         "19 Sep",
-        "21 Sep"
+        "21 Sep",
+        "23 Sep"
       ],
       "data": [
         1.5,
@@ -6906,7 +6948,8 @@
         40000000000,
         1500000000,
         43600000000,
-        5000000
+        5000000,
+        1500000000
       ]
     },
     "cost_distribution": {
@@ -7109,7 +7152,8 @@
         118.0,
         118.5,
         118.0,
-        120.0
+        120.0,
+        118.5
       ]
     },
     "hormuz_transit": {
@@ -7270,7 +7314,8 @@
         85,
         85,
         85,
-        15
+        15,
+        85
       ]
     },
     "scenario_probabilities": {
@@ -7285,8 +7330,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        50,
+        15,
+        45,
         40
       ],
       "colors": [

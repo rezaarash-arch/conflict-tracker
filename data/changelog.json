@@ -3259,5 +3259,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T04:37:16.342173-05:00",
+    "status": "UPDATED",
+    "summary": "Recent diplomatic engagements at the UN General Assembly between the U.S. and Iran, along with Iran's conditions for reopening the Strait of Hormuz, have led to updates in the conflict tracker.",
+    "changes": [
+      "meta.last_updated: 2026-09-22 -> 2026-09-23",
+      "meta.update_time: 00:00 EST -> 09:37 EST",
+      "meta.day_number: 168 -> 169",
+      "NEW DAY 169: U.S. and Iran engage in mediated talks at UNGA; Iran sets conditions for reopeni...",
+      "overview.us_israel_strikes: ~43,750+ -> ~44,000+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
