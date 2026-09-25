@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-24",
-    "update_time": "00:00 EST",
-    "day_number": 169,
+    "last_updated": "2026-09-25",
+    "update_time": "09:53 EST",
+    "day_number": 170,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3218,6 +3218,23 @@
         "events": "U.S. and Iran engage in mediated talks at UNGA; Iran sets conditions for reopening Strait of Hormuz.",
         "events_fa": "ایالات متحده و ایران در مجمع عمومی سازمان ملل متحد مذاکراتی با واسطه انجام می‌دهند؛ ایران شرایطی برای بازگشایی تنگه هرمز تعیین می‌کند.",
         "highlight": true
+      },
+      {
+        "day": 170,
+        "date": "25 Sep",
+        "date_fa": "۲۵ سپتامبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Iranian Foreign Minister Abbas Araqchi presented a plan to U.S. officials for reopening the Strait of Hormuz, proposing a 60-day ceasefire and phased reopening. Concurrently, mediated talks between U.S. and Iranian officials occurred at the UNGA, aiming to de-escalate the conflict. Iranian President Masoud Pezeshkian stated that the U.S. must decide whether to end the war, expressing Tehran's readiness to negotiate.",
+        "events_fa": "وزیر امور خارجه ایران، عباس عراقچی، طرحی را به مقامات آمریکایی برای بازگشایی تنگه هرمز ارائه داد که شامل آتش‌بس ۶۰ روزه و بازگشایی تدریجی است. همزمان، مذاکرات میانجی‌گری شده بین مقامات آمریکایی و ایرانی در مجمع عمومی سازمان ملل متحد برای کاهش تنش‌ها انجام شد. رئیس‌جمهور ایران، مسعود پزشکیان، اظهار داشت که آمریکا باید تصمیم بگیرد که آیا جنگ را پایان دهد، و آمادگی تهران برای مذاکره را اعلام کرد.",
+        "highlight": true
       }
     ]
   },
@@ -4754,6 +4771,21 @@
         "location_fa": "تهران، ایران",
         "cause": "IED explosion",
         "cause_fa": "انفجار بمب دست‌ساز"
+      },
+      {
+        "num": 102,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 30,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-09-24",
+        "date_fa": "۲۴ سپتامبر ۲۰۲۶",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "Hostile action",
+        "cause_fa": "عملیات خصمانه"
       }
     ],
     "aircraft_losses": [
@@ -4956,10 +4988,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 20,
         "color": "amber",
-        "description": "Negotiated settlement leading to ceasefire",
-        "description_fa": "توافق مذاکره‌شده منجر به آتش‌بس",
+        "description": "Scenario A description updated to reflect recent diplomatic engagements.",
+        "description_fa": "توضیحات سناریو A به‌روزرسانی شده برای انعکاس تعاملات دیپلماتیک اخیر.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -4968,18 +5000,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات در مجمع عمومی سازمان ملل",
-          "شرایط ایران برای بازگشایی تنگه هرمز"
+          "مذاکرات میانجی‌گری شده در مجمع عمومی سازمان ملل",
+          "طرح ایران برای بازگشایی تنگه هرمز"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 40,
         "color": "red",
-        "description": "Continued low-intensity conflict",
-        "description_fa": "ادامه درگیری با شدت کم",
+        "description": "Scenario B description remains unchanged.",
+        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -4998,8 +5030,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Escalation to full-scale war",
-        "description_fa": "تشدید به جنگ تمام‌عیار",
+        "description": "Scenario C description remains unchanged.",
+        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5450,7 +5482,8 @@
         "18 Sep",
         "19 Sep",
         "21 Sep",
-        "23 Sep"
+        "23 Sep",
+        "25 Sep"
       ],
       "us_israel_waves": [
         55,
@@ -5590,7 +5623,8 @@
         1,
         5,
         1,
-        2
+        2,
+        null
       ],
       "iran_bms": [
         200,
@@ -5730,7 +5764,8 @@
         1,
         300,
         20,
-        20
+        20,
+        null
       ],
       "iran_drones": [
         500,
@@ -5869,7 +5904,8 @@
         0,
         150,
         5,
-        5
+        5,
+        null
       ]
     },
     "phase3_cumulative_casualties": {
@@ -6042,7 +6078,8 @@
         "18 Sep",
         "19 Sep",
         "21 Sep",
-        "23 Sep"
+        "23 Sep",
+        "25 Sep"
       ],
       "hengaw_total": [
         1000,
@@ -6179,7 +6216,8 @@
         4600,
         6000,
         4650,
-        4600
+        4600,
+        null
       ],
       "hrana_civilian": [
         133,
@@ -6311,7 +6349,8 @@
         3138,
         7000,
         3150,
-        3138
+        3138,
+        null
       ]
     },
     "bm_degradation": {
@@ -6484,7 +6523,8 @@
         "18 Sep",
         "19 Sep",
         "21 Sep",
-        "23 Sep"
+        "23 Sep",
+        "25 Sep"
       ],
       "daily_bm": [
         200,
@@ -6624,7 +6664,8 @@
         1,
         300,
         20,
-        20
+        20,
+        null
       ],
       "trendline": [
         200,
@@ -6817,7 +6858,8 @@
         "18 Sep",
         "19 Sep",
         "21 Sep",
-        "23 Sep"
+        "23 Sep",
+        "25 Sep"
       ],
       "data": [
         1.5,
@@ -6949,7 +6991,8 @@
         1500000000,
         43600000000,
         5000000,
-        1500000000
+        1500000000,
+        null
       ]
     },
     "cost_distribution": {
@@ -7153,7 +7196,8 @@
         118.5,
         118.0,
         120.0,
-        118.5
+        118.5,
+        105.0
       ]
     },
     "hormuz_transit": {
@@ -7315,7 +7359,8 @@
         85,
         85,
         15,
-        85
+        85,
+        null
       ]
     },
     "scenario_probabilities": {
@@ -7330,8 +7375,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        45,
+        20,
+        40,
         40
       ],
       "colors": [

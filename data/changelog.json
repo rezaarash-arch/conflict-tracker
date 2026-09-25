@@ -3283,5 +3283,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T04:53:53.490646-05:00",
+    "status": "UPDATED",
+    "summary": "New diplomatic engagements at the UNGA, updated US casualty figures, and developments regarding the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-09-24 -> 2026-09-25",
+      "meta.update_time: 00:00 EST -> 09:53 EST",
+      "meta.day_number: 169 -> 170",
+      "NEW DAY 170: Iranian Foreign Minister Abbas Araqchi presented a plan to U.S. officials for re...",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 45% -> 40%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
