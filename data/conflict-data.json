@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-25",
-    "update_time": "09:53 EST",
-    "day_number": 170,
+    "last_updated": "2026-09-26",
+    "update_time": "09:36 EST",
+    "day_number": 171,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3235,6 +3235,23 @@
         "events": "Iranian Foreign Minister Abbas Araqchi presented a plan to U.S. officials for reopening the Strait of Hormuz, proposing a 60-day ceasefire and phased reopening. Concurrently, mediated talks between U.S. and Iranian officials occurred at the UNGA, aiming to de-escalate the conflict. Iranian President Masoud Pezeshkian stated that the U.S. must decide whether to end the war, expressing Tehran's readiness to negotiate.",
         "events_fa": "وزیر امور خارجه ایران، عباس عراقچی، طرحی را به مقامات آمریکایی برای بازگشایی تنگه هرمز ارائه داد که شامل آتش‌بس ۶۰ روزه و بازگشایی تدریجی است. همزمان، مذاکرات میانجی‌گری شده بین مقامات آمریکایی و ایرانی در مجمع عمومی سازمان ملل متحد برای کاهش تنش‌ها انجام شد. رئیس‌جمهور ایران، مسعود پزشکیان، اظهار داشت که آمریکا باید تصمیم بگیرد که آیا جنگ را پایان دهد، و آمادگی تهران برای مذاکره را اعلام کرد.",
         "highlight": true
+      },
+      {
+        "day": 171,
+        "date": "26 Sep",
+        "date_fa": "۲۶ سپتامبر",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "Iran proposed reopening the Strait of Hormuz under specific conditions, including lifting the U.S. naval blockade and sanctions. The U.S. has reportedly rejected this proposal. Iran maintains it will make no concessions on its nuclear program.",
+        "events_fa": "ایران پیشنهاد بازگشایی تنگه هرمز را تحت شرایط خاصی، از جمله لغو محاصره دریایی و تحریم‌های آمریکا، ارائه داد. گزارش‌ها حاکی از آن است که آمریکا این پیشنهاد را رد کرده است. ایران تأکید دارد که در برنامه هسته‌ای خود هیچ امتیازی نخواهد داد.",
+        "highlight": false
       }
     ]
   },
@@ -4990,8 +5007,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 20,
         "color": "amber",
-        "description": "Scenario A description updated to reflect recent diplomatic engagements.",
-        "description_fa": "توضیحات سناریو A به‌روزرسانی شده برای انعکاس تعاملات دیپلماتیک اخیر.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5000,8 +5017,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات میانجی‌گری شده در مجمع عمومی سازمان ملل",
-          "طرح ایران برای بازگشایی تنگه هرمز"
+          "پیشنهاد ایران برای بازگشایی تنگه هرمز",
+          "مذاکرات میانجی‌گری شده در سازمان ملل"
         ]
       },
       {
@@ -5010,8 +5027,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 40,
         "color": "red",
-        "description": "Scenario B description remains unchanged.",
-        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5020,8 +5037,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم توافق در مذاکرات",
-          "حملات پراکنده"
+          "رد پیشنهاد ایران توسط آمریکا",
+          "عدم انعطاف‌پذیری ایران در برنامه هسته‌ای"
         ]
       },
       {
@@ -5030,8 +5047,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Scenario C description remains unchanged.",
-        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
+        "description": "Full-scale regional war",
+        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5040,8 +5057,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "شکست مذاکرات",
-          "حملات گسترده"
+          "ادامه بن‌بست در مذاکرات",
+          "افزایش تنش‌ها در منطقه"
         ]
       }
     ],
@@ -5483,7 +5500,8 @@
         "19 Sep",
         "21 Sep",
         "23 Sep",
-        "25 Sep"
+        "25 Sep",
+        "26 Sep"
       ],
       "us_israel_waves": [
         55,
@@ -6079,7 +6097,8 @@
         "19 Sep",
         "21 Sep",
         "23 Sep",
-        "25 Sep"
+        "25 Sep",
+        "26 Sep"
       ],
       "hengaw_total": [
         1000,
@@ -6524,7 +6543,8 @@
         "19 Sep",
         "21 Sep",
         "23 Sep",
-        "25 Sep"
+        "25 Sep",
+        "26 Sep"
       ],
       "daily_bm": [
         200,
@@ -6859,7 +6879,8 @@
         "19 Sep",
         "21 Sep",
         "23 Sep",
-        "25 Sep"
+        "25 Sep",
+        "26 Sep"
       ],
       "data": [
         1.5,
