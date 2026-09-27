@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-26",
-    "update_time": "09:36 EST",
-    "day_number": 171,
+    "last_updated": "2026-09-27",
+    "update_time": "10:15 EST",
+    "day_number": 172,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3252,6 +3252,23 @@
         "events": "Iran proposed reopening the Strait of Hormuz under specific conditions, including lifting the U.S. naval blockade and sanctions. The U.S. has reportedly rejected this proposal. Iran maintains it will make no concessions on its nuclear program.",
         "events_fa": "ایران پیشنهاد بازگشایی تنگه هرمز را تحت شرایط خاصی، از جمله لغو محاصره دریایی و تحریم‌های آمریکا، ارائه داد. گزارش‌ها حاکی از آن است که آمریکا این پیشنهاد را رد کرده است. ایران تأکید دارد که در برنامه هسته‌ای خود هیچ امتیازی نخواهد داد.",
         "highlight": false
+      },
+      {
+        "day": 172,
+        "date": "27 Sep",
+        "date_fa": "۲۷ سپتامبر",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "Iran's Foreign Minister Abbas Araghchi stated that Tehran is awaiting an official U.S. response to its proposal to reopen the Strait of Hormuz, following President Donald Trump's rejection of the plan. Araghchi emphasized that only a negotiated solution can resolve the current deadlock. Additionally, Saudi Arabia accused Iran of attacks on civilian and economic targets across the region and called for international action against Houthi threats to Red Sea shipping.",
+        "events_fa": "عباس عراقچی، وزیر امور خارجه ایران، اعلام کرد که تهران در انتظار پاسخ رسمی ایالات متحده به پیشنهاد خود برای بازگشایی تنگه هرمز است، پس از آنکه رئیس‌جمهور دونالد ترامپ این طرح را رد کرد. عراقچی تأکید کرد که تنها یک راه‌حل مذاکره‌ای می‌تواند بن‌بست کنونی را حل کند. علاوه بر این، عربستان سعودی ایران را به حملات به اهداف غیرنظامی و اقتصادی در سراسر منطقه متهم کرد و خواستار اقدام بین‌المللی علیه تهدیدات حوثی‌ها به کشتیرانی در دریای سرخ شد.",
+        "highlight": false
       }
     ]
   },
@@ -5007,8 +5024,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 20,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Scenario A description remains unchanged.",
+        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5017,8 +5034,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "پیشنهاد ایران برای بازگشایی تنگه هرمز",
-          "مذاکرات میانجی‌گری شده در سازمان ملل"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -5027,8 +5044,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 40,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
+        "description": "Scenario B description remains unchanged.",
+        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5037,8 +5054,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "رد پیشنهاد ایران توسط آمریکا",
-          "عدم انعطاف‌پذیری ایران در برنامه هسته‌ای"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -5047,8 +5064,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 40,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
+        "description": "Scenario C description remains unchanged.",
+        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5057,8 +5074,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "ادامه بن‌بست در مذاکرات",
-          "افزایش تنش‌ها در منطقه"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -5501,7 +5518,8 @@
         "21 Sep",
         "23 Sep",
         "25 Sep",
-        "26 Sep"
+        "26 Sep",
+        "27 Sep"
       ],
       "us_israel_waves": [
         55,
@@ -6098,7 +6116,8 @@
         "21 Sep",
         "23 Sep",
         "25 Sep",
-        "26 Sep"
+        "26 Sep",
+        "27 Sep"
       ],
       "hengaw_total": [
         1000,
@@ -6544,7 +6563,8 @@
         "21 Sep",
         "23 Sep",
         "25 Sep",
-        "26 Sep"
+        "26 Sep",
+        "27 Sep"
       ],
       "daily_bm": [
         200,
@@ -6880,7 +6900,8 @@
         "21 Sep",
         "23 Sep",
         "25 Sep",
-        "26 Sep"
+        "26 Sep",
+        "27 Sep"
       ],
       "data": [
         1.5,
