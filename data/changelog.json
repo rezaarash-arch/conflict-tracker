@@ -3330,5 +3330,30 @@
       "meta.day_number: 171 -> 172",
       "NEW DAY 172: Iran's Foreign Minister Abbas Araghchi stated that Tehran is awaiting an officia..."
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "timestamp": "2026-09-28T06:18:39.283659-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, military actions, and diplomatic developments as of September 28, 2026.",
+    "changes": [
+      "meta.last_updated: 2026-09-27 -> 2026-09-28",
+      "meta.update_time: 10:15 EST -> 11:18 EST",
+      "meta.day_number: 172 -> 173",
+      "NEW DAY 173: Iran launched missile strikes targeting a U.S. military base in Jordan in retali...",
+      "overview.us_israel_strikes: ~44,000+ -> ~45,000+",
+      "costs.kpis.oil_brent: $120.00 -> $118.00",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 40% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
