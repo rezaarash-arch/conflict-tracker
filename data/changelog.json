@@ -3355,5 +3355,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-09-29",
+    "timestamp": "2026-09-29T05:57:54.612476-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include U.S. and Israeli airstrikes on Iranian nuclear sites, Iranian missile attacks on U.S. bases in the Gulf, and cyberattacks attributed to Iran affecting U.S. water infrastructure.",
+    "changes": [
+      "meta.last_updated: 2026-09-28 -> 2026-09-29",
+      "meta.update_time: 11:18 EST -> 10:57 EST",
+      "meta.day_number: 173 -> 174",
+      "NEW DAY 174: U.S. and Israel conducted airstrikes on Iranian nuclear facilities; Iran retalia...",
+      "overview.us_israel_strikes: ~45,000+ -> ~46,000+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
