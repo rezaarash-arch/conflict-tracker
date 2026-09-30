@@ -3379,5 +3379,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-09-30",
+    "timestamp": "2026-09-30T05:47:59.729586-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, military actions, and diplomatic developments as of September 30, 2026.",
+    "changes": [
+      "meta.last_updated: 2026-09-29 -> 2026-09-30",
+      "meta.update_time: 10:57 EST -> 10:47 EST",
+      "meta.day_number: 174 -> 175",
+      "NEW DAY 175: Iran launched missile and drone attacks on U.S. bases in the Gulf; U.S. and Isra...",
+      "overview.us_israel_strikes: ~46,000+ -> ~46,500+",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
