@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-30",
-    "update_time": "10:47 EST",
-    "day_number": 175,
+    "last_updated": "2026-10-01",
+    "update_time": "11:14 EST",
+    "day_number": 176,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3320,6 +3320,23 @@
         "events": "Iran launched missile and drone attacks on U.S. bases in the Gulf; U.S. and Israel conducted retaliatory airstrikes on Iranian military facilities.",
         "events_fa": "ایران حملات موشکی و پهپادی به پایگاه‌های آمریکایی در خلیج فارس انجام داد؛ آمریکا و اسرائیل حملات هوایی تلافی‌جویانه به تأسیسات نظامی ایران انجام دادند.",
         "highlight": false
+      },
+      {
+        "day": 176,
+        "date": "1 Oct",
+        "date_fa": "۱ اکتبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "U.S. Secretary of State Marco Rubio ordered the Iranian delegation at the United Nations General Assembly to leave the United States after negotiations stalled. President Donald Trump stated that the war with Iran will end 'very soon, one way or the other,' indicating a choice between military action or a deal. Additionally, a series of cyberattacks attributed to Iran targeted water infrastructure in at least 12 U.S. states, affecting hundreds of thousands of residents.",
+        "events_fa": "وزیر امور خارجه ایالات متحده، مارکو روبیو، به هیئت ایرانی در مجمع عمومی سازمان ملل دستور داد پس از توقف مذاکرات، ایالات متحده را ترک کنند. رئیس‌جمهور دونالد ترامپ اظهار داشت که جنگ با ایران 'بسیار زود، به یک شکل یا شکل دیگر' پایان خواهد یافت، که نشان‌دهنده انتخاب بین اقدام نظامی یا توافق است. علاوه بر این، مجموعه‌ای از حملات سایبری منتسب به ایران زیرساخت‌های آبی در حداقل ۱۲ ایالت ایالات متحده را هدف قرار داد و صدها هزار نفر را تحت تأثیر قرار داد.",
+        "highlight": false
       }
     ]
   },
@@ -5103,10 +5120,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 20,
         "color": "amber",
-        "description": "Negotiated settlement leading to ceasefire",
-        "description_fa": "توافق مذاکره‌شده منجر به آتش‌بس",
+        "description": "Ceasefire agreement reached with partial lifting of sanctions.",
+        "description_fa": "توافق آتش‌بس با لغو جزئی تحریم‌ها.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5116,17 +5133,17 @@
         ],
         "drivers_fa": [
           "افزایش فشار بین‌المللی",
-          "خستگی از جنگ در هر دو طرف"
+          "خستگی جنگی در هر دو طرف"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 50,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
+        "description": "Continued low-intensity conflict with intermittent negotiations.",
+        "description_fa": "ادامه درگیری با شدت کم و مذاکرات متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5135,18 +5152,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم اعتماد متقابل",
-          "ادامه حملات نظامی"
+          "بی‌اعتمادی متقابل",
+          "فقدان توافق بر سر مسائل کلیدی"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 40,
+        "probability": 30,
         "color": "green",
-        "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description": "Escalation to full-scale war involving regional actors.",
+        "description_fa": "تشدید به جنگ تمام‌عیار با مشارکت بازیگران منطقه‌ای.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5155,8 +5172,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "گسترش درگیری‌ها به کشورهای همسایه",
-          "مداخله قدرت‌های خارجی"
+          "حملات تحریک‌آمیز",
+          "مداخله بازیگران ثالث"
         ]
       }
     ],
@@ -5603,7 +5620,8 @@
         "27 Sep",
         "28 Sep",
         "29 Sep",
-        "30 Sep"
+        "30 Sep",
+        "1 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6213,7 +6231,8 @@
         "27 Sep",
         "28 Sep",
         "29 Sep",
-        "30 Sep"
+        "30 Sep",
+        "1 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -6669,7 +6688,8 @@
         "27 Sep",
         "28 Sep",
         "29 Sep",
-        "30 Sep"
+        "30 Sep",
+        "1 Oct"
       ],
       "daily_bm": [
         200,
@@ -7012,7 +7032,8 @@
         "27 Sep",
         "28 Sep",
         "29 Sep",
-        "30 Sep"
+        "30 Sep",
+        "1 Oct"
       ],
       "data": [
         1.5,
@@ -7356,7 +7377,8 @@
         105.0,
         118.0,
         150.0,
-        96.16
+        96.16,
+        118.0
       ]
     },
     "hormuz_transit": {
@@ -7537,9 +7559,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        45,
-        40
+        20,
+        50,
+        30
       ],
       "colors": [
         "rgba(245,158,11,.7)",

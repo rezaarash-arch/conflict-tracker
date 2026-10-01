@@ -3402,5 +3402,21 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "timestamp": "2026-10-01T06:14:25.797374-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, recent diplomatic developments, and cyberattack incidents.",
+    "changes": [
+      "meta.last_updated: 2026-09-30 -> 2026-10-01",
+      "meta.update_time: 10:47 EST -> 11:14 EST",
+      "meta.day_number: 175 -> 176",
+      "NEW DAY 176: U.S. Secretary of State Marco Rubio ordered the Iranian delegation at the United...",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 45% -> 50%",
+      "scenario C prob: 40% -> 30%",
+      "chart brent_oil.data: appended 1 values"
+    ]
   }
 ]
