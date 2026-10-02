@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-01",
-    "update_time": "11:14 EST",
-    "day_number": 176,
+    "last_updated": "2026-10-02",
+    "update_time": "10:47 EST",
+    "day_number": 177,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3337,6 +3337,23 @@
         "events": "U.S. Secretary of State Marco Rubio ordered the Iranian delegation at the United Nations General Assembly to leave the United States after negotiations stalled. President Donald Trump stated that the war with Iran will end 'very soon, one way or the other,' indicating a choice between military action or a deal. Additionally, a series of cyberattacks attributed to Iran targeted water infrastructure in at least 12 U.S. states, affecting hundreds of thousands of residents.",
         "events_fa": "وزیر امور خارجه ایالات متحده، مارکو روبیو، به هیئت ایرانی در مجمع عمومی سازمان ملل دستور داد پس از توقف مذاکرات، ایالات متحده را ترک کنند. رئیس‌جمهور دونالد ترامپ اظهار داشت که جنگ با ایران 'بسیار زود، به یک شکل یا شکل دیگر' پایان خواهد یافت، که نشان‌دهنده انتخاب بین اقدام نظامی یا توافق است. علاوه بر این، مجموعه‌ای از حملات سایبری منتسب به ایران زیرساخت‌های آبی در حداقل ۱۲ ایالت ایالات متحده را هدف قرار داد و صدها هزار نفر را تحت تأثیر قرار داد.",
         "highlight": false
+      },
+      {
+        "day": 177,
+        "date": "2 Oct",
+        "date_fa": "۲ اکتبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "1. British-Iranian arrested in UK for suspected terror plot related to RAF Fairford. 2. U.S. Department of Energy employee arrested for allegedly supporting Iranian-backed Houthis. 3. President Trump discusses Iran conflict in Time interview.",
+        "events_fa": "۱. دستگیری یک بریتانیایی-ایرانی در بریتانیا به اتهام طرح تروریستی مرتبط با پایگاه RAF Fairford. ۲. دستگیری کارمند وزارت انرژی آمریکا به اتهام حمایت از حوثی‌های مورد حمایت ایران. ۳. گفتگوی رئیس‌جمهور ترامپ درباره درگیری ایران در مصاحبه با تایم.",
+        "highlight": false
       }
     ]
   },
@@ -5122,8 +5139,8 @@
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
         "probability": 20,
         "color": "amber",
-        "description": "Ceasefire agreement reached with partial lifting of sanctions.",
-        "description_fa": "توافق آتش‌بس با لغو جزئی تحریم‌ها.",
+        "description": "Scenario A description remains unchanged.",
+        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5132,8 +5149,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی",
-          "خستگی جنگی در هر دو طرف"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -5142,8 +5159,8 @@
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
         "probability": 50,
         "color": "red",
-        "description": "Continued low-intensity conflict with intermittent negotiations.",
-        "description_fa": "ادامه درگیری با شدت کم و مذاکرات متناوب.",
+        "description": "Scenario B description remains unchanged.",
+        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5152,8 +5169,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "بی‌اعتمادی متقابل",
-          "فقدان توافق بر سر مسائل کلیدی"
+          "عامل ۱",
+          "عامل ۲"
         ]
       },
       {
@@ -5162,8 +5179,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Escalation to full-scale war involving regional actors.",
-        "description_fa": "تشدید به جنگ تمام‌عیار با مشارکت بازیگران منطقه‌ای.",
+        "description": "Scenario C description remains unchanged.",
+        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5172,8 +5189,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات تحریک‌آمیز",
-          "مداخله بازیگران ثالث"
+          "عامل ۱",
+          "عامل ۲"
         ]
       }
     ],
@@ -5621,7 +5638,8 @@
         "28 Sep",
         "29 Sep",
         "30 Sep",
-        "1 Oct"
+        "1 Oct",
+        "2 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6232,7 +6250,8 @@
         "28 Sep",
         "29 Sep",
         "30 Sep",
-        "1 Oct"
+        "1 Oct",
+        "2 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -6689,7 +6708,8 @@
         "28 Sep",
         "29 Sep",
         "30 Sep",
-        "1 Oct"
+        "1 Oct",
+        "2 Oct"
       ],
       "daily_bm": [
         200,
@@ -7033,7 +7053,8 @@
         "28 Sep",
         "29 Sep",
         "30 Sep",
-        "1 Oct"
+        "1 Oct",
+        "2 Oct"
       ],
       "data": [
         1.5,
