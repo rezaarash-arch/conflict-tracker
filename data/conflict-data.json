@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-02",
-    "update_time": "10:47 EST",
-    "day_number": 177,
+    "last_updated": "2026-10-03",
+    "update_time": "10:07 EST",
+    "day_number": 178,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~46,500+",
+    "us_israel_strikes": "~46,700+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -3354,6 +3354,23 @@
         "events": "1. British-Iranian arrested in UK for suspected terror plot related to RAF Fairford. 2. U.S. Department of Energy employee arrested for allegedly supporting Iranian-backed Houthis. 3. President Trump discusses Iran conflict in Time interview.",
         "events_fa": "۱. دستگیری یک بریتانیایی-ایرانی در بریتانیا به اتهام طرح تروریستی مرتبط با پایگاه RAF Fairford. ۲. دستگیری کارمند وزارت انرژی آمریکا به اتهام حمایت از حوثی‌های مورد حمایت ایران. ۳. گفتگوی رئیس‌جمهور ترامپ درباره درگیری ایران در مصاحبه با تایم.",
         "highlight": false
+      },
+      {
+        "day": 178,
+        "date": "3 Oct",
+        "date_fa": "۳ اکتبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "1. U.S. national security aides meet at Camp David to discuss Iran and Yemen. 2. U.S. deploys third aircraft carrier to Middle East. 3. Flydubai flight incident involving an Omani pilot en route to Tel Aviv.",
+        "events_fa": "۱. مشاوران امنیت ملی آمریکا در کمپ دیوید برای بحث درباره ایران و یمن ملاقات کردند. ۲. آمریکا سومین ناو هواپیمابر را به خاورمیانه اعزام کرد. ۳. حادثه پرواز فلای‌دبی با دخالت یک خلبان عمانی در مسیر تل‌آویو.",
+        "highlight": false
       }
     ]
   },
@@ -5137,10 +5154,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Scenario A description remains unchanged.",
-        "description_fa": "توضیحات سناریو A بدون تغییر باقی می‌ماند.",
+        "description": "Escalation leading to broader regional conflict.",
+        "description_fa": "تشدید منجر به درگیری گسترده‌تر منطقه‌ای.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5149,18 +5166,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "افزایش حملات نظامی",
+          "عدم پیشرفت در مذاکرات دیپلماتیک"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Scenario B description remains unchanged.",
-        "description_fa": "توضیحات سناریو B بدون تغییر باقی می‌ماند.",
+        "description": "Continued low-intensity conflict with intermittent negotiations.",
+        "description_fa": "ادامه درگیری با شدت کم و مذاکرات متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5169,8 +5186,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "تلاش‌های دیپلماتیک مداوم",
+          "حملات محدود"
         ]
       },
       {
@@ -5179,8 +5196,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Scenario C description remains unchanged.",
-        "description_fa": "توضیحات سناریو C بدون تغییر باقی می‌ماند.",
+        "description": "Ceasefire leading to diplomatic resolution.",
+        "description_fa": "آتش‌بس منجر به حل دیپلماتیک.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5189,8 +5206,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عامل ۱",
-          "عامل ۲"
+          "فشار بین‌المللی",
+          "تمایل به کاهش تنش"
         ]
       }
     ],
@@ -5639,7 +5656,8 @@
         "29 Sep",
         "30 Sep",
         "1 Oct",
-        "2 Oct"
+        "2 Oct",
+        "3 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6251,7 +6269,8 @@
         "29 Sep",
         "30 Sep",
         "1 Oct",
-        "2 Oct"
+        "2 Oct",
+        "3 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -6709,7 +6728,8 @@
         "29 Sep",
         "30 Sep",
         "1 Oct",
-        "2 Oct"
+        "2 Oct",
+        "3 Oct"
       ],
       "daily_bm": [
         200,
@@ -7054,7 +7074,8 @@
         "29 Sep",
         "30 Sep",
         "1 Oct",
-        "2 Oct"
+        "2 Oct",
+        "3 Oct"
       ],
       "data": [
         1.5,
@@ -7399,7 +7420,8 @@
         118.0,
         150.0,
         96.16,
-        118.0
+        118.0,
+        120.5
       ]
     },
     "hormuz_transit": {
@@ -7580,8 +7602,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        50,
+        25,
+        45,
         30
       ],
       "colors": [
