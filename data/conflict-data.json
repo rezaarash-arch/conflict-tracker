@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-03",
-    "update_time": "10:07 EST",
-    "day_number": 178,
+    "last_updated": "2026-10-04",
+    "update_time": "10:47 EST",
+    "day_number": 179,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3371,6 +3371,23 @@
         "events": "1. U.S. national security aides meet at Camp David to discuss Iran and Yemen. 2. U.S. deploys third aircraft carrier to Middle East. 3. Flydubai flight incident involving an Omani pilot en route to Tel Aviv.",
         "events_fa": "۱. مشاوران امنیت ملی آمریکا در کمپ دیوید برای بحث درباره ایران و یمن ملاقات کردند. ۲. آمریکا سومین ناو هواپیمابر را به خاورمیانه اعزام کرد. ۳. حادثه پرواز فلای‌دبی با دخالت یک خلبان عمانی در مسیر تل‌آویو.",
         "highlight": false
+      },
+      {
+        "day": 179,
+        "date": "4 Oct",
+        "date_fa": "۴ اکتبر",
+        "waves": "1",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "1",
+        "other_fa": "۱",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "1",
+        "events": "1. Israeli airstrike in Gaza kills one Palestinian. 2. Tanker struck by unknown projectile in Strait of Hormuz. 3. Yemen conducts strikes against Houthi targets in Sanaa.",
+        "events_fa": "۱. حمله هوایی اسرائیل در غزه یک فلسطینی را کشت. ۲. نفتکش در تنگه هرمز توسط پرتابه‌ای ناشناس مورد اصابت قرار گرفت. ۳. یمن حملاتی علیه اهداف حوثی در صنعا انجام داد.",
+        "highlight": false
       }
     ]
   },
@@ -5154,7 +5171,7 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 30,
         "color": "amber",
         "description": "Escalation leading to broader regional conflict.",
         "description_fa": "تشدید منجر به درگیری گسترده‌تر منطقه‌ای.",
@@ -5166,18 +5183,19 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش حملات نظامی",
-          "عدم پیشرفت در مذاکرات دیپلماتیک"
+          "حمله هوایی اسرائیل در غزه",
+          "حمله به نفتکش در تنگه هرمز",
+          "حملات یمن به اهداف حوثی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 40,
         "color": "red",
-        "description": "Continued low-intensity conflict with intermittent negotiations.",
-        "description_fa": "ادامه درگیری با شدت کم و مذاکرات متناوب.",
+        "description": "Continued low-intensity conflict with periodic escalations.",
+        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای دوره‌ای.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5186,8 +5204,9 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک مداوم",
-          "حملات محدود"
+          "حمله هوایی اسرائیل در غزه",
+          "حمله به نفتکش در تنگه هرمز",
+          "حملات یمن به اهداف حوثی"
         ]
       },
       {
@@ -5196,8 +5215,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Ceasefire leading to diplomatic resolution.",
-        "description_fa": "آتش‌بس منجر به حل دیپلماتیک.",
+        "description": "De-escalation leading to ceasefire negotiations.",
+        "description_fa": "کاهش تنش منجر به مذاکرات آتش‌بس.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5206,8 +5225,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "تمایل به کاهش تنش"
+          "فشارهای بین‌المللی برای کاهش تنش",
+          "مذاکرات دیپلماتیک در جریان"
         ]
       }
     ],
@@ -5657,7 +5676,8 @@
         "30 Sep",
         "1 Oct",
         "2 Oct",
-        "3 Oct"
+        "3 Oct",
+        "4 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -5801,6 +5821,7 @@
         null,
         3,
         3,
+        1,
         1
       ],
       "iran_bms": [
@@ -5945,7 +5966,8 @@
         null,
         50,
         300,
-        100
+        100,
+        0
       ],
       "iran_drones": [
         500,
@@ -6088,7 +6110,8 @@
         null,
         20,
         50,
-        10
+        10,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -6270,7 +6293,8 @@
         "30 Sep",
         "1 Oct",
         "2 Oct",
-        "3 Oct"
+        "3 Oct",
+        "4 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -6411,7 +6435,8 @@
         null,
         4700,
         4600,
-        4600
+        4600,
+        0
       ],
       "hrana_civilian": [
         133,
@@ -6547,7 +6572,8 @@
         null,
         3600,
         3138,
-        3100
+        3100,
+        0
       ]
     },
     "bm_degradation": {
@@ -6729,7 +6755,8 @@
         "30 Sep",
         "1 Oct",
         "2 Oct",
-        "3 Oct"
+        "3 Oct",
+        "4 Oct"
       ],
       "daily_bm": [
         200,
@@ -6873,7 +6900,8 @@
         null,
         50,
         300,
-        100
+        100,
+        0
       ],
       "trendline": [
         200,
@@ -7075,7 +7103,8 @@
         "30 Sep",
         "1 Oct",
         "2 Oct",
-        "3 Oct"
+        "3 Oct",
+        "4 Oct"
       ],
       "data": [
         1.5,
@@ -7211,7 +7240,8 @@
         null,
         2000000000,
         500000000,
-        500000000
+        500000000,
+        0
       ]
     },
     "cost_distribution": {
@@ -7421,7 +7451,8 @@
         150.0,
         96.16,
         118.0,
-        120.5
+        120.5,
+        118.5
       ]
     },
     "hormuz_transit": {
@@ -7587,7 +7618,8 @@
         null,
         85,
         50,
-        85
+        85,
+        5
       ]
     },
     "scenario_probabilities": {
@@ -7602,8 +7634,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        45,
+        30,
+        40,
         30
       ],
       "colors": [
