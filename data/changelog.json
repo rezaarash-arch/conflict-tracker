@@ -3468,5 +3468,24 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "timestamp": "2026-10-05T06:54:43.862611-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include a Saudi-led coalition launching a major offensive against Houthi rebels in Yemen, increased tanker attacks in the Strait of Hormuz, and Iran's Foreign Minister emphasizing the need for negotiations over military solutions.",
+    "changes": [
+      "meta.last_updated: 2026-10-04 -> 2026-10-05",
+      "meta.update_time: 10:47 EST -> 11:54 EST",
+      "meta.day_number: 179 -> 180",
+      "NEW DAY 180: 1. Saudi-led coalition launches major offensive against Houthi rebels in Yemen. ...",
+      "scenario A prob: 30% -> 25%",
+      "scenario B prob: 40% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
+    ]
   }
 ]
