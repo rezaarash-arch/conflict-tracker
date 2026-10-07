@@ -3487,5 +3487,28 @@
       "chart phase3_daily_timeline.iran_drones: appended 1 values",
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "timestamp": "2026-10-07T06:24:40.306638-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include intensified Houthi attacks on Saudi Arabia, U.S. withdrawal of bombers from RAF Fairford due to Iranian threats, and escalating tensions in the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-10-06 -> 2026-10-07",
+      "meta.update_time: 00:00 EST -> 11:24 EST",
+      "meta.day_number: 180 -> 181",
+      "NEW DAY 181: 1. Houthi rebels launch missile and drone attacks on Saudi Arabia, targeting mil...",
+      "overview.us_israel_strikes: ~46,700+ -> ~46,800+",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
