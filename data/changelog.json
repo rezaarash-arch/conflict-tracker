@@ -3533,5 +3533,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "timestamp": "2026-10-13T07:16:45.626511-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in regional hostilities, including Houthi attacks on Riyadh airport and increased tensions involving Iran, Saudi Arabia, and the U.S.",
+    "changes": [
+      "meta.last_updated: 2026-10-11 -> 2026-10-13",
+      "meta.update_time: 11:04 EST -> 12:16 EST",
+      "meta.day_number: 182 -> 183",
+      "NEW DAY 183: Houthi rebels launched missile and drone attacks on Riyadh's King Khalid Interna...",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
