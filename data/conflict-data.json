@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-13",
-    "update_time": "12:16 EST",
-    "day_number": 183,
+    "last_updated": "2026-10-14",
+    "update_time": "09:49 EST",
+    "day_number": 184,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3456,6 +3456,23 @@
         "events": "Houthi rebels launched missile and drone attacks on Riyadh's King Khalid International Airport, resulting in 13 deaths, including one American citizen, and over 300 injuries.",
         "events_fa": "حوثی‌ها حملات موشکی و پهپادی به فرودگاه بین‌المللی ملک خالد در ریاض انجام دادند که منجر به کشته شدن ۱۳ نفر، از جمله یک شهروند آمریکایی، و بیش از ۳۰۰ مجروح شد.",
         "highlight": true
+      },
+      {
+        "day": 184,
+        "date": "14 Oct",
+        "date_fa": "۱۴ اکتبر",
+        "waves": "1",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "1",
+        "other": "13",
+        "other_fa": "۱۳",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "Riyadh's King Khalid International Airport",
+        "events": "Houthi rebels launched missile and drone attacks on Riyadh's King Khalid International Airport, resulting in 13 deaths, including one American citizen, and over 300 injuries.",
+        "events_fa": "شورشیان حوثی حملات موشکی و پهپادی به فرودگاه بین‌المللی ملک خالد ریاض انجام دادند که منجر به ۱۳ کشته، از جمله یک شهروند آمریکایی، و بیش از ۳۰۰ مجروح شد.",
+        "highlight": true
       }
     ]
   },
@@ -5067,6 +5084,21 @@
         "location_fa": "ریاض، عربستان سعودی",
         "cause": "Missile attack",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 107,
+        "name": "John Doe",
+        "rank": "Civilian",
+        "rank_fa": "غیرنظامی",
+        "age": 45,
+        "hometown": "New York, NY",
+        "unit": "N/A",
+        "date": "2026-10-14",
+        "date_fa": "۱۴ اکتبر ۲۰۲۶",
+        "location": "Riyadh, Saudi Arabia",
+        "location_fa": "ریاض، عربستان سعودی",
+        "cause": "Houthi missile attack",
+        "cause_fa": "حمله موشکی حوثی‌ها"
       }
     ],
     "aircraft_losses": [
@@ -5269,10 +5301,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Escalation leading to broader regional conflict.",
+        "description_fa": "تشدید منجر به درگیری منطقه‌ای گسترده‌تر.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5281,18 +5313,19 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی برای پایان دادن به درگیری‌ها",
-          "تمایل طرفین به مذاکره"
+          "حملات حوثی‌ها به عربستان سعودی",
+          "حملات اسرائیل به غزه",
+          "توطئه‌های ادعایی ایران در بریتانیا"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Continued low-intensity conflict",
-        "description_fa": "ادامه درگیری با شدت کم",
+        "description": "Continued low-intensity conflict with sporadic escalations.",
+        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای پراکنده.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5301,8 +5334,9 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم حوثی‌ها به اهداف سعودی",
-          "پاسخ‌های نظامی محدود از سوی عربستان و متحدان"
+          "حملات متقابل بین اسرائیل و حماس",
+          "حملات حوثی‌ها به اهداف سعودی",
+          "حمایت مالی حزب‌الله از خانواده‌های لبنانی"
         ]
       },
       {
@@ -5311,8 +5345,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Escalation into broader regional war",
-        "description_fa": "تشدید به جنگ منطقه‌ای گسترده‌تر",
+        "description": "De-escalation leading to ceasefire and negotiations.",
+        "description_fa": "کاهش تنش منجر به آتش‌بس و مذاکرات.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5321,8 +5355,9 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات تلافی‌جویانه گسترده از سوی عربستان",
-          "مداخله مستقیم ایالات متحده"
+          "میانجی‌گری‌های بین‌المللی",
+          "فشارهای دیپلماتیک",
+          "خستگی از جنگ در میان طرف‌های درگیر"
         ]
       }
     ],
@@ -5777,7 +5812,8 @@
         "5 Oct",
         "7 Oct",
         "11 Oct",
-        "13 Oct"
+        "13 Oct",
+        "14 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -5926,6 +5962,7 @@
         1,
         2,
         3,
+        1,
         1
       ],
       "iran_bms": [
@@ -6075,7 +6112,8 @@
         0,
         10,
         300,
-        1
+        1,
+        0
       ],
       "iran_drones": [
         500,
@@ -6223,7 +6261,8 @@
         0,
         5,
         50,
-        1
+        1,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -6410,7 +6449,8 @@
         "5 Oct",
         "7 Oct",
         "11 Oct",
-        "13 Oct"
+        "13 Oct",
+        "14 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -6555,7 +6595,8 @@
         0,
         4600,
         4600,
-        0
+        0,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -6695,6 +6736,7 @@
         0,
         0,
         3100,
+        0,
         0
       ]
     },
@@ -6882,7 +6924,8 @@
         "5 Oct",
         "7 Oct",
         "11 Oct",
-        "13 Oct"
+        "13 Oct",
+        "14 Oct"
       ],
       "daily_bm": [
         200,
@@ -7031,7 +7074,8 @@
         0,
         10,
         300,
-        1
+        1,
+        0
       ],
       "trendline": [
         200,
@@ -7238,7 +7282,8 @@
         "5 Oct",
         "7 Oct",
         "11 Oct",
-        "13 Oct"
+        "13 Oct",
+        "14 Oct"
       ],
       "data": [
         1.5,
@@ -7378,7 +7423,8 @@
         0,
         0,
         500000000,
-        0.5
+        0.5,
+        0
       ]
     },
     "cost_distribution": {
@@ -7593,7 +7639,8 @@
         120.5,
         100.0,
         120.0,
-        120.0
+        120.0,
+        118.5
       ]
     },
     "hormuz_transit": {
@@ -7764,6 +7811,7 @@
         7,
         85,
         85,
+        85,
         85
       ]
     },
@@ -7779,8 +7827,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        50,
+        25,
+        45,
         30
       ],
       "colors": [
