@@ -3579,5 +3579,27 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-10-15",
+    "timestamp": "2026-10-15T04:30:03.649429-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include increased maritime attacks near the Strait of Hormuz, heightened tensions due to Houthi strikes on Saudi infrastructure, and internal deliberations within the U.S. and Israeli governments regarding potential military operations against Iran.",
+    "changes": [
+      "meta.last_updated: 2026-10-14 -> 2026-10-15",
+      "meta.update_time: 09:49 EST -> 09:29 EST",
+      "meta.day_number: 184 -> 185",
+      "NEW DAY 185: Two container ships sunk near the Strait of Hormuz; US destroys Iran-affiliated ...",
+      "overview.us_israel_strikes: ~46,800+ -> ~46,805+",
+      "costs.kpis.oil_brent: $118.00 -> $120.00",
+      "scenario A prob: 25% -> 30%",
+      "scenario B prob: 45% -> 40%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
+    ]
   }
 ]
