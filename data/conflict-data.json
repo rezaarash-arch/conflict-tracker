@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-15",
-    "update_time": "09:29 EST",
-    "day_number": 185,
+    "last_updated": "2026-10-16",
+    "update_time": "09:22 EST",
+    "day_number": 186,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~46,805+",
+    "us_israel_strikes": "~47,500+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -3490,6 +3490,23 @@
         "events": "Two container ships sunk near the Strait of Hormuz; US destroys Iran-affiliated dhow in Gulf of Oman.",
         "events_fa": "دو کشتی کانتینری در نزدیکی تنگه هرمز غرق شدند؛ آمریکا یک کشتی مرتبط با ایران را در خلیج عمان نابود کرد.",
         "highlight": true
+      },
+      {
+        "day": 186,
+        "date": "16 Oct",
+        "date_fa": "۱۶ اکتبر",
+        "waves": "3",
+        "iran_dead": "50",
+        "isr_dead": "5",
+        "us_dead": "1",
+        "other": "20",
+        "other_fa": "۲۰",
+        "iran_bms": "15",
+        "iran_drones": "10",
+        "targets": "US bases in Gulf, Israeli military positions",
+        "events": "Houthi rebels escalate attacks on Saudi infrastructure; UK thwarts Iranian plot against RAF Fairford; maritime threats persist in Strait of Hormuz.",
+        "events_fa": "حوثی‌ها حملات به زیرساخت‌های سعودی را تشدید کردند؛ بریتانیا طرح ایران برای حمله به پایگاه RAF Fairford را خنثی کرد؛ تهدیدات دریایی در تنگه هرمز ادامه دارد.",
+        "highlight": true
       }
     ]
   },
@@ -5116,6 +5133,21 @@
         "location_fa": "ریاض، عربستان سعودی",
         "cause": "Houthi missile attack",
         "cause_fa": "حمله موشکی حوثی‌ها"
+      },
+      {
+        "num": 108,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-10-16",
+        "date_fa": "۱۶ اکتبر ۲۰۲۶",
+        "location": "Al Udeid Air Base, Qatar",
+        "location_fa": "پایگاه هوایی العدید، قطر",
+        "cause": "Missile attack",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -5177,7 +5209,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$120.00",
+      "oil_brent": "$150.00",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -5318,10 +5350,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 30,
+        "probability": 25,
         "color": "amber",
-        "description": "Escalation leading to broader regional conflict",
-        "description_fa": "تشدید منجر به درگیری گسترده‌تر منطقه‌ای",
+        "description": "Ceasefire achieved with partial withdrawal of forces.",
+        "description_fa": "آتش‌بس با عقب‌نشینی جزئی نیروها.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5330,18 +5362,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "حملات دریایی اخیر",
-          "افزایش تنش‌ها"
+          "فشار بین‌المللی",
+          "خستگی جنگی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 40,
+        "probability": 50,
         "color": "red",
-        "description": "Continued low-intensity conflict with periodic escalations",
-        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای دوره‌ای",
+        "description": "Continued low-intensity conflict with sporadic escalations.",
+        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای پراکنده.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5351,17 +5383,17 @@
         ],
         "drivers_fa": [
           "حملات حوثی‌ها",
-          "واکنش‌های نظامی محدود"
+          "حملات سایبری"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 30,
+        "probability": 25,
         "color": "green",
-        "description": "Negotiated ceasefire leading to de-escalation",
-        "description_fa": "آتش‌بس مذاکره‌شده منجر به کاهش تنش",
+        "description": "Full-scale regional war involving multiple state and non-state actors.",
+        "description_fa": "جنگ تمام‌عیار منطقه‌ای با مشارکت چندین بازیگر دولتی و غیردولتی.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5370,8 +5402,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "میانجی‌گری قطر",
-          "فشار بین‌المللی"
+          "حمله به زیرساخت‌های حیاتی",
+          "افزایش تلفات غیرنظامیان"
         ]
       }
     ],
@@ -5828,7 +5860,8 @@
         "11 Oct",
         "13 Oct",
         "14 Oct",
-        "15 Oct"
+        "15 Oct",
+        "16 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -5979,7 +6012,8 @@
         3,
         1,
         1,
-        2
+        2,
+        3
       ],
       "iran_bms": [
         200,
@@ -6130,7 +6164,8 @@
         300,
         1,
         0,
-        5
+        5,
+        15
       ],
       "iran_drones": [
         500,
@@ -6280,7 +6315,8 @@
         50,
         1,
         0,
-        3
+        3,
+        10
       ]
     },
     "phase3_cumulative_casualties": {
@@ -6469,7 +6505,8 @@
         "11 Oct",
         "13 Oct",
         "14 Oct",
-        "15 Oct"
+        "15 Oct",
+        "16 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -6616,7 +6653,8 @@
         4600,
         0,
         4600,
-        4615
+        4615,
+        4800
       ],
       "hrana_civilian": [
         133,
@@ -6757,7 +6795,8 @@
         0,
         3100,
         0,
-        0
+        0,
+        3200
       ]
     },
     "bm_degradation": {
@@ -6946,7 +6985,8 @@
         "11 Oct",
         "13 Oct",
         "14 Oct",
-        "15 Oct"
+        "15 Oct",
+        "16 Oct"
       ],
       "daily_bm": [
         200,
@@ -7097,7 +7137,8 @@
         300,
         1,
         0,
-        5
+        5,
+        15
       ],
       "trendline": [
         200,
@@ -7306,7 +7347,8 @@
         "11 Oct",
         "13 Oct",
         "14 Oct",
-        "15 Oct"
+        "15 Oct",
+        "16 Oct"
       ],
       "data": [
         1.5,
@@ -7447,7 +7489,8 @@
         0,
         500000000,
         0.5,
-        0
+        0,
+        500000000
       ]
     },
     "cost_distribution": {
@@ -7664,7 +7707,8 @@
         120.0,
         120.0,
         118.5,
-        120.0
+        120.0,
+        150.0
       ]
     },
     "hormuz_transit": {
@@ -7837,7 +7881,8 @@
         85,
         85,
         85,
-        15
+        15,
+        75
       ]
     },
     "scenario_probabilities": {
@@ -7852,9 +7897,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        30,
-        40,
-        30
+        25,
+        50,
+        25
       ],
       "colors": [
         "rgba(245,158,11,.7)",

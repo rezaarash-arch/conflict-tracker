@@ -3601,5 +3601,31 @@
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
       "chart phase3_cumulative_casualties.hengaw_total: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-10-16",
+    "timestamp": "2026-10-16T04:22:46.874292-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include increased Houthi attacks on Saudi Arabia, a thwarted Iranian plot against a UK military base, and ongoing maritime threats in the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-10-15 -> 2026-10-16",
+      "meta.update_time: 09:29 EST -> 09:22 EST",
+      "meta.day_number: 185 -> 186",
+      "NEW DAY 186: Houthi rebels escalate attacks on Saudi infrastructure; UK thwarts Iranian plot ...",
+      "overview.us_israel_strikes: ~46,805+ -> ~47,500+",
+      "costs.kpis.oil_brent: $120.00 -> $150.00",
+      "scenario A prob: 30% -> 25%",
+      "scenario B prob: 40% -> 50%",
+      "scenario C prob: 30% -> 25%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
