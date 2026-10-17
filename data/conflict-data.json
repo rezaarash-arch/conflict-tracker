@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-16",
-    "update_time": "09:22 EST",
-    "day_number": 186,
+    "last_updated": "2026-10-17",
+    "update_time": "08:54 EST",
+    "day_number": 187,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~47,500+",
+    "us_israel_strikes": "~48,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -3507,6 +3507,23 @@
         "events": "Houthi rebels escalate attacks on Saudi infrastructure; UK thwarts Iranian plot against RAF Fairford; maritime threats persist in Strait of Hormuz.",
         "events_fa": "حوثی‌ها حملات به زیرساخت‌های سعودی را تشدید کردند؛ بریتانیا طرح ایران برای حمله به پایگاه RAF Fairford را خنثی کرد؛ تهدیدات دریایی در تنگه هرمز ادامه دارد.",
         "highlight": true
+      },
+      {
+        "day": 187,
+        "date": "17 Oct",
+        "date_fa": "۱۷ اکتبر",
+        "waves": "Multiple",
+        "iran_dead": "Unknown",
+        "isr_dead": "Unknown",
+        "us_dead": "7",
+        "other": "5",
+        "other_fa": "۵",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "Saudi infrastructure, U.S. military bases",
+        "events": "Houthi rebels escalate attacks on Saudi infrastructure; U.S. considers intensified military operations against Iran; Iran continues oil exports despite sanctions.",
+        "events_fa": "حوثی‌ها حملات به زیرساخت‌های سعودی را تشدید کردند؛ ایالات متحده بررسی عملیات نظامی شدیدتر علیه ایران؛ ایران با وجود تحریم‌ها به صادرات نفت ادامه می‌دهد.",
+        "highlight": true
       }
     ]
   },
@@ -5148,6 +5165,21 @@
         "location_fa": "پایگاه هوایی العدید، قطر",
         "cause": "Missile attack",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 109,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-10-16",
+        "date_fa": "۲۵ مهر ۱۴۰۵",
+        "location": "Riyadh, Saudi Arabia",
+        "location_fa": "ریاض، عربستان سعودی",
+        "cause": "Houthi missile attack",
+        "cause_fa": "حمله موشکی حوثی‌ها"
       }
     ],
     "aircraft_losses": [
@@ -5209,7 +5241,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$150.00",
+      "oil_brent": "$152.00",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -5350,10 +5382,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire achieved with partial withdrawal of forces.",
-        "description_fa": "آتش‌بس با عقب‌نشینی جزئی نیروها.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5370,10 +5402,10 @@
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 55,
         "color": "red",
-        "description": "Continued low-intensity conflict with sporadic escalations.",
-        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای پراکنده.",
+        "description": "Continued low-intensity conflict",
+        "description_fa": "ادامه درگیری با شدت کم",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5383,7 +5415,7 @@
         ],
         "drivers_fa": [
           "حملات حوثی‌ها",
-          "حملات سایبری"
+          "تحریم‌های اقتصادی"
         ]
       },
       {
@@ -5392,8 +5424,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 25,
         "color": "green",
-        "description": "Full-scale regional war involving multiple state and non-state actors.",
-        "description_fa": "جنگ تمام‌عیار منطقه‌ای با مشارکت چندین بازیگر دولتی و غیردولتی.",
+        "description": "Escalation to full-scale war",
+        "description_fa": "تشدید به جنگ تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5402,7 +5434,7 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حمله به زیرساخت‌های حیاتی",
+          "حملات به زیرساخت‌های حیاتی",
           "افزایش تلفات غیرنظامیان"
         ]
       }
@@ -5861,7 +5893,8 @@
         "13 Oct",
         "14 Oct",
         "15 Oct",
-        "16 Oct"
+        "16 Oct",
+        "17 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6013,7 +6046,8 @@
         1,
         1,
         2,
-        3
+        3,
+        5
       ],
       "iran_bms": [
         200,
@@ -6165,7 +6199,8 @@
         1,
         0,
         5,
-        15
+        15,
+        50
       ],
       "iran_drones": [
         500,
@@ -6316,7 +6351,8 @@
         1,
         0,
         3,
-        10
+        10,
+        20
       ]
     },
     "phase3_cumulative_casualties": {
@@ -6506,7 +6542,8 @@
         "13 Oct",
         "14 Oct",
         "15 Oct",
-        "16 Oct"
+        "16 Oct",
+        "17 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -6654,7 +6691,8 @@
         0,
         4600,
         4615,
-        4800
+        4800,
+        4700
       ],
       "hrana_civilian": [
         133,
@@ -6796,7 +6834,8 @@
         3100,
         0,
         0,
-        3200
+        3200,
+        null
       ]
     },
     "bm_degradation": {
@@ -6986,7 +7025,8 @@
         "13 Oct",
         "14 Oct",
         "15 Oct",
-        "16 Oct"
+        "16 Oct",
+        "17 Oct"
       ],
       "daily_bm": [
         200,
@@ -7138,7 +7178,8 @@
         1,
         0,
         5,
-        15
+        15,
+        50
       ],
       "trendline": [
         200,
@@ -7348,7 +7389,8 @@
         "13 Oct",
         "14 Oct",
         "15 Oct",
-        "16 Oct"
+        "16 Oct",
+        "17 Oct"
       ],
       "data": [
         1.5,
@@ -7490,7 +7532,8 @@
         500000000,
         0.5,
         0,
-        500000000
+        500000000,
+        null
       ]
     },
     "cost_distribution": {
@@ -7708,7 +7751,8 @@
         120.0,
         118.5,
         120.0,
-        150.0
+        150.0,
+        152.0
       ]
     },
     "hormuz_transit": {
@@ -7882,7 +7926,8 @@
         85,
         85,
         15,
-        75
+        75,
+        85
       ]
     },
     "scenario_probabilities": {
@@ -7897,8 +7942,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        50,
+        20,
+        55,
         25
       ],
       "colors": [
