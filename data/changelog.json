@@ -3652,5 +3652,21 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-10-18",
+    "timestamp": "2026-10-18T04:12:25.190583-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include increased Houthi attacks on Saudi infrastructure, U.S. considerations for intensified military operations against Iran, and Iran's continued oil exports despite sanctions.",
+    "changes": [
+      "meta.last_updated: 2026-10-17 -> 2026-10-18",
+      "meta.update_time: 08:54 EST -> 09:12 EST",
+      "meta.day_number: 187 -> 188",
+      "NEW DAY 188: Houthi rebels escalate attacks on Saudi infrastructure; U.S. considers intensifi...",
+      "scenario A prob: 20% -> 25%",
+      "scenario B prob: 55% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

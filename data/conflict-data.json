@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-17",
-    "update_time": "08:54 EST",
-    "day_number": 187,
+    "last_updated": "2026-10-18",
+    "update_time": "09:12 EST",
+    "day_number": 188,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3524,6 +3524,23 @@
         "events": "Houthi rebels escalate attacks on Saudi infrastructure; U.S. considers intensified military operations against Iran; Iran continues oil exports despite sanctions.",
         "events_fa": "حوثی‌ها حملات به زیرساخت‌های سعودی را تشدید کردند؛ ایالات متحده بررسی عملیات نظامی شدیدتر علیه ایران؛ ایران با وجود تحریم‌ها به صادرات نفت ادامه می‌دهد.",
         "highlight": true
+      },
+      {
+        "day": 188,
+        "date": "18 Oct",
+        "date_fa": "۱۸ اکتبر",
+        "waves": "Multiple",
+        "iran_dead": "Unknown",
+        "isr_dead": "Unknown",
+        "us_dead": "Unknown",
+        "other": "Unknown",
+        "other_fa": "نامشخص",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "Saudi infrastructure, U.S. bases",
+        "events": "Houthi rebels escalate attacks on Saudi infrastructure; U.S. considers intensified military operations against Iran; Iran continues oil exports despite sanctions.",
+        "events_fa": "شورشیان حوثی حملات به زیرساخت‌های سعودی را تشدید کردند؛ ایالات متحده بررسی عملیات نظامی شدیدتر علیه ایران را در نظر دارد؛ ایران به صادرات نفت علیرغم تحریم‌ها ادامه می‌دهد.",
+        "highlight": true
       }
     ]
   },
@@ -5180,6 +5197,21 @@
         "location_fa": "ریاض، عربستان سعودی",
         "cause": "Houthi missile attack",
         "cause_fa": "حمله موشکی حوثی‌ها"
+      },
+      {
+        "num": 110,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-10-17",
+        "date_fa": "۱۷ اکتبر ۲۰۲۶",
+        "location": "Saudi Arabia",
+        "location_fa": "عربستان سعودی",
+        "cause": "Houthi missile attack",
+        "cause_fa": "حمله موشکی حوثی‌ها"
       }
     ],
     "aircraft_losses": [
@@ -5382,7 +5414,7 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
         "description": "Ceasefire and diplomatic resolution",
         "description_fa": "آتش‌بس و حل دیپلماتیک",
@@ -5394,15 +5426,15 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "خستگی جنگی"
+          "افزایش فشار بین‌المللی",
+          "خستگی جنگی در طرفین"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 50,
         "color": "red",
         "description": "Continued low-intensity conflict",
         "description_fa": "ادامه درگیری با شدت کم",
@@ -5414,7 +5446,7 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات حوثی‌ها",
+          "حملات پراکنده حوثی‌ها",
           "تحریم‌های اقتصادی"
         ]
       },
@@ -5434,7 +5466,7 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات به زیرساخت‌های حیاتی",
+          "حملات مستقیم به زیرساخت‌های حیاتی",
           "افزایش تلفات غیرنظامیان"
         ]
       }
@@ -5894,7 +5926,8 @@
         "14 Oct",
         "15 Oct",
         "16 Oct",
-        "17 Oct"
+        "17 Oct",
+        "18 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6543,7 +6576,8 @@
         "14 Oct",
         "15 Oct",
         "16 Oct",
-        "17 Oct"
+        "17 Oct",
+        "18 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -7026,7 +7060,8 @@
         "14 Oct",
         "15 Oct",
         "16 Oct",
-        "17 Oct"
+        "17 Oct",
+        "18 Oct"
       ],
       "daily_bm": [
         200,
@@ -7390,7 +7425,8 @@
         "14 Oct",
         "15 Oct",
         "16 Oct",
-        "17 Oct"
+        "17 Oct",
+        "18 Oct"
       ],
       "data": [
         1.5,
@@ -7752,7 +7788,8 @@
         118.5,
         120.0,
         150.0,
-        152.0
+        152.0,
+        109.9
       ]
     },
     "hormuz_transit": {
@@ -7942,8 +7979,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        55,
+        25,
+        50,
         25
       ],
       "colors": [
