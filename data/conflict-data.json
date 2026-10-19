@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-18",
-    "update_time": "09:12 EST",
-    "day_number": 188,
+    "last_updated": "2026-10-19",
+    "update_time": "10:22 EST",
+    "day_number": 189,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3541,6 +3541,23 @@
         "events": "Houthi rebels escalate attacks on Saudi infrastructure; U.S. considers intensified military operations against Iran; Iran continues oil exports despite sanctions.",
         "events_fa": "شورشیان حوثی حملات به زیرساخت‌های سعودی را تشدید کردند؛ ایالات متحده بررسی عملیات نظامی شدیدتر علیه ایران را در نظر دارد؛ ایران به صادرات نفت علیرغم تحریم‌ها ادامه می‌دهد.",
         "highlight": true
+      },
+      {
+        "day": 189,
+        "date": "19 Oct",
+        "date_fa": "۱۹ اکتبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Former U.S. President Donald Trump endorses Israeli Prime Minister Benjamin Netanyahu ahead of Israel's elections; Houthi rebels escalate attacks on Saudi infrastructure; Iran continues oil exports despite sanctions.",
+        "events_fa": "رئیس‌جمهور پیشین ایالات متحده، دونالد ترامپ، از نخست‌وزیر اسرائیل، بنیامین نتانیاهو، پیش از انتخابات اسرائیل حمایت می‌کند؛ شورشیان حوثی حملات به زیرساخت‌های سعودی را تشدید می‌کنند؛ ایران علی‌رغم تحریم‌ها به صادرات نفت ادامه می‌دهد.",
+        "highlight": false
       }
     ]
   },
@@ -5212,6 +5229,21 @@
         "location_fa": "عربستان سعودی",
         "cause": "Houthi missile attack",
         "cause_fa": "حمله موشکی حوثی‌ها"
+      },
+      {
+        "num": 111,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-10-18",
+        "date_fa": "۲۶ اکتبر ۲۰۲۶",
+        "location": "Tehran, Iran",
+        "location_fa": "تهران، ایران",
+        "cause": "IED explosion",
+        "cause_fa": "انفجار بمب کنار جاده‌ای"
       }
     ],
     "aircraft_losses": [
@@ -5414,10 +5446,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "De-escalation leading to diplomatic resolution",
+        "description_fa": "کاهش تنش منجر به حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5426,18 +5458,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی",
-          "خستگی جنگی در طرفین"
+          "تلاش‌های دیپلماتیک",
+          "فشار بین‌المللی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 55,
         "color": "red",
-        "description": "Continued low-intensity conflict",
-        "description_fa": "ادامه درگیری با شدت کم",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5446,8 +5478,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات پراکنده حوثی‌ها",
-          "تحریم‌های اقتصادی"
+          "حملات مداوم",
+          "عدم توافق دیپلماتیک"
         ]
       },
       {
@@ -5456,8 +5488,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 25,
         "color": "green",
-        "description": "Escalation to full-scale war",
-        "description_fa": "تشدید به جنگ تمام‌عیار",
+        "description": "Full-scale regional war",
+        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5466,8 +5498,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات مستقیم به زیرساخت‌های حیاتی",
-          "افزایش تلفات غیرنظامیان"
+          "حملات گسترده",
+          "مداخله نیروهای منطقه‌ای"
         ]
       }
     ],
@@ -5927,7 +5959,8 @@
         "15 Oct",
         "16 Oct",
         "17 Oct",
-        "18 Oct"
+        "18 Oct",
+        "19 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6577,7 +6610,8 @@
         "15 Oct",
         "16 Oct",
         "17 Oct",
-        "18 Oct"
+        "18 Oct",
+        "19 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -7061,7 +7095,8 @@
         "15 Oct",
         "16 Oct",
         "17 Oct",
-        "18 Oct"
+        "18 Oct",
+        "19 Oct"
       ],
       "daily_bm": [
         200,
@@ -7426,7 +7461,8 @@
         "15 Oct",
         "16 Oct",
         "17 Oct",
-        "18 Oct"
+        "18 Oct",
+        "19 Oct"
       ],
       "data": [
         1.5,
@@ -7789,7 +7825,8 @@
         120.0,
         150.0,
         152.0,
-        109.9
+        109.9,
+        108.0
       ]
     },
     "hormuz_transit": {
@@ -7979,8 +8016,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        50,
+        20,
+        55,
         25
       ],
       "colors": [
