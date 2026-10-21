@@ -3708,5 +3708,21 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-10-21",
+    "timestamp": "2026-10-21T04:43:43.554169-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include increased maritime incidents in the Strait of Hormuz, heightened diplomatic tensions, and internal political divisions within the U.S. administration regarding the conflict.",
+    "changes": [
+      "meta.last_updated: 2026-10-20 -> 2026-10-21",
+      "meta.update_time: 09:42 EST -> 09:43 EST",
+      "meta.day_number: 190 -> 191",
+      "NEW DAY 191: Iran's IRGC reports multiple tankers hit by mines in the Strait of Hormuz; U.S. ...",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 50% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values"
+    ]
   }
 ]

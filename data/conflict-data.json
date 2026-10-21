@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-20",
-    "update_time": "09:42 EST",
-    "day_number": 190,
+    "last_updated": "2026-10-21",
+    "update_time": "09:43 EST",
+    "day_number": 191,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3575,6 +3575,23 @@
         "events": "Houthi rebels escalate attacks on Saudi infrastructure; Iran's IRGC claims oil tanker hit by mine in Strait of Hormuz; US Defense Secretary Pete Hegseth meets with Israeli Prime Minister Netanyahu.",
         "events_fa": "حوثی‌ها حملات به زیرساخت‌های سعودی را تشدید کردند؛ سپاه پاسداران ایران ادعا می‌کند نفت‌کشی در تنگه هرمز با مین برخورد کرده است؛ وزیر دفاع آمریکا پیت هگست با نخست‌وزیر اسرائیل نتانیاهو دیدار کرد.",
         "highlight": true
+      },
+      {
+        "day": 191,
+        "date": "21 Oct",
+        "date_fa": "۲۱ اکتبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Iran's IRGC reports multiple tankers hit by mines in the Strait of Hormuz; U.S. CENTCOM attributes incidents to Iranian projectiles; Iranian Foreign Minister states Strait will remain closed until U.S. meets Iran's terms; U.S. Defense Secretary meets Israeli Prime Minister amid discussions of renewed strikes on Iran.",
+        "events_fa": "سپاه پاسداران انقلاب اسلامی ایران گزارش می‌دهد که چندین نفتکش در تنگه هرمز با مین برخورد کرده‌اند؛ سنتکام ایالات متحده این حوادث را به پرتابه‌های ایرانی نسبت می‌دهد؛ وزیر امور خارجه ایران اعلام می‌کند که تنگه تا زمانی که ایالات متحده شرایط ایران را نپذیرد بسته خواهد ماند؛ وزیر دفاع ایالات متحده با نخست‌وزیر اسرائیل در میان بحث‌ها درباره حملات مجدد به ایران دیدار می‌کند.",
+        "highlight": true
       }
     ]
   },
@@ -5478,10 +5495,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Ceasefire agreement reached with gradual de-escalation.",
+        "description_fa": "توافق آتش‌بس با کاهش تدریجی تنش‌ها.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5490,18 +5507,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی",
-          "خستگی جنگی در طرفین"
+          "مذاکرات دیپلماتیک موفق",
+          "فشار بین‌المللی برای پایان دادن به درگیری"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 55,
         "color": "red",
-        "description": "Continued low-intensity conflict",
-        "description_fa": "ادامه درگیری با شدت کم",
+        "description": "Prolonged conflict with intermittent escalations.",
+        "description_fa": "درگیری طولانی‌مدت با تشدیدهای متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5510,8 +5527,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات پراکنده",
-          "عدم توافق دیپلماتیک"
+          "حملات مداوم در تنگه هرمز",
+          "اختلافات داخلی در دولت ایالات متحده"
         ]
       },
       {
@@ -5520,8 +5537,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 25,
         "color": "green",
-        "description": "Full-scale military escalation",
-        "description_fa": "تشدید نظامی تمام‌عیار",
+        "description": "Full-scale regional war involving multiple state actors.",
+        "description_fa": "جنگ منطقه‌ای تمام‌عیار با مشارکت چندین بازیگر دولتی.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5530,8 +5547,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات عمده",
-          "شکست مذاکرات"
+          "حملات گسترده نظامی اسرائیل به ایران",
+          "بسته شدن طولانی‌مدت تنگه هرمز"
         ]
       }
     ],
@@ -5993,7 +6010,8 @@
         "17 Oct",
         "18 Oct",
         "19 Oct",
-        "20 Oct"
+        "20 Oct",
+        "21 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6648,7 +6666,8 @@
         "17 Oct",
         "18 Oct",
         "19 Oct",
-        "20 Oct"
+        "20 Oct",
+        "21 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -7136,7 +7155,8 @@
         "17 Oct",
         "18 Oct",
         "19 Oct",
-        "20 Oct"
+        "20 Oct",
+        "21 Oct"
       ],
       "daily_bm": [
         200,
@@ -7504,7 +7524,8 @@
         "17 Oct",
         "18 Oct",
         "19 Oct",
-        "20 Oct"
+        "20 Oct",
+        "21 Oct"
       ],
       "data": [
         1.5,
@@ -7870,7 +7891,8 @@
         152.0,
         109.9,
         108.0,
-        110.0
+        110.0,
+        110.2
       ]
     },
     "hormuz_transit": {
@@ -8046,6 +8068,7 @@
         15,
         75,
         85,
+        10,
         10
       ]
     },
@@ -8061,8 +8084,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        50,
+        20,
+        55,
         25
       ],
       "colors": [
