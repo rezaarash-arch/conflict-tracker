@@ -3724,5 +3724,27 @@
       "chart brent_oil.data: appended 1 values",
       "chart hormuz_transit.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "timestamp": "2026-10-23T04:39:13.511355-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include increased attacks on shipping in the Strait of Hormuz, threats to undersea cables, and potential post-election military actions by the U.S. and Israel.",
+    "changes": [
+      "meta.last_updated: 2026-10-22 -> 2026-10-23",
+      "meta.update_time: 00:00 EST -> 09:39 EST",
+      "meta.day_number: 191 -> 192",
+      "NEW DAY 192: Iran's IRGC claims seven oil tankers damaged by mines in the Strait of Hormuz; U...",
+      "scenario A prob: 20% -> 25%",
+      "scenario B prob: 55% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
