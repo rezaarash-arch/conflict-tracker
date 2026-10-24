@@ -3746,5 +3746,27 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-10-24",
+    "timestamp": "2026-10-24T04:11:39.491324-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's increased efforts to target U.S. officials abroad, U.S. embassy staffing reductions in the Middle East, and threats to undersea cables in the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-10-23 -> 2026-10-24",
+      "meta.update_time: 09:39 EST -> 09:11 EST",
+      "meta.day_number: 192 -> 193",
+      "NEW DAY 193: U.S. intelligence reports advanced Iranian plots to target American officials ab...",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 50% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
