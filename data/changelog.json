@@ -3791,5 +3791,29 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "timestamp": "2026-10-26T05:37:16.872078-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include heightened regional tensions, diplomatic efforts to prevent renewed conflict, and threats to critical infrastructure.",
+    "changes": [
+      "meta.last_updated: 2026-10-25 -> 2026-10-26",
+      "meta.update_time: 09:28 EST -> 10:37 EST",
+      "meta.day_number: 194 -> 195",
+      "NEW DAY 195: Iran launched missile and drone attacks targeting Israeli military installations...",
+      "overview.us_israel_strikes: ~49,510+ -> ~49,600+",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 60% -> 50%",
+      "scenario C prob: 25% -> 30%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
