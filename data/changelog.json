@@ -3838,5 +3838,28 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "timestamp": "2026-10-28T05:53:09.230749-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include Iran's threat to target undersea cables in the Strait of Hormuz, increased Iranian plots against U.S. officials abroad, and ongoing political uncertainty in Israel following inconclusive election results.",
+    "changes": [
+      "meta.last_updated: 2026-10-27 -> 2026-10-28",
+      "meta.update_time: 10:06 EST -> 10:53 EST",
+      "meta.day_number: 196 -> 197",
+      "NEW DAY 197: Iran threatens to attack undersea cables in the Strait of Hormuz; U.S. intellige...",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
