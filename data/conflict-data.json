@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-29",
-    "update_time": "00:00 EST",
-    "day_number": 197,
+    "last_updated": "2026-10-30",
+    "update_time": "11:04 EST",
+    "day_number": 198,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3694,6 +3694,23 @@
         "events": "Iran threatens to attack undersea cables in the Strait of Hormuz; U.S. intelligence warns of advanced Iranian plots to kill officials abroad; Israel's election results remain inconclusive, leading to political uncertainty.",
         "events_fa": "ایران تهدید به حمله به کابل‌های زیردریایی در تنگه هرمز می‌کند؛ اطلاعات آمریکا از طرح‌های پیشرفته ایران برای کشتن مقامات در خارج هشدار می‌دهد؛ نتایج انتخابات اسرائیل همچنان نامشخص است و به عدم قطعیت سیاسی منجر می‌شود.",
         "highlight": false
+      },
+      {
+        "day": 198,
+        "date": "30 Oct",
+        "date_fa": "۳۰ اکتبر",
+        "waves": "Multiple",
+        "iran_dead": "Unknown",
+        "isr_dead": "Unknown",
+        "us_dead": "7",
+        "other": "Unknown",
+        "other_fa": "نامشخص",
+        "iran_bms": "Unknown",
+        "iran_drones": "Unknown",
+        "targets": "Oil tankers in the Strait of Hormuz",
+        "events": "Multiple oil tankers struck by mines in the Strait of Hormuz; U.S. intelligence warns of advanced Iranian plots to kill officials abroad; Israel's election results remain inconclusive, leading to political uncertainty.",
+        "events_fa": "چندین نفتکش در تنگه هرمز با مین‌ها برخورد کردند؛ اطلاعات آمریکا از طرح‌های پیشرفته ایران برای قتل مقامات در خارج هشدار می‌دهد؛ نتایج انتخابات اسرائیل همچنان نامشخص است و به بی‌ثباتی سیاسی منجر شده است.",
+        "highlight": true
       }
     ]
   },
@@ -5410,6 +5427,21 @@
         "location_fa": "تهران، ایران",
         "cause": "IED explosion",
         "cause_fa": "انفجار بمب دست‌ساز"
+      },
+      {
+        "num": 114,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-10-29",
+        "date_fa": "۲۹ اکتبر ۲۰۲۶",
+        "location": "Strait of Hormuz",
+        "location_fa": "تنگه هرمز",
+        "cause": "Mine explosion",
+        "cause_fa": "انفجار مین"
       }
     ],
     "aircraft_losses": [
@@ -5612,10 +5644,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 15,
         "color": "amber",
-        "description": "De-escalation leading to diplomatic negotiations.",
-        "description_fa": "کاهش تنش منجر به مذاکرات دیپلماتیک.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5624,18 +5656,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی برای صلح",
-          "خستگی از جنگ در میان طرفین"
+          "افزایش فشار بین‌المللی",
+          "میانجی‌گری قطر"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 55,
         "color": "red",
-        "description": "Continued low-intensity conflict with periodic escalations.",
-        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای دوره‌ای.",
+        "description": "Continued low-intensity conflict",
+        "description_fa": "ادامه درگیری با شدت کم",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5644,8 +5676,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل مداوم",
-          "عدم اعتماد بین طرفین"
+          "حملات پراکنده",
+          "بی‌ثباتی سیاسی در اسرائیل"
         ]
       },
       {
@@ -5654,8 +5686,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Full-scale military escalation.",
-        "description_fa": "تشدید نظامی تمام‌عیار.",
+        "description": "Escalation to full-scale war",
+        "description_fa": "تشدید به جنگ تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5664,8 +5696,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات عمده به زیرساخت‌های حیاتی",
-          "شکست مذاکرات دیپلماتیک"
+          "حملات به زیرساخت‌های حیاتی",
+          "افزایش تلفات غیرنظامیان"
         ]
       }
     ],
@@ -6134,7 +6166,8 @@
         "25 Oct",
         "26 Oct",
         "27 Oct",
-        "28 Oct"
+        "28 Oct",
+        "30 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6294,7 +6327,8 @@
         1,
         1,
         1,
-        0
+        0,
+        1
       ],
       "iran_bms": [
         200,
@@ -6454,6 +6488,7 @@
         10,
         50,
         50,
+        0,
         0
       ],
       "iran_drones": [
@@ -6613,6 +6648,7 @@
         5,
         10,
         20,
+        0,
         0
       ]
     },
@@ -6814,7 +6850,8 @@
         "25 Oct",
         "26 Oct",
         "27 Oct",
-        "28 Oct"
+        "28 Oct",
+        "30 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -6970,7 +7007,8 @@
         4700,
         4600,
         4600,
-        0
+        0,
+        4600
       ],
       "hrana_civilian": [
         133,
@@ -7120,6 +7158,7 @@
         null,
         3100,
         3200,
+        0,
         0
       ]
     },
@@ -7321,7 +7360,8 @@
         "25 Oct",
         "26 Oct",
         "27 Oct",
-        "28 Oct"
+        "28 Oct",
+        "30 Oct"
       ],
       "daily_bm": [
         200,
@@ -7481,6 +7521,7 @@
         10,
         50,
         50,
+        0,
         0
       ],
       "trendline": [
@@ -7702,7 +7743,8 @@
         "25 Oct",
         "26 Oct",
         "27 Oct",
-        "28 Oct"
+        "28 Oct",
+        "30 Oct"
       ],
       "data": [
         1.5,
@@ -7852,7 +7894,8 @@
         null,
         500000000,
         500000000,
-        47000000000
+        47000000000,
+        47.1
       ]
     },
     "cost_distribution": {
@@ -8081,7 +8124,8 @@
         155.0,
         150.0,
         116.72,
-        115.6
+        115.6,
+        155.0
       ]
     },
     "hormuz_transit": {
@@ -8264,7 +8308,8 @@
         75,
         85,
         85,
-        10
+        10,
+        75
       ]
     },
     "scenario_probabilities": {
@@ -8279,8 +8324,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        50,
+        15,
+        55,
         30
       ],
       "colors": [

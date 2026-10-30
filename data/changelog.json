@@ -3861,5 +3861,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "timestamp": "2026-10-30T06:04:35.856827-05:00",
+    "status": "UPDATED",
+    "summary": "Significant developments include multiple oil tankers striking mines in the Strait of Hormuz, increased Iranian threats against U.S. officials abroad, and ongoing political uncertainty in Israel following inconclusive election results.",
+    "changes": [
+      "meta.last_updated: 2026-10-29 -> 2026-10-30",
+      "meta.update_time: 00:00 EST -> 11:04 EST",
+      "meta.day_number: 197 -> 198",
+      "NEW DAY 198: Multiple oil tankers struck by mines in the Strait of Hormuz; U.S. intelligence ...",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 50% -> 55%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
