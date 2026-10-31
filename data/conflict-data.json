@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-30",
-    "update_time": "11:04 EST",
-    "day_number": 198,
+    "last_updated": "2026-10-31",
+    "update_time": "10:38 EST",
+    "day_number": 199,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3711,6 +3711,23 @@
         "events": "Multiple oil tankers struck by mines in the Strait of Hormuz; U.S. intelligence warns of advanced Iranian plots to kill officials abroad; Israel's election results remain inconclusive, leading to political uncertainty.",
         "events_fa": "چندین نفتکش در تنگه هرمز با مین‌ها برخورد کردند؛ اطلاعات آمریکا از طرح‌های پیشرفته ایران برای قتل مقامات در خارج هشدار می‌دهد؛ نتایج انتخابات اسرائیل همچنان نامشخص است و به بی‌ثباتی سیاسی منجر شده است.",
         "highlight": true
+      },
+      {
+        "day": 199,
+        "date": "31 Oct",
+        "date_fa": "۳۱ اکتبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Qatari mediators held over 12 hours of talks in Tehran to restart direct U.S.-Iran negotiations and avert potential conflict post-U.S. midterm elections. Regional leaders, including Saudi Arabia and Egypt, urged restraint to prevent escalation. The U.S. military reported disabling a commercial cargo vessel attempting to breach the naval blockade against Iran.",
+        "events_fa": "میانجی‌گران قطری بیش از ۱۲ ساعت مذاکرات در تهران برگزار کردند تا مذاکرات مستقیم آمریکا و ایران را از سر بگیرند و از درگیری احتمالی پس از انتخابات میان‌دوره‌ای آمریکا جلوگیری کنند. رهبران منطقه‌ای، از جمله عربستان سعودی و مصر، خواستار خویشتن‌داری برای جلوگیری از تشدید تنش شدند. ارتش آمریکا گزارش داد که یک کشتی باری تجاری را که سعی در نقض محاصره دریایی علیه ایران داشت، از کار انداخته است.",
+        "highlight": false
       }
     ]
   },
@@ -5644,10 +5661,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل دیپلماتیک",
+        "description": "Diplomatic resolution leading to de-escalation.",
+        "description_fa": "حل دیپلماتیک منجر به کاهش تنش.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5656,18 +5673,19 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی",
-          "میانجی‌گری قطر"
+          "مذاکرات مستقیم آمریکا و ایران",
+          "میانجی‌گری قطر",
+          "فشار رهبران منطقه‌ای برای خویشتن‌داری"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 50,
         "color": "red",
-        "description": "Continued low-intensity conflict",
-        "description_fa": "ادامه درگیری با شدت کم",
+        "description": "Continued stalemate with sporadic conflicts.",
+        "description_fa": "بن‌بست ادامه‌دار با درگیری‌های پراکنده.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5676,8 +5694,9 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات پراکنده",
-          "بی‌ثباتی سیاسی در اسرائیل"
+          "عدم توافق در مذاکرات",
+          "حملات پراکنده در منطقه",
+          "ادامه محاصره دریایی"
         ]
       },
       {
@@ -5686,8 +5705,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Escalation to full-scale war",
-        "description_fa": "تشدید به جنگ تمام‌عیار",
+        "description": "Renewed large-scale conflict post-U.S. midterms.",
+        "description_fa": "درگیری گسترده جدید پس از انتخابات میان‌دوره‌ای آمریکا.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5696,8 +5715,9 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات به زیرساخت‌های حیاتی",
-          "افزایش تلفات غیرنظامیان"
+          "احتمال حملات جدید آمریکا پس از انتخابات",
+          "تهدیدات ایران به پاسخ قوی‌تر",
+          "افزایش تنش‌ها در تنگه هرمز"
         ]
       }
     ],
@@ -6167,7 +6187,8 @@
         "26 Oct",
         "27 Oct",
         "28 Oct",
-        "30 Oct"
+        "30 Oct",
+        "31 Oct"
       ],
       "us_israel_waves": [
         55,
@@ -6851,7 +6872,8 @@
         "26 Oct",
         "27 Oct",
         "28 Oct",
-        "30 Oct"
+        "30 Oct",
+        "31 Oct"
       ],
       "hengaw_total": [
         1000,
@@ -7361,7 +7383,8 @@
         "26 Oct",
         "27 Oct",
         "28 Oct",
-        "30 Oct"
+        "30 Oct",
+        "31 Oct"
       ],
       "daily_bm": [
         200,
@@ -7744,7 +7767,8 @@
         "26 Oct",
         "27 Oct",
         "28 Oct",
-        "30 Oct"
+        "30 Oct",
+        "31 Oct"
       ],
       "data": [
         1.5,
@@ -8125,7 +8149,8 @@
         150.0,
         116.72,
         115.6,
-        155.0
+        155.0,
+        113.4
       ]
     },
     "hormuz_transit": {
@@ -8324,8 +8349,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        55,
+        20,
+        50,
         30
       ],
       "colors": [
