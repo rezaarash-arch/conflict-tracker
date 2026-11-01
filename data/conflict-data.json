@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-31",
-    "update_time": "10:38 EST",
-    "day_number": 199,
+    "last_updated": "2026-11-01",
+    "update_time": "11:32 EST",
+    "day_number": 200,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~49,700+",
+    "us_israel_strikes": "~50,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -3728,6 +3728,23 @@
         "events": "Qatari mediators held over 12 hours of talks in Tehran to restart direct U.S.-Iran negotiations and avert potential conflict post-U.S. midterm elections. Regional leaders, including Saudi Arabia and Egypt, urged restraint to prevent escalation. The U.S. military reported disabling a commercial cargo vessel attempting to breach the naval blockade against Iran.",
         "events_fa": "میانجی‌گران قطری بیش از ۱۲ ساعت مذاکرات در تهران برگزار کردند تا مذاکرات مستقیم آمریکا و ایران را از سر بگیرند و از درگیری احتمالی پس از انتخابات میان‌دوره‌ای آمریکا جلوگیری کنند. رهبران منطقه‌ای، از جمله عربستان سعودی و مصر، خواستار خویشتن‌داری برای جلوگیری از تشدید تنش شدند. ارتش آمریکا گزارش داد که یک کشتی باری تجاری را که سعی در نقض محاصره دریایی علیه ایران داشت، از کار انداخته است.",
         "highlight": false
+      },
+      {
+        "day": 200,
+        "date": "1 Nov",
+        "date_fa": "۱ نوامبر",
+        "waves": "Multiple",
+        "iran_dead": "Unknown",
+        "isr_dead": "Unknown",
+        "us_dead": "Unknown",
+        "other": "Unknown",
+        "other_fa": "نامشخص",
+        "iran_bms": "Multiple",
+        "iran_drones": "Multiple",
+        "targets": "U.S. military bases, Israeli cities",
+        "events": "Iran's Supreme Leader orders 'maximum' response to any U.S. attack; Iranian strikes damage U.S. military bases; diplomatic efforts to reopen Strait of Hormuz continue.",
+        "events_fa": "رهبر معظم ایران دستور واکنش 'حداکثری' به هر حمله آمریکا را صادر کرد؛ حملات ایران به پایگاه‌های نظامی آمریکا آسیب رساند؛ تلاش‌های دیپلماتیک برای بازگشایی تنگه هرمز ادامه دارد.",
+        "highlight": true
       }
     ]
   },
@@ -5459,6 +5476,21 @@
         "location_fa": "تنگه هرمز",
         "cause": "Mine explosion",
         "cause_fa": "انفجار مین"
+      },
+      {
+        "num": 115,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-10-31",
+        "date_fa": "۹ آبان ۱۴۰۵",
+        "location": "Ali Al Salem Air Base, Kuwait",
+        "location_fa": "پایگاه هوایی علی السالم، کویت",
+        "cause": "Drone strike",
+        "cause_fa": "حمله پهپادی"
       }
     ],
     "aircraft_losses": [
@@ -5661,10 +5693,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Diplomatic resolution leading to de-escalation.",
-        "description_fa": "حل دیپلماتیک منجر به کاهش تنش.",
+        "description": "Ceasefire agreement reached within the next month.",
+        "description_fa": "توافق آتش‌بس در ماه آینده حاصل می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5673,19 +5705,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات مستقیم آمریکا و ایران",
-          "میانجی‌گری قطر",
-          "فشار رهبران منطقه‌ای برای خویشتن‌داری"
+          "تلاش‌های دیپلماتیک فعال",
+          "فشار بین‌المللی برای پایان دادن به درگیری"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Continued stalemate with sporadic conflicts.",
-        "description_fa": "بن‌بست ادامه‌دار با درگیری‌های پراکنده.",
+        "description": "Continued low-intensity conflict with intermittent escalations.",
+        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای متناوب.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5694,9 +5725,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم توافق در مذاکرات",
-          "حملات پراکنده در منطقه",
-          "ادامه محاصره دریایی"
+          "حملات متقابل مداوم",
+          "عدم توافق در مذاکرات"
         ]
       },
       {
@@ -5705,8 +5735,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Renewed large-scale conflict post-U.S. midterms.",
-        "description_fa": "درگیری گسترده جدید پس از انتخابات میان‌دوره‌ای آمریکا.",
+        "description": "Full-scale regional war involving multiple countries.",
+        "description_fa": "جنگ منطقه‌ای تمام‌عیار با مشارکت چندین کشور.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5715,9 +5745,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "احتمال حملات جدید آمریکا پس از انتخابات",
-          "تهدیدات ایران به پاسخ قوی‌تر",
-          "افزایش تنش‌ها در تنگه هرمز"
+          "افزایش حملات نظامی",
+          "شکست کامل مذاکرات"
         ]
       }
     ],
@@ -6188,7 +6217,8 @@
         "27 Oct",
         "28 Oct",
         "30 Oct",
-        "31 Oct"
+        "31 Oct",
+        "1 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6349,7 +6379,8 @@
         1,
         1,
         0,
-        1
+        1,
+        5
       ],
       "iran_bms": [
         200,
@@ -6510,7 +6541,8 @@
         50,
         50,
         0,
-        0
+        0,
+        15
       ],
       "iran_drones": [
         500,
@@ -6670,7 +6702,8 @@
         10,
         20,
         0,
-        0
+        0,
+        20
       ]
     },
     "phase3_cumulative_casualties": {
@@ -6873,7 +6906,8 @@
         "27 Oct",
         "28 Oct",
         "30 Oct",
-        "31 Oct"
+        "31 Oct",
+        "1 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7030,6 +7064,7 @@
         4600,
         4600,
         0,
+        4600,
         4600
       ],
       "hrana_civilian": [
@@ -7181,7 +7216,8 @@
         3100,
         3200,
         0,
-        0
+        0,
+        3200
       ]
     },
     "bm_degradation": {
@@ -7384,7 +7420,8 @@
         "27 Oct",
         "28 Oct",
         "30 Oct",
-        "31 Oct"
+        "31 Oct",
+        "1 Nov"
       ],
       "daily_bm": [
         200,
@@ -7545,7 +7582,8 @@
         50,
         50,
         0,
-        0
+        0,
+        15
       ],
       "trendline": [
         200,
@@ -7768,7 +7806,8 @@
         "27 Oct",
         "28 Oct",
         "30 Oct",
-        "31 Oct"
+        "31 Oct",
+        "1 Nov"
       ],
       "data": [
         1.5,
@@ -7919,7 +7958,8 @@
         500000000,
         500000000,
         47000000000,
-        47.1
+        47.1,
+        86000000000
       ]
     },
     "cost_distribution": {
@@ -8150,6 +8190,7 @@
         116.72,
         115.6,
         155.0,
+        113.4,
         113.4
       ]
     },
@@ -8334,7 +8375,8 @@
         85,
         85,
         10,
-        75
+        75,
+        10
       ]
     },
     "scenario_probabilities": {
@@ -8349,8 +8391,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        50,
+        25,
+        45,
         30
       ],
       "colors": [
