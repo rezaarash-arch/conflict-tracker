@@ -3923,5 +3923,21 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "timestamp": "2026-11-02T07:56:26.289633-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include Iran's proposal to reopen the Strait of Hormuz under specific conditions, ongoing diplomatic efforts, and potential U.S.-Israeli military actions post-midterm elections.",
+    "changes": [
+      "meta.last_updated: 2026-11-01 -> 2026-11-02",
+      "meta.update_time: 11:32 EST -> 12:56 EST",
+      "meta.day_number: 200 -> 201",
+      "NEW DAY 201: Iran proposes reopening the Strait of Hormuz within two days if U.S. conditions ...",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values"
+    ]
   }
 ]

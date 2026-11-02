@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-01",
-    "update_time": "11:32 EST",
-    "day_number": 200,
+    "last_updated": "2026-11-02",
+    "update_time": "12:56 EST",
+    "day_number": 201,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3745,6 +3745,23 @@
         "events": "Iran's Supreme Leader orders 'maximum' response to any U.S. attack; Iranian strikes damage U.S. military bases; diplomatic efforts to reopen Strait of Hormuz continue.",
         "events_fa": "رهبر معظم ایران دستور واکنش 'حداکثری' به هر حمله آمریکا را صادر کرد؛ حملات ایران به پایگاه‌های نظامی آمریکا آسیب رساند؛ تلاش‌های دیپلماتیک برای بازگشایی تنگه هرمز ادامه دارد.",
         "highlight": true
+      },
+      {
+        "day": 201,
+        "date": "2 Nov",
+        "date_fa": "۲ نوامبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "Iran proposes reopening the Strait of Hormuz within two days if U.S. conditions are met; President Trump and Prime Minister Netanyahu discuss potential military actions post-midterm elections; diplomatic efforts continue in Qatar.",
+        "events_fa": "ایران پیشنهاد می‌دهد تنگه هرمز را ظرف دو روز بازگشایی کند در صورت برآورده شدن شرایط آمریکا؛ رئیس‌جمهور ترامپ و نخست‌وزیر نتانیاهو درباره اقدامات نظامی احتمالی پس از انتخابات میان‌دوره‌ای گفتگو می‌کنند؛ تلاش‌های دیپلماتیک در قطر ادامه دارد.",
+        "highlight": false
       }
     ]
   },
@@ -5693,10 +5710,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire agreement reached within the next month.",
-        "description_fa": "توافق آتش‌بس در ماه آینده حاصل می‌شود.",
+        "description": "Ceasefire agreement leading to de-escalation.",
+        "description_fa": "توافق آتش‌بس منجر به کاهش تنش.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5705,18 +5722,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تلاش‌های دیپلماتیک فعال",
-          "فشار بین‌المللی برای پایان دادن به درگیری"
+          "تلاش‌های دیپلماتیک در قطر",
+          "پیشنهاد ایران برای بازگشایی تنگه هرمز"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 50,
         "color": "red",
-        "description": "Continued low-intensity conflict with intermittent escalations.",
-        "description_fa": "ادامه درگیری با شدت کم و تشدیدهای متناوب.",
+        "description": "Continuation of current conflict dynamics.",
+        "description_fa": "ادامه دینامیک‌های فعلی درگیری.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5725,8 +5742,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل مداوم",
-          "عدم توافق در مذاکرات"
+          "عدم توافق در مذاکرات",
+          "ادامه حملات متقابل"
         ]
       },
       {
@@ -5735,8 +5752,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Full-scale regional war involving multiple countries.",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار با مشارکت چندین کشور.",
+        "description": "Escalation leading to broader regional conflict.",
+        "description_fa": "تشدید منجر به درگیری گسترده‌تر منطقه‌ای.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5745,8 +5762,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "افزایش حملات نظامی",
-          "شکست کامل مذاکرات"
+          "حملات نظامی پس از انتخابات میان‌دوره‌ای",
+          "واکنش‌های شدید ایران"
         ]
       }
     ],
@@ -6218,7 +6235,8 @@
         "28 Oct",
         "30 Oct",
         "31 Oct",
-        "1 Nov"
+        "1 Nov",
+        "2 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6907,7 +6925,8 @@
         "28 Oct",
         "30 Oct",
         "31 Oct",
-        "1 Nov"
+        "1 Nov",
+        "2 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7421,7 +7440,8 @@
         "28 Oct",
         "30 Oct",
         "31 Oct",
-        "1 Nov"
+        "1 Nov",
+        "2 Nov"
       ],
       "daily_bm": [
         200,
@@ -7807,7 +7827,8 @@
         "28 Oct",
         "30 Oct",
         "31 Oct",
-        "1 Nov"
+        "1 Nov",
+        "2 Nov"
       ],
       "data": [
         1.5,
@@ -8191,6 +8212,7 @@
         115.6,
         155.0,
         113.4,
+        113.4,
         113.4
       ]
     },
@@ -8376,7 +8398,8 @@
         85,
         10,
         75,
-        10
+        10,
+        14
       ]
     },
     "scenario_probabilities": {
@@ -8391,8 +8414,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        45,
+        20,
+        50,
         30
       ],
       "colors": [
