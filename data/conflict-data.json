@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-02",
-    "update_time": "12:56 EST",
-    "day_number": 201,
+    "last_updated": "2026-11-03",
+    "update_time": "12:27 EST",
+    "day_number": 202,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3762,6 +3762,23 @@
         "events": "Iran proposes reopening the Strait of Hormuz within two days if U.S. conditions are met; President Trump and Prime Minister Netanyahu discuss potential military actions post-midterm elections; diplomatic efforts continue in Qatar.",
         "events_fa": "ایران پیشنهاد می‌دهد تنگه هرمز را ظرف دو روز بازگشایی کند در صورت برآورده شدن شرایط آمریکا؛ رئیس‌جمهور ترامپ و نخست‌وزیر نتانیاهو درباره اقدامات نظامی احتمالی پس از انتخابات میان‌دوره‌ای گفتگو می‌کنند؛ تلاش‌های دیپلماتیک در قطر ادامه دارد.",
         "highlight": false
+      },
+      {
+        "day": 202,
+        "date": "3 Nov",
+        "date_fa": "۳ نوامبر",
+        "waves": "1",
+        "iran_dead": "Unknown",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "1 Indian national killed",
+        "other_fa": "۱ شهروند هندی کشته شد",
+        "iran_bms": "Unknown",
+        "iran_drones": "Unknown",
+        "targets": "U.S. strikes on Iranian targets in the Strait of Hormuz",
+        "events": "U.S. conducted 'limited defensive' strikes on Iranian targets in the Strait of Hormuz following surface-to-air missile threats; explosions reported on Qeshm and Hengam islands; Iran proposes reopening the Strait of Hormuz within two days if U.S. conditions are met; diplomatic efforts continue in Qatar.",
+        "events_fa": "ایالات متحده حملات 'دفاعی محدود' به اهداف ایرانی در تنگه هرمز انجام داد پس از تهدیدهای موشک‌های سطح به هوا؛ انفجارهایی در جزایر قشم و هنگام گزارش شده است؛ ایران پیشنهاد بازگشایی تنگه هرمز در دو روز آینده در صورت برآورده شدن شرایط ایالات متحده را داده است؛ تلاش‌های دیپلماتیک در قطر ادامه دارد.",
+        "highlight": true
       }
     ]
   },
@@ -5710,10 +5727,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Ceasefire agreement leading to de-escalation.",
-        "description_fa": "توافق آتش‌بس منجر به کاهش تنش.",
+        "description": "Ceasefire agreement reached within the next week.",
+        "description_fa": "توافق آتش‌بس در هفته آینده حاصل می‌شود.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5730,10 +5747,10 @@
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Continuation of current conflict dynamics.",
-        "description_fa": "ادامه دینامیک‌های فعلی درگیری.",
+        "description": "Continued low-intensity conflict with intermittent strikes.",
+        "description_fa": "ادامه درگیری با شدت کم و حملات پراکنده.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5742,8 +5759,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم توافق در مذاکرات",
-          "ادامه حملات متقابل"
+          "حملات دفاعی محدود ایالات متحده",
+          "تهدیدهای موشکی ایران"
         ]
       },
       {
@@ -5752,8 +5769,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Escalation leading to broader regional conflict.",
-        "description_fa": "تشدید منجر به درگیری گسترده‌تر منطقه‌ای.",
+        "description": "Escalation to full-scale conflict.",
+        "description_fa": "تشدید به درگیری تمام‌عیار.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5762,8 +5779,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات نظامی پس از انتخابات میان‌دوره‌ای",
-          "واکنش‌های شدید ایران"
+          "عدم توافق در مذاکرات",
+          "حملات بیشتر از سوی هر دو طرف"
         ]
       }
     ],
@@ -6236,7 +6253,8 @@
         "30 Oct",
         "31 Oct",
         "1 Nov",
-        "2 Nov"
+        "2 Nov",
+        "3 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6398,7 +6416,8 @@
         1,
         0,
         1,
-        5
+        5,
+        1
       ],
       "iran_bms": [
         200,
@@ -6560,7 +6579,8 @@
         50,
         0,
         0,
-        15
+        15,
+        0
       ],
       "iran_drones": [
         500,
@@ -6721,7 +6741,8 @@
         20,
         0,
         0,
-        20
+        20,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -6926,7 +6947,8 @@
         "30 Oct",
         "31 Oct",
         "1 Nov",
-        "2 Nov"
+        "2 Nov",
+        "3 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7084,7 +7106,8 @@
         4600,
         0,
         4600,
-        4600
+        4600,
+        0
       ],
       "hrana_civilian": [
         133,
@@ -7236,7 +7259,8 @@
         3200,
         0,
         0,
-        3200
+        3200,
+        0
       ]
     },
     "bm_degradation": {
@@ -7441,7 +7465,8 @@
         "30 Oct",
         "31 Oct",
         "1 Nov",
-        "2 Nov"
+        "2 Nov",
+        "3 Nov"
       ],
       "daily_bm": [
         200,
@@ -7603,7 +7628,8 @@
         50,
         0,
         0,
-        15
+        15,
+        0
       ],
       "trendline": [
         200,
@@ -7828,7 +7854,8 @@
         "30 Oct",
         "31 Oct",
         "1 Nov",
-        "2 Nov"
+        "2 Nov",
+        "3 Nov"
       ],
       "data": [
         1.5,
@@ -7980,7 +8007,8 @@
         500000000,
         47000000000,
         47.1,
-        86000000000
+        86000000000,
+        0
       ]
     },
     "cost_distribution": {
@@ -8213,7 +8241,8 @@
         155.0,
         113.4,
         113.4,
-        113.4
+        113.4,
+        105.2
       ]
     },
     "hormuz_transit": {
@@ -8399,7 +8428,8 @@
         10,
         75,
         10,
-        14
+        14,
+        10
       ]
     },
     "scenario_probabilities": {
@@ -8414,8 +8444,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        50,
+        25,
+        45,
         30
       ],
       "colors": [
