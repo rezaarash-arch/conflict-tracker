@@ -3961,5 +3961,31 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "timestamp": "2026-11-04T07:39:16.446911-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. strikes on Iranian targets in the Strait of Hormuz, Iran's Supreme Leader ordering a 'maximum' response to any U.S. attack, and President Trump announcing the end of U.S. military aid to Israel by 2027.",
+    "changes": [
+      "meta.last_updated: 2026-11-03 -> 2026-11-04",
+      "meta.update_time: 12:27 EST -> 12:39 EST",
+      "meta.day_number: 202 -> 203",
+      "NEW DAY 203: U.S. conducted 'limited defensive' strikes on Iranian targets in the Strait of H...",
+      "overview.us_israel_strikes: ~50,000+ -> ~50,100+",
+      "costs.kpis.oil_brent: $152.00 -> $104.30",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe",
+      "NEW US CASUALTY: Jane Smith"
+    ]
   }
 ]

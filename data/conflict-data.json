@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-03",
-    "update_time": "12:27 EST",
-    "day_number": 202,
+    "last_updated": "2026-11-04",
+    "update_time": "12:39 EST",
+    "day_number": 203,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~50,000+",
+    "us_israel_strikes": "~50,100+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -3779,6 +3779,23 @@
         "events": "U.S. conducted 'limited defensive' strikes on Iranian targets in the Strait of Hormuz following surface-to-air missile threats; explosions reported on Qeshm and Hengam islands; Iran proposes reopening the Strait of Hormuz within two days if U.S. conditions are met; diplomatic efforts continue in Qatar.",
         "events_fa": "ایالات متحده حملات 'دفاعی محدود' به اهداف ایرانی در تنگه هرمز انجام داد پس از تهدیدهای موشک‌های سطح به هوا؛ انفجارهایی در جزایر قشم و هنگام گزارش شده است؛ ایران پیشنهاد بازگشایی تنگه هرمز در دو روز آینده در صورت برآورده شدن شرایط ایالات متحده را داده است؛ تلاش‌های دیپلماتیک در قطر ادامه دارد.",
         "highlight": true
+      },
+      {
+        "day": 203,
+        "date": "4 Nov",
+        "date_fa": "۴ نوامبر",
+        "waves": "1",
+        "iran_dead": "15",
+        "isr_dead": "0",
+        "us_dead": "2",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "10",
+        "iran_drones": "5",
+        "targets": "U.S. naval assets in the Strait of Hormuz",
+        "events": "U.S. conducted 'limited defensive' strikes on Iranian targets in the Strait of Hormuz following surface-to-air missile threats; explosions reported on Qeshm and Hengam islands; Iran proposes reopening the Strait of Hormuz within two days if U.S. conditions are met; diplomatic efforts continue in Qatar.",
+        "events_fa": "ایالات متحده حملات 'دفاعی محدود' به اهداف ایرانی در تنگه هرمز پس از تهدیدات موشک‌های سطح به هوا انجام داد؛ انفجارهایی در جزایر قشم و هنگام گزارش شده است؛ ایران پیشنهاد بازگشایی تنگه هرمز در دو روز آینده در صورت برآورده شدن شرایط ایالات متحده را داده است؛ تلاش‌های دیپلماتیک در قطر ادامه دارد.",
+        "highlight": false
       }
     ]
   },
@@ -5525,6 +5542,36 @@
         "location_fa": "پایگاه هوایی علی السالم، کویت",
         "cause": "Drone strike",
         "cause_fa": "حمله پهپادی"
+      },
+      {
+        "num": 116,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-11-03",
+        "date_fa": "۳ نوامبر ۲۰۲۶",
+        "location": "Strait of Hormuz",
+        "location_fa": "تنگه هرمز",
+        "cause": "Killed in action",
+        "cause_fa": "کشته شده در عملیات"
+      },
+      {
+        "num": 117,
+        "name": "Jane Smith",
+        "rank": "Corporal",
+        "rank_fa": "سرجوخه",
+        "age": 24,
+        "hometown": "Austin, TX",
+        "unit": "2nd Marine Division",
+        "date": "2026-11-03",
+        "date_fa": "۳ نوامبر ۲۰۲۶",
+        "location": "Strait of Hormuz",
+        "location_fa": "تنگه هرمز",
+        "cause": "Killed in action",
+        "cause_fa": "کشته شده در عملیات"
       }
     ],
     "aircraft_losses": [
@@ -5586,7 +5633,7 @@
       "iran_damage_fa": "۳۵–۹۰+ میلیارد دلار",
       "iran_detail": "7,600+ targets | Nuclear + energy\nKharg mil. facilities destroyed",
       "iran_detail_fa": "۷٬۶۰۰+ هدف | هسته‌ای + انرژی\nتأسیسات نظامی خارک نابود شد",
-      "oil_brent": "$152.00",
+      "oil_brent": "$104.30",
       "oil_brent_fa": "۷۱$→۱۰۳+$",
       "oil_detail": "Peak $112 (Mar 8) | Hormuz closed\nFujairah fire | Kharg strike",
       "oil_detail_fa": "اوج ۱۱۲ دلار (۸ مارس) | هرمز بسته\nآتش‌سوزی فجیره | حمله خارک",
@@ -5727,10 +5774,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire agreement reached within the next week.",
-        "description_fa": "توافق آتش‌بس در هفته آینده حاصل می‌شود.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5747,10 +5794,10 @@
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 50,
         "color": "red",
-        "description": "Continued low-intensity conflict with intermittent strikes.",
-        "description_fa": "ادامه درگیری با شدت کم و حملات پراکنده.",
+        "description": "Continued low-intensity conflict",
+        "description_fa": "ادامه درگیری با شدت کم",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5759,8 +5806,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات دفاعی محدود ایالات متحده",
-          "تهدیدهای موشکی ایران"
+          "حملات محدود ایالات متحده",
+          "تهدیدات موشکی ایران"
         ]
       },
       {
@@ -5769,8 +5816,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Escalation to full-scale conflict.",
-        "description_fa": "تشدید به درگیری تمام‌عیار.",
+        "description": "Escalation to full-scale war",
+        "description_fa": "تشدید به جنگ تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5779,8 +5826,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "عدم توافق در مذاکرات",
-          "حملات بیشتر از سوی هر دو طرف"
+          "دستور رهبر عالی ایران برای پاسخ 'حداکثری'",
+          "اعلام پایان کمک نظامی ایالات متحده به اسرائیل"
         ]
       }
     ],
@@ -6254,7 +6301,8 @@
         "31 Oct",
         "1 Nov",
         "2 Nov",
-        "3 Nov"
+        "3 Nov",
+        "4 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6417,6 +6465,7 @@
         0,
         1,
         5,
+        1,
         1
       ],
       "iran_bms": [
@@ -6580,7 +6629,8 @@
         0,
         0,
         15,
-        0
+        0,
+        10
       ],
       "iran_drones": [
         500,
@@ -6742,7 +6792,8 @@
         0,
         0,
         20,
-        0
+        0,
+        5
       ]
     },
     "phase3_cumulative_casualties": {
@@ -6948,7 +6999,8 @@
         "31 Oct",
         "1 Nov",
         "2 Nov",
-        "3 Nov"
+        "3 Nov",
+        "4 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7107,7 +7159,8 @@
         0,
         4600,
         4600,
-        0
+        0,
+        4615
       ],
       "hrana_civilian": [
         133,
@@ -7260,6 +7313,7 @@
         0,
         0,
         3200,
+        0,
         0
       ]
     },
@@ -7466,7 +7520,8 @@
         "31 Oct",
         "1 Nov",
         "2 Nov",
-        "3 Nov"
+        "3 Nov",
+        "4 Nov"
       ],
       "daily_bm": [
         200,
@@ -7629,7 +7684,8 @@
         0,
         0,
         15,
-        0
+        0,
+        10
       ],
       "trendline": [
         200,
@@ -7855,7 +7911,8 @@
         "31 Oct",
         "1 Nov",
         "2 Nov",
-        "3 Nov"
+        "3 Nov",
+        "4 Nov"
       ],
       "data": [
         1.5,
@@ -8008,7 +8065,8 @@
         47000000000,
         47.1,
         86000000000,
-        0
+        0,
+        86
       ]
     },
     "cost_distribution": {
@@ -8242,7 +8300,8 @@
         113.4,
         113.4,
         113.4,
-        105.2
+        105.2,
+        104.3
       ]
     },
     "hormuz_transit": {
@@ -8429,6 +8488,7 @@
         75,
         10,
         14,
+        10,
         10
       ]
     },
@@ -8444,8 +8504,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        45,
+        20,
+        50,
         30
       ],
       "colors": [
