@@ -3987,5 +3987,29 @@
       "NEW US CASUALTY: John Doe",
       "NEW US CASUALTY: Jane Smith"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "timestamp": "2026-11-05T07:49:38.047990-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. defensive strikes in the Strait of Hormuz, Iran's Supreme Leader ordering a 'maximum' response to any U.S. attack, and Vice President JD Vance distancing himself from the Iran conflict following midterm election losses.",
+    "changes": [
+      "meta.last_updated: 2026-11-04 -> 2026-11-05",
+      "meta.update_time: 12:39 EST -> 12:49 EST",
+      "meta.day_number: 203 -> 204",
+      "NEW DAY 204: U.S. conducted defensive strikes on Iranian targets in the Strait of Hormuz foll...",
+      "overview.us_israel_strikes: ~50,100+ -> ~50,200+",
+      "scenario A prob: 20% -> 25%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
