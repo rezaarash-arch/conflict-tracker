@@ -4011,5 +4011,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "timestamp": "2026-11-07T06:23:24.121441-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. strikes on Iranian air-defense systems near Qeshm Island, ongoing diplomatic efforts led by Vice President JD Vance, and Iran's Supreme Leader ordering a 'maximum' response to any U.S. attack.",
+    "changes": [
+      "meta.last_updated: 2026-11-06 -> 2026-11-07",
+      "meta.update_time: 00:00 EST -> 11:23 EST",
+      "meta.day_number: 204 -> 205",
+      "NEW DAY 205: U.S. conducted limited strikes on Iranian air-defense systems near Qeshm Island;...",
+      "scenario A prob: 25% -> 20%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
