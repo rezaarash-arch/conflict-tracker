@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-07",
-    "update_time": "11:23 EST",
-    "day_number": 205,
+    "last_updated": "2026-11-08",
+    "update_time": "11:35 EST",
+    "day_number": 206,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3830,6 +3830,23 @@
         "events": "U.S. conducted limited strikes on Iranian air-defense systems near Qeshm Island; Iran retaliated with missile and drone attacks on U.S. bases in Kuwait and Bahrain.",
         "events_fa": "ایالات متحده حملات محدودی به سامانه‌های پدافند هوایی ایران در نزدیکی جزیره قشم انجام داد؛ ایران با حملات موشکی و پهپادی به پایگاه‌های آمریکایی در کویت و بحرین پاسخ داد.",
         "highlight": false
+      },
+      {
+        "day": 206,
+        "date": "8 Nov",
+        "date_fa": "۸ نوامبر",
+        "waves": "1",
+        "iran_dead": "10",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "2",
+        "other_fa": "۲",
+        "iran_bms": "2",
+        "iran_drones": "0",
+        "targets": "U.S. bases in Kuwait and Bahrain",
+        "events": "Iran launched two ballistic missiles targeting U.S. bases in Kuwait and Bahrain; no casualties reported.",
+        "events_fa": "ایران دو موشک بالستیک به سمت پایگاه‌های آمریکا در کویت و بحرین شلیک کرد؛ هیچ تلفاتی گزارش نشده است.",
+        "highlight": false
       }
     ]
   },
@@ -5838,10 +5855,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 25,
         "color": "amber",
-        "description": "Ceasefire agreement reached with partial lifting of sanctions.",
-        "description_fa": "توافق آتش‌بس با لغو جزئی تحریم‌ها.",
+        "description": "Ceasefire agreement reached with gradual de-escalation.",
+        "description_fa": "توافق آتش‌بس با کاهش تدریجی تنش‌ها.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5850,17 +5867,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "مذاکرات دیپلماتیک",
-          "فشار بین‌المللی"
+          "فشار بین‌المللی",
+          "خستگی جنگی",
+          "تلاش‌های دیپلماتیک"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 45,
         "color": "red",
-        "description": "Continued low-intensity conflict with intermittent skirmishes.",
+        "description": "Continued low-intensity conflict with sporadic engagements.",
         "description_fa": "ادامه درگیری با شدت کم و درگیری‌های پراکنده.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
@@ -5871,7 +5889,8 @@
         ],
         "drivers_fa": [
           "عدم اعتماد متقابل",
-          "حملات پراکنده"
+          "حوادث تحریک‌آمیز",
+          "عدم پیشرفت در مذاکرات"
         ]
       },
       {
@@ -5880,8 +5899,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Escalation into full-scale regional war.",
-        "description_fa": "تشدید به جنگ تمام‌عیار منطقه‌ای.",
+        "description": "Escalation into full-scale regional conflict.",
+        "description_fa": "تشدید به درگیری تمام‌عیار منطقه‌ای.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5891,7 +5910,8 @@
         ],
         "drivers_fa": [
           "حملات تلافی‌جویانه",
-          "افزایش تنش‌ها"
+          "مداخله بازیگران منطقه‌ای",
+          "شکست مذاکرات"
         ]
       }
     ],
@@ -6368,7 +6388,8 @@
         "3 Nov",
         "4 Nov",
         "5 Nov",
-        "7 Nov"
+        "7 Nov",
+        "8 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6531,6 +6552,7 @@
         0,
         1,
         5,
+        1,
         1,
         1,
         1,
@@ -6700,7 +6722,8 @@
         0,
         10,
         10,
-        50
+        50,
+        2
       ],
       "iran_drones": [
         500,
@@ -6865,7 +6888,8 @@
         0,
         5,
         5,
-        10
+        10,
+        0
       ]
     },
     "phase3_cumulative_casualties": {
@@ -7074,7 +7098,8 @@
         "3 Nov",
         "4 Nov",
         "5 Nov",
-        "7 Nov"
+        "7 Nov",
+        "8 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7601,7 +7626,8 @@
         "3 Nov",
         "4 Nov",
         "5 Nov",
-        "7 Nov"
+        "7 Nov",
+        "8 Nov"
       ],
       "daily_bm": [
         200,
@@ -7767,7 +7793,8 @@
         0,
         10,
         10,
-        50
+        50,
+        2
       ],
       "trendline": [
         200,
@@ -7996,7 +8023,8 @@
         "3 Nov",
         "4 Nov",
         "5 Nov",
-        "7 Nov"
+        "7 Nov",
+        "8 Nov"
       ],
       "data": [
         1.5,
@@ -8389,7 +8417,8 @@
         105.2,
         104.3,
         98.5,
-        106.5
+        106.5,
+        98.11
       ]
     },
     "hormuz_transit": {
@@ -8594,8 +8623,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        50,
+        25,
+        45,
         30
       ],
       "colors": [

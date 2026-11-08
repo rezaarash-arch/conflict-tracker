@@ -4034,5 +4034,23 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-11-08",
+    "timestamp": "2026-11-08T06:35:37.509391-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. disabling a commercial vessel in the Gulf of Oman, Iran lifting its self-imposed missile range limit, and Israeli political shifts.",
+    "changes": [
+      "meta.last_updated: 2026-11-07 -> 2026-11-08",
+      "meta.update_time: 11:23 EST -> 11:35 EST",
+      "meta.day_number: 205 -> 206",
+      "NEW DAY 206: Iran launched two ballistic missiles targeting U.S. bases in Kuwait and Bahrain;...",
+      "scenario A prob: 20% -> 25%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
+    ]
   }
 ]
