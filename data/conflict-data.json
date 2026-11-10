@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-09",
-    "update_time": "00:00 EST",
-    "day_number": 206,
+    "last_updated": "2026-11-10",
+    "update_time": "13:06 EST",
+    "day_number": 207,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3847,6 +3847,23 @@
         "events": "Iran launched two ballistic missiles targeting U.S. bases in Kuwait and Bahrain; no casualties reported.",
         "events_fa": "ایران دو موشک بالستیک به سمت پایگاه‌های آمریکا در کویت و بحرین شلیک کرد؛ هیچ تلفاتی گزارش نشده است.",
         "highlight": false
+      },
+      {
+        "day": 207,
+        "date": "10 Nov",
+        "date_fa": "۱۰ نوامبر",
+        "waves": "0",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "0",
+        "targets": "0",
+        "events": "President Trump stated that renewed U.S. attacks on Iran are 'quite unlikely' and that the war is 'militarily effectively over.' The U.S. Air Force relocated refueling tankers from RAF Mildenhall in response to perceived threats from Iran.",
+        "events_fa": "رئیس‌جمهور ترامپ اعلام کرد که حملات جدید ایالات متحده به ایران 'بسیار بعید' است و جنگ 'از نظر نظامی عملاً به پایان رسیده است.' نیروی هوایی ایالات متحده تانکرهای سوخت‌رسان را از پایگاه RAF Mildenhall به دلیل تهدیدات احتمالی از سوی ایران منتقل کرد.",
+        "highlight": false
       }
     ]
   },
@@ -5855,10 +5872,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 25,
+        "probability": 20,
         "color": "amber",
-        "description": "Ceasefire agreement reached with gradual de-escalation.",
-        "description_fa": "توافق آتش‌بس با کاهش تدریجی تنش‌ها.",
+        "description": "Full-scale military escalation",
+        "description_fa": "تشدید نظامی تمام‌عیار",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5867,19 +5884,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "خستگی جنگی",
-          "تلاش‌های دیپلماتیک"
+          "افزایش حملات نظامی",
+          "عدم موفقیت مذاکرات صلح"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 50,
         "color": "red",
-        "description": "Continued low-intensity conflict with sporadic engagements.",
-        "description_fa": "ادامه درگیری با شدت کم و درگیری‌های پراکنده.",
+        "description": "Prolonged low-intensity conflict",
+        "description_fa": "درگیری کم‌شدت طولانی‌مدت",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5888,9 +5904,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "عدم اعتماد متقابل",
-          "حوادث تحریک‌آمیز",
-          "عدم پیشرفت در مذاکرات"
+          "ادامه حملات پراکنده",
+          "عدم توافق جامع"
         ]
       },
       {
@@ -5899,8 +5914,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Escalation into full-scale regional conflict.",
-        "description_fa": "تشدید به درگیری تمام‌عیار منطقه‌ای.",
+        "description": "Negotiated ceasefire leading to peace talks",
+        "description_fa": "آتش‌بس مذاکره‌شده منجر به مذاکرات صلح",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5909,9 +5924,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات تلافی‌جویانه",
-          "مداخله بازیگران منطقه‌ای",
-          "شکست مذاکرات"
+          "پیشرفت در مذاکرات",
+          "فشار بین‌المللی برای صلح"
         ]
       }
     ],
@@ -6389,7 +6403,8 @@
         "4 Nov",
         "5 Nov",
         "7 Nov",
-        "8 Nov"
+        "8 Nov",
+        "10 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -7099,7 +7114,8 @@
         "4 Nov",
         "5 Nov",
         "7 Nov",
-        "8 Nov"
+        "8 Nov",
+        "10 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7627,7 +7643,8 @@
         "4 Nov",
         "5 Nov",
         "7 Nov",
-        "8 Nov"
+        "8 Nov",
+        "10 Nov"
       ],
       "daily_bm": [
         200,
@@ -8024,7 +8041,8 @@
         "4 Nov",
         "5 Nov",
         "7 Nov",
-        "8 Nov"
+        "8 Nov",
+        "10 Nov"
       ],
       "data": [
         1.5,
@@ -8418,6 +8436,7 @@
         104.3,
         98.5,
         106.5,
+        98.11,
         98.11
       ]
     },
@@ -8623,8 +8642,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        25,
-        45,
+        20,
+        50,
         30
       ],
       "colors": [
