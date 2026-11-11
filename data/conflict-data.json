@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-10",
-    "update_time": "13:06 EST",
-    "day_number": 207,
+    "last_updated": "2026-11-11",
+    "update_time": "12:16 EST",
+    "day_number": 208,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3864,6 +3864,23 @@
         "events": "President Trump stated that renewed U.S. attacks on Iran are 'quite unlikely' and that the war is 'militarily effectively over.' The U.S. Air Force relocated refueling tankers from RAF Mildenhall in response to perceived threats from Iran.",
         "events_fa": "رئیس‌جمهور ترامپ اعلام کرد که حملات جدید ایالات متحده به ایران 'بسیار بعید' است و جنگ 'از نظر نظامی عملاً به پایان رسیده است.' نیروی هوایی ایالات متحده تانکرهای سوخت‌رسان را از پایگاه RAF Mildenhall به دلیل تهدیدات احتمالی از سوی ایران منتقل کرد.",
         "highlight": false
+      },
+      {
+        "day": 208,
+        "date": "11 Nov",
+        "date_fa": "۱۱ نوامبر",
+        "waves": "N/A",
+        "iran_dead": "N/A",
+        "isr_dead": "N/A",
+        "us_dead": "N/A",
+        "other": "N/A",
+        "other_fa": "N/A",
+        "iran_bms": "N/A",
+        "iran_drones": "N/A",
+        "targets": "N/A",
+        "events": "U.S. forces conducted limited strikes against an Iranian air-defense system near Qeshm Island. The U.S. Air Force relocated 13 aircraft from RAF Mildenhall in response to a threat. In Israel, opposition leader Gadi Eisenkot is working to form a government following the October 27 election.",
+        "events_fa": "نیروهای آمریکایی حملات محدودی علیه یک سامانه پدافند هوایی ایران در نزدیکی جزیره قشم انجام دادند. نیروی هوایی آمریکا ۱۳ هواپیما را از پایگاه RAF Mildenhall به دلیل تهدیدی منتقل کرد. در اسرائیل، رهبر مخالفان گادی آیزنکوت در تلاش است تا پس از انتخابات ۲۷ اکتبر دولت تشکیل دهد.",
+        "highlight": false
       }
     ]
   },
@@ -5872,10 +5889,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 20,
+        "probability": 15,
         "color": "amber",
-        "description": "Full-scale military escalation",
-        "description_fa": "تشدید نظامی تمام‌عیار",
+        "description": "Renewed U.S. military engagement with Iran.",
+        "description_fa": "درگیری نظامی مجدد ایالات متحده با ایران.",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5884,18 +5901,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش حملات نظامی",
-          "عدم موفقیت مذاکرات صلح"
+          "تهدیدات امنیتی",
+          "فشارهای سیاسی داخلی"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 50,
+        "probability": 55,
         "color": "red",
-        "description": "Prolonged low-intensity conflict",
-        "description_fa": "درگیری کم‌شدت طولانی‌مدت",
+        "description": "Continuation of economic pressure and sanctions.",
+        "description_fa": "ادامه فشارهای اقتصادی و تحریم‌ها.",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5904,8 +5921,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "ادامه حملات پراکنده",
-          "عدم توافق جامع"
+          "استراتژی دولت آمریکا",
+          "مذاکرات دیپلماتیک"
         ]
       },
       {
@@ -5914,8 +5931,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Negotiated ceasefire leading to peace talks",
-        "description_fa": "آتش‌بس مذاکره‌شده منجر به مذاکرات صلح",
+        "description": "Diplomatic resolution leading to de-escalation.",
+        "description_fa": "حل دیپلماتیک منجر به کاهش تنش.",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5924,8 +5941,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "پیشرفت در مذاکرات",
-          "فشار بین‌المللی برای صلح"
+          "میانجی‌گری قطر",
+          "مذاکرات بین‌المللی"
         ]
       }
     ],
@@ -6404,7 +6421,8 @@
         "5 Nov",
         "7 Nov",
         "8 Nov",
-        "10 Nov"
+        "10 Nov",
+        "11 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -7115,7 +7133,8 @@
         "5 Nov",
         "7 Nov",
         "8 Nov",
-        "10 Nov"
+        "10 Nov",
+        "11 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7277,7 +7296,8 @@
         0,
         4615,
         4600,
-        4700
+        4700,
+        7650
       ],
       "hrana_civilian": [
         133,
@@ -7644,7 +7664,8 @@
         "5 Nov",
         "7 Nov",
         "8 Nov",
-        "10 Nov"
+        "10 Nov",
+        "11 Nov"
       ],
       "daily_bm": [
         200,
@@ -8042,7 +8063,8 @@
         "5 Nov",
         "7 Nov",
         "8 Nov",
-        "10 Nov"
+        "10 Nov",
+        "11 Nov"
       ],
       "data": [
         1.5,
@@ -8437,7 +8459,8 @@
         98.5,
         106.5,
         98.11,
-        98.11
+        98.11,
+        104.3
       ]
     },
     "hormuz_transit": {
@@ -8642,8 +8665,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        20,
-        50,
+        15,
+        55,
         30
       ],
       "colors": [
