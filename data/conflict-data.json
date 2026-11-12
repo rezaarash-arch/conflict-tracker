@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-11",
-    "update_time": "12:16 EST",
-    "day_number": 208,
+    "last_updated": "2026-11-12",
+    "update_time": "13:24 EST",
+    "day_number": 209,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3881,6 +3881,23 @@
         "events": "U.S. forces conducted limited strikes against an Iranian air-defense system near Qeshm Island. The U.S. Air Force relocated 13 aircraft from RAF Mildenhall in response to a threat. In Israel, opposition leader Gadi Eisenkot is working to form a government following the October 27 election.",
         "events_fa": "نیروهای آمریکایی حملات محدودی علیه یک سامانه پدافند هوایی ایران در نزدیکی جزیره قشم انجام دادند. نیروی هوایی آمریکا ۱۳ هواپیما را از پایگاه RAF Mildenhall به دلیل تهدیدی منتقل کرد. در اسرائیل، رهبر مخالفان گادی آیزنکوت در تلاش است تا پس از انتخابات ۲۷ اکتبر دولت تشکیل دهد.",
         "highlight": false
+      },
+      {
+        "day": 209,
+        "date": "12 Nov",
+        "date_fa": "۱۲ نوامبر",
+        "waves": "2",
+        "iran_dead": "100+",
+        "isr_dead": "5",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "2",
+        "iran_drones": "0",
+        "targets": "U.S. bases in Bahrain and Kuwait",
+        "events": "U.S. forces conducted limited strikes against an Iranian air-defense system near Qeshm Island. Iran launched two ballistic missiles targeting U.S. bases in Bahrain and Kuwait. France accused Iran of cyberattacks disrupting supermarket freezers across Europe.",
+        "events_fa": "نیروهای آمریکایی حملات محدودی علیه سیستم دفاع هوایی ایران در نزدیکی جزیره قشم انجام دادند. ایران دو موشک بالستیک به سمت پایگاه‌های آمریکایی در بحرین و کویت شلیک کرد. فرانسه ایران را به حملات سایبری متهم کرد که باعث اختلال در فریزرهای سوپرمارکت‌ها در سراسر اروپا شد.",
+        "highlight": false
       }
     ]
   },
@@ -5889,10 +5906,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
-        "description": "Renewed U.S. military engagement with Iran.",
-        "description_fa": "درگیری نظامی مجدد ایالات متحده با ایران.",
+        "description": "Ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس و حل و فصل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5901,18 +5918,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "تهدیدات امنیتی",
-          "فشارهای سیاسی داخلی"
+          "افزایش فشار بین‌المللی",
+          "میانجی‌گری قطر"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 55,
+        "probability": 60,
         "color": "red",
-        "description": "Continuation of economic pressure and sanctions.",
-        "description_fa": "ادامه فشارهای اقتصادی و تحریم‌ها.",
+        "description": "Continued low-intensity conflict",
+        "description_fa": "ادامه درگیری با شدت کم",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5921,8 +5938,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "استراتژی دولت آمریکا",
-          "مذاکرات دیپلماتیک"
+          "حملات متقابل محدود",
+          "حملات سایبری"
         ]
       },
       {
@@ -5931,8 +5948,8 @@
         "title_fa": "شکست و فروپاشی نظام",
         "probability": 30,
         "color": "green",
-        "description": "Diplomatic resolution leading to de-escalation.",
-        "description_fa": "حل دیپلماتیک منجر به کاهش تنش.",
+        "description": "Escalation to full-scale war",
+        "description_fa": "تشدید به جنگ تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5941,8 +5958,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "میانجی‌گری قطر",
-          "مذاکرات بین‌المللی"
+          "حملات موشکی بیشتر",
+          "حملات سایبری گسترده"
         ]
       }
     ],
@@ -6422,7 +6439,8 @@
         "7 Nov",
         "8 Nov",
         "10 Nov",
-        "11 Nov"
+        "11 Nov",
+        "12 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6589,7 +6607,8 @@
         1,
         1,
         1,
-        1
+        1,
+        2
       ],
       "iran_bms": [
         200,
@@ -6756,6 +6775,7 @@
         10,
         10,
         50,
+        2,
         2
       ],
       "iran_drones": [
@@ -6922,6 +6942,7 @@
         5,
         5,
         10,
+        0,
         0
       ]
     },
@@ -7134,7 +7155,8 @@
         "7 Nov",
         "8 Nov",
         "10 Nov",
-        "11 Nov"
+        "11 Nov",
+        "12 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7665,7 +7687,8 @@
         "7 Nov",
         "8 Nov",
         "10 Nov",
-        "11 Nov"
+        "11 Nov",
+        "12 Nov"
       ],
       "daily_bm": [
         200,
@@ -7832,6 +7855,7 @@
         10,
         10,
         50,
+        2,
         2
       ],
       "trendline": [
@@ -8064,7 +8088,8 @@
         "7 Nov",
         "8 Nov",
         "10 Nov",
-        "11 Nov"
+        "11 Nov",
+        "12 Nov"
       ],
       "data": [
         1.5,
@@ -8460,7 +8485,8 @@
         106.5,
         98.11,
         98.11,
-        104.3
+        104.3,
+        98.11
       ]
     },
     "hormuz_transit": {
@@ -8665,8 +8691,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        55,
+        10,
+        60,
         30
       ],
       "colors": [
