@@ -4101,5 +4101,30 @@
       "chart phase3_daily_timeline.iran_drones: appended 1 values",
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "timestamp": "2026-11-13T07:42:20.918838-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in military actions and diplomatic developments between Iran, Israel, and the U.S.",
+    "changes": [
+      "meta.last_updated: 2026-11-12 -> 2026-11-13",
+      "meta.update_time: 13:24 EST -> 12:42 EST",
+      "meta.day_number: 209 -> 210",
+      "NEW DAY 210: U.S.-Israel coalition strikes Iranian nuclear sites at Natanz and Isfahan; Iran ...",
+      "overview.us_israel_strikes: ~50,200+ -> ~51,000+",
+      "scenario A prob: 10% -> 5%",
+      "scenario B prob: 60% -> 70%",
+      "scenario C prob: 30% -> 25%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

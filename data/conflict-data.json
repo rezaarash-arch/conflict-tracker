@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-12",
-    "update_time": "13:24 EST",
-    "day_number": 209,
+    "last_updated": "2026-11-13",
+    "update_time": "12:42 EST",
+    "day_number": 210,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~50,200+",
+    "us_israel_strikes": "~51,000+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -3898,6 +3898,23 @@
         "events": "U.S. forces conducted limited strikes against an Iranian air-defense system near Qeshm Island. Iran launched two ballistic missiles targeting U.S. bases in Bahrain and Kuwait. France accused Iran of cyberattacks disrupting supermarket freezers across Europe.",
         "events_fa": "نیروهای آمریکایی حملات محدودی علیه سیستم دفاع هوایی ایران در نزدیکی جزیره قشم انجام دادند. ایران دو موشک بالستیک به سمت پایگاه‌های آمریکایی در بحرین و کویت شلیک کرد. فرانسه ایران را به حملات سایبری متهم کرد که باعث اختلال در فریزرهای سوپرمارکت‌ها در سراسر اروپا شد.",
         "highlight": false
+      },
+      {
+        "day": 210,
+        "date": "13 Nov",
+        "date_fa": "۱۳ نوامبر",
+        "waves": "1",
+        "iran_dead": "400+",
+        "isr_dead": "50+",
+        "us_dead": "6",
+        "other": "200+",
+        "other_fa": "۲۰۰+",
+        "iran_bms": "300+",
+        "iran_drones": "50+",
+        "targets": "U.S. bases in Qatar, UAE, Bahrain; Israeli military installations",
+        "events": "U.S.-Israel coalition strikes Iranian nuclear sites at Natanz and Isfahan; Iran retaliates with missile barrage on U.S. bases; Hezbollah launches rockets into northern Israel; Strait of Hormuz partially blocked.",
+        "events_fa": "حملات ائتلاف آمریکا-اسرائیل به سایت‌های هسته‌ای ایران در نطنز و اصفهان؛ ایران با شلیک موشک به پایگاه‌های آمریکا پاسخ می‌دهد؛ حزب‌الله راکت‌هایی به شمال اسرائیل پرتاب می‌کند؛ تنگه هرمز به‌طور جزئی مسدود می‌شود.",
+        "highlight": true
       }
     ]
   },
@@ -5704,6 +5721,21 @@
         "location_fa": "کویت",
         "cause": "Missile attack",
         "cause_fa": "حمله موشکی"
+      },
+      {
+        "num": 120,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 28,
+        "hometown": "Springfield, IL",
+        "unit": "101st Airborne Division",
+        "date": "2026-11-13",
+        "date_fa": "۱۳ نوامبر ۲۰۲۶",
+        "location": "Al Udeid Air Base, Qatar",
+        "location_fa": "پایگاه هوایی العدید، قطر",
+        "cause": "Missile attack",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -5906,10 +5938,10 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 10,
+        "probability": 5,
         "color": "amber",
-        "description": "Ceasefire and diplomatic resolution",
-        "description_fa": "آتش‌بس و حل و فصل دیپلماتیک",
+        "description": "Immediate ceasefire and diplomatic resolution",
+        "description_fa": "آتش‌بس فوری و حل دیپلماتیک",
         "drivers": [
           "BM depletion (90%↓ vs Israel)",
           "Kharg warning shot",
@@ -5919,17 +5951,17 @@
         ],
         "drivers_fa": [
           "افزایش فشار بین‌المللی",
-          "میانجی‌گری قطر"
+          "خستگی از جنگ"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 60,
+        "probability": 70,
         "color": "red",
-        "description": "Continued low-intensity conflict",
-        "description_fa": "ادامه درگیری با شدت کم",
+        "description": "Prolonged conflict with intermittent escalations",
+        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -5938,18 +5970,18 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات متقابل محدود",
-          "حملات سایبری"
+          "حملات مداوم",
+          "عدم توافق دیپلماتیک"
         ]
       },
       {
         "id": "C",
         "title": "Regime Fracture & Internal Collapse",
         "title_fa": "شکست و فروپاشی نظام",
-        "probability": 30,
+        "probability": 25,
         "color": "green",
-        "description": "Escalation to full-scale war",
-        "description_fa": "تشدید به جنگ تمام‌عیار",
+        "description": "Full-scale regional war",
+        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -5958,8 +5990,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات موشکی بیشتر",
-          "حملات سایبری گسترده"
+          "گسترش درگیری‌ها",
+          "ورود بازیگران منطقه‌ای"
         ]
       }
     ],
@@ -6440,7 +6472,8 @@
         "8 Nov",
         "10 Nov",
         "11 Nov",
-        "12 Nov"
+        "12 Nov",
+        "13 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6608,7 +6641,8 @@
         1,
         1,
         1,
-        2
+        2,
+        1
       ],
       "iran_bms": [
         200,
@@ -6776,7 +6810,8 @@
         10,
         50,
         2,
-        2
+        2,
+        300
       ],
       "iran_drones": [
         500,
@@ -6943,7 +6978,8 @@
         5,
         10,
         0,
-        0
+        0,
+        50
       ]
     },
     "phase3_cumulative_casualties": {
@@ -7156,7 +7192,8 @@
         "8 Nov",
         "10 Nov",
         "11 Nov",
-        "12 Nov"
+        "12 Nov",
+        "13 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7319,7 +7356,8 @@
         4615,
         4600,
         4700,
-        7650
+        7650,
+        5000
       ],
       "hrana_civilian": [
         133,
@@ -7475,7 +7513,8 @@
         0,
         0,
         3138,
-        3150
+        3150,
+        null
       ]
     },
     "bm_degradation": {
@@ -7688,7 +7727,8 @@
         "8 Nov",
         "10 Nov",
         "11 Nov",
-        "12 Nov"
+        "12 Nov",
+        "13 Nov"
       ],
       "daily_bm": [
         200,
@@ -7856,7 +7896,8 @@
         10,
         50,
         2,
-        2
+        2,
+        300
       ],
       "trendline": [
         200,
@@ -8089,7 +8130,8 @@
         "8 Nov",
         "10 Nov",
         "11 Nov",
-        "12 Nov"
+        "12 Nov",
+        "13 Nov"
       ],
       "data": [
         1.5,
@@ -8245,7 +8287,8 @@
         0,
         86,
         47000000000,
-        60000000000
+        60000000000,
+        null
       ]
     },
     "cost_distribution": {
@@ -8486,7 +8529,8 @@
         98.11,
         98.11,
         104.3,
-        98.11
+        98.11,
+        150.0
       ]
     },
     "hormuz_transit": {
@@ -8676,7 +8720,8 @@
         10,
         10,
         85,
-        85
+        85,
+        50
       ]
     },
     "scenario_probabilities": {
@@ -8691,9 +8736,9 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        10,
-        60,
-        30
+        5,
+        70,
+        25
       ],
       "colors": [
         "rgba(245,158,11,.7)",
