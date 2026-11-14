@@ -4126,5 +4126,28 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-11-14",
+    "timestamp": "2026-11-14T06:50:59.394920-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. defensive strikes on Iranian missile sites, Iran's warning against further U.S. military actions, and ongoing diplomatic efforts to reopen the Strait of Hormuz.",
+    "changes": [
+      "meta.last_updated: 2026-11-13 -> 2026-11-14",
+      "meta.update_time: 12:42 EST -> 12:00 EST",
+      "meta.day_number: 210 -> 211",
+      "NEW DAY 211: Iran launched two ballistic missiles targeting U.S. bases in Bahrain and Kuwait;...",
+      "overview.us_israel_strikes: ~51,000+ -> ~51,500+",
+      "scenario B prob: 70% -> 65%",
+      "scenario C prob: 25% -> 30%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
