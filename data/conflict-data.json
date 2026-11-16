@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-15",
-    "update_time": "12:20 EST",
-    "day_number": 212,
+    "last_updated": "2026-11-16",
+    "update_time": "13:13 EST",
+    "day_number": 213,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -3949,6 +3949,23 @@
         "events": "Iran's Revolutionary Guard Corps launched six drones targeting a U.S. military base in Bahrain; no casualties reported.",
         "events_fa": "سپاه پاسداران انقلاب اسلامی ایران شش پهپاد به سمت پایگاه نظامی آمریکا در بحرین پرتاب کرد؛ هیچ تلفاتی گزارش نشده است.",
         "highlight": true
+      },
+      {
+        "day": 213,
+        "date": "16 Nov",
+        "date_fa": "۲۵ آبان",
+        "waves": "1",
+        "iran_dead": "0",
+        "isr_dead": "0",
+        "us_dead": "0",
+        "other": "0",
+        "other_fa": "۰",
+        "iran_bms": "0",
+        "iran_drones": "6",
+        "targets": "US military base in Bahrain",
+        "events": "Iran's Revolutionary Guard Corps launched six drones targeting a U.S. military base in Bahrain; no casualties reported.",
+        "events_fa": "سپاه پاسداران انقلاب اسلامی ایران شش پهپاد را به سمت پایگاه نظامی آمریکا در بحرین پرتاب کرد؛ هیچ تلفاتی گزارش نشده است.",
+        "highlight": false
       }
     ]
   },
@@ -5984,8 +6001,8 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "فشار بین‌المللی",
-          "خستگی جنگی"
+          "مذاکرات دیپلماتیک در جریان",
+          "فشار بین‌المللی برای پایان دادن به درگیری"
         ]
       },
       {
@@ -6004,8 +6021,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات پراکنده",
-          "عدم توافق دیپلماتیک"
+          "حملات متقابل مداوم",
+          "عدم توافق در مذاکرات"
         ]
       },
       {
@@ -6024,7 +6041,7 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات عمده",
+          "حملات گسترده‌تر",
           "شکست مذاکرات"
         ]
       }
@@ -6509,7 +6526,8 @@
         "12 Nov",
         "13 Nov",
         "14 Nov",
-        "15 Nov"
+        "15 Nov",
+        "16 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6680,6 +6698,7 @@
         2,
         1,
         2,
+        1,
         1
       ],
       "iran_bms": [
@@ -6851,7 +6870,8 @@
         2,
         300,
         2,
-        6
+        6,
+        0
       ],
       "iran_drones": [
         500,
@@ -7021,7 +7041,8 @@
         0,
         50,
         0,
-        0
+        0,
+        6
       ]
     },
     "phase3_cumulative_casualties": {
@@ -7237,7 +7258,8 @@
         "12 Nov",
         "13 Nov",
         "14 Nov",
-        "15 Nov"
+        "15 Nov",
+        "16 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7778,7 +7800,8 @@
         "12 Nov",
         "13 Nov",
         "14 Nov",
-        "15 Nov"
+        "15 Nov",
+        "16 Nov"
       ],
       "daily_bm": [
         200,
@@ -7949,7 +7972,8 @@
         2,
         300,
         2,
-        6
+        6,
+        0
       ],
       "trendline": [
         200,
@@ -8185,7 +8209,8 @@
         "12 Nov",
         "13 Nov",
         "14 Nov",
-        "15 Nov"
+        "15 Nov",
+        "16 Nov"
       ],
       "data": [
         1.5,
@@ -8588,7 +8613,8 @@
         98.11,
         150.0,
         106.5,
-        95.0
+        95.0,
+        104.3
       ]
     },
     "hormuz_transit": {

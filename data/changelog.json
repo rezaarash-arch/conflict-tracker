@@ -4172,5 +4172,21 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-11-16",
+    "timestamp": "2026-11-16T08:13:12.257045-05:00",
+    "status": "UPDATED",
+    "summary": "Updated casualty figures, recent military actions, and political developments.",
+    "changes": [
+      "meta.last_updated: 2026-11-15 -> 2026-11-16",
+      "meta.update_time: 12:20 EST -> 13:13 EST",
+      "meta.day_number: 212 -> 213",
+      "NEW DAY 213: Iran's Revolutionary Guard Corps launched six drones targeting a U.S. military b...",
+      "chart brent_oil.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
+    ]
   }
 ]
