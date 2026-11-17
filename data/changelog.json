@@ -4188,5 +4188,29 @@
       "chart phase3_daily_timeline.iran_drones: appended 1 values",
       "chart phase3_daily_timeline.us_israel_waves: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-11-17",
+    "timestamp": "2026-11-17T08:56:36.703702-05:00",
+    "status": "UPDATED",
+    "summary": "Iran launched a third drone attack on U.S. military targets in Bahrain; the USS Theodore Roosevelt arrived in the Middle East; oil prices surged past $150 per barrel due to Strait of Hormuz disruptions.",
+    "changes": [
+      "meta.last_updated: 2026-11-16 -> 2026-11-17",
+      "meta.update_time: 13:13 EST -> 13:56 EST",
+      "meta.day_number: 213 -> 214",
+      "NEW DAY 214: Iran's Revolutionary Guard Corps launched six drones targeting a U.S. military b...",
+      "overview.us_israel_strikes: ~52,000+ -> ~53,000+",
+      "scenario A prob: 5% -> 10%",
+      "scenario B prob: 60% -> 50%",
+      "scenario C prob: 35% -> 40%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values"
+    ]
   }
 ]
