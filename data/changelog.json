@@ -4212,5 +4212,28 @@
       "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
       "chart us_cost_cumulative.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "timestamp": "2026-11-18T08:32:22.701410-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include renewed hostilities between Iran and the U.S., with drone attacks and retaliatory airstrikes; revelations about U.S. missile stockpile issues; and domestic protests in Iran following a fatal accident.",
+    "changes": [
+      "meta.last_updated: 2026-11-17 -> 2026-11-18",
+      "meta.update_time: 13:56 EST -> 13:32 EST",
+      "meta.day_number: 214 -> 215",
+      "NEW DAY 215: Iran launched six drones targeting a U.S. military base in Bahrain; U.S. forces ...",
+      "scenario A prob: 10% -> 15%",
+      "scenario B prob: 50% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
