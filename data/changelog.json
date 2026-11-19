@@ -4235,5 +4235,20 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "timestamp": "2026-11-19T08:59:39.719586-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. airstrikes on Iran's Qeshm Island, Iranian drone attacks intercepted by Gulf states, and diplomatic efforts to prevent escalation.",
+    "changes": [
+      "meta.last_updated: 2026-11-18 -> 2026-11-19",
+      "meta.update_time: 13:32 EST -> 14:00 EST",
+      "meta.day_number: 215 -> 216",
+      "NEW DAY 216: U.S. conducted airstrikes on IRGC missile site on Qeshm Island; Iran launched dr...",
+      "scenario A prob: 15% -> 20%",
+      "scenario B prob: 45% -> 40%",
+      "chart brent_oil.data: appended 1 values"
+    ]
   }
 ]
