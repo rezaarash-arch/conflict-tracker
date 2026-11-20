@@ -4250,5 +4250,29 @@
       "scenario B prob: 45% -> 40%",
       "chart brent_oil.data: appended 1 values"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "timestamp": "2026-11-20T08:41:39.716384-05:00",
+    "status": "UPDATED",
+    "summary": "Recent developments include U.S. airstrikes on IRGC sites, Iranian drone attacks intercepted in Bahrain, and political maneuvers in the U.S. Senate regarding war powers.",
+    "changes": [
+      "meta.last_updated: 2026-11-19 -> 2026-11-20",
+      "meta.update_time: 14:00 EST -> 13:41 EST",
+      "meta.day_number: 216 -> 217",
+      "NEW DAY 217: Iran launched drone attacks on U.S. military base in Bahrain; U.S. conducted air...",
+      "overview.us_israel_strikes: ~53,000+ -> ~53,500+",
+      "scenario A prob: 20% -> 15%",
+      "scenario B prob: 40% -> 45%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]
