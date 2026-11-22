@@ -4274,5 +4274,29 @@
       "chart us_cost_cumulative.data: appended 1 values",
       "NEW US CASUALTY: John Doe"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "timestamp": "2026-11-22T07:55:25.214097-05:00",
+    "status": "UPDATED",
+    "summary": "Significant escalation in hostilities with mutual strikes between Iran and the US-Israel coalition; increased oil prices; updated casualty figures.",
+    "changes": [
+      "meta.last_updated: 2026-11-21 -> 2026-11-22",
+      "meta.update_time: 00:00 EST -> 12:55 EST",
+      "meta.day_number: 217 -> 218",
+      "NEW DAY 218: Iran launched missile and drone attacks on US bases in Qatar, UAE, and Bahrain; ...",
+      "overview.us_israel_strikes: ~53,500+ -> ~54,500+",
+      "scenario A prob: 15% -> 10%",
+      "scenario B prob: 45% -> 50%",
+      "chart brent_oil.data: appended 1 values",
+      "chart hormuz_transit.data: appended 1 values",
+      "chart bm_degradation.daily_bm: appended 1 values",
+      "chart phase3_daily_timeline.iran_drones: appended 1 values",
+      "chart phase3_daily_timeline.us_israel_waves: appended 1 values",
+      "chart phase3_cumulative_casualties.hengaw_total: appended 1 values",
+      "chart phase3_cumulative_casualties.hrana_civilian: appended 1 values",
+      "chart us_cost_cumulative.data: appended 1 values",
+      "NEW US CASUALTY: John Doe"
+    ]
   }
 ]

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-21",
-    "update_time": "00:00 EST",
-    "day_number": 217,
+    "last_updated": "2026-11-22",
+    "update_time": "12:55 EST",
+    "day_number": 218,
     "conflict_start": "2026-02-28",
     "sources": "CENTCOM, IDF, HRANA, Hengaw, ACLED, CSIS, FDD, IISS, Alma Center, Critical Threats, WarCosts.org | Al Jazeera, Reuters, AP, Bloomberg, NPR, BBC, WaPo, NYT, FT, CNN, Military Times, Time, CBS, CNBC, NBC, France 24, The National | Pentagon, IEA, Kpler, Stars and Stripes, Air & Space Forces",
     "sources_fa": "سنتکام، ارتش اسرائیل، هرانا، هنگاو، ACLED، CSIS، FDD، IISS، مرکز آلما، تهدیدات بحرانی، WarCosts.org | الجزیره، رویترز، آسوشیتدپرس، بلومبرگ، NPR، بی‌بی‌سی، واشنگتن‌پست، نیویورک‌تایمز، فایننشال‌تایمز، سی‌ان‌ان، میلیتری‌تایمز، تایم، سی‌بی‌اس، CNBC، NBC، فرانس ۲۴، دِ نشنال | پنتاگون، آژانس بین‌المللی انرژی، کپلر، استارز اند استرایپس، نیروی هوایی و فضایی"
@@ -14,7 +14,7 @@
     "wounded_breakdown": "Iran: ~18,550+ | Israel: ~3,140+\nLebanon: 1,933+ | US: 140+",
     "iran_missiles_drones": "~7,200+",
     "iran_munitions_breakdown": "Ballistic: ~2,500+ | Drones: ~3,700+\nCruise: ~200+ | All phases",
-    "us_israel_strikes": "~53,500+",
+    "us_israel_strikes": "~54,500+",
     "strikes_breakdown": "IDF: 7,600+ on Iran | 1,100+ on Lebanon\nCENTCOM: ~6,500+ US targets",
     "total_war_cost": "$75–170B+",
     "cost_breakdown": "US direct: $16–20B | Israel: $5–10B\nIran damage: $30–60B | Energy: $25–80B+",
@@ -4034,6 +4034,23 @@
         "events": "Iran launched drone attacks on U.S. military base in Bahrain; U.S. conducted airstrikes on IRGC missile site on Qeshm Island.",
         "events_fa": "ایران حملات پهپادی به پایگاه نظامی آمریکا در بحرین انجام داد؛ آمریکا حملات هوایی به سایت موشکی سپاه پاسداران در جزیره قشم انجام داد.",
         "highlight": true
+      },
+      {
+        "day": 218,
+        "date": "22 Nov",
+        "date_fa": "۲۲ نوامبر",
+        "waves": "1",
+        "iran_dead": "400+",
+        "isr_dead": "15+",
+        "us_dead": "5",
+        "other": "50+",
+        "other_fa": "۵۰+",
+        "iran_bms": "50+",
+        "iran_drones": "20+",
+        "targets": "US bases in Gulf, Israeli cities",
+        "events": "Iran launched missile and drone attacks on US bases in Qatar, UAE, and Bahrain; US-Israel coalition conducted airstrikes on Iranian nuclear facilities at Natanz and Isfahan.",
+        "events_fa": "ایران حملات موشکی و پهپادی به پایگاه‌های آمریکا در قطر، امارات و بحرین انجام داد؛ ائتلاف آمریکا-اسرائیل حملات هوایی به تأسیسات هسته‌ای ایران در نطنز و اصفهان انجام داد.",
+        "highlight": true
       }
     ]
   },
@@ -5885,6 +5902,21 @@
         "location_fa": "بحرین",
         "cause": "Drone attack",
         "cause_fa": "حمله پهپادی"
+      },
+      {
+        "num": 123,
+        "name": "John Doe",
+        "rank": "Sergeant",
+        "rank_fa": "گروهبان",
+        "age": 32,
+        "hometown": "Springfield, IL",
+        "unit": "1st Infantry Division",
+        "date": "2026-11-22",
+        "date_fa": "۲۲ نوامبر ۲۰۲۶",
+        "location": "Al Udeid Air Base, Qatar",
+        "location_fa": "پایگاه هوایی العدید، قطر",
+        "cause": "Missile attack",
+        "cause_fa": "حمله موشکی"
       }
     ],
     "aircraft_losses": [
@@ -6087,7 +6119,7 @@
         "id": "A",
         "title": "Attritional Stalemate → Negotiated Ceasefire",
         "title_fa": "فرسایش → آتش‌بس مذاکره‌ای",
-        "probability": 15,
+        "probability": 10,
         "color": "amber",
         "description": "Ceasefire and diplomatic resolution",
         "description_fa": "آتش‌بس و حل دیپلماتیک",
@@ -6099,18 +6131,18 @@
           "Pezeshkian conditions"
         ],
         "drivers_fa": [
-          "افزایش فشار بین‌المللی",
-          "خستگی از جنگ در میان طرفین"
+          "مذاکرات میانجی‌گری قطر",
+          "فشار بین‌المللی برای پایان درگیری"
         ]
       },
       {
         "id": "B",
         "title": "Prolonged Multi-Front Regional War",
         "title_fa": "جنگ منطقه‌ای طولانی‌مدت چندجبهه‌ای",
-        "probability": 45,
+        "probability": 50,
         "color": "red",
-        "description": "Prolonged conflict with intermittent escalations",
-        "description_fa": "درگیری طولانی با تشدیدهای متناوب",
+        "description": "Continued low-intensity conflict",
+        "description_fa": "ادامه درگیری با شدت کم",
         "drivers": [
           "Gulf-wide Iranian barrage (D15)",
           "Fujairah port fire",
@@ -6119,8 +6151,8 @@
           "Russian intel support"
         ],
         "drivers_fa": [
-          "حملات مداوم",
-          "عدم پیشرفت در مذاکرات"
+          "حملات متقابل محدود",
+          "عدم توافق در مذاکرات"
         ]
       },
       {
@@ -6130,7 +6162,7 @@
         "probability": 40,
         "color": "green",
         "description": "Full-scale regional war",
-        "description_fa": "جنگ منطقه‌ای تمام‌عیار",
+        "description_fa": "جنگ تمام‌عیار منطقه‌ای",
         "drivers": [
           "Basij strikes (regime coercion↓)",
           "Mojtaba authority failure",
@@ -6139,8 +6171,8 @@
           "3.2M displaced"
         ],
         "drivers_fa": [
-          "حملات گسترده",
-          "ورود کشورهای دیگر به درگیری"
+          "حملات گسترده به تأسیسات هسته‌ای",
+          "افزایش تلفات غیرنظامیان"
         ]
       }
     ],
@@ -6629,7 +6661,8 @@
         "17 Nov",
         "18 Nov",
         "19 Nov",
-        "20 Nov"
+        "20 Nov",
+        "22 Nov"
       ],
       "us_israel_waves": [
         55,
@@ -6800,6 +6833,7 @@
         2,
         1,
         2,
+        1,
         1,
         1,
         1,
@@ -6979,7 +7013,8 @@
         0,
         5,
         5,
-        10
+        10,
+        50
       ],
       "iran_drones": [
         500,
@@ -7153,7 +7188,8 @@
         6,
         6,
         6,
-        5
+        5,
+        20
       ]
     },
     "phase3_cumulative_casualties": {
@@ -7374,7 +7410,8 @@
         "17 Nov",
         "18 Nov",
         "19 Nov",
-        "20 Nov"
+        "20 Nov",
+        "22 Nov"
       ],
       "hengaw_total": [
         1000,
@@ -7543,7 +7580,8 @@
         null,
         4600,
         4700,
-        4650
+        4650,
+        5000
       ],
       "hrana_civilian": [
         133,
@@ -7705,6 +7743,7 @@
         null,
         3138,
         3150,
+        null,
         null
       ]
     },
@@ -7926,7 +7965,8 @@
         "17 Nov",
         "18 Nov",
         "19 Nov",
-        "20 Nov"
+        "20 Nov",
+        "22 Nov"
       ],
       "daily_bm": [
         200,
@@ -8101,7 +8141,8 @@
         0,
         5,
         5,
-        10
+        10,
+        50
       ],
       "trendline": [
         200,
@@ -8342,7 +8383,8 @@
         "17 Nov",
         "18 Nov",
         "19 Nov",
-        "20 Nov"
+        "20 Nov",
+        "22 Nov"
       ],
       "data": [
         1.5,
@@ -8504,7 +8546,8 @@
         null,
         0,
         1500000000,
-        48000000000
+        48000000000,
+        48
       ]
     },
     "cost_distribution": {
@@ -8753,7 +8796,8 @@
         150.0,
         102.5,
         104.3,
-        106.0
+        106.0,
+        150.0
       ]
     },
     "hormuz_transit": {
@@ -8949,7 +8993,8 @@
         null,
         33,
         85,
-        85
+        85,
+        50
       ]
     },
     "scenario_probabilities": {
@@ -8964,8 +9009,8 @@
         "ج: فروپاشی نظام"
       ],
       "data": [
-        15,
-        45,
+        10,
+        50,
         40
       ],
       "colors": [
